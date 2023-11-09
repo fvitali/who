@@ -1,0 +1,215 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eLUNa="https://cms.unov.org/eLuna/2017/main" xmlns:akn4un="http://un.org/metadata" xmlns:html="http://www.w3.org/1999/xhtml">
+   <statement name="resolution">
+      <meta>
+         <identification source="#source">
+            <FRBRWork>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-23/wha60_20/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-23/wha60_20"/>
+               <FRBRdate date="2007-05-23" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+               <FRBRcountry value="un"/>
+               <FRBRnumber value="wha60_20"/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-23/wha60_20/eng@/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-23/wha60_20/eng@"/>
+               <FRBRdate date="2007-05-23" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-23/wha60_20/eng@/!main.xml"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-23/wha60_20/eng@.xml"/>
+               <FRBRdate date="2023-08-23" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+            </FRBRManifestation>
+         </identification>
+         <references source="#source">
+            <TLCOrganization eId="worldHealthAssembly" href="/akn/ontology/organization/un/worldHealthAssembly" showAs="World Health Assembly"/>
+            <TLCOrganization eId="who" href="/akn/ontology/organization/un/who" showAs="WHO"/>
+            <TLCOrganization eId="faoprogrammecommittee" href="/akn/ontology/organization/un/faoprogrammecommittee" showAs="Programme"/>
+            <TLCOrganization eId="unsystem" href="/akn/ontology/organization/un/unsystem" showAs="United Nations system"/>
+            <TLCTerm eId="havingConsidered" href="/akn/ontology/term/havingConsidered" showAs="Having considered"/>
+            <TLCTerm eId="recalling" href="/akn/ontology/term/recalling" showAs="Recalling"/>
+            <TLCTerm eId="recognizing" href="/akn/ontology/term/recognizing" showAs="Recognizing"/>
+            <TLCTerm eId="aware" href="/akn/ontology/term/aware" showAs="Aware"/>
+            <TLCTerm eId="concerned" href="/akn/ontology/term/concerned" showAs="Concerned"/>
+            <TLCTerm eId="urges" href="/akn/ontology/term/urges" showAs="URGES"/>
+            <TLCTerm eId="requests" href="/akn/ontology/term/requests" showAs="REQUESTS"/>
+            <TLCOrganization eId="states" href="/akn/ontology/organization/un/states" showAs="States"/>
+            <TLCOrganization eId="director-general" href="/akn/ontology/organization/un/director-general" showAs="Director-General"/>
+            <TLCOrganization eId="wfpExecutiveBoard" href="/akn/ontology/organization/un/wfpExecutiveBoard" showAs="Executive Board"/>
+            <TLCEvent href="/akn/ontology/event/whoha/eleventhPlenaryMeeting" eId="eleventhPlenaryMeeting" showAs="Eleventh plenary meeting"/>
+            <TLCOrganization eId="committeeB" href="/akn/ontology/organization/un/committeeB" showAs="Committee B"/>
+            <TLCPerson eId="source" href="/akn/ontology/person/somebody" showAs="somebody"/>
+         </references>
+      </meta>
+      <preface>
+         <p>
+            <docNumber>WHA60.20</docNumber>
+            <docTitle>Better medicines for children</docTitle>
+         </p>
+      </preface>
+      <preamble>
+         <formula name="enactingFormula">
+            <p>The Sixtieth <organization refersTo="#worldHealthAssembly" eId="organization_1">World Health Assembly</organization>,</p>
+         </formula>
+         <container name="havingConsidered">
+            <p>
+               <term refersTo="#havingConsidered" eId="term_1">Having considered</term> the report on better medicines for children; <authorialNote marker="1" placement="bottom" eId="authorialNote_1">
+                  <p>Document A60/25.</p>
+               </authorialNote>
+            </p>
+         </container>
+         <container name="recalling">
+            <p>
+               <term refersTo="#recalling" eId="term_2">Recalling</term> resolutions <ref href="/akn/un/statement/deliberation/whowha/0000-00-00/wha39_27/!main">WHA39.27</ref>, <ref href="/akn/un/statement/deliberation/whowha/0000-00-00/wha41_16/!main">WHA41.16</ref> and <ref href="/akn/un/statement/deliberation/whowha/0000-00-00/wha47_13/!main">WHA47.13</ref> on the rational use of drugs, <ref href="/akn/un/statement/deliberation/whowha/0000-00-00/wha41_17/!main">WHA41.17</ref> on ethical criteria for medicinal drug promotion, <ref href="/akn/un/statement/deliberation/whowha/0000-00-00/wha43_20/!main">WHA43.20</ref> and <ref href="/akn/un/statement/deliberation/whowha/0000-00-00/wha45_27/!main">WHA45.27</ref> on the <organization refersTo="#who" eId="organization_2">WHO</organization> Action <organization refersTo="#faoprogrammecommittee" eId="organization_3">Programme</organization> on Essential Drugs, <ref href="/akn/un/statement/deliberation/whowha/0000-00-00/wha47_12/!main">WHA47.12</ref> on the role of the pharmacist in support of the <organization refersTo="#who" eId="organization_4">WHO</organization> revised drug strategy, <ref href="/akn/un/statement/deliberation/whowha/0000-00-00/wha49_14/!main">WHA49.14</ref> and <ref href="/akn/un/statement/deliberation/whowha/0000-00-00/wha52_19/!main">WHA52.19</ref> on the revised drug strategy, <ref href="/akn/un/statement/deliberation/whowha/2001-05-21/wha54_11/!main">WHA54.11</ref> on the <organization refersTo="#who" eId="organization_5">WHO</organization> medicines strategy, and <ref href="/akn/un/statement/deliberation/whowha/2005-05-25/wha58_27/!main">WHA58.27</ref> on improving the containment of antimicrobial resistance;</p>
+         </container>
+         <container name="recognizing">
+            <p>
+               <term refersTo="#recognizing" eId="term_3">Recognizing</term> the efforts of <organization refersTo="#who" eId="organization_6">WHO</organization> in collaboration with governments, other organizations of the <organization refersTo="#unsystem" eId="organization_7">United Nations system</organization>, universities, the private sector, nongovernmental organizations and funding agencies in areas related to improving access to better medicines for children;</p>
+         </container>
+         <container name="aware">
+            <p>
+               <term refersTo="#aware" eId="term_4">Aware</term> of the core components of <organization refersTo="#who" eId="organization_8">WHO</organization>’s global framework for expanding access to essential medicines;</p>
+         </container>
+         <container name="Wishing">
+            <p>Wishing to promote evidence-based selection and use of medicines for children by health providers and carers;</p>
+         </container>
+         <container name="aware">
+            <p>
+               <term refersTo="#aware" eId="term_5">Aware</term> that there are regional initiatives to address inadequate access to essential medicines for children;</p>
+         </container>
+         <container name="Wishing">
+            <p>Wishing to ensure better access to essential medicines for children as a prerequisite for achieving health outcomes as set out in the internationally agreed health-related development goals, including those contained in the Millennium Declaration;</p>
+         </container>
+         <container name="aware">
+            <p>
+               <term refersTo="#aware" eId="term_6">Aware</term> that the lack of access to essential medicines of assured quality continues to pose significant risks of high morbidity and mortality in children, especially those under five years of age;</p>
+         </container>
+         <container name="recognizing">
+            <p>
+               <term refersTo="#recognizing" eId="term_7">Recognizing</term> the ongoing work of the Intergovernmental Working Group on Public Health, Innovation and Intellectual Property and the need to ensure harmonization of <organization refersTo="#who" eId="organization_9">WHO</organization>’s work on access to essential medicines;</p>
+         </container>
+         <container name="concerned">
+            <p>
+               <term refersTo="#concerned" eId="term_8">Concerned</term> that children can be further disadvantaged by lack of physical and economic access to essential medicines, especially in vulnerable communities;</p>
+         </container>
+         <container name="recognizing">
+            <p>
+               <term refersTo="#recognizing" eId="term_9">Recognizing</term> that many countries do not have the requisite capacity to regulate and control medicines for children;</p>
+         </container>
+         <container name="aware">
+            <p>
+               <term refersTo="#aware" eId="term_10">Aware</term> that many manufacturers of essential medicines have neither developed nor produced appropriate dosage forms and strengths of medicines for children;</p>
+         </container>
+         <container name="concerned">
+            <p>
+               <term refersTo="#concerned" eId="term_11">Concerned</term> that there is insufficient investment in the clinical trials, development and manufacture of medicines for children;</p>
+         </container>
+      </preamble>
+      <mainBody>
+         <paragraph eId="para_1">
+            <num>1. </num>
+            <intro eId="para_1__content">
+               <p>
+                  <term refersTo="#urges" eId="term_12">URGES</term> Member <organization refersTo="#states" eId="organization_10">States</organization>:</p>
+            </intro>
+            <subparagraph eId="para_1__subpara_1">
+               <num>(1)</num>
+               <content eId="para_1__subpara_1__content">
+                  <p>to take steps to identify appropriate dosage forms and strengths of medicines for children, and to encourage their manufacture and licensing;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_2">
+               <num>(2)</num>
+               <content eId="para_1__subpara_2__content">
+                  <p>to investigate whether currently available medicines could be formulated to make them suitable for use in children;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_3">
+               <num>(3)</num>
+               <content eId="para_1__subpara_3__content">
+                  <p>to conduct surveillance of antimicrobial resistance of locally available and commonly prescribed medicines for children;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_4">
+               <num>(4)</num>
+               <content eId="para_1__subpara_4__content">
+                  <p>to encourage research and development of appropriate medicines for d iseases that affect children, and to ensure that high-quality clinical trials for these medicines are conducted in an ethical manner;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_5">
+               <num>(5)</num>
+               <content eId="para_1__subpara_5__content">
+                  <p>to facilitate timely licensing of appropriate, high-quality and affordable medicines for children and innovative methods for monitoring the safety of such medicines, and to encourage the marketing of adequate paediatric formulations together with newly developed medicines;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_6">
+               <num>(6)</num>
+               <content eId="para_1__subpara_6__content">
+                  <p>to promote access to essential medicines for children through inclusion, as appropriate, of those medicines in national medicine lists, and procurement and reimbursement schemes, and to devise measures to monitor prices;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_7">
+               <num>(7)</num>
+               <content eId="para_1__subpara_7__content">
+                  <p>to collaborate in order to facilitate innovative research and development on, formulation of, regulatory approval of, provision of adequate prompt information on, and rational use of, paediatric medicines and medicines authorized for adults but not approved for use in children;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_8">
+               <num>(8)</num>
+               <content eId="para_1__subpara_8__content">
+                  <p>to use all necessary administrative and legislative means including, where appropriate, the provisions contained in international agreements, including the agreement on Trade-Related Aspects of Intellectual Property Rights, in order to promote access to essential medicines for children;</p>
+               </content>
+            </subparagraph>
+         </paragraph>
+         <paragraph eId="para_2">
+            <num>2. </num>
+            <intro eId="para_2__content">
+               <p>
+                  <term refersTo="#requests" eId="term_13">REQUESTS</term> the <organization refersTo="#director-general" eId="organization_11">Director-General</organization>:</p>
+            </intro>
+            <subparagraph eId="para_2__subpara_1">
+               <num>(1)</num>
+               <content eId="para_2__subpara_1__content">
+                  <p>to promote the development, harmonization and use of standards for clinical trials of medicines for children; to revise and regularly update the Model List of Essential Medicines in order to include missing essential medicines for children, using evidence-based clinical guidelines; and to promote application of such guidelines by Member <organization refersTo="#states" eId="organization_12">States</organization> and international financing bodies, with initial focus on treatments for HIV/AIDS, tuberculosis, malaria and chronic diseases;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_2__subpara_2">
+               <num>(2)</num>
+               <content eId="para_2__subpara_2__content">
+                  <p>to ensure that all relevant <organization refersTo="#who" eId="organization_13">WHO</organization> programmes, including but not limited to that on essential medicines, contribute to making safe and effective medicines as widely available for children as for adults;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_2__subpara_3">
+               <num>(3)</num>
+               <content eId="para_2__subpara_3__content">
+                  <p>to promote the development of international norms and standards for quality and safety of formulations for children, and of the regulatory capacity to apply them;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_2__subpara_4">
+               <num>(4)</num>
+               <content eId="para_2__subpara_4__content">
+                  <p>to make available evidence-based treatment guidelines and independent information on dosage and safety aspects of essential medicines for children, progressively to cover all medicines for children, and to work with Member <organization refersTo="#states" eId="organization_14">States</organization> in order to implement such guidelines;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_2__subpara_5">
+               <num>(5)</num>
+               <content eId="para_2__subpara_5__content">
+                  <p>to collaborate with governments, other organizations of the <organization refersTo="#unsystem" eId="organization_15">United Nations system</organization>, including WTO and WIPO, donor agencies, nongovernmental organizations and the pharmaceutical industry in order to encourage fair trade in safe and effective medicines for children and adequate financing for securing better access to medicines for children;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_2__subpara_6">
+               <num>(6)</num>
+               <content eId="para_2__subpara_6__content">
+                  <p>to report to the Sixty-second <organization refersTo="#worldHealthAssembly" eId="organization_16">World Health Assembly</organization>, and subsequently as appropriate, through the <organization refersTo="#wfpExecutiveBoard" eId="organization_17">Executive Board</organization>, on progress achieved, problems encountered and specific actions needed to further promote better access to medicines for children.</p>
+               </content>
+            </subparagraph>
+         </paragraph>
+      </mainBody>
+      <conclusions>
+         <p>(<event refersTo="#eleventhPlenaryMeeting" eId="event_1">Eleventh plenary meeting</event>, <docDate date="2007-05-23">23 May 2007</docDate> –<organization refersTo="#committeeB" eId="organization_18">Committee B</organization>, third report)</p>
+      </conclusions>
+   </statement>
+</akomaNtoso>

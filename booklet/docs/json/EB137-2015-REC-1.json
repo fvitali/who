@@ -1,0 +1,54 @@
+{
+	"@INFO": "This is a test Booklet file",
+	"@AUTHOR": "Fabio Vitali, Septemnber 2023",
+	"meta": {
+		"symbol": "EB137/2015/REC/1",
+		"session": "137th",
+		"placetime": "GENEVA, 27 and 28 MAY 2015",
+		"place": "Geneva",
+		"year": "2011",
+		"content": [
+			"DECISIONS",
+			"ANNEX",
+			"SUMMARY RECORDS",
+			"LIST OF PARTICIPANTS"
+		]
+	},
+	"docs": [
+		{"tpl": "docs/old/tpl/coverEB.html", "start": 1, "style":"roman, fullpage, nopagenumber, cover"},
+		{"tpl": "docs/old/tpl/abbreviations.html", "style":"roman, newpage, abbr"},
+		{"url": "docs/old/tpl/preface.html", "style":"roman, newpage, preface"},
+		{"tpl": "docs/old/tpl/contents.html", "style":"roman, newpage, contents"},
+		{
+			"tpl": "docs/old/tpl/interstitial.html", 
+			"style": "fullpage, roman, oddpage, nopagenumber, interstitial",
+			"content":[ "PART I", "DECISIONS"]
+		},
+		{
+			"tpl": "docs/old/tpl/top.html", 
+			"style":"arabic, newpage, top",
+			"start":"1",
+			"content":[ "DECISIONS"]
+		},
+		{"url": "./docs/old/xml/EB137(7).xml"},
+		{"url": "./docs/old/xml/EB137(1).xml"},
+		{"url": "./docs/old/xml/EB137(2).xml"},
+		{"url": "./docs/old/xml/EB137(3).xml"},
+		{"url": "./docs/old/xml/EB137(4).xml"},
+		{"url": "./docs/old/xml/EB137(5).xml"},
+		{"url": "./docs/old/xml/EB137(6).xml"}
+	],
+	"@STYLES": {
+		"roman": "lowercase roman page numbers",
+		"ROMAN": "uppercase roman page numbers",
+		"letter": "lowercase letter page numbers",
+		"LETTER": "uppercase letter page numbers",
+		"arabic": "arabic numbers (1, 2, 3) page numbers",
+		"nopagenumber": "do not show page numbers",
+		"nopagenumberonfirstpage": "do not show page number on the first page, show on the others",
+		"fullpage": "this section occupies ONE page and has a break before and one after",
+		"newpage": "start a new page here",
+		"oddpage": "the section must start in an odd page",
+		"evenpage": "the section must start in an even page"
+	}
+}

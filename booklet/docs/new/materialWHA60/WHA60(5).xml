@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns:akn4un="http://un.org/metadata" xmlns:eLUNa="https://cms.unov.org/eLuna/2017/main" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+   <statement name="decision">
+      <meta>
+         <identification source="#source">
+            <FRBRWork>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-14/wha60-5/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-14/wha60-5"/>
+               <FRBRdate date="2007-05-14" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+               <FRBRcountry value="un"/>
+               <FRBRnumber value="wha60-5"/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-14/wha60-5/eng@/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-14/wha60-5/eng@"/>
+               <FRBRdate date="2007-05-14" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-14/wha60-5/eng@/!main.xml"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-14/wha60-5/eng@.xml"/>
+               <FRBRdate date="2023-08-23" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+            </FRBRManifestation>
+         </identification>
+         <references source="#source">
+            <TLCOrganization eId="generalCommittee" href="/akn/ontology/organization/un/generalCommittee" showAs="General Committee"/>
+            <TLCTerm eId="considering" href="/akn/ontology/term/considering" showAs="considering"/>
+            <TLCOrganization eId="worldHealthAssembly" href="/akn/ontology/organization/un/worldHealthAssembly" showAs="World Health Assembly"/>
+            <TLCOrganization eId="botswana" href="/akn/ontology/organization/un/botswana" showAs="Botswana"/>
+            <TLCOrganization eId="china" href="/akn/ontology/organization/un/china" showAs="China"/>
+            <TLCOrganization eId="cuba" href="/akn/ontology/organization/un/cuba" showAs="Cuba"/>
+            <TLCOrganization eId="france" href="/akn/ontology/organization/un/france" showAs="France"/>
+            <TLCOrganization eId="germany" href="/akn/ontology/organization/un/germany" showAs="Germany"/>
+            <TLCOrganization eId="guinea" href="/akn/ontology/organization/un/guinea" showAs="Guinea"/>
+            <TLCOrganization eId="jamaica" href="/akn/ontology/organization/un/jamaica" showAs="Jamaica"/>
+            <TLCOrganization eId="latvia" href="/akn/ontology/organization/un/latvia" showAs="Latvia"/>
+            <TLCOrganization eId="mauritania" href="/akn/ontology/organization/un/mauritania" showAs="Mauritania"/>
+            <TLCOrganization eId="morocco" href="/akn/ontology/organization/un/morocco" showAs="Morocco"/>
+            <TLCOrganization eId="namibia" href="/akn/ontology/organization/un/namibia" showAs="Namibia"/>
+            <TLCOrganization eId="paraguay" href="/akn/ontology/organization/un/paraguay" showAs="Paraguay"/>
+            <TLCOrganization eId="russia" href="/akn/ontology/organization/un/russia" showAs="Russian Federation"/>
+            <TLCOrganization eId="samoa" href="/akn/ontology/organization/un/samoa" showAs="Samoa"/>
+            <TLCOrganization eId="syrianArabRepublic" href="/akn/ontology/organization/un/syrianArabRepublic" showAs="Syrian Arab Republic"/>
+            <TLCOrganization eId="thailand" href="/akn/ontology/organization/un/thailand" showAs="Thailand"/>
+            <TLCOrganization eId="usa" href="/akn/ontology/organization/un/usa" showAs="United States of America"/>
+            <TLCEvent href="/akn/ontology/event/whoha/firstPlenaryMeeting" eId="firstPlenaryMeeting" showAs="First plenary meeting"/>
+            <TLCPerson eId="source" href="/akn/ontology/person/somebody" showAs="somebody"/>
+         </references>
+         <proprietary source="#source">
+            <akn4un:session>WHA60</akn4un:session>
+         </proprietary>
+      </meta>
+      <preface>
+         <p>
+            <docNumber>WHA60(5)</docNumber>
+            <docTitle>Establishment of the <organization refersTo="#generalCommittee" eId="organization_1">General Committee</organization>
+            </docTitle>
+         </p>
+      </preface>
+      <mainBody>
+         <paragraph eId="para_1">
+            <content eId="para_1__content">
+               <p>
+                  <inline name="#enactingFormula">The Sixtieth <organization refersTo="#worldHealthAssembly" eId="organization_2">World Health Assembly</organization>,</inline>
+after <term refersTo="#considering" eId="term_1">considering</term> the recommendations of the Committee on Nominations, elected the delegates of the following 17 countries as members of the <organization refersTo="#generalCommittee" eId="organization_3">General Committee</organization>: <organization refersTo="#botswana" eId="organization_4">Botswana</organization>, <organization refersTo="#china" eId="organization_5">China</organization>, <organization refersTo="#cuba" eId="organization_6">Cuba</organization>, <organization refersTo="#france" eId="organization_7">France</organization>, <organization refersTo="#germany" eId="organization_8">Germany</organization>, <organization refersTo="#guinea" eId="organization_9">Guinea</organization>-Bissau, <organization refersTo="#jamaica" eId="organization_10">Jamaica</organization>, <organization refersTo="#latvia" eId="organization_11">Latvia</organization>, <organization refersTo="#mauritania" eId="organization_12">Mauritania</organization>, <organization refersTo="#morocco" eId="organization_13">Morocco</organization>, <organization refersTo="#namibia" eId="organization_14">Namibia</organization>, <organization refersTo="#paraguay" eId="organization_15">Paraguay</organization>, <organization refersTo="#russia" eId="organization_16">Russian Federation</organization>, <organization refersTo="#samoa" eId="organization_17">Samoa</organization>, <organization refersTo="#syrianArabRepublic" eId="organization_18">Syrian Arab Republic</organization>, <organization refersTo="#thailand" eId="organization_19">Thailand</organization> and <organization refersTo="#usa" eId="organization_20">United States of America</organization>.
+</p>
+            </content>
+         </paragraph>
+      </mainBody>
+      <conclusions>
+         <p>(<event refersTo="#firstPlenaryMeeting" eId="event_1">First plenary meeting</event>, <docDate date="2007-05-14">14 May 2007</docDate>)</p>
+      </conclusions>
+   </statement>
+</akomaNtoso>

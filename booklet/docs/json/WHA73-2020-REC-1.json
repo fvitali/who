@@ -1,0 +1,24 @@
+{
+	"@INFO": "This is a test Booklet file",
+	"@AUTHOR": "Fabio Vitali, Septemnber 2023",
+	"meta": {
+		"symbol": "EB137/2015/REC/1",
+		"title": "EXECUTIVE BOARD",
+		"subtitle": "137th session",
+		"placetime": "GENEVA, 27 and 28 MAY 2015",
+		"content": "DECISIONS \nANNEX \n\nSUMMARY RECORDS \nLIST OF PARTICIPANTS"
+	},
+	"docs": [
+		{"generated": "cover", "start": 1, "style":"roman"},
+		{"generated": "toc", "style":"roman"},
+		{"url": "old/agenda.xml", "style":"roman"},
+		{"url": "old/documentList.xml", "style":"roman"},
+		{"url": "old/committees.xml", "style":"roman"},
+		{"url": "old/decisions.xml"},
+		{"url": "./lib/abbreviations.html", "start":"follows", "style":"roman"},
+		{"url": "preface.xml", "style":"roman"}
+		
+	
+	]
+	
+}

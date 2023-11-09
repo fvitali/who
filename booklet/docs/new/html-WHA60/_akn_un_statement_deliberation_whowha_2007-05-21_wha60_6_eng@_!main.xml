@@ -1,0 +1,69 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eLUNa="https://cms.unov.org/eLuna/2017/main" xmlns:akn4un="http://un.org/metadata" xmlns:html="http://www.w3.org/1999/xhtml">
+   <statement name="resolution">
+      <meta>
+         <identification source="#source">
+            <FRBRWork>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-21/wha60_6/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-21/wha60_6"/>
+               <FRBRdate date="2007-05-21" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+               <FRBRcountry value="un"/>
+               <FRBRnumber value="wha60_6"/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-21/wha60_6/eng@/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-21/wha60_6/eng@"/>
+               <FRBRdate date="2007-05-21" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-21/wha60_6/eng@/!main.xml"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-21/wha60_6/eng@.xml"/>
+               <FRBRdate date="2023-08-23" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+            </FRBRManifestation>
+         </identification>
+         <references source="#source">
+            <TLCOrganization eId="worldHealthAssembly" href="/akn/ontology/organization/un/worldHealthAssembly" showAs="World Health Assembly"/>
+            <TLCTerm eId="havingConsidered" href="/akn/ontology/term/havingConsidered" showAs="Having considered"/>
+            <TLCOrganization eId="montenegro" href="/akn/ontology/organization/un/montenegro" showAs="Montenegro"/>
+            <TLCOrganization eId="who" href="/akn/ontology/organization/un/who" showAs="WHO"/>
+            <TLCEvent href="/akn/ontology/event/whoha/ninthPlenaryMeeting" eId="ninthPlenaryMeeting" showAs="Ninth plenary meeting"/>
+            <TLCOrganization eId="committeeB" href="/akn/ontology/organization/un/committeeB" showAs="Committee B"/>
+            <TLCPerson eId="source" href="/akn/ontology/person/somebody" showAs="somebody"/>
+         </references>
+      </meta>
+      <preface>
+         <p>
+            <docNumber>WHA60.6</docNumber>
+            <docTitle>Assessment of new Member</docTitle>
+         </p>
+      </preface>
+      <preamble>
+         <formula name="enactingFormula">
+            <p>The Sixtieth <organization refersTo="#worldHealthAssembly" eId="organization_1">World Health Assembly</organization>,</p>
+         </formula>
+         <container name="havingConsidered">
+            <p>
+               <term refersTo="#havingConsidered" eId="term_1">Having considered</term> the report on the assessment of a new Member, <authorialNote marker="1" placement="bottom" eId="authorialNote_1">
+                  <p>Document A60/44.</p>
+               </authorialNote>
+            </p>
+         </container>
+      </preamble>
+      <mainBody>
+         <paragraph eId="para_1">
+            <content eId="para_1__content">
+               <p>WELCOMES the Republic of <organization refersTo="#montenegro" eId="organization_2">Montenegro</organization> as a new Member of <organization refersTo="#who" eId="organization_3">WHO</organization> and sets its assessment payable of US$ 1490 for 2006 and US$ 4470 for 2007, being an assessment of 0.001%. <authorialNote marker="2" placement="bottom" eId="authorialNote_2">
+                     <p>See resolution WHA60.5.</p>
+                  </authorialNote>
+               </p>
+            </content>
+         </paragraph>
+      </mainBody>
+      <conclusions>
+         <p>(<event refersTo="#ninthPlenaryMeeting" eId="event_1">Ninth plenary meeting</event>, <docDate date="2007-05-21">21 May 2007</docDate> –<organization refersTo="#committeeB" eId="organization_4">Committee B</organization>, first report)</p>
+      </conclusions>
+   </statement>
+</akomaNtoso>

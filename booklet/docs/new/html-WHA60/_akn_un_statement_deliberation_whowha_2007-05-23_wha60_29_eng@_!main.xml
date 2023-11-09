@@ -1,0 +1,180 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eLUNa="https://cms.unov.org/eLuna/2017/main" xmlns:akn4un="http://un.org/metadata" xmlns:html="http://www.w3.org/1999/xhtml">
+   <statement name="resolution">
+      <meta>
+         <identification source="#source">
+            <FRBRWork>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-23/wha60_29/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-23/wha60_29"/>
+               <FRBRdate date="2007-05-23" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+               <FRBRcountry value="un"/>
+               <FRBRnumber value="wha60_29"/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-23/wha60_29/eng@/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-23/wha60_29/eng@"/>
+               <FRBRdate date="2007-05-23" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-23/wha60_29/eng@/!main.xml"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-23/wha60_29/eng@.xml"/>
+               <FRBRdate date="2023-08-23" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+            </FRBRManifestation>
+         </identification>
+         <references source="#source">
+            <TLCOrganization eId="worldHealthAssembly" href="/akn/ontology/organization/un/worldHealthAssembly" showAs="World Health Assembly"/>
+            <TLCOrganization eId="states" href="/akn/ontology/organization/un/states" showAs="States"/>
+            <TLCTerm eId="havingConsidered" href="/akn/ontology/term/havingConsidered" showAs="Having considered"/>
+            <TLCTerm eId="recognizing" href="/akn/ontology/term/recognizing" showAs="Recognizing"/>
+            <TLCTerm eId="concerned" href="/akn/ontology/term/concerned" showAs="concerned"/>
+            <TLCTerm eId="acknowledging" href="/akn/ontology/term/acknowledging" showAs="Acknowledging"/>
+            <TLCTerm eId="noting" href="/akn/ontology/term/noting" showAs="Noting"/>
+            <TLCTerm eId="urges" href="/akn/ontology/term/urges" showAs="URGES"/>
+            <TLCTerm eId="requests" href="/akn/ontology/term/requests" showAs="REQUESTS"/>
+            <TLCOrganization eId="director-general" href="/akn/ontology/organization/un/director-general" showAs="Director-General"/>
+            <TLCOrganization eId="who" href="/akn/ontology/organization/un/who" showAs="WHO"/>
+            <TLCOrganization eId="unsystem" href="/akn/ontology/organization/un/unsystem" showAs="United Nations system"/>
+            <TLCOrganization eId="wfpExecutiveBoard" href="/akn/ontology/organization/un/wfpExecutiveBoard" showAs="Executive Board"/>
+            <TLCEvent href="/akn/ontology/event/whoha/eleventhPlenaryMeeting" eId="eleventhPlenaryMeeting" showAs="Eleventh plenary meeting"/>
+            <TLCOrganization eId="committeeB" href="/akn/ontology/organization/un/committeeB" showAs="Committee B"/>
+            <TLCPerson eId="source" href="/akn/ontology/person/somebody" showAs="somebody"/>
+         </references>
+      </meta>
+      <preface>
+         <p>
+            <docNumber>WHA60.29</docNumber>
+            <docTitle>Health technologies <authorialNote marker="1" placement="bottom" eId="authorialNote_1">
+                  <p>The term “health technologies” refers to the application of organized knowledge and skills in the form of devices, medicines, vaccines, procedures and systems developed to solve a health problem and improve quality of lives.</p>
+               </authorialNote>
+            </docTitle>
+         </p>
+      </preface>
+      <preamble>
+         <formula name="enactingFormula">
+            <p>The Sixtieth <organization refersTo="#worldHealthAssembly" eId="organization_1">World Health Assembly</organization>,</p>
+         </formula>
+         <container name="havingConsidered">
+            <p>
+               <term refersTo="#havingConsidered" eId="term_1">Having considered</term> the report on health technologies; <authorialNote marker="2" placement="bottom" eId="authorialNote_2">
+                  <p>Document A60/26.</p>
+               </authorialNote>
+            </p>
+         </container>
+         <container name="recognizing">
+            <p>
+               <term refersTo="#recognizing" eId="term_2">Recognizing</term> that health technologies equip health-care providers with tools that are indispensable for effective and efficient prevention, diagnosis, treatment and rehabilitation and attainment of internationally agreed health-related development goals, including those contained in the Millennium Declaration;</p>
+         </container>
+         <container name="understanding">
+            <p>Understanding that health technologies, in particular medical devices, represent an economic as well as a technical challenge to the health systems of many Member <organization refersTo="#states" eId="organization_2">States</organization>, and <term refersTo="#concerned" eId="term_3">concerned</term> about the waste of resources resulting from inappropriate investments in health technologies, in particular medical devices, that do not meet high-priority needs, are incompatible with existing infrastructures, are irrationally or incorrectly used, or do not function efficiently;</p>
+         </container>
+         <container name="acknowledging">
+            <p>
+               <term refersTo="#acknowledging" eId="term_4">Acknowledging</term> the need for Member <organization refersTo="#states" eId="organization_3">States</organization> and donors to contain burgeoning costs by establishing priorities in the selection and acquisition of health technologies, in particular medical devices, on the basis of their impact on the burden of disease, and to ensure the effective use of resources through proper planning, assessment, acquisition and management;</p>
+         </container>
+         <container name="noting">
+            <p>
+               <term refersTo="#noting" eId="term_5">Noting</term> the need to expand expertise in the field of health technologies, in particular medical devices;</p>
+         </container>
+      </preamble>
+      <mainBody>
+         <paragraph eId="para_1">
+            <num>1. </num>
+            <intro eId="para_1__content">
+               <p>
+                  <term refersTo="#urges" eId="term_6">URGES</term> Member <organization refersTo="#states" eId="organization_4">States</organization>:</p>
+            </intro>
+            <subparagraph eId="para_1__subpara_1">
+               <num>(1)</num>
+               <content eId="para_1__subpara_1__content">
+                  <p>to collect, verify, update and exchange information on health technologies, in particular medical devices, as an aid to their prioritization of needs and allocation of resources;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_2">
+               <num>(2)</num>
+               <content eId="para_1__subpara_2__content">
+                  <p>to formulate as appropriate national strategies and plans for the establishment of systems for the assessment, planning, procurement and management of health technologies, in particular medical devices, in collaboration with personnel involved in health-technology assessment and biomedical engineering;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_3">
+               <num>(3)</num>
+               <content eId="para_1__subpara_3__content">
+                  <p>to draw up national or regional guidelines for good manufacturing and regulatory practices, to establish surveillance systems and other measures to ensure the quality, safety and efficacy of medical devices, and where appropriate to participate in international harmonization;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_4">
+               <num>(4)</num>
+               <content eId="para_1__subpara_4__content">
+                  <p>to establish where necessary regional and national institutions of health technology, and to collaborate and build partnerships with health-care providers, industry, patients’ associations and professional, scientific and technical organizations;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_5">
+               <num>(5)</num>
+               <content eId="para_1__subpara_5__content">
+                  <p>to collect information that interrelates medical devices, which deal with priority public-health conditions at different levels of care and in various settings and environments, with the required infrastructure, procedures and reference tools;</p>
+               </content>
+            </subparagraph>
+         </paragraph>
+         <paragraph eId="para_2">
+            <num>2. </num>
+            <intro eId="para_2__content">
+               <p>
+                  <term refersTo="#requests" eId="term_7">REQUESTS</term> the <organization refersTo="#director-general" eId="organization_5">Director-General</organization>:</p>
+            </intro>
+            <subparagraph eId="para_2__subpara_1">
+               <num>(1)</num>
+               <content eId="para_2__subpara_1__content">
+                  <p>to work with interested Member <organization refersTo="#states" eId="organization_6">States</organization> and <organization refersTo="#who" eId="organization_7">WHO</organization> collaborating centres on the development, in a transparent and evidence-based way, of guidelines and tools, including norms, standards and a standardized glossary of definitions relating to health technologies, in particular medical devices;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_2__subpara_2">
+               <num>(2)</num>
+               <content eId="para_2__subpara_2__content">
+                  <p>to provide support to Member <organization refersTo="#states" eId="organization_8">States</organization> where necessary in establishing mechanisms to assess national needs for health technologies, in particular medical devices, and to assure their availability and use;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_2__subpara_3">
+               <num>(3)</num>
+               <content eId="para_2__subpara_3__content">
+                  <p>to develop methodological tools to support Member <organization refersTo="#states" eId="organization_9">States</organization> in analysing their needs and health-system prerequisites for health technologies, in particular medical devices;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_2__subpara_4">
+               <num>(4)</num>
+               <content eId="para_2__subpara_4__content">
+                  <p>to provide technical guidance and support to Member <organization refersTo="#states" eId="organization_10">States</organization> where necessary in implementing policies on health technologies, in particular medical devices, especially for priority diseases, according to different levels of care in developing countries;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_2__subpara_5">
+               <num>(5)</num>
+               <content eId="para_2__subpara_5__content">
+                  <p>to work jointly with other organizations of the <organization refersTo="#unsystem" eId="organization_11">United Nations system</organization>, international organizations, academic institutions and professional bodies in order to provide support to Member <organization refersTo="#states" eId="organization_12">States</organization> in the prioritization, selection and use of health technologies, in particular medical devices;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_2__subpara_6">
+               <num>(6)</num>
+               <content eId="para_2__subpara_6__content">
+                  <p>to establish and update regularly an evidence and web-based health technologies database to serve as a clearing house which will provide guidance on appropriate medical devices according to levels of care, setting, environment, and intended health intervention, tailored to the specific needs of country or region;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_2__subpara_7">
+               <num>(7)</num>
+               <content eId="para_2__subpara_7__content">
+                  <p>to provide support to Member <organization refersTo="#states" eId="organization_13">States</organization> with vulnerable health-care systems so as to identify and put in place appropriate health technologies, in particular medical devices, that facilitate access to quality services in primary health care;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_2__subpara_8">
+               <num>(8)</num>
+               <content eId="para_2__subpara_8__content">
+                  <p>to report on implementation of this resolution to the Sixty-second <organization refersTo="#worldHealthAssembly" eId="organization_14">World Health Assembly</organization> through the <organization refersTo="#wfpExecutiveBoard" eId="organization_15">Executive Board</organization>.</p>
+               </content>
+            </subparagraph>
+         </paragraph>
+      </mainBody>
+      <conclusions>
+         <p>(<event refersTo="#eleventhPlenaryMeeting" eId="event_1">Eleventh plenary meeting</event>, <docDate date="2007-05-23">23 May 2007</docDate> –<organization refersTo="#committeeB" eId="organization_16">Committee B</organization>, fourth report)</p>
+      </conclusions>
+   </statement>
+</akomaNtoso>

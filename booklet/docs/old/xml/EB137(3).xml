@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns:akn4un="http://un.org/metadata" xmlns:eLUNa="https://cms.unov.org/eLuna/2017/main" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+   <statement name="decision">
+      <meta>
+         <identification source="#source">
+            <FRBRWork>
+               <FRBRthis value="/akn/un/statement/deliberation/whoeb/2015-05-27/eb137-3/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whoeb/2015-05-27/eb137-3"/>
+               <FRBRdate date="2015-05-27" name=""/>
+               <FRBRauthor href="#whoeb" as="#author"/>
+               <FRBRcountry value="un"/>
+               <FRBRnumber value="eb137-3"/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value="/akn/un/statement/deliberation/whoeb/2015-05-27/eb137-3/eng@/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whoeb/2015-05-27/eb137-3/eng@"/>
+               <FRBRdate date="2015-05-27" name=""/>
+               <FRBRauthor href="#whoeb" as="#author"/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value="/akn/un/statement/deliberation/whoeb/2015-05-27/eb137-3/eng@/!main.xml"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whoeb/2015-05-27/eb137-3/eng@.xml"/>
+               <FRBRdate date="2023-08-04" name=""/>
+               <FRBRauthor href="#whoeb" as="#author"/>
+            </FRBRManifestation>
+         </identification>
+         <references source="#source">
+            <TLCOrganization eId="wfpExecutiveBoard" href="/akn/ontology/organization/un/wfpExecutiveBoard" showAs="Executive Board"/>
+            <TLCOrganization eId="worldHealthAssembly" href="/akn/ontology/organization/un/worldHealthAssembly" showAs="World Health Assembly"/>
+            <TLCOrganization eId="southAfrica" href="/akn/ontology/organization/un/southAfrica" showAs="South Africa"/>
+            <TLCOrganization eId="argentina" href="/akn/ontology/organization/un/argentina" showAs="Argentina"/>
+            <TLCOrganization eId="korearep" href="/akn/ontology/organization/un/korearep" showAs="Republic of Korea"/>
+            <TLCOrganization eId="pakistan" href="/akn/ontology/organization/un/pakistan" showAs="Pakistan"/>
+            <TLCOrganization eId="andorra" href="/akn/ontology/organization/un/andorra" showAs="Andorra"/>
+            <TLCEvent href="/akn/ontology/event/whoha/secondMeeting" eId="secondMeeting" showAs="Second meeting"/>
+            <TLCPerson eId="source" href="/akn/ontology/person/somebody" showAs="somebody"/>
+         </references>
+         <proprietary source="#source">
+            <akn4un:session>EB137</akn4un:session>
+         </proprietary>
+      </meta>
+      <preface>
+         <p>
+            <docNumber>EB137(3)</docNumber>
+            <docTitle>Appointment of representatives of the <organization refersTo="#wfpExecutiveBoard" eId="organization_1">Executive Board</organization> at the Sixty-ninth <organization refersTo="#worldHealthAssembly" eId="organization_2">World Health Assembly</organization>
+            </docTitle>
+         </p>
+      </preface>
+      <mainBody>
+         <paragraph eId="para_1">
+            <content eId="para_1__content">
+               <p>
+                  <inline name="#enactingFormula">The <organization refersTo="#wfpExecutiveBoard" eId="organization_3">Executive Board</organization>,</inline>
+in accordance with paragraph 1 of resolution <ref href="/akn/un/statement/deliberation/whoeb/0000-00-00/eb59_r7/!main">EB59.R7</ref>, appointed its Chairman, Ms Precious Matsoso (<organization refersTo="#southAfrica" eId="organization_4">South Africa</organization>), and its first three Vice-Chairmen, Dr Andrea Carbone (<organization refersTo="#argentina" eId="organization_5">Argentina</organization>), Dr Jeon Man-bok (<organization refersTo="#korearep" eId="organization_6">Republic of Korea</organization>) and Dr Assad Hafeez (<organization refersTo="#pakistan" eId="organization_7">Pakistan</organization>), to representthe <organization refersTo="#wfpExecutiveBoard" eId="organization_8">Executive Board</organization> at the Sixty-ninth <organization refersTo="#worldHealthAssembly" eId="organization_9">World Health Assembly</organization>. It was understood that if any of those members were not available for the Health Assembly, the other Vice-Chairman, Mr Josep M. Casals Alís (<organization refersTo="#andorra" eId="organization_10">Andorra</organization>), and the Rapporteur, Mr Kim Chang Min (Democratic People’s <organization refersTo="#korearep" eId="organization_11">Republic of Korea</organization>), could be asked to represent the Board.
+</p>
+            </content>
+         </paragraph>
+      </mainBody>
+      <conclusions>
+         <p>(<event refersTo="#secondMeeting" eId="event_1">Second meeting</event>, <docDate date="2015-05-27">27 May 2015</docDate>)</p>
+      </conclusions>
+   </statement>
+</akomaNtoso>

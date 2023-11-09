@@ -1,0 +1,58 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eLUNa="https://cms.unov.org/eLuna/2017/main" xmlns:akn4un="http://un.org/metadata" xmlns:html="http://www.w3.org/1999/xhtml">
+   <statement name="resolution">
+      <meta>
+         <identification source="#source">
+            <FRBRWork>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-21/wha60_6/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-21/wha60_6"/>
+               <FRBRdate date="2007-05-21" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+               <FRBRcountry value="un"/>
+               <FRBRnumber value="wha60_6"/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-21/wha60_6/fra@/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-21/wha60_6/fra@"/>
+               <FRBRdate date="2007-05-21" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+               <FRBRlanguage language="fra"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-21/wha60_6/fra@/!main.xml"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-21/wha60_6/fra@.xml"/>
+               <FRBRdate date="2023-08-24" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+            </FRBRManifestation>
+         </identification>
+         <references source="#source">
+            <TLCTerm eId="ayantExaminé" href="/akn/ontology/term/ayantExaminé" showAs="Ayant examiné"/>
+            <TLCEvent href="/akn/ontology/event/whoha/neuvièmeSéance" eId="neuvièmeSéance" showAs="Neuvième séance"/>
+            <TLCPerson eId="source" href="/akn/ontology/person/somebody" showAs="somebody"/>
+         </references>
+      </meta>
+      <preface>
+         <p>
+            <docNumber>WHA60.6</docNumber>
+            <docTitle>Contribution d’un nouveau Membre</docTitle>
+         </p>
+      </preface>
+      <mainBody>
+         <paragraph eId="para_1">
+            <content eId="para_1__content">
+               <p>
+                  <inline name="#enactingFormula">La Soixantième Assemblée mondiale de la Santé,</inline>
+                  <term refersTo="#ayantExaminé" eId="term_1">Ayant examiné</term> le rapport sur la contribution d’un nouveau Membre ; <authorialNote marker="1" placement="bottom" eId="authorialNote_1">
+                     <p> Document A60/44.</p>
+                  </authorialNote> 
+SE FELICITE d’accueillir la République du Monténégro en tant que nouveau Membre de l’OMS et fixe le taux de sa contribution à 0,001 %, correspondant à un montant de US $1490 pour 2006 et de US $4470 pour 2007. <authorialNote marker="2" placement="bottom" eId="authorialNote_2">
+                     <p> Voir résolution WHA60.5.</p>
+                  </authorialNote>
+               </p>
+            </content>
+         </paragraph>
+      </mainBody>
+      <conclusions>
+         <p>(<event refersTo="#neuvièmeSéance" eId="event_1">Neuvième séance</event> plénière, <docDate date="2007-05-21">21 mai 2007</docDate> –Commission B, premier rapport)</p>
+      </conclusions>
+   </statement>
+</akomaNtoso>

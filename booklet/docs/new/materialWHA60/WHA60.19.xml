@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns:akn4un="http://un.org/metadata" xmlns:eLUNa="https://cms.unov.org/eLuna/2017/main" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+   <statement name="resolution">
+      <meta>
+         <identification source="#source">
+            <FRBRWork>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-23/wha60_19/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-23/wha60_19"/>
+               <FRBRdate date="2007-05-23" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+               <FRBRcountry value="un"/>
+               <FRBRnumber value="wha60_19"/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-23/wha60_19/eng@/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-23/wha60_19/eng@"/>
+               <FRBRdate date="2007-05-23" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-23/wha60_19/eng@/!main.xml"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-23/wha60_19/eng@.xml"/>
+               <FRBRdate date="2023-09-13" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+            </FRBRManifestation>
+         </identification>
+         <references source="#source">
+            <TLCOrganization eId="worldHealthAssembly" href="/akn/ontology/organization/un/worldHealthAssembly" showAs="World Health Assembly"/>
+            <TLCOrganization eId="unitedNations" href="/akn/ontology/organization/un/unitedNations" showAs="United Nations"/>
+            <TLCOrganization eId="states" href="/akn/ontology/organization/un/states" showAs="States"/>
+            <TLCOrganization eId="un" href="/akn/ontology/organization/un/un" showAs="UN"/>
+            <TLCOrganization eId="faofinancecommittee" href="/akn/ontology/organization/un/faofinancecommittee" showAs="Finance"/>
+            <TLCTerm eId="havingConsidered" href="/akn/ontology/term/havingConsidered" showAs="having considered"/>
+            <TLCTerm eId="noting" href="/akn/ontology/term/noting" showAs="noting"/>
+            <TLCTerm eId="aware" href="/akn/ontology/term/aware" showAs="aware"/>
+            <TLCTerm eId="welcoming" href="/akn/ontology/term/welcoming" showAs="welcoming"/>
+            <TLCTerm eId="concerned" href="/akn/ontology/term/concerned" showAs="concerned"/>
+            <TLCTerm eId="recognizing" href="/akn/ontology/term/recognizing" showAs="recognizing"/>
+            <TLCTerm eId="recalling" href="/akn/ontology/term/recalling" showAs="recalling"/>
+            <TLCTerm eId="urges" href="/akn/ontology/term/urges" showAs="urges"/>
+            <TLCTerm eId="requests" href="/akn/ontology/term/requests" showAs="requests"/>
+            <TLCOrganization eId="director-general" href="/akn/ontology/organization/un/director-general" showAs="Director-General"/>
+            <TLCOrganization eId="who" href="/akn/ontology/organization/un/who" showAs="WHO"/>
+            <TLCOrganization eId="wfpExecutiveBoard" href="/akn/ontology/organization/un/wfpExecutiveBoard" showAs="Executive Board"/>
+            <TLCEvent href="/akn/ontology/event/whowha/eleventhPlenaryMeeting" eId="eleventhPlenaryMeeting" showAs="Eleventh plenary meeting"/>
+            <TLCOrganization eId="committeeA" href="/akn/ontology/organization/un/committeeA" showAs="Committee A"/>
+            <TLCPerson eId="source" href="/akn/ontology/person/somebody" showAs="somebody"/>
+         </references>
+      </meta>
+      <preface>
+         <p>
+            <docNumber>WHA60.19</docNumber>
+            <docTitle>Tuberculosis control: progress and long-term planning</docTitle>
+         </p>
+      </preface>
+      <preamble>
+         <formula name="enactingFormula">
+            <p>The Sixtieth <organization refersTo="#worldHealthAssembly" eId="organization_1">World Health Assembly</organization>,</p>
+         </formula>
+         <container name="havingConsidered">
+            <p>
+               <term refersTo="#havingConsidered" eId="term_1">Having considered</term> the report on tuberculosis control: progress and long-term planning; <authorialNote marker="1" placement="bottom" eId="authorialNote_1">
+                  <p>Document A60/13.</p>
+               </authorialNote>
+            </p>
+         </container>
+         <container name="noting">
+            <p>
+               <term refersTo="#noting" eId="term_2">Noting</term> the progress made since 1991 towards achieving the international targets for 2005, and more recently following the establishment, in response to resolution <ref href="/akn/un/statement/deliberation/whowha/0000-00-00/wha51_13/!main">WHA51.13</ref>, of the Stop TB Partnership;</p>
+         </container>
+         <container name="aware">
+            <p>
+               <term refersTo="#aware" eId="term_3">Aware</term> of the need to build on this progress and overcome constraints in order to reach the international targets for tuberculosis control for 2015 set by the Stop TB Partnership – in line with the internationally agreed development goal relevant to tuberculosis contained in the <organization refersTo="#unitedNations" eId="organization_2">United Nations</organization> Millennium Declaration to “have halted by 2015 and begun to reverse the incidence of major diseases” – of halving tuberculosis prevalence and death rates by 2015 compared with 1990 levels;</p>
+         </container>
+         <container name="noting">
+            <p>
+               <term refersTo="#noting" eId="term_4">Noting</term> the development of the Stop TB strategy as a comprehensive approach to tuberculosis prevention and control that incorporates the internationally agreed tuberculosis control strategy (DOTS strategy) and represents a significant expansion in the scale and scope of tuberculosis-control activities;</p>
+         </container>
+         <container name="welcoming">
+            <p>
+               <term refersTo="#welcoming" eId="term_5">Welcoming</term> the Partnership’s Global Plan to Stop TB 2006–2015, which sets out the activities oriented towards implementing the Stop TB strategy and achieving the international targets for tuberculosis control for 2015;</p>
+         </container>
+         <container name="aware">
+            <p>
+               <term refersTo="#aware" eId="term_6">Aware</term> of the need to increase the scope, scale and speed of research needed to achieve the international targets for tuberculosis control for 2015 and the goal of eliminating tuberculosis as a global public-health problem by 2050;</p>
+         </container>
+         <container name="concerned">
+            <p>
+               <term refersTo="#concerned" eId="term_7">Concerned</term> that delays in implementing the Global Plan will result in increasing numbers of tuberculosis cases and deaths, including those due to multidrug-resistant (and extensively drug-resistant) tuberculosis and to the impact of HIV, and therefore in delays in achieving by 2015 the international targets for tuberculosis control and the internationally agreed development goal relevant to tuberculosis contained in the <organization refersTo="#unitedNations" eId="organization_3">United Nations</organization> Millennium Declaration;</p>
+         </container>
+         <container name="recognizing">
+            <p>
+               <term refersTo="#recognizing" eId="term_8">Recognizing</term> the importance of the situation and the trends of multidrug-resistant and extensively drug-resistant tuberculosis as barriers to the achievement of the Global Plan’s objectives by 2015, and the need for an increased number of Member <organization refersTo="#states" eId="organization_4">States</organization> participating in the network of the Global Project on Anti-Tuberculosis Drug Resistance Surveillance and for the required additional resources to accomplish its task;</p>
+         </container>
+         <container name="recalling">
+            <p>
+               <term refersTo="#recalling" eId="term_9">Recalling</term> that resolution <ref href="/akn/un/statement/deliberation/whowha/2005-05-25/wha58_14/!main">WHA58.14</ref> encouraged Member <organization refersTo="#states" eId="organization_5">States</organization> to fulfil their commitments to ensure the availability of sufficient domestic resources and of sufficient external resources to achieve the internationally agreed development goal relevant to tuberculosis contained in the <organization refersTo="#unitedNations" eId="organization_6">United Nations</organization> Millennium Declaration;</p>
+         </container>
+         <container name="welcoming">
+            <p>
+               <term refersTo="#welcoming" eId="term_10">Welcoming</term> the contribution to the mobilization of resources for development by voluntary innovative financing initiatives taken by groups of Member <organization refersTo="#states" eId="organization_7">States</organization> and, in this regard, <term refersTo="#noting" eId="term_11">noting</term> the International Drug Purchase Facility (<organization refersTo="#un" eId="organization_8">UN</organization>ITAID), the International <organization refersTo="#faofinancecommittee" eId="organization_9">Finance</organization> Facility for Immunisation and the commitment to launch a pilot project within the advance market commitments initiatives,</p>
+         </container>
+      </preamble>
+      <mainBody>
+         <paragraph eId="para_1">
+            <num>1. </num>
+            <intro eId="para_1__content">
+               <p>
+                  <term refersTo="#urges" eId="term_12">URGES</term> all Member <organization refersTo="#states" eId="organization_10">States</organization>:</p>
+            </intro>
+            <list eId="para_1__subpara_1">
+               <num>(1)</num>
+               <intro eId="para_1__subpara_1__content">
+                  <p>to develop and implement long-term plans for tuberculosis prevention and control in line with the Global Plan to Stop TB 2006–2015, in the context of overall health development plans, in collaboration with other programmes (including those on HIV/AIDS, child health and strengthening of health systems), and through national Stop TB partnershipswhere appropriate, with the aim of:</p>
+               </intro>
+               <point eId="para_1__subpara_1__list_a">
+                  <num>(a)</num>
+                  <content eId="para_1__subpara_1__list_a__content">
+                     <p>accelerating progress towards the international targets for tuberculosis control for 2015 through full and rapid implementation of the Stop TB strategy, with specific attention to vulnerable groups highly at risk, such as poor people, migrants and ethnic minorities;</p>
+                  </content>
+               </point>
+               <point eId="para_1__subpara_1__list_b">
+                  <num>(b)</num>
+                  <content eId="para_1__subpara_1__list_b__content">
+                     <p>accelerating improvement of health-information systems,both in general and for tuberculosis in particular,in order to serve the assessment of national programme performance;</p>
+                  </content>
+               </point>
+               <point eId="para_1__subpara_1__list_c">
+                  <num>(c)</num>
+                  <content eId="para_1__subpara_1__list_c__content">
+                     <p>ensuring high-quality implementation of the DOTS strategy by tuberculosis programmes as the first and foremost step in full implementation of the Stop TB strategy;</p>
+                  </content>
+               </point>
+               <point eId="para_1__subpara_1__list_d">
+                  <num>(d)</num>
+                  <content eId="para_1__subpara_1__list_d__content">
+                     <p>controlling the emergence and transmission of multi-drug-resistant tuberculosis, including extensively drug-resistant tuberculosis, by ensuring the high-quality implementation of the DOTS strategy and byprompt implementation of infection-control precautions;</p>
+                  </content>
+               </point>
+               <point eId="para_1__subpara_1__list_e">
+                  <num>(e)</num>
+                  <content eId="para_1__subpara_1__list_e__content">
+                     <p>if affected, immediately addressing extensively drug-resistant tuberculosis and HIV-related tuberculosisas part of the overall Stop TB strategy, as the highest health priorities;</p>
+                  </content>
+               </point>
+               <point eId="para_1__subpara_1__list_f">
+                  <num>(f)</num>
+                  <content eId="para_1__subpara_1__list_f__content">
+                     <p>enhancing laboratory capacity in order to provide for rapid drug-susceptibility testing of isolates obtained from all persons with culture-positive tuberculosis, where resources are available, and promote access to quality-assured sputum smear microscopy;</p>
+                  </content>
+               </point>
+               <point eId="para_1__subpara_1__list_g">
+                  <num>(g)</num>
+                  <content eId="para_1__subpara_1__list_g__content">
+                     <p>increasing access to quality-assured second-line medicines at affordable prices through the Stop TB Partnership’s Green Light Committee;</p>
+                  </content>
+               </point>
+               <point eId="para_1__subpara_1__list_h">
+                  <num>(h)</num>
+                  <content eId="para_1__subpara_1__list_h__content">
+                     <p>accelerating collaborative interventions against HIV infection and tuberculosis;</p>
+                  </content>
+               </point>
+               <point eId="para_1__subpara_1__list_i">
+                  <num>(i)</num>
+                  <content eId="para_1__subpara_1__list_i__content">
+                     <p>fully involving the private sector in national tuberculosis control programmes;</p>
+                  </content>
+               </point>
+            </list>
+            <subparagraph eId="para_1__subpara_2">
+               <num>(2)</num>
+               <content eId="para_1__subpara_2__content">
+                  <p>to use all possible financing mechanisms in order to fulfil the commitments made in resolution <ref href="/akn/un/statement/deliberation/whowha/2005-05-25/wha58_14/!main">WHA58.14</ref>, including that to ensure sustainable domestic and external financing,thereby filling the funding gaps identified in the Global Plan to Stop TB 2006 – 2015;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_3">
+               <num>(3)</num>
+               <content eId="para_1__subpara_3__content">
+                  <p>to declare, where appropriate, tuberculosis as an emergency and to allocate additional resources in order to strengthen activities aimed at stopping the spread of extensively drug-resistant tuberculosis;</p>
+               </content>
+            </subparagraph>
+         </paragraph>
+         <paragraph eId="para_2">
+            <num>2. </num>
+            <intro eId="para_2__content">
+               <p>
+                  <term refersTo="#requests" eId="term_13">REQUESTS</term> the <organization refersTo="#director-general" eId="organization_11">Director-General</organization>:</p>
+            </intro>
+            <subparagraph eId="para_2__subpara_1">
+               <num>(1)</num>
+               <content eId="para_2__subpara_1__content">
+                  <p>to intensify support provided to Member <organization refersTo="#states" eId="organization_12">States</organization> in expanding implementation of the Stop TB strategy by developing capacity and improving the performance of national tuberculosis-control programmes, particularly the quality of DOTS activities,and by implementing infection-control precautionswithin the broad context of strengthening health systems in order to achieve the international targets for 2015;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_2__subpara_2">
+               <num>(2)</num>
+               <content eId="para_2__subpara_2__content">
+                  <p>to continue to provide support for the network of the Global Project on Anti-Tuberculosis Drug Resistance Surveillance by increasing the number of Member <organization refersTo="#states" eId="organization_13">States</organization> in the network in order to inform the Global Plan to Stop TB 2006–2015 through determination of the extent and trend of multidrug-resistant and extensively drug-resistant tuberculosis;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_2__subpara_3">
+               <num>(3)</num>
+               <content eId="para_2__subpara_3__content">
+                  <p>to strengthen urgently <organization refersTo="#who" eId="organization_14">WHO</organization>’s support to countries affected by multidrug-resistant tuberculosis and especiallyextensively drug-resistant tuberculosis, and to countries highly affected by HIV-related tuberculosis;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_2__subpara_4">
+               <num>(4)</num>
+               <content eId="para_2__subpara_4__content">
+                  <p>to enhance <organization refersTo="#who" eId="organization_15">WHO</organization>’s leadership withinthe Stop TB Partnership in its coordination of efforts to implement the Global Plan to Stop TB 2006–2015 and to facilitate long-term commitment to sustainable financing of the Global Plan through improved mechanisms for increased funding;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_2__subpara_5">
+               <num>(5)</num>
+               <content eId="para_2__subpara_5__content">
+                  <p>to strengthen mechanisms to review and monitor estimates of impact of control activities on the tuberculosis burden, including incidence, prevalence and mortality with specific attention to vulnerable groups highly at risk, such as poor people, migrants and ethnic minorities;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_2__subpara_6">
+               <num>(6)</num>
+               <content eId="para_2__subpara_6__content">
+                  <p>to support Member <organization refersTo="#states" eId="organization_16">States</organization> in developing laboratory capacity to provide for rapid drug-susceptibility testing of isolates obtained from all persons with culture-positive tuberculosis, to develop consensus guidelines for rapid drug-susceptibility test methods and appropriate measures for laboratory strengthening, and to mobilize funding;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_2__subpara_7">
+               <num>(7)</num>
+               <content eId="para_2__subpara_7__content">
+                  <p>to enhance <organization refersTo="#who" eId="organization_17">WHO</organization>’s role in tuberculosis research in order to promote the applied research necessary to reach the international targets for tuberculosis control for 2015 and the basic research necessary to achieve the goal of eliminating tuberculosis by 2050; and to increase global support for those areas of tuberculosis research that are currently underresourced,especially enhancing research and development of new diagnostics, drugs and vaccines and the relevance of nutrition to, and its interaction with, tuberculosis;</p>
+               </content>
+            </subparagraph>
+            <list eId="para_2__subpara_8">
+               <num>(8)</num>
+               <intro eId="para_2__subpara_8__content">
+                  <p>to report to the Sixty-third <organization refersTo="#worldHealthAssembly" eId="organization_18">World Health Assembly</organization> through the <organization refersTo="#wfpExecutiveBoard" eId="organization_19">Executive Board</organization> on:</p>
+               </intro>
+            </list>
+            <point eId="para_2__subpara_8__list_a">
+               <num>(a)</num>
+               <content eId="para_2__subpara_8__list_a__content">
+                  <p>progress in implementation of the Global Plan to Stop TB 2006–2015, including mobilization of resources from domestic and external sources for its implementation;</p>
+               </content>
+            </point>
+            <point eId="para_2__subpara_8__list_b">
+               <num>(b)</num>
+               <content eId="para_2__subpara_8__list_b__content">
+                  <p>progress made in achieving the international targets for tuberculosis control by 2015, using the “proportion of tuberculosis cases detected and cured under directly observed treatment, short course (DOTS)” (Millennium Development Goal indicator 24) as a measure of the performance of national programmes, and tuberculosis incidence and “prevalence and death rates associated with tuberculosis” (Millennium Development Goal indicator 23) as a measure of the impact of control on the tuberculosis epidemic.</p>
+               </content>
+            </point>
+         </paragraph>
+      </mainBody>
+      <conclusions>
+         <p>(<event refersTo="#eleventhPlenaryMeeting" eId="event_1">Eleventh plenary meeting</event>, <docDate date="2007-05-23">23 May 2007</docDate> –<organization refersTo="#committeeA" eId="organization_20">Committee A</organization>, fourth report)</p>
+      </conclusions>
+   </statement>
+</akomaNtoso>

@@ -1,0 +1,67 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eLUNa="https://cms.unov.org/eLuna/2017/main" xmlns:akn4un="http://un.org/metadata" xmlns:html="http://www.w3.org/1999/xhtml">
+   <statement name="decision">
+      <meta>
+         <identification source="#source">
+            <FRBRWork>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-14/wha60-2/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-14/wha60-2"/>
+               <FRBRdate date="2007-05-14" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+               <FRBRcountry value="un"/>
+               <FRBRnumber value="wha60-2"/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-14/wha60-2/fra@/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-14/wha60-2/fra@"/>
+               <FRBRdate date="2007-05-14" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+               <FRBRlanguage language="fra"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-14/wha60-2/fra@/!main.xml"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-14/wha60-2/fra@.xml"/>
+               <FRBRdate date="2023-08-24" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+            </FRBRManifestation>
+         </identification>
+         <references source="#source">
+            <TLCOrganization eId="afghanistan" href="/akn/ontology/organization/un/afghanistan" showAs="Afghanistan"/>
+            <TLCOrganization eId="burkinaFaso" href="/akn/ontology/organization/un/burkinaFaso" showAs="Burkina Faso"/>
+            <TLCOrganization eId="canada" href="/akn/ontology/organization/un/canada" showAs="Canada"/>
+            <TLCOrganization eId="djibouti" href="/akn/ontology/organization/un/djibouti" showAs="Djibouti"/>
+            <TLCOrganization eId="france" href="/akn/ontology/organization/un/france" showAs="France"/>
+            <TLCOrganization eId="ghana" href="/akn/ontology/organization/un/ghana" showAs="Ghana"/>
+            <TLCOrganization eId="panama" href="/akn/ontology/organization/un/panama" showAs="Panama"/>
+            <TLCOrganization eId="qatar" href="/akn/ontology/organization/un/qatar" showAs="Qatar"/>
+            <TLCOrganization eId="congo" href="/akn/ontology/organization/un/congo" showAs="Congo"/>
+            <TLCOrganization eId="sriLanka" href="/akn/ontology/organization/un/sriLanka" showAs="Sri Lanka"/>
+            <TLCOrganization eId="suriname" href="/akn/ontology/organization/un/suriname" showAs="Suriname"/>
+            <TLCOrganization eId="ukraine" href="/akn/ontology/organization/un/ukraine" showAs="Ukraine"/>
+            <TLCOrganization eId="mozambique" href="/akn/ontology/organization/un/mozambique" showAs="Mozambique"/>
+            <TLCEvent href="/akn/ontology/event/whoha/premièreSéance" eId="premièreSéance" showAs="Première séance"/>
+            <TLCPerson eId="source" href="/akn/ontology/person/somebody" showAs="somebody"/>
+         </references>
+         <proprietary source="#source">
+            <akn4un:session>WHA60</akn4un:session>
+         </proprietary>
+      </meta>
+      <preface>
+         <p>
+            <docNumber>WHA60(2)</docNumber>
+            <docTitle>Composition de la Commission des Désignations</docTitle>
+         </p>
+      </preface>
+      <mainBody>
+         <paragraph eId="para_1">
+            <content eId="para_1__content">
+               <p>
+                  <inline name="#enactingFormula">La Soixantième Assemblée mondiale de la Santé a élu une Commission des Désignations comprenant les délégués des Etats Membres suivants : <organization refersTo="#afghanistan" eId="organization_1">Afghanistan</organization>, Argentine, <organization refersTo="#burkinaFaso" eId="organization_2">Burkina Faso</organization>, <organization refersTo="#canada" eId="organization_3">Canada</organization>, Chine, Colombie, Côte d’Ivoire, <organization refersTo="#djibouti" eId="organization_4">Djibouti</organization>, Ex‑République yougoslave de Macédoine, Fédération de Russie, <organization refersTo="#france" eId="organization_5">France</organization>, <organization refersTo="#ghana" eId="organization_6">Ghana</organization>, Guinée équatoriale, Indonésie, Italie, Nouvelle‑Zélande, Norvège, Palaos, <organization refersTo="#panama" eId="organization_7">Panama</organization>, <organization refersTo="#qatar" eId="organization_8">Qatar</organization>, République démocratique du <organization refersTo="#congo" eId="organization_9">Congo</organization>, <organization refersTo="#sriLanka" eId="organization_10">Sri Lanka</organization>, <organization refersTo="#suriname" eId="organization_11">Suriname</organization> et <organization refersTo="#ukraine" eId="organization_12">Ukraine</organization>, et le Professeur P. I. Garrido, <organization refersTo="#mozambique" eId="organization_13">Mozambique</organization> (Président de la Cinquante-Neuvième Assemblée mondiale de la Santé,</inline> membre de droit).
+</p>
+            </content>
+         </paragraph>
+      </mainBody>
+      <conclusions>
+         <p>(<event refersTo="#premièreSéance" eId="event_1">Première séance</event> plénière, <docDate date="2007-05-14">14 mai 2007</docDate>)</p>
+      </conclusions>
+   </statement>
+</akomaNtoso>

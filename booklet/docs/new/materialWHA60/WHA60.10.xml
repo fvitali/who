@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns:akn4un="http://un.org/metadata" xmlns:eLUNa="https://cms.unov.org/eLuna/2017/main" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+   <statement name="resolution">
+      <meta>
+         <identification source="#source">
+            <FRBRWork>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-21/wha60_10/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-21/wha60_10"/>
+               <FRBRdate date="2007-05-21" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+               <FRBRcountry value="un"/>
+               <FRBRnumber value="wha60_10"/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-21/wha60_10/eng@/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-21/wha60_10/eng@"/>
+               <FRBRdate date="2007-05-21" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-21/wha60_10/eng@/!main.xml"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-21/wha60_10/eng@.xml"/>
+               <FRBRdate date="2023-09-13" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+            </FRBRManifestation>
+         </identification>
+         <references source="#source">
+            <TLCOrganization eId="worldHealthAssembly" href="/akn/ontology/organization/un/worldHealthAssembly" showAs="World Health Assembly"/>
+            <TLCOrganization eId="wfpExecutiveBoard" href="/akn/ontology/organization/un/wfpExecutiveBoard" showAs="Executive Board"/>
+            <TLCOrganization eId="director-general" href="/akn/ontology/organization/un/director-general" showAs="Director-General"/>
+            <TLCTerm eId="noting" href="/akn/ontology/term/noting" showAs="noting"/>
+            <TLCEvent href="/akn/ontology/event/whowha/ninthPlenaryMeeting" eId="ninthPlenaryMeeting" showAs="Ninth plenary meeting"/>
+            <TLCOrganization eId="committeeB" href="/akn/ontology/organization/un/committeeB" showAs="Committee B"/>
+            <TLCPerson eId="source" href="/akn/ontology/person/somebody" showAs="somebody"/>
+         </references>
+      </meta>
+      <preface>
+         <p>
+            <docNumber>WHA60.10</docNumber>
+            <docTitle>Amendments to the Staff Regulations and Staff Rules</docTitle>
+         </p>
+      </preface>
+      <preamble>
+         <formula name="enactingFormula">
+            <p>The Sixtieth <organization refersTo="#worldHealthAssembly" eId="organization_1">World Health Assembly</organization>,</p>
+         </formula>
+         <container name="noting">
+            <p>
+               <term refersTo="#noting" eId="term_1">Noting</term> the recommendations of the <organization refersTo="#wfpExecutiveBoard" eId="organization_2">Executive Board</organization> with regard to remuneration of staff in ungraded posts and of the <organization refersTo="#director-general" eId="organization_3">Director-General</organization>, <authorialNote marker="1" placement="bottom" eId="authorialNote_1">
+                  <p>Documents A60/36 and A60/36 Corr.1.</p>
+               </authorialNote>
+            </p>
+         </container>
+      </preamble>
+      <mainBody>
+         <paragraph eId="para_1">
+            <num>1. </num>
+            <content eId="para_1__content">
+               <p>ESTABLISHES the salaries of Assistant Directors-General and Regional Directors as from <date date="2007-01-01">1 January 2007</date> at US$ 168 826 per annum before staff assessment, resulting in a modified net salary of US$ 122 737 (dependency rate) or US$ 111 142 (single rate);</p>
+            </content>
+         </paragraph>
+         <paragraph eId="para_2">
+            <num>2. </num>
+            <content eId="para_2__content">
+               <p>ESTABLISHES the salary of the Deputy <organization refersTo="#director-general" eId="organization_4">Director-General</organization> as from <date date="2006-01-01">1 January 2006</date> atUS$ 176 877 per annum before staff assessment, resulting in a net salary of US$ 127 970 (dependency rate) or US$ 115 166 (single rate); and, as from 1 January 2007, at US$ 185 874 per annum before staff assessment, resulting in a net salary of US$ 133 818 (dependency rate) or US$ 120 429 (single rate);</p>
+            </content>
+         </paragraph>
+         <paragraph eId="para_3">
+            <num>3. </num>
+            <content eId="para_3__content">
+               <p>ESTABLISHES the salary of the <organization refersTo="#director-general" eId="organization_5">Director-General</organization> as from 1 January 2007 at US$ 228 818 per annum before staff assessment, resulting in a modified net salary of US$ 161 732 (dependency rate) or US$ 143 829 (single rate).</p>
+            </content>
+         </paragraph>
+      </mainBody>
+      <conclusions>
+         <p>(<event refersTo="#ninthPlenaryMeeting" eId="event_1">Ninth plenary meeting</event>, <docDate date="2007-05-21">21 May 2007</docDate> –<organization refersTo="#committeeB" eId="organization_6">Committee B</organization>, first report)</p>
+      </conclusions>
+   </statement>
+</akomaNtoso>

@@ -1,0 +1,23 @@
+<div class="canvas">
+	<div class="document none cover fullpage" pattern="document" name="document" data-name="cover">
+		<div class="top right fs130 u" >
+			<p class="underline">{{meta.symbol}}</p>
+			<p><img class="logo pt1" src="./img/logo.png"></p>
+			<p class="underline pt4">WORLD HEALTH ORGANIZATION</p>
+		</div>
+		<div class="middle right">
+			<p class="coverTitle b fs300 pb3">EXECUTIVE BOARD</p>
+			<p class="coverTitle sc b fs200 pb3">{{meta.session}} SESSION</p> 
+			<p class="coverTitle b fs150">{{meta.placetime}}</p>
+		</div>
+		<div class="middle right">
+			{{#each meta.content}}
+			<p class="pb2 b fs150">{{this}}</p> 
+			{{/each}}
+		</div>
+		<div class="bottom right fs130 u">
+			<p class="pb1">{{meta.place}}</p> 
+			<p class="underline pb1">{{meta.year}}</p>
+		</div>
+	</div>
+</div>

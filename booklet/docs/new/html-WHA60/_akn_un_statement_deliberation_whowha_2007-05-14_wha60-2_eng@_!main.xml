@@ -1,0 +1,80 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eLUNa="https://cms.unov.org/eLuna/2017/main" xmlns:akn4un="http://un.org/metadata" xmlns:html="http://www.w3.org/1999/xhtml">
+   <statement name="decision">
+      <meta>
+         <identification source="#source">
+            <FRBRWork>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-14/wha60-2/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-14/wha60-2"/>
+               <FRBRdate date="2007-05-14" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+               <FRBRcountry value="un"/>
+               <FRBRnumber value="wha60-2"/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-14/wha60-2/eng@/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-14/wha60-2/eng@"/>
+               <FRBRdate date="2007-05-14" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-14/wha60-2/eng@/!main.xml"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-14/wha60-2/eng@.xml"/>
+               <FRBRdate date="2023-08-23" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+            </FRBRManifestation>
+         </identification>
+         <references source="#source">
+            <TLCOrganization eId="worldHealthAssembly" href="/akn/ontology/organization/un/worldHealthAssembly" showAs="World Health Assembly"/>
+            <TLCOrganization eId="states" href="/akn/ontology/organization/un/states" showAs="States"/>
+            <TLCOrganization eId="afghanistan" href="/akn/ontology/organization/un/afghanistan" showAs="Afghanistan"/>
+            <TLCOrganization eId="argentina" href="/akn/ontology/organization/un/argentina" showAs="Argentina"/>
+            <TLCOrganization eId="burkinaFaso" href="/akn/ontology/organization/un/burkinaFaso" showAs="Burkina Faso"/>
+            <TLCOrganization eId="canada" href="/akn/ontology/organization/un/canada" showAs="Canada"/>
+            <TLCOrganization eId="china" href="/akn/ontology/organization/un/china" showAs="China"/>
+            <TLCOrganization eId="colombia" href="/akn/ontology/organization/un/colombia" showAs="Colombia"/>
+            <TLCOrganization eId="democraticRepublicOfTheCongo" href="/akn/ontology/organization/un/democraticRepublicOfTheCongo" showAs="Democratic Republic of the Congo"/>
+            <TLCOrganization eId="djibouti" href="/akn/ontology/organization/un/djibouti" showAs="Djibouti"/>
+            <TLCOrganization eId="equatorialGuinea" href="/akn/ontology/organization/un/equatorialGuinea" showAs="Equatorial Guinea"/>
+            <TLCOrganization eId="france" href="/akn/ontology/organization/un/france" showAs="France"/>
+            <TLCOrganization eId="ghana" href="/akn/ontology/organization/un/ghana" showAs="Ghana"/>
+            <TLCOrganization eId="indonesia" href="/akn/ontology/organization/un/indonesia" showAs="Indonesia"/>
+            <TLCOrganization eId="italy" href="/akn/ontology/organization/un/italy" showAs="Italy"/>
+            <TLCOrganization eId="newZealand" href="/akn/ontology/organization/un/newZealand" showAs="New Zealand"/>
+            <TLCOrganization eId="norway" href="/akn/ontology/organization/un/norway" showAs="Norway"/>
+            <TLCOrganization eId="palau" href="/akn/ontology/organization/un/palau" showAs="Palau"/>
+            <TLCOrganization eId="panama" href="/akn/ontology/organization/un/panama" showAs="Panama"/>
+            <TLCOrganization eId="qatar" href="/akn/ontology/organization/un/qatar" showAs="Qatar"/>
+            <TLCOrganization eId="russia" href="/akn/ontology/organization/un/russia" showAs="Russian Federation"/>
+            <TLCOrganization eId="sriLanka" href="/akn/ontology/organization/un/sriLanka" showAs="Sri Lanka"/>
+            <TLCOrganization eId="suriname" href="/akn/ontology/organization/un/suriname" showAs="Suriname"/>
+            <TLCOrganization eId="ukraine" href="/akn/ontology/organization/un/ukraine" showAs="Ukraine"/>
+            <TLCOrganization eId="mozambique" href="/akn/ontology/organization/un/mozambique" showAs="Mozambique"/>
+            <TLCEvent href="/akn/ontology/event/whoha/firstPlenaryMeeting" eId="firstPlenaryMeeting" showAs="First plenary meeting"/>
+            <TLCPerson eId="source" href="/akn/ontology/person/somebody" showAs="somebody"/>
+         </references>
+         <proprietary source="#source">
+            <akn4un:session>WHA60</akn4un:session>
+         </proprietary>
+      </meta>
+      <preface>
+         <p>
+            <docNumber>WHA60(2)</docNumber>
+            <docTitle>Composition of the Committee on Nominations</docTitle>
+         </p>
+      </preface>
+      <mainBody>
+         <paragraph eId="para_1">
+            <content eId="para_1__content">
+               <p>
+                  <inline name="#enactingFormula">The Sixtieth <organization refersTo="#worldHealthAssembly" eId="organization_1">World Health Assembly</organization> elected a Committee on Nominations consisting of delegates of the following Member <organization refersTo="#states" eId="organization_2">States</organization>: <organization refersTo="#afghanistan" eId="organization_3">Afghanistan</organization>, <organization refersTo="#argentina" eId="organization_4">Argentina</organization>, <organization refersTo="#burkinaFaso" eId="organization_5">Burkina Faso</organization>, <organization refersTo="#canada" eId="organization_6">Canada</organization>, <organization refersTo="#china" eId="organization_7">China</organization>, <organization refersTo="#colombia" eId="organization_8">Colombia</organization>, Côte d’Ivoire, <organization refersTo="#democraticRepublicOfTheCongo" eId="organization_9">Democratic Republic of the Congo</organization>, <organization refersTo="#djibouti" eId="organization_10">Djibouti</organization>, <organization refersTo="#equatorialGuinea" eId="organization_11">Equatorial Guinea</organization>, <organization refersTo="#france" eId="organization_12">France</organization>, <organization refersTo="#ghana" eId="organization_13">Ghana</organization>, <organization refersTo="#indonesia" eId="organization_14">Indonesia</organization>, <organization refersTo="#italy" eId="organization_15">Italy</organization>, <organization refersTo="#newZealand" eId="organization_16">New Zealand</organization>, <organization refersTo="#norway" eId="organization_17">Norway</organization>, <organization refersTo="#palau" eId="organization_18">Palau</organization>, <organization refersTo="#panama" eId="organization_19">Panama</organization>, <organization refersTo="#qatar" eId="organization_20">Qatar</organization>, <organization refersTo="#russia" eId="organization_21">Russian Federation</organization>, <organization refersTo="#sriLanka" eId="organization_22">Sri Lanka</organization>, <organization refersTo="#suriname" eId="organization_23">Suriname</organization>, The former Yugoslav Republic of Macedonia, <organization refersTo="#ukraine" eId="organization_24">Ukraine</organization>, and Professor P.I. Garrido, <organization refersTo="#mozambique" eId="organization_25">Mozambique</organization> (President, Fifty-ninth <organization refersTo="#worldHealthAssembly" eId="organization_26">World Health Assembly</organization>,</inline>
+ex officio).
+</p>
+            </content>
+         </paragraph>
+      </mainBody>
+      <conclusions>
+         <p>(<event refersTo="#firstPlenaryMeeting" eId="event_1">First plenary meeting</event>, <docDate date="2007-05-14">14 May 2007</docDate>)</p>
+      </conclusions>
+   </statement>
+</akomaNtoso>

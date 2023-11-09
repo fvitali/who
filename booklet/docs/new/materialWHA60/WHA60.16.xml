@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns:akn4un="http://un.org/metadata" xmlns:eLUNa="https://cms.unov.org/eLuna/2017/main" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+   <statement name="resolution">
+      <meta>
+         <identification source="#source">
+            <FRBRWork>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-23/wha60_16/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-23/wha60_16"/>
+               <FRBRdate date="2007-05-23" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+               <FRBRcountry value="un"/>
+               <FRBRnumber value="wha60_16"/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-23/wha60_16/eng@/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-23/wha60_16/eng@"/>
+               <FRBRdate date="2007-05-23" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-23/wha60_16/eng@/!main.xml"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-23/wha60_16/eng@.xml"/>
+               <FRBRdate date="2023-09-13" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+            </FRBRManifestation>
+         </identification>
+         <references source="#source">
+            <TLCOrganization eId="worldHealthAssembly" href="/akn/ontology/organization/un/worldHealthAssembly" showAs="World Health Assembly"/>
+            <TLCOrganization eId="who" href="/akn/ontology/organization/un/who" showAs="WHO"/>
+            <TLCOrganization eId="faoprogrammecommittee" href="/akn/ontology/organization/un/faoprogrammecommittee" showAs="Programme"/>
+            <TLCTerm eId="havingConsidered" href="/akn/ontology/term/havingConsidered" showAs="having considered"/>
+            <TLCTerm eId="recalling" href="/akn/ontology/term/recalling" showAs="recalling"/>
+            <TLCTerm eId="recognizing" href="/akn/ontology/term/recognizing" showAs="recognizing"/>
+            <TLCTerm eId="aware" href="/akn/ontology/term/aware" showAs="aware"/>
+            <TLCTerm eId="acknowledging" href="/akn/ontology/term/acknowledging" showAs="acknowledging"/>
+            <TLCTerm eId="emphasizing" href="/akn/ontology/term/emphasizing" showAs="emphasizing"/>
+            <TLCTerm eId="concerned" href="/akn/ontology/term/concerned" showAs="concerned"/>
+            <TLCTerm eId="convinced" href="/akn/ontology/term/convinced" showAs="convinced"/>
+            <TLCTerm eId="urges" href="/akn/ontology/term/urges" showAs="urges"/>
+            <TLCTerm eId="requests" href="/akn/ontology/term/requests" showAs="requests"/>
+            <TLCOrganization eId="states" href="/akn/ontology/organization/un/states" showAs="States"/>
+            <TLCOrganization eId="director-general" href="/akn/ontology/organization/un/director-general" showAs="Director-General"/>
+            <TLCEvent href="/akn/ontology/event/whowha/eleventhPlenaryMeeting" eId="eleventhPlenaryMeeting" showAs="Eleventh plenary meeting"/>
+            <TLCOrganization eId="committeeB" href="/akn/ontology/organization/un/committeeB" showAs="Committee B"/>
+            <TLCPerson eId="source" href="/akn/ontology/person/somebody" showAs="somebody"/>
+         </references>
+      </meta>
+      <preface>
+         <p>
+            <docNumber>WHA60.16</docNumber>
+            <docTitle>Progress in the rational use of medicines</docTitle>
+         </p>
+      </preface>
+      <preamble>
+         <formula name="enactingFormula">
+            <p>The Sixtieth <organization refersTo="#worldHealthAssembly" eId="organization_1">World Health Assembly</organization>,</p>
+         </formula>
+         <container name="havingConsidered">
+            <p>
+               <term refersTo="#havingConsidered" eId="term_1">Having considered</term> the report on rational use of medicines: progress in implementing the <organization refersTo="#who" eId="organization_2">WHO</organization> medicines strategy; <authorialNote marker="1" placement="bottom" eId="authorialNote_1">
+                  <p>Document A60/24.</p>
+               </authorialNote>
+            </p>
+         </container>
+         <container name="recalling">
+            <p>
+               <term refersTo="#recalling" eId="term_2">Recalling</term> the report on rational use of medicines by prescribers and patients discussed at the Fifty-eighth <organization refersTo="#worldHealthAssembly" eId="organization_3">World Health Assembly</organization> and followed by adoption of resolution <ref href="/akn/un/statement/deliberation/whowha/2005-05-25/wha58_27/!main">WHA58.27</ref> on antimicrobial resistance;</p>
+         </container>
+         <container name="recalling">
+            <p>
+               <term refersTo="#recalling" eId="term_3">Recalling</term> resolutions <ref href="/akn/un/statement/deliberation/whowha/0000-00-00/wha39_27/!main">WHA39.27</ref>, <ref href="/akn/un/statement/deliberation/whowha/0000-00-00/wha41_16/!main">WHA41.16</ref> and <ref href="/akn/un/statement/deliberation/whowha/0000-00-00/wha47_13/!main">WHA47.13</ref> on the rational use of drugs, <ref href="/akn/un/statement/deliberation/whowha/0000-00-00/wha41_17/!main">WHA41.17</ref>, <ref href="/akn/un/statement/deliberation/whowha/0000-00-00/wha45_30/!main">WHA45.30</ref> and <ref href="/akn/un/statement/deliberation/whowha/0000-00-00/wha47_16/!main">WHA47.16</ref> on ethical criteria for medicinal drug promotion, <ref href="/akn/un/statement/deliberation/whowha/0000-00-00/wha43_20/!main">WHA43.20</ref> and <ref href="/akn/un/statement/deliberation/whowha/0000-00-00/wha45_27/!main">WHA45.27</ref> on the <organization refersTo="#who" eId="organization_4">WHO</organization> Action <organization refersTo="#faoprogrammecommittee" eId="organization_5">Programme</organization> on Essential Drugs, <ref href="/akn/un/statement/deliberation/whowha/0000-00-00/wha47_12/!main">WHA47.12</ref> on the role of the pharmacist, <ref href="/akn/un/statement/deliberation/whowha/0000-00-00/wha49_14/!main">WHA49.14</ref> and <ref href="/akn/un/statement/deliberation/whowha/0000-00-00/wha52_19/!main">WHA52.19</ref> on the revised drug strategy, <ref href="/akn/un/statement/deliberation/whowha/0000-00-00/wha51_9/!main">WHA51.9</ref> on cross-border advertising, promotion and sale of medical products using the Internet, and <ref href="/akn/un/statement/deliberation/whowha/2001-05-21/wha54_11/!main">WHA54.11</ref> on the <organization refersTo="#who" eId="organization_6">WHO</organization> medicines strategy;</p>
+         </container>
+         <container name="recognizing">
+            <p>
+               <term refersTo="#recognizing" eId="term_4">Recognizing</term> the efforts of <organization refersTo="#who" eId="organization_7">WHO</organization>, in collaboration with governments, universities, the private sector and nongovernmental organizations, in areas related to health-care delivery systems and health-insurance programmes in order to improve the use of medicines by prescribers, dispensers and patients;</p>
+         </container>
+         <container name="aware">
+            <p>
+               <term refersTo="#aware" eId="term_5">Aware</term> of the core components of <organization refersTo="#who" eId="organization_8">WHO</organization>’s strategy for promoting the rational use of medicines; <authorialNote marker="2" placement="bottom" eId="authorialNote_2">
+                  <p>Document WHO/EDM/2004.5.</p>
+               </authorialNote>
+            </p>
+         </container>
+         <container name="Wishing">
+            <p>Wishing to promote evidence-based rational use of medicines by providers and consumers and better access to essential medicines;</p>
+         </container>
+         <container name="aware">
+            <p>
+               <term refersTo="#aware" eId="term_6">Aware</term> that irrational use of medicines continues to be an urgent and widespread problem in the public and private health sector in developed and developing countries, with serious consequences in terms of poor patient outcome, adverse drug reactions, increasing antimicrobial resistance and wasted resources;</p>
+         </container>
+         <container name="acknowledging">
+            <p>
+               <term refersTo="#acknowledging" eId="term_7">Acknowledging</term> that successful implementation of previous resolutions on antimicrobial resistance cannot be achieved without addressing the global problem of irrational use of medicines;</p>
+         </container>
+         <container name="recognizing">
+            <p>
+               <term refersTo="#recognizing" eId="term_8">Recognizing</term> that many countries do not have a stringent drug-regulatory authority nor a full national programme or body to promote rational use of medicines;</p>
+         </container>
+         <container name="emphasizing">
+            <p>
+               <term refersTo="#emphasizing" eId="term_9">Emphasizing</term> that global initiatives to increase access to essential medicines should adhere to the principle of rational use of medicines, and include adherence by patients;</p>
+         </container>
+         <container name="concerned">
+            <p>
+               <term refersTo="#concerned" eId="term_10">Concerned</term> that insufficient attention and resources are being directed towards tackling the problem of irrational use of medicines by prescribers, dispensers and consumers;</p>
+         </container>
+         <container name="emphasizing">
+            <p>
+               <term refersTo="#emphasizing" eId="term_11">Emphasizing</term> the need for a comprehensive, sustainable, national and sector-wide approach to promote the rational use of medicines;</p>
+         </container>
+         <container name="recognizing">
+            <p>
+               <term refersTo="#recognizing" eId="term_12">Recognizing</term> thatfinancing of medicines and methods of arrangements for provider paymentscanhave a major impact on rational use, and that appropriate policies on financing health care are required;</p>
+         </container>
+         <container name="recognizing">
+            <p>
+               <term refersTo="#recognizing" eId="term_13">Recognizing</term> that there may be incentives for the irrational use of medicines throughout the health system, for example, in some circumstances which give rise to conflict of interest;</p>
+         </container>
+         <container name="concerned">
+            <p>
+               <term refersTo="#concerned" eId="term_14">Concerned</term> that direct-to-consumer or Internet sales may give rise to irrational use of medicines;</p>
+         </container>
+         <container name="convinced">
+            <p>
+               <term refersTo="#convinced" eId="term_15">Convinced</term> that it is time for governments, the health professions, civil society, the private sector and the international community to pledge their commitment, including adequate resources, to promoting the rational use of medicines,</p>
+         </container>
+      </preamble>
+      <mainBody>
+         <paragraph eId="para_1">
+            <num>1. </num>
+            <intro eId="para_1__content">
+               <p>
+                  <term refersTo="#urges" eId="term_16">URGES</term> Member <organization refersTo="#states" eId="organization_9">States</organization>: <authorialNote marker="3" placement="bottom" eId="authorialNote_3">
+                     <p>And regional economic integration organizations, where appropriate.</p>
+                  </authorialNote>
+               </p>
+            </intro>
+            <subparagraph eId="para_1__subpara_1">
+               <num>(1)</num>
+               <content eId="para_1__subpara_1__content">
+                  <p>to invest sufficiently in human resources and provide adequate financing for strengthening institutional capacity in order to ensure more appropriate use of medicines in both the public and private sectors;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_2">
+               <num>(2)</num>
+               <content eId="para_1__subpara_2__content">
+                  <p>to consider establishing and/or strengthening, as appropriate, a national drug regulatory authority and a full national programme and/or multidisciplinary body, involving civil society and professional bodies, to monitor and promote the rational use of medicine;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_3">
+               <num>(3)</num>
+               <content eId="para_1__subpara_3__content">
+                  <p>to consider developing, strengthening and implementing, where appropriate, the application of an essential medicines list into the benefit package of the existing or new insurance funds;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_4">
+               <num>(4)</num>
+               <content eId="para_1__subpara_4__content">
+                  <p>to develop and strengthen existing training programmes on rational use of medicines, to ensure that they are taken into account in the curricula for all health professionals and medical students, including their continuing education, where appropriate, and to promote programmes of public education in rational use of medicines;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_5">
+               <num>(5)</num>
+               <content eId="para_1__subpara_5__content">
+                  <p>to enact new, or enforce existing, legislation to ban inaccurate, misleading or unethical promotion of medicines, to monitor promotion of medicines, and to develop and implement programmes that will provide independent, nonpromotional information about medicines;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_6">
+               <num>(6)</num>
+               <content eId="para_1__subpara_6__content">
+                  <p>to develop and implement national policies and programmes for improving use of medicines, including clinical guidelines and essential medicines lists, as appropriate, with an emphasis on multifaceted interventions targeting both the public and private health sectors, and involving providers and consumers;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_7">
+               <num>(7)</num>
+               <content eId="para_1__subpara_7__content">
+                  <p>to consider developing, and strengthening where appropriate, the capacity of hospital drug and therapeutic committees to promote the rational use of medicines;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_8">
+               <num>(8)</num>
+               <content eId="para_1__subpara_8__content">
+                  <p>to expand to national level sustainable interventions successfully implemented at local level;</p>
+               </content>
+            </subparagraph>
+         </paragraph>
+         <paragraph eId="para_2">
+            <num>2. </num>
+            <intro eId="para_2__content">
+               <p>
+                  <term refersTo="#requests" eId="term_17">REQUESTS</term> the <organization refersTo="#director-general" eId="organization_10">Director-General</organization>:</p>
+            </intro>
+            <subparagraph eId="para_2__subpara_1">
+               <num>(1)</num>
+               <content eId="para_2__subpara_1__content">
+                  <p>to strengthen the leadership and evidence-based advocacy role of <organization refersTo="#who" eId="organization_11">WHO</organization> in promoting rational use of medicines;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_2__subpara_2">
+               <num>(2)</num>
+               <content eId="para_2__subpara_2__content">
+                  <p>in collaboration with governments and civil society, to strengthen <organization refersTo="#who" eId="organization_12">WHO</organization>’s technical support to Member <organization refersTo="#states" eId="organization_13">States</organization> in their efforts to establish or strengthen, where appropriate, multidisciplinary national bodies for monitoring use of medicines, and implementing national programmes for the rational use of medicines;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_2__subpara_3">
+               <num>(3)</num>
+               <content eId="para_2__subpara_3__content">
+                  <p>to strengthen the coordination of international financial and technical support for rational use of medicines;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_2__subpara_4">
+               <num>(4)</num>
+               <content eId="para_2__subpara_4__content">
+                  <p>to promote research, particularly on development of sustainable interventions for rational use of medicines at all levels of the health sector, both public and private;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_2__subpara_5">
+               <num>(5)</num>
+               <content eId="para_2__subpara_5__content">
+                  <p>to promote discussion among health authorities, professionals and patients on the rational use of medicines;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_2__subpara_6">
+               <num>(6)</num>
+               <content eId="para_2__subpara_6__content">
+                  <p>to report to the Sixty-second <organization refersTo="#worldHealthAssembly" eId="organization_14">World Health Assembly</organization>, and subsequently biennially, on progress achieved, problems encountered and further actions proposed in the implementation of <organization refersTo="#who" eId="organization_15">WHO</organization>’s programmes to promote rational use of medicines.</p>
+               </content>
+            </subparagraph>
+         </paragraph>
+      </mainBody>
+      <conclusions>
+         <p>(<event refersTo="#eleventhPlenaryMeeting" eId="event_1">Eleventh plenary meeting</event>, <docDate date="2007-05-23">23 May 2007</docDate> –<organization refersTo="#committeeB" eId="organization_16">Committee B</organization>, second report)</p>
+      </conclusions>
+   </statement>
+</akomaNtoso>

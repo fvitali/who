@@ -1,0 +1,282 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eLUNa="https://cms.unov.org/eLuna/2017/main" xmlns:akn4un="http://un.org/metadata" xmlns:html="http://www.w3.org/1999/xhtml">
+   <statement name="resolution">
+      <meta>
+         <identification source="#source">
+            <FRBRWork>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-23/wha60_23/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-23/wha60_23"/>
+               <FRBRdate date="2007-05-23" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+               <FRBRcountry value="un"/>
+               <FRBRnumber value="wha60_23"/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-23/wha60_23/eng@/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-23/wha60_23/eng@"/>
+               <FRBRdate date="2007-05-23" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-23/wha60_23/eng@/!main.xml"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-23/wha60_23/eng@.xml"/>
+               <FRBRdate date="2023-08-23" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+            </FRBRManifestation>
+         </identification>
+         <references source="#source">
+            <TLCOrganization eId="worldHealthAssembly" href="/akn/ontology/organization/un/worldHealthAssembly" showAs="World Health Assembly"/>
+            <TLCOrganization eId="who" href="/akn/ontology/organization/un/who" showAs="WHO"/>
+            <TLCOrganization eId="faoInternationalPlantProtectionConvention" href="/akn/ontology/organization/un/faoInternationalPlantProtectionConvention" showAs="Convention"/>
+            <TLCOrganization eId="states" href="/akn/ontology/organization/un/states" showAs="States"/>
+            <TLCOrganization eId="faoprogrammecommittee" href="/akn/ontology/organization/un/faoprogrammecommittee" showAs="Programme"/>
+            <TLCTerm eId="havingConsidered" href="/akn/ontology/term/havingConsidered" showAs="Having considered"/>
+            <TLCTerm eId="recalling" href="/akn/ontology/term/recalling" showAs="Recalling"/>
+            <TLCTerm eId="concerned" href="/akn/ontology/term/concerned" showAs="Concerned"/>
+            <TLCTerm eId="noting" href="/akn/ontology/term/noting" showAs="Noting"/>
+            <TLCTerm eId="aware" href="/akn/ontology/term/aware" showAs="aware"/>
+            <TLCTerm eId="recognizing" href="/akn/ontology/term/recognizing" showAs="Recognizing"/>
+            <TLCTerm eId="bearingInMind" href="/akn/ontology/term/bearingInMind" showAs="Bearing in mind"/>
+            <TLCTerm eId="urges" href="/akn/ontology/term/urges" showAs="URGES"/>
+            <TLCTerm eId="requests" href="/akn/ontology/term/requests" showAs="REQUESTS"/>
+            <TLCOrganization eId="director-general" href="/akn/ontology/organization/un/director-general" showAs="Director-General"/>
+            <TLCOrganization eId="wfpExecutiveBoard" href="/akn/ontology/organization/un/wfpExecutiveBoard" showAs="Executive Board"/>
+            <TLCEvent href="/akn/ontology/event/whoha/eleventhPlenaryMeeting" eId="eleventhPlenaryMeeting" showAs="Eleventh plenary meeting"/>
+            <TLCOrganization eId="committeeA" href="/akn/ontology/organization/un/committeeA" showAs="Committee A"/>
+            <TLCPerson eId="source" href="/akn/ontology/person/somebody" showAs="somebody"/>
+         </references>
+      </meta>
+      <preface>
+         <p>
+            <docNumber>WHA60.23</docNumber>
+            <docTitle>Prevention and control of noncommunicable diseases: implementation of the global strategy</docTitle>
+         </p>
+      </preface>
+      <preamble>
+         <formula name="enactingFormula">
+            <p>The Sixtieth <organization refersTo="#worldHealthAssembly" eId="organization_1">World Health Assembly</organization>,</p>
+         </formula>
+         <container name="havingConsidered">
+            <p>
+               <term refersTo="#havingConsidered" eId="term_1">Having considered</term> the report on prevention and control of noncommunicable diseases: implementation of the global strategy; <authorialNote marker="1" placement="bottom" eId="authorialNote_1">
+                  <p>Document A60/15.</p>
+               </authorialNote>
+            </p>
+         </container>
+         <container name="recalling">
+            <p>
+               <term refersTo="#recalling" eId="term_2">Recalling</term> resolutions <ref href="/akn/un/statement/deliberation/whowha/2000-05-20/wha53_17/!main">WHA53.17</ref> on prevention and control of noncommunicable diseases, <ref href="/akn/un/statement/deliberation/whowha/2001-05-22/wha54_18/!main">WHA54.18</ref> on transparency in tobacco control process, <ref href="/akn/un/statement/deliberation/whowha/2003-05-21/wha56_1/!main">WHA56.1</ref> on the <organization refersTo="#who" eId="organization_2">WHO</organization> Framework <organization refersTo="#faoInternationalPlantProtectionConvention" eId="organization_3">Convention</organization> on Tobacco Control, <ref href="/akn/un/statement/deliberation/whowha/2004-05-22/wha57_17/!main">WHA57.17</ref> on the Global Strategy on Diet, Physical Activity and Health, <ref href="/akn/un/statement/deliberation/whowha/2004-05-22/wha57_16/!main">WHA57.16</ref> on health promotion and healthy lifestyles, <ref href="/akn/un/statement/deliberation/whowha/2005-05-25/wha58_22/!main">WHA58.22</ref> on cancer prevention and control, and <ref href="/akn/un/statement/deliberation/whowha/2005-05-25/wha58_26/!main">WHA58.26</ref> on public- health problems caused by harmful use of alcohol, and the many related regional committee resolutions, including on mental health;</p>
+         </container>
+         <container name="deeplyConcerned">
+            <p>Deeply <term refersTo="#concerned" eId="term_4">concerned</term> that in 2005 noncommunicable diseases caused an estimated 35 million deaths (60% of all deaths globally), that 80% of these deaths occurred in low- and middle-income countries, and that about 16 million deaths occurred among people under 70 years of age;</p>
+         </container>
+         <container name="noting">
+            <p>
+               <term refersTo="#noting" eId="term_5">Noting</term> that mortality due to noncommunicable diseases is expected to rise by a further 17% by 2015, with serious socioeconomic consequences for Member <organization refersTo="#states" eId="organization_4">States</organization>, communities and families;</p>
+         </container>
+         <container name="noting">
+            <p>
+               <term refersTo="#noting" eId="term_6">Noting</term> the links between noncommunicable diseases, development, the environment,and human security, and their contribution to health inequalities;</p>
+         </container>
+         <container name="noting">
+            <p>
+               <term refersTo="#noting" eId="term_7">Noting</term> that multisectoral responses continue to be limited by lack of awareness of, and appropriate action to reverse, the pandemic of noncommunicable diseases;</p>
+         </container>
+         <container name="noting">
+            <p>
+               <term refersTo="#noting" eId="term_9">Noting</term> that the importance of prevention and control of noncommunicable diseases has been highlighted in the Eleventh General <organization refersTo="#faoprogrammecommittee" eId="organization_5">Programme</organization> of Work 2006–2015, which includes the target of reducing death rates from noncommunicable diseases by 2% annually during the next 10 years;</p>
+         </container>
+         <container name="noting">
+            <p>
+               <term refersTo="#noting" eId="term_10">Noting</term> the increasing evidence on the cost-effectiveness of several simple interventions for prevention and control of noncommunicable diseases;</p>
+         </container>
+         <container name="noting">
+            <p>
+               <term refersTo="#noting" eId="term_11">Noting</term> the importance of motivating, educating and supporting individuals and families to make healthy choices in their daily lives, and the important role played by governments in providing healthy public policy and environments;</p>
+         </container>
+         <container name="Confirming">
+            <p>Confirming the importance of tackling the major underlying risk factors for noncommunicable diseases in an integrated, comprehensive, multisectoral and step-by-step manner;</p>
+         </container>
+         <container name="recognizing">
+            <p>
+               <term refersTo="#recognizing" eId="term_12">Recognizing</term> the heavy social and economic burden of musculoskeletal disorders, especially among the workforce and elderly people;</p>
+         </container>
+         <container name="bearingInMind">
+            <p>
+               <term refersTo="#bearingInMind" eId="term_13">Bearing in mind</term> that the response to the triple burden of infectious diseases, noncommunicable diseases and injuriesfaced by many countries, and their severe resource constraints, requires a strong primary health-care system within an integrated health system;</p>
+         </container>
+         <container name="recognizing">
+            <p>
+               <term refersTo="#recognizing" eId="term_14">Recognizing</term> that the implementation of the <organization refersTo="#who" eId="organization_6">WHO</organization> Framework <organization refersTo="#faoInternationalPlantProtectionConvention" eId="organization_7">Convention</organization> on Tobacco Control is an essential measure for the prevention and control of noncommunicable diseases;</p>
+         </container>
+         <container name="recognizing">
+            <p>
+               <term refersTo="#recognizing" eId="term_15">Recognizing</term> that greater efforts are required globally to promote physical activity and healthy lifestyles, and to improve the nutritional quality of food and drink products, the way in which they are marketed, and the quality of information and its availability to consumers and their families, in particular children, young people and other population groups in vulnerable circumstances;</p>
+         </container>
+         <container name="recognizing">
+            <p>
+               <term refersTo="#recognizing" eId="term_16">Recognizing</term> that more information is required on the socioeconomic and developmental impact of noncommunicable diseases and on the outcome of available interventions;</p>
+         </container>
+         <container name="aware">
+            <p>
+               <term refersTo="#aware" eId="term_17">Aware</term> that Member <organization refersTo="#states" eId="organization_8">States</organization> spend only a small proportion of their health-care budget on prevention of noncommunicable diseases and on public health, and that even a minor increase in that percentage would yield tremendous health and socioeconomic benefits,</p>
+         </container>
+      </preamble>
+      <mainBody>
+         <paragraph eId="para_1">
+            <num>1. </num>
+            <intro eId="para_1__content">
+               <p>
+                  <term refersTo="#urges" eId="term_18">URGES</term> Member <organization refersTo="#states" eId="organization_9">States</organization>:</p>
+            </intro>
+            <subparagraph eId="para_1__subpara_1">
+               <num>(1)</num>
+               <content eId="para_1__subpara_1__content">
+                  <p>to strengthen national and local political will to prevent and control noncommunicable diseases as part of a commitment to achieving the target of reducing death rates from noncommunicable diseases by 2% annually for the next 10 years, as contained in the Eleventh General <organization refersTo="#faoprogrammecommittee" eId="organization_10">Programme</organization> of Work, 2006–2015; <authorialNote marker="2" placement="bottom" eId="authorialNote_2">
+                        <p>Document A59/25, Appendix 6.</p>
+                     </authorialNote>
+                  </p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_2">
+               <num>(2)</num>
+               <content eId="para_1__subpara_2__content">
+                  <p>to establish and strengthen a national coordinating mechanism and local coalitions for prevention and control of noncommunicable diseases where appropriate to national circumstances, with a broad multisectoral mandate that includes mobilization of political will and financial resources and involves all relevant stakeholders;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_3">
+               <num>(3)</num>
+               <content eId="para_1__subpara_3__content">
+                  <p>to develop and implement a national multisectoral evidence-based action plan for prevention and control of noncommunicable diseases that sets out priorities, a time frame and performance indicators, provides the basis for coordinating the work of all stakeholders, and actively engages civil society, while ensuring avoidance of potential conflict of interest;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_4">
+               <num>(4)</num>
+               <content eId="para_1__subpara_4__content">
+                  <p>to increase, as appropriate, resources for programmes for prevention and control of noncommunicable diseases;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_5">
+               <num>(5)</num>
+               <content eId="para_1__subpara_5__content">
+                  <p>to implement and increase support for existing global initiatives and the <organization refersTo="#who" eId="organization_11">WHO</organization> Framework <organization refersTo="#faoInternationalPlantProtectionConvention" eId="organization_12">Convention</organization> on Tobacco Control that contribute to achieving the target of reducing death rates from noncommunicable diseases by 2% annually for the next 10 years;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_6">
+               <num>(6)</num>
+               <content eId="para_1__subpara_6__content">
+                  <p>to strengthen the capacity of health systems for prevention, to make prevention and control of noncommunicable diseases an integral part of primary health-care programmes, and to ensure that health institutions are adequately organized in order to meet the serious challenges raised by noncommunicable diseases, thereby implicitly focusing on primary health care;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_7">
+               <num>(7)</num>
+               <content eId="para_1__subpara_7__content">
+                  <p>to strengthen monitoring and evaluation systems, including country-level epidemiological surveillance mechanisms, in order to compile evidence for informing policy decisions;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_8">
+               <num>(8)</num>
+               <content eId="para_1__subpara_8__content">
+                  <p>to emphasize the key role of governmental functions, including regulatory functions, when combating noncommunicable diseases;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_9">
+               <num>(9)</num>
+               <content eId="para_1__subpara_9__content">
+                  <p>to increase access to appropriate health care, including affordable, high-quality medicines for high-risk populations in low- and middle-income countries;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_10">
+               <num>(10)</num>
+               <content eId="para_1__subpara_10__content">
+                  <p>to incorporate into their national health programmes strategies for public health interventions designed to reduce the incidence of obesity in children and adults, together with measures to prevent and control diabetes mellitus;</p>
+               </content>
+            </subparagraph>
+         </paragraph>
+         <paragraph eId="para_2">
+            <num>2. </num>
+            <intro eId="para_2__content">
+               <p>
+                  <term refersTo="#requests" eId="term_19">REQUESTS</term> the <organization refersTo="#director-general" eId="organization_13">Director-General</organization>:</p>
+            </intro>
+            <subparagraph eId="para_2__subpara_1">
+               <num>(1)</num>
+               <content eId="para_2__subpara_1__content">
+                  <p>on the basis of an outline contained in the report onprevention and control of noncommunicable diseases:implementation of the global strategy, <authorialNote marker="3" placement="bottom" eId="authorialNote_3">
+                        <p>Document A60/15.</p>
+                     </authorialNote> to prepare an action plan to be submitted to the Sixty-first <organization refersTo="#worldHealthAssembly" eId="organization_14">World Health Assembly</organization>, through the <organization refersTo="#wfpExecutiveBoard" eId="organization_15">Executive Board</organization>, that sets out priorities, actions, a time frame and performance indicators for prevention and control of noncommunicable diseases between 2008 and 2013 at global and regional levels, and to provide support where needed for elaboration, intensified implementation and monitoring of national plans for prevention and control of noncommunicable diseases, including the further development of an intervention to manage the conditions of people at high risk of such diseases;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_2__subpara_2">
+               <num>(2)</num>
+               <content eId="para_2__subpara_2__content">
+                  <p>to raise further awareness among Member <organization refersTo="#states" eId="organization_16">States</organization> of the importance of drawing up, promoting and funding supportive national multisectoral coordination and surveillance mechanisms, health promotion programmes and plans for prevention and control of noncommunicable diseases;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_2__subpara_3">
+               <num>(3)</num>
+               <content eId="para_2__subpara_3__content">
+                  <p>to provide support to Member <organization refersTo="#states" eId="organization_17">States</organization>, on request, andto foster partnership, collaboration, cooperation and sharing of best practices among Member <organization refersTo="#states" eId="organization_18">States</organization>for incorporating comprehensive noncommunicable disease interventions into national policies and programmes, including health systems policies and programmes, and for expanding interventions,including strategies to educate and support individuals and families;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_2__subpara_4">
+               <num>(4)</num>
+               <content eId="para_2__subpara_4__content">
+                  <p>to disseminate to Member <organization refersTo="#states" eId="organization_19">States</organization>, in a timely and consistent manner, information on cost-effective, core interventions aimed at preventing and controlling noncommunicable diseases;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_2__subpara_5">
+               <num>(5)</num>
+               <content eId="para_2__subpara_5__content">
+                  <p>to encourage dialogue with international, regional and national nongovernmental organizations, donors and technical-agency partners and the private sector, while ensuring avoidance of potential conflict of interest, in order to increase support, resources and partnerships for prevention and control of noncommunicable diseases, including health and wellness programmes at the workplace, as appropriate;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_2__subpara_6">
+               <num>(6)</num>
+               <content eId="para_2__subpara_6__content">
+                  <p>to promote initiatives aimed at implementing the global strategy for prevention and control of noncommunicable diseases with the purpose of increasing availability of healthy food and promoting healthy diets and healthy eating habits, and to promote responsible marketing, including the development of a set of recommendations on marketing of foods and nonalcoholic beverages to children, in order to reduce the impact of foods high in saturated fats, trans ‑fatty acids, free sugars, or salt, in dialogue with all relevant stakeholders, including private-sector parties, while ensuring avoidance of potential conflict of interest;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_2__subpara_7">
+               <num>(7)</num>
+               <content eId="para_2__subpara_7__content">
+                  <p>to build and sustain contact with the mass media in order to ensure continued prominence in the media of issues related to the prevention and control of noncommunicable diseases;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_2__subpara_8">
+               <num>(8)</num>
+               <content eId="para_2__subpara_8__content">
+                  <p>to improve understanding of the socioeconomic impact of noncommunicable diseases at national and household levels, especially in low- and middle-income countries;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_2__subpara_9">
+               <num>(9)</num>
+               <content eId="para_2__subpara_9__content">
+                  <p>to ensure that the work on prevention and control of noncommunicable diseases is given suitably high priority and support where appropriate;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_2__subpara_10">
+               <num>(10)</num>
+               <content eId="para_2__subpara_10__content">
+                  <p>to develop mechanisms for Member <organization refersTo="#states" eId="organization_20">States</organization> to coordinate activities on the prevention and control of noncommunicable diseases, in particular to recognize global and regional networking programmes on the prevention and control of noncommunicable diseases as an effective means of cooperation and of implementing the global strategy, and to provide funding and support for the organization and coordination of these programmes at global and regional levels;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_2__subpara_11">
+               <num>(11)</num>
+               <content eId="para_2__subpara_11__content">
+                  <p>strongly to promote dialogue between Member <organization refersTo="#states" eId="organization_21">States</organization> with a view to implementation of concrete actions to prevent obesity and diabetes mellitus within the framework of resolution <ref href="/akn/un/statement/deliberation/whowha/2000-05-20/wha53_17/!main">WHA53.17</ref> on prevention and control of noncommunicable diseases and the Global Strategy on Diet, Physical Activity and Health;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_2__subpara_12">
+               <num>(12)</num>
+               <content eId="para_2__subpara_12__content">
+                  <p>to report to the Sixty-third <organization refersTo="#worldHealthAssembly" eId="organization_22">World Health Assembly</organization>, and subsequently every two years to the Health Assembly, through the <organization refersTo="#wfpExecutiveBoard" eId="organization_23">Executive Board</organization>, on progress in implementing the global strategy on prevention and control of noncommunicable diseases, including progress on the action plan.</p>
+               </content>
+            </subparagraph>
+         </paragraph>
+      </mainBody>
+      <conclusions>
+         <p>(<event refersTo="#eleventhPlenaryMeeting" eId="event_1">Eleventh plenary meeting</event>, <docDate date="2007-05-23">23 May 2007</docDate> –<organization refersTo="#committeeA" eId="organization_24">Committee A</organization>, fifth report)</p>
+      </conclusions>
+   </statement>
+</akomaNtoso>

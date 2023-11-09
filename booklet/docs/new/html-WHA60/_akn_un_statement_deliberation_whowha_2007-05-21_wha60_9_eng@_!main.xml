@@ -1,0 +1,102 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eLUNa="https://cms.unov.org/eLuna/2017/main" xmlns:akn4un="http://un.org/metadata" xmlns:html="http://www.w3.org/1999/xhtml">
+   <statement name="resolution">
+      <meta>
+         <identification source="#source">
+            <FRBRWork>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-21/wha60_9/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-21/wha60_9"/>
+               <FRBRdate date="2007-05-21" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+               <FRBRcountry value="un"/>
+               <FRBRnumber value="wha60_9"/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-21/wha60_9/eng@/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-21/wha60_9/eng@"/>
+               <FRBRdate date="2007-05-21" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-21/wha60_9/eng@/!main.xml"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-21/wha60_9/eng@.xml"/>
+               <FRBRdate date="2023-08-23" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+            </FRBRManifestation>
+         </identification>
+         <references source="#source">
+            <TLCOrganization eId="worldHealthAssembly" href="/akn/ontology/organization/un/worldHealthAssembly" showAs="World Health Assembly"/>
+            <TLCOrganization eId="director-general" href="/akn/ontology/organization/un/director-general" showAs="Director-General"/>
+            <TLCOrganization eId="wfpExecutiveBoard" href="/akn/ontology/organization/un/wfpExecutiveBoard" showAs="Executive Board"/>
+            <TLCTerm eId="havingConsidered" href="/akn/ontology/term/havingConsidered" showAs="Having considered"/>
+            <TLCTerm eId="endorses" href="/akn/ontology/term/endorses" showAs="ENDORSES"/>
+            <TLCTerm eId="notes" href="/akn/ontology/term/notes" showAs="NOTES"/>
+            <TLCOrganization eId="unsystem" href="/akn/ontology/organization/un/unsystem" showAs="United Nations System"/>
+            <TLCOrganization eId="un" href="/akn/ontology/organization/un/un" showAs="UN"/>
+            <TLCOrganization eId="who" href="/akn/ontology/organization/un/who" showAs="WHO"/>
+            <TLCOrganization eId="states" href="/akn/ontology/organization/un/states" showAs="States"/>
+            <TLCEvent href="/akn/ontology/event/whoha/ninthPlenaryMeeting" eId="ninthPlenaryMeeting" showAs="Ninth plenary meeting"/>
+            <TLCOrganization eId="committeeB" href="/akn/ontology/organization/un/committeeB" showAs="Committee B"/>
+            <TLCPerson eId="source" href="/akn/ontology/person/somebody" showAs="somebody"/>
+         </references>
+      </meta>
+      <preface>
+         <p>
+            <docNumber>WHA60.9</docNumber>
+            <docTitle>Amendments to the Financial Regulations and Financial Rules: introduction of International Public Sector Accounting Standards <authorialNote marker="1" placement="bottom" eId="authorialNote_1">
+                  <p>See Annex 1.</p>
+               </authorialNote>
+            </docTitle>
+         </p>
+      </preface>
+      <preamble>
+         <formula name="enactingFormula">
+            <p>The Sixtieth <organization refersTo="#worldHealthAssembly" eId="organization_1">World Health Assembly</organization>,</p>
+         </formula>
+         <container name="havingConsidered">
+            <p>
+               <term refersTo="#havingConsidered" eId="term_1">Having considered</term> the report on the introduction of the International Public Sector Accounting Standards (IPSAS) and associated amendments to the Financial Regulations proposed by the <organization refersTo="#director-general" eId="organization_2">Director-General</organization> and endorsed by the <organization refersTo="#wfpExecutiveBoard" eId="organization_3">Executive Board</organization> at its 120th session, <authorialNote marker="2" placement="bottom" eId="authorialNote_2">
+                  <p>Document A60/33.</p>
+               </authorialNote>
+            </p>
+         </container>
+      </preamble>
+      <mainBody>
+         <paragraph eId="para_1">
+            <num>1. </num>
+            <content eId="para_1__content">
+               <p>
+                  <term refersTo="#endorses" eId="term_2">ENDORSES</term> the introduction of IPSAS;</p>
+            </content>
+         </paragraph>
+         <list eId="para_2">
+            <num>2. </num>
+            <intro eId="para_2__content">
+               <p>
+                  <term refersTo="#notes" eId="term_3">NOTES</term> the change to the <organization refersTo="#unsystem" eId="organization_4">United Nations System</organization> Accounting Standards (<organization refersTo="#un" eId="organization_5">UN</organization>SAS) that will permit <organization refersTo="#who" eId="organization_6">WHO</organization> to introduce IPSAS progressively;</p>
+            </intro>
+            <point eId="para_2__list_3">
+               <num>3.</num>
+               <content eId="para_2__list_3__content">
+                  <p>F urther <term refersTo="#notes" eId="term_4">NOTES</term> that the <organization refersTo="#director-general" eId="organization_7">Director-General</organization> shall submit to the governing bodies for consideration at future sessions proposals to amend the Financial Regulations and Financial Rules resulting from adoption of IPSAS;</p>
+               </content>
+            </point>
+         </list>
+         <paragraph eId="para_3">
+            <num>4. </num>
+            <content eId="para_3__content">
+               <p>ADOPTS amendments to Financial Regulation 4.4 in order to clarify operation of the exchange-rate facility, to be effective as from <date date="2008-01-01">1 January 2008</date>, and to Financial Regulation 4.5 in order to permit regular budget resources to be carried forward to pay for commitments made before the end of a financial period and undertaken by the end of the first year of the next financial period;</p>
+            </content>
+         </paragraph>
+         <paragraph eId="para_4">
+            <num>5. </num>
+            <content eId="para_4__content">
+               <p>DELETES Financial Regulations 6.5 and 8.2 in order to terminate the financial incentive scheme that has failed to encourage prompt payment of Member <organization refersTo="#states" eId="organization_8">States</organization>’ assessments, to be effective as from 1 January 2008.</p>
+            </content>
+         </paragraph>
+      </mainBody>
+      <conclusions>
+         <p>(<event refersTo="#ninthPlenaryMeeting" eId="event_1">Ninth plenary meeting</event>, <docDate date="2007-05-21">21 May 2007</docDate> –<organization refersTo="#committeeB" eId="organization_9">Committee B</organization>, first report)</p>
+      </conclusions>
+   </statement>
+</akomaNtoso>

@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns:akn4un="http://un.org/metadata" xmlns:eLUNa="https://cms.unov.org/eLuna/2017/main" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+   <statement name="resolution">
+      <meta>
+         <identification source="#source">
+            <FRBRWork>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-21/wha60_13/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-21/wha60_13"/>
+               <FRBRdate date="2007-05-21" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+               <FRBRcountry value="un"/>
+               <FRBRnumber value="wha60_13"/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-21/wha60_13/eng@/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-21/wha60_13/eng@"/>
+               <FRBRdate date="2007-05-21" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-21/wha60_13/eng@/!main.xml"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-21/wha60_13/eng@.xml"/>
+               <FRBRdate date="2023-09-13" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+            </FRBRManifestation>
+         </identification>
+         <references source="#source">
+            <TLCOrganization eId="worldHealthAssembly" href="/akn/ontology/organization/un/worldHealthAssembly" showAs="World Health Assembly"/>
+            <TLCOrganization eId="states" href="/akn/ontology/organization/un/states" showAs="States"/>
+            <TLCTerm eId="havingConsidered" href="/akn/ontology/term/havingConsidered" showAs="having considered"/>
+            <TLCTerm eId="recognizing" href="/akn/ontology/term/recognizing" showAs="recognizing"/>
+            <TLCTerm eId="noting" href="/akn/ontology/term/noting" showAs="noting"/>
+            <TLCTerm eId="bearingInMind" href="/akn/ontology/term/bearingInMind" showAs="bearing in mind"/>
+            <TLCTerm eId="acknowledging" href="/akn/ontology/term/acknowledging" showAs="acknowledging"/>
+            <TLCTerm eId="appreciating" href="/akn/ontology/term/appreciating" showAs="appreciating"/>
+            <TLCTerm eId="urges" href="/akn/ontology/term/urges" showAs="urges"/>
+            <TLCTerm eId="callsOn" href="/akn/ontology/term/callsOn" showAs="calls on"/>
+            <TLCTerm eId="requests" href="/akn/ontology/term/requests" showAs="requests"/>
+            <TLCTerm eId="aware" href="/akn/ontology/term/aware" showAs="aware"/>
+            <TLCTerm eId="concerned" href="/akn/ontology/term/concerned" showAs="concerned"/>
+            <TLCOrganization eId="who" href="/akn/ontology/organization/un/who" showAs="WHO"/>
+            <TLCOrganization eId="director-general" href="/akn/ontology/organization/un/director-general" showAs="Director-General"/>
+            <TLCOrganization eId="un" href="/akn/ontology/organization/un/un" showAs="UN"/>
+            <TLCOrganization eId="worldBank" href="/akn/ontology/organization/un/worldBank" showAs="World Bank"/>
+            <TLCOrganization eId="faoprogrammecommittee" href="/akn/ontology/organization/un/faoprogrammecommittee" showAs="Programme"/>
+            <TLCEvent href="/akn/ontology/event/whowha/ninthPlenaryMeeting" eId="ninthPlenaryMeeting" showAs="Ninth plenary meeting"/>
+            <TLCOrganization eId="committeeA" href="/akn/ontology/organization/un/committeeA" showAs="Committee A"/>
+            <TLCPerson eId="source" href="/akn/ontology/person/somebody" showAs="somebody"/>
+         </references>
+      </meta>
+      <preface>
+         <p>
+            <docNumber>WHA60.13</docNumber>
+            <docTitle>Control of leishmaniasis</docTitle>
+         </p>
+      </preface>
+      <preamble>
+         <formula name="enactingFormula">
+            <p>The Sixtieth <organization refersTo="#worldHealthAssembly" eId="organization_1">World Health Assembly</organization>,</p>
+         </formula>
+         <container name="havingConsidered">
+            <p>
+               <term refersTo="#havingConsidered" eId="term_1">Having considered</term> the report on control of leishmaniasis; <authorialNote marker="1" placement="bottom" eId="authorialNote_1">
+                  <p>Document A60/10.</p>
+               </authorialNote>
+            </p>
+         </container>
+         <container name="recognizing">
+            <p>
+               <term refersTo="#recognizing" eId="term_2">Recognizing</term> that leishmaniasis is one of the most neglected tropical diseases, and that more than 12 million people worldwide are currently infected, with two million new cases each year;</p>
+         </container>
+         <container name="noting">
+            <p>
+               <term refersTo="#noting" eId="term_3">Noting</term> with concern that 350 million people are considered at risk and the number of new cases is on the increase;</p>
+         </container>
+         <container name="recognizing">
+            <p>
+               <term refersTo="#recognizing" eId="term_4">Recognizing</term> the lack of accurate information on the epidemiology of the disease for better understanding of the disease and its control;</p>
+         </container>
+         <container name="noting">
+            <p>
+               <term refersTo="#noting" eId="term_5">Noting</term> with concern that the disease affects the poorest populations in 88 countries, placing a heavy economic burden on families, communities and countries, particularly developing countries;</p>
+         </container>
+         <container name="noting">
+            <p>
+               <term refersTo="#noting" eId="term_6">Noting</term> the burden that treatment can place on families;</p>
+         </container>
+         <container name="bearingInMind">
+            <p>
+               <term refersTo="#bearingInMind" eId="term_7">Bearing in mind</term> that malnutrition and food insecurity are often identified as major causes of disposition to, and severity of, leishmaniasis;</p>
+         </container>
+         <container name="acknowledging">
+            <p>
+               <term refersTo="#acknowledging" eId="term_8">Acknowledging</term> the significant support extended by Member <organization refersTo="#states" eId="organization_2">States</organization> and other partners and <term refersTo="#appreciating" eId="term_9">appreciating</term> their continuing cooperation;</p>
+         </container>
+         <container name="acknowledging">
+            <p>
+               <term refersTo="#acknowledging" eId="term_10">Acknowledging</term> that relevant Member <organization refersTo="#states" eId="organization_3">States</organization> from the South-East Asia Region have committed themselves to collaborate in efforts to eliminate visceral leishmaniasis (kala-azar) from the Region by 2015, <authorialNote marker="2" placement="bottom" eId="authorialNote_2">
+                  <p>Memorandum of understanding on Elimination of Kala-azar in the South-East Asia Region, 18 May 2005.</p>
+               </authorialNote>
+            </p>
+         </container>
+      </preamble>
+      <mainBody>
+         <paragraph eId="para_1">
+            <num>1. </num>
+            <intro eId="para_1__content">
+               <p>
+                  <term refersTo="#urges" eId="term_11">URGES</term> Member <organization refersTo="#states" eId="organization_4">States</organization> where leishmaniasis is a substantial public-health problem:</p>
+            </intro>
+            <subparagraph eId="para_1__subpara_1">
+               <num>(1)</num>
+               <content eId="para_1__subpara_1__content">
+                  <p>to reinforce efforts to set up national control programmes that would draw up guidelines and establish systems for surveillance, data collection and analysis;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_2">
+               <num>(2)</num>
+               <content eId="para_1__subpara_2__content">
+                  <p>to strengthen prevention, active detection and treatment of cases of both cutaneous and visceral leishmaniasis in order to decrease the disease burden;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_3">
+               <num>(3)</num>
+               <content eId="para_1__subpara_3__content">
+                  <p>to strengthen the capacity of peripheral health centres to deliver primary and secondary care,so that they provide appropriate affordable diagnosis and treatment and act as sentinel surveillance sites;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_4">
+               <num>(4)</num>
+               <content eId="para_1__subpara_4__content">
+                  <p>to conduct epidemiological assessments in order to map foci, and to calculate the real impact of leishmaniasis through accurate studies of prevalence and incidence, socioeconomic impact and access to prevention and care, and the extent of the disease in those affected by malnutrition and HIV;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_5">
+               <num>(5)</num>
+               <content eId="para_1__subpara_5__content">
+                  <p>to strengthen collaboration between countries that share common foci or disease threats;to establish a decentralized structure in areas with major foci of disease, strengthening collaboration between countries that share common foci, increasing the number of <organization refersTo="#who" eId="organization_5">WHO</organization> collaborating centres for leishmaniasis and giving them a greater role, and relying on initiatives taken by the various actorsand interagency collaboration at national and international levels in all aspects of leishmaniasis control, detection and treatment, such initiatives being encouraged with the private sector by national control programmes;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_6">
+               <num>(6)</num>
+               <content eId="para_1__subpara_6__content">
+                  <p>to promote the sustainability of surveillance and leishmaniasis control;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_7">
+               <num>(7)</num>
+               <content eId="para_1__subpara_7__content">
+                  <p>to improve knowledge about, and skills to prevent, leishmaniasis among people in rural areas, and improve their socioeconomic status in order to combat leishmaniasis;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_8">
+               <num>(8)</num>
+               <content eId="para_1__subpara_8__content">
+                  <p>to support studies on the surveillance and control of leishmaniasis;</p>
+               </content>
+            </subparagraph>
+            <list eId="para_1__subpara_9">
+               <num>(9)</num>
+               <intro eId="para_1__subpara_9__content">
+                  <p>to share experiences in the development of studies of, and technologies on, the prevention and control of leishmaniasis;</p>
+               </intro>
+               <point eId="para_1__subpara_9__list_2">
+                  <num>2.</num>
+                  <content eId="para_1__subpara_9__list_2__content">
+                     <p>FURTHER <term refersTo="#urges" eId="term_12">URGES</term> Member <organization refersTo="#states" eId="organization_6">States</organization>:</p>
+                  </content>
+               </point>
+            </list>
+            <subparagraph eId="para_1__subpara_10">
+               <num>(1)</num>
+               <content eId="para_1__subpara_10__content">
+                  <p>to advocate high-quality and affordable medicines, and appropriate national drug policies;</p>
+               </content>
+            </subparagraph>
+            <list eId="para_1__subpara_11">
+               <num>(2)</num>
+               <intro eId="para_1__subpara_11__content">
+                  <p>to encourage research on leishmaniasis control in order:</p>
+               </intro>
+            </list>
+            <point eId="para_1__subpara_11__list_a">
+               <num>(a)</num>
+               <content eId="para_1__subpara_11__list_a__content">
+                  <p>to identify appropriate and effective methods of control ofvectors and reservoirs;</p>
+               </content>
+            </point>
+            <point eId="para_1__subpara_11__list_b">
+               <num>(b)</num>
+               <content eId="para_1__subpara_11__list_b__content">
+                  <p>to find alternative safe, effective and affordable medicines for oral, parenteral or topical administration involving shorter treatment cycles, less toxicity, and new drug combinations, and to define appropriate doses and duration of therapy schedules for these medicines;</p>
+               </content>
+            </point>
+            <point eId="para_1__subpara_11__list_c">
+               <num>(c)</num>
+               <content eId="para_1__subpara_11__list_c__content">
+                  <p>to determine mechanisms to facilitate access to existing control measures, including socioeconomic studies and health-sector reform in some developing countries;</p>
+               </content>
+            </point>
+            <point eId="para_1__subpara_11__list_d">
+               <num>(d)</num>
+               <content eId="para_1__subpara_11__list_d__content">
+                  <p>to evaluate and improve sensitivity and specificity of serological diagnostic methods for canine and human visceral leishmaniasis, including assessment of standardization and effectiveness;</p>
+               </content>
+            </point>
+            <point eId="para_1__subpara_11__list_e">
+               <num>(e)</num>
+               <content eId="para_1__subpara_11__list_e__content">
+                  <p>to evaluate effectiveness of alternative control measures such as use of bednets impregnated with long-lasting insecticide;</p>
+               </content>
+            </point>
+         </paragraph>
+         <paragraph eId="para_2">
+            <num>3. </num>
+            <content eId="para_2__content">
+               <p>
+                  <term refersTo="#callsOn" eId="term_13">CALLS ON</term> partner bodies to maintain and expand their support for national leishmaniasis prevention and control programmes and, as appropriate, to accelerate research on, and development of, leishmaniasis vaccine;</p>
+            </content>
+         </paragraph>
+         <paragraph eId="para_3">
+            <num>4. </num>
+            <intro eId="para_3__content">
+               <p>
+                  <term refersTo="#requests" eId="term_14">REQUESTS</term> the <organization refersTo="#director-general" eId="organization_7">Director-General</organization>:</p>
+            </intro>
+            <subparagraph eId="para_3__subpara_1">
+               <num>(1)</num>
+               <content eId="para_3__subpara_1__content">
+                  <p>to raise awareness of the global burden of leishmaniasis, and to promote equitable access to health services for disease prevention and management;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_3__subpara_2">
+               <num>(2)</num>
+               <content eId="para_3__subpara_2__content">
+                  <p>to draft guidelines on prevention and management of leishmaniasis, with emphasis on updating the report of <organization refersTo="#who" eId="organization_8">WHO</organization>’s Expert Committee on Leishmaniasis, <authorialNote marker="3" placement="bottom" eId="authorialNote_3">
+                        <p>WHO Technical Report Series, 1990,No. 793.</p>
+                     </authorialNote> with a view to elaborating regional plans and fostering the establishment of regional groups of experts;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_3__subpara_3">
+               <num>(3)</num>
+               <content eId="para_3__subpara_3__content">
+                  <p>to strengthen collaborative efforts among multisectoral stakeholders, interested organizations and other bodies in order to support the development and implementation of leishmaniasis control programmes;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_3__subpara_4">
+               <num>(4)</num>
+               <content eId="para_3__subpara_4__content">
+                  <p>to frame a policy for leishmaniasis control, with the technical support of <organization refersTo="#who" eId="organization_9">WHO</organization>’s Expert Advisory Panel on Leishmaniasis;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_3__subpara_5">
+               <num>(5)</num>
+               <content eId="para_3__subpara_5__content">
+                  <p>to promote research pertaining to leishmaniasis control, including in the areas of safe, effective and affordable vaccines, diagnostic tools and medicines with less toxicity, and dissemination of the findings of that research, notably thorough the <organization refersTo="#un" eId="organization_10">UN</organization>ICEF/<organization refersTo="#un" eId="organization_11">UN</organization>DP/<organization refersTo="#worldBank" eId="organization_12">World Bank</organization>/<organization refersTo="#who" eId="organization_13">WHO</organization> Special <organization refersTo="#faoprogrammecommittee" eId="organization_14">Programme</organization> for Research and Training in Tropical Diseases;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_3__subpara_6">
+               <num>(6)</num>
+               <content eId="para_3__subpara_6__content">
+                  <p>to monitor progress in the control of leishmaniasis in collaboration with international partners,<organization refersTo="#who" eId="organization_15">WHO</organization> regional offices and Member <organization refersTo="#states" eId="organization_16">States</organization> affected by leishmaniasis;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_3__subpara_7">
+               <num>(7)</num>
+               <content eId="para_3__subpara_7__content">
+                  <p>to promote action with the major laboratories in order to reduce the costs of medicines to developing countries;</p>
+               </content>
+            </subparagraph>
+            <list eId="para_3__subpara_8">
+               <num>(8)</num>
+               <intro eId="para_3__subpara_8__content">
+                  <p>to promote and support:</p>
+               </intro>
+               <point eId="para_3__subpara_8__list_a">
+                  <num>(a)</num>
+                  <content eId="para_3__subpara_8__list_a__content">
+                     <p>evaluation of the efficacy of new medicines,</p>
+                  </content>
+               </point>
+               <point eId="para_3__subpara_8__list_b">
+                  <num>(b)</num>
+                  <content eId="para_3__subpara_8__list_b__content">
+                     <p>evaluation of dosage and length of treatment for existing medicines,</p>
+                  </content>
+               </point>
+               <point eId="para_3__subpara_8__list_c">
+                  <num>(c)</num>
+                  <content eId="para_3__subpara_8__list_c__content">
+                     <p>standardization of diagnostic reagents, in particular for visceral leishmaniasis;</p>
+                  </content>
+               </point>
+            </list>
+            <subparagraph eId="para_3__subpara_9">
+               <num>(9)</num>
+               <content eId="para_3__subpara_9__content">
+                  <p>to facilitate improved coordination among multilateral institutions and international donors <term refersTo="#concerned" eId="term_16">concerned</term> with leishmaniasis;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_3__subpara_10">
+               <num>(10)</num>
+               <content eId="para_3__subpara_10__content">
+                  <p>to report to the Sixty-third <organization refersTo="#worldHealthAssembly" eId="organization_17">World Health Assembly</organization> on progress achieved, problems encountered and further actions proposed in the implementation of leishmaniasis control programmes;</p>
+               </content>
+            </subparagraph>
+         </paragraph>
+      </mainBody>
+      <conclusions>
+         <p>(<event refersTo="#ninthPlenaryMeeting" eId="event_1">Ninth plenary meeting</event>, <docDate date="2007-05-21">21 May 2007</docDate> –<organization refersTo="#committeeA" eId="organization_18">Committee A</organization>, second report)</p>
+      </conclusions>
+   </statement>
+</akomaNtoso>

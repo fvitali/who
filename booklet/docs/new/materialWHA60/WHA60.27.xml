@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns:akn4un="http://un.org/metadata" xmlns:eLUNa="https://cms.unov.org/eLuna/2017/main" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+   <statement name="resolution">
+      <meta>
+         <identification source="#source">
+            <FRBRWork>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-23/wha60_27/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-23/wha60_27"/>
+               <FRBRdate date="2007-05-23" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+               <FRBRcountry value="un"/>
+               <FRBRnumber value="wha60_27"/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-23/wha60_27/eng@/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-23/wha60_27/eng@"/>
+               <FRBRdate date="2007-05-23" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-23/wha60_27/eng@/!main.xml"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-23/wha60_27/eng@.xml"/>
+               <FRBRdate date="2023-09-13" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+            </FRBRManifestation>
+         </identification>
+         <references source="#source">
+            <TLCOrganization eId="worldHealthAssembly" href="/akn/ontology/organization/un/worldHealthAssembly" showAs="World Health Assembly"/>
+            <TLCOrganization eId="unitedNations" href="/akn/ontology/organization/un/unitedNations" showAs="United Nations"/>
+            <TLCOrganization eId="who" href="/akn/ontology/organization/un/who" showAs="WHO"/>
+            <TLCOrganization eId="organization" href="/akn/ontology/organization/un/organization" showAs="Organization"/>
+            <TLCTerm eId="recalling" href="/akn/ontology/term/recalling" showAs="recalling"/>
+            <TLCTerm eId="noting" href="/akn/ontology/term/noting" showAs="noting"/>
+            <TLCTerm eId="mindful" href="/akn/ontology/term/mindful" showAs="mindful"/>
+            <TLCTerm eId="acknowledging" href="/akn/ontology/term/acknowledging" showAs="acknowledging"/>
+            <TLCTerm eId="recognizing" href="/akn/ontology/term/recognizing" showAs="recognizing"/>
+            <TLCTerm eId="convinced" href="/akn/ontology/term/convinced" showAs="convinced"/>
+            <TLCTerm eId="reaffirming" href="/akn/ontology/term/reaffirming" showAs="reaffirming"/>
+            <TLCTerm eId="urges" href="/akn/ontology/term/urges" showAs="urges"/>
+            <TLCTerm eId="aware" href="/akn/ontology/term/aware" showAs="aware"/>
+            <TLCTerm eId="callsEupon" href="/akn/ontology/term/callsEupon" showAs="calls eupon"/>
+            <TLCTerm eId="concerned" href="/akn/ontology/term/concerned" showAs="concerned"/>
+            <TLCTerm eId="requests" href="/akn/ontology/term/requests" showAs="requests"/>
+            <TLCTerm eId="bearingInMind" href="/akn/ontology/term/bearingInMind" showAs="bearing in mind"/>
+            <TLCOrganization eId="states" href="/akn/ontology/organization/un/states" showAs="States"/>
+            <TLCOrganization eId="director-general" href="/akn/ontology/organization/un/director-general" showAs="Director-General"/>
+            <TLCEvent href="/akn/ontology/event/whowha/eleventhPlenaryMeeting" eId="eleventhPlenaryMeeting" showAs="Eleventh plenary meeting"/>
+            <TLCOrganization eId="committeeA" href="/akn/ontology/organization/un/committeeA" showAs="Committee A"/>
+            <TLCPerson eId="source" href="/akn/ontology/person/somebody" showAs="somebody"/>
+         </references>
+      </meta>
+      <preface>
+         <p>
+            <docNumber>WHA60.27</docNumber>
+            <docTitle>Strengthening of health information systems</docTitle>
+         </p>
+      </preface>
+      <preamble>
+         <formula name="enactingFormula">
+            <p>The Sixtieth <organization refersTo="#worldHealthAssembly" eId="organization_1">World Health Assembly</organization>,</p>
+         </formula>
+         <container name="recalling">
+            <p>
+               <term refersTo="#recalling" eId="term_1">Recalling</term> resolution <ref href="/akn/un/statement/deliberation/whowha/2005-05-25/wha58_30/!main">WHA58.30</ref> on achieving internationally agreed health-related development goals, including those contained in the Millennium Declaration;</p>
+         </container>
+         <container name="noting">
+            <p>
+               <term refersTo="#noting" eId="term_2">Noting</term> resolution <ref href="/akn/un/statement/deliberation/whowha/2005-05-25/wha58_28/!main">WHA58.28</ref> on eHealth, and <term refersTo="#mindful" eId="term_3">mindful</term> of resolution <ref href="/akn/un/statement/deliberation/whowha/2005-05-16/wha58_34/!main">WHA58.34</ref> on the Ministerial Summit on Health Research;</p>
+         </container>
+         <container name="acknowledging">
+            <p>
+               <term refersTo="#acknowledging" eId="term_4">Acknowledging</term> that sound information is critical in framing evidence-based health policy and making decisions, and fundamental for monitoring progress towards internationally agreed health-related development goals, including those contained in the <organization refersTo="#unitedNations" eId="organization_2">United Nations</organization> Millennium Declaration;</p>
+         </container>
+         <container name="recognizing">
+            <p>
+               <term refersTo="#recognizing" eId="term_5">Recognizing</term> that health information systems in most developing countries are weak, fragmented,have on occasion scattered, isolated and hard-to-reach primary sources of information, and areunderstaffed and inadequately resourced;</p>
+         </container>
+         <container name="convinced">
+            <p>
+               <term refersTo="#convinced" eId="term_6">Convinced</term> of the importance of health information, disaggregated by gender, age and key socioeconomic factors, to inform decisions on delivery of interventions to those who need them most;</p>
+         </container>
+         <container name="acknowledging">
+            <p>
+               <term refersTo="#acknowledging" eId="term_7">Acknowledging</term> that health information and research are complementary as foundations for strengthening health systems and health policy;</p>
+         </container>
+         <container name="mindful">
+            <p>
+               <term refersTo="#mindful" eId="term_8">Mindful</term> of the key role of national statistics offices in developing and implementing national statistical strategies and contributing to population health information;</p>
+         </container>
+         <container name="noting">
+            <p>
+               <term refersTo="#noting" eId="term_9">Noting</term> the constitutional normative mandates of <organization refersTo="#who" eId="organization_3">WHO</organization> in health information and epidemiological reporting, and <term refersTo="#reaffirming" eId="term_10">reaffirming</term> the <organization refersTo="#organization" eId="organization_4">Organization</organization>’s role as a founding partner of, and hosting secretariat for, the Health Metrics Network which has determined core standards for health information systems,</p>
+         </container>
+      </preamble>
+      <mainBody>
+         <paragraph eId="para_1">
+            <num>1. </num>
+            <intro eId="para_1__content">
+               <p>
+                  <term refersTo="#urges" eId="term_11">URGES</term> Member <organization refersTo="#states" eId="organization_5">States</organization> to mobilize the necessary scientific, technical, social, political, human and financial resources in order:</p>
+            </intro>
+            <subparagraph eId="para_1__subpara_1">
+               <num>(1)</num>
+               <content eId="para_1__subpara_1__content">
+                  <p>to recognize, establish and operationalize health information systems as acore strategy for strengthening their national health systems;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_2">
+               <num>(2)</num>
+               <content eId="para_1__subpara_2__content">
+                  <p>to develop, implement, consolidate and assess plans to strengthen their health information systems through collaboration between health and statistics sectors and other partners, effective coordination within health departments and a rational division of responsibilities;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_3">
+               <num>(3)</num>
+               <content eId="para_1__subpara_3__content">
+                  <p>to determine programme-based information systems as subsets of national health information systems and to organize the harmonization of the various programme subsystems in this context;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_4">
+               <num>(4)</num>
+               <content eId="para_1__subpara_4__content">
+                  <p>to bring together technical and development partners around a coherent and coordinated country‑led strategy and plan for strengthening health information systems that is fully integrated in the mainstream of national health programmes and plans;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_5">
+               <num>(5)</num>
+               <content eId="para_1__subpara_5__content">
+                  <p>to strengthen the capacity of planners and managers at various levels of the health system to synthesize, analyse, disseminate and utilize health information for evidence‑based decision‑making and for raising public awareness;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_6">
+               <num>(6)</num>
+               <content eId="para_1__subpara_6__content">
+                  <p>to strengthen the capacity of health workers to collect accurate and relevant health information;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_7">
+               <num>(7)</num>
+               <content eId="para_1__subpara_7__content">
+                  <p>to link strengthening of health information systems to policies and programmes for building of statistical capacity in general;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_8">
+               <num>(8)</num>
+               <content eId="para_1__subpara_8__content">
+                  <p>to strengthen research on health information standards and to promote the standardization and harmonization of health information systems;</p>
+               </content>
+            </subparagraph>
+         </paragraph>
+         <paragraph eId="para_2">
+            <num>2. </num>
+            <content eId="para_2__content">
+               <p>
+                  <term refersTo="#callsEupon" eId="term_13">CALLS UPON</term> the health information and statistical communities, other international organizations, including global health initiatives and funds, the private sector, civil society and other <term refersTo="#concerned" eId="term_14">concerned</term> stakeholders, to provide strong, sustained support for strengthening of information systems, including use of the standards and guiding principles set out in the framework of the Health Metrics Network, and covering the spectrum of health statistics, including health determinants; health resources, expenditures and system functioning; service access, coverage and quality; and health outcomes and status, and according particular attention to information on poverty and inequity in health;</p>
+            </content>
+         </paragraph>
+         <paragraph eId="para_3">
+            <num>3. </num>
+            <intro eId="para_3__content">
+               <p>
+                  <term refersTo="#requests" eId="term_15">REQUESTS</term> the <organization refersTo="#director-general" eId="organization_6">Director-General</organization>:</p>
+            </intro>
+            <subparagraph eId="para_3__subpara_1">
+               <num>(1)</num>
+               <content eId="para_3__subpara_1__content">
+                  <p>to strengthen the information and evidence culture of the <organization refersTo="#organization" eId="organization_7">Organization</organization> and to ensure the use of accurate and timely health statistics in order to generate evidence for major policy decisions and recommendations within <organization refersTo="#who" eId="organization_8">WHO</organization>;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_3__subpara_2">
+               <num>(2)</num>
+               <content eId="para_3__subpara_2__content">
+                  <p>to increase <organization refersTo="#who" eId="organization_9">WHO</organization>’s activities in health statistics at global, regional and country levels and to provide harmonizedsupport to Member <organization refersTo="#states" eId="organization_10">States</organization> in order to build capacities for development of health information systems and generation, analysis, dissemination and use of data;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_3__subpara_3">
+               <num>(3)</num>
+               <content eId="para_3__subpara_3__content">
+                  <p>to promote better access to health statistics, encourage information dissemination to all stakeholders in appropriate and accessible formats, and foster transparency in data analysis, synthesis and evaluation, including peer review;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_3__subpara_4">
+               <num>(4)</num>
+               <content eId="para_3__subpara_4__content">
+                  <p>to promote improved alignment, harmonization and coordination of health information activities, <term refersTo="#bearingInMind" eId="term_16">bearing in mind</term> the Paris Declaration on Aid Effectiveness: Ownership, Harmonization, Alignment, Results and Mutual Accountability (2005) and the Best Practice Principles for Global Health Partnership Activities at Country Level, <authorialNote marker="1" placement="bottom" eId="authorialNote_1">
+                        <p>Best Practice Principles for Global Health Partnership Activities at Country Level. Report of the Working Group on Global Health Partnerships. Paris, High-level Forum on the Health MDGs, 14–15 November 2005.</p>
+                     </authorialNote> and to give priority to programmes that support health information systems;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_3__subpara_5">
+               <num>(5)</num>
+               <content eId="para_3__subpara_5__content">
+                  <p>to undertake regular reviews of country experiences, to provide support for updating the framework of the Health Metrics Network in line with lessons learnt and evolving methodologies, to keep countries informed about the Network, to support countries’ capabilities to become involved in the Network, and to report on progress as from the Sixty-second <organization refersTo="#worldHealthAssembly" eId="organization_11">World Health Assembly</organization>.</p>
+               </content>
+            </subparagraph>
+         </paragraph>
+      </mainBody>
+      <conclusions>
+         <p>(<event refersTo="#eleventhPlenaryMeeting" eId="event_1">Eleventh plenary meeting</event>, <docDate date="2007-05-23">23 May 2007</docDate> –<organization refersTo="#committeeA" eId="organization_12">Committee A</organization>, fifth report)</p>
+      </conclusions>
+   </statement>
+</akomaNtoso>

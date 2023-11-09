@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns:akn4un="http://un.org/metadata" xmlns:eLUNa="https://cms.unov.org/eLuna/2017/main" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+   <statement name="resolution">
+      <meta>
+         <identification source="#source">
+            <FRBRWork>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-23/wha60_22/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-23/wha60_22"/>
+               <FRBRdate date="2007-05-23" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+               <FRBRcountry value="un"/>
+               <FRBRnumber value="wha60_22"/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-23/wha60_22/eng@/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-23/wha60_22/eng@"/>
+               <FRBRdate date="2007-05-23" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-23/wha60_22/eng@/!main.xml"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-23/wha60_22/eng@.xml"/>
+               <FRBRdate date="2023-09-13" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+            </FRBRManifestation>
+         </identification>
+         <references source="#source">
+            <TLCOrganization eId="worldHealthAssembly" href="/akn/ontology/organization/un/worldHealthAssembly" showAs="World Health Assembly"/>
+            <TLCOrganization eId="director-general" href="/akn/ontology/organization/un/director-general" showAs="Director-General"/>
+            <TLCOrganization eId="states" href="/akn/ontology/organization/un/states" showAs="States"/>
+            <TLCOrganization eId="who" href="/akn/ontology/organization/un/who" showAs="WHO"/>
+            <TLCTerm eId="havingConsidered" href="/akn/ontology/term/havingConsidered" showAs="having considered"/>
+            <TLCTerm eId="recalling" href="/akn/ontology/term/recalling" showAs="recalling"/>
+            <TLCTerm eId="furtherRecalling" href="/akn/ontology/term/furtherRecalling" showAs="further recalling"/>
+            <TLCTerm eId="requested" href="/akn/ontology/term/requested" showAs="requested"/>
+            <TLCTerm eId="recognizing" href="/akn/ontology/term/recognizing" showAs="recognizing"/>
+            <TLCTerm eId="aware" href="/akn/ontology/term/aware" showAs="aware"/>
+            <TLCTerm eId="considering" href="/akn/ontology/term/considering" showAs="considering"/>
+            <TLCTerm eId="urges" href="/akn/ontology/term/urges" showAs="urges"/>
+            <TLCTerm eId="concerned" href="/akn/ontology/term/concerned" showAs="concerned"/>
+            <TLCTerm eId="requests" href="/akn/ontology/term/requests" showAs="requests"/>
+            <TLCOrganization eId="wfpExecutiveBoard" href="/akn/ontology/organization/un/wfpExecutiveBoard" showAs="Executive Board"/>
+            <TLCEvent href="/akn/ontology/event/whowha/eleventhPlenaryMeeting" eId="eleventhPlenaryMeeting" showAs="Eleventh plenary meeting"/>
+            <TLCOrganization eId="committeeA" href="/akn/ontology/organization/un/committeeA" showAs="Committee A"/>
+            <TLCPerson eId="source" href="/akn/ontology/person/somebody" showAs="somebody"/>
+         </references>
+      </meta>
+      <preface>
+         <p>
+            <docNumber>WHA60.22</docNumber>
+            <docTitle>Health systems: emergency-care systems</docTitle>
+         </p>
+      </preface>
+      <preamble>
+         <formula name="enactingFormula">
+            <p>The Sixtieth <organization refersTo="#worldHealthAssembly" eId="organization_1">World Health Assembly</organization>,</p>
+         </formula>
+         <container name="havingConsidered">
+            <p>
+               <term refersTo="#havingConsidered" eId="term_1">Having considered</term> the report on health systems: emergency-care systems; <authorialNote marker="1" placement="bottom" eId="authorialNote_1">
+                  <p>Document A60/21.</p>
+               </authorialNote>
+            </p>
+         </container>
+         <container name="recalling">
+            <p>
+               <term refersTo="#recalling" eId="term_2">Recalling</term> resolutions <ref href="/akn/un/statement/deliberation/whowha/2003-05-28/wha56_24/!main">WHA56.24</ref> on implementing the recommendations of the World report on violence and health and <ref href="/akn/un/statement/deliberation/whowha/2004-05-22/wha57_10/!main">WHA57.10</ref> on road safety and health, which respectively noted that violence was a leading worldwide public-health problem and that road-traffic injuries caused extensive and serious public-health problems;</p>
+         </container>
+         <container name="recalling">
+            <p>
+               <term refersTo="#furtherRecalling" eId="term_3">Further recalling</term> that resolution <ref href="/akn/un/statement/deliberation/whowha/2003-05-28/wha56_24/!main">WHA56.24</ref>
+               <term refersTo="#requested" eId="term_4">requested</term> the <organization refersTo="#director-general" eId="organization_2">Director-General</organization> to provide technical support for strengthening trauma and care services to survivors or victims of violence, and that resolution <ref href="/akn/un/statement/deliberation/whowha/2004-05-22/wha57_10/!main">WHA57.10</ref> recommended Member <organization refersTo="#states" eId="organization_3">States</organization> to strengthen emergency and rehabilitation services, and <term refersTo="#requested" eId="term_5">requested</term> the <organization refersTo="#director-general" eId="organization_4">Director-General</organization> to provide technical support for strengthening systems of prehospital and trauma care for victims of road-traffic injuries;</p>
+         </container>
+         <container name="recognizing">
+            <p>
+               <term refersTo="#recognizing" eId="term_6">Recognizing</term> that each year worldwide more than 100 million people sustain injuries, that more than five million people die from violence and injury, and that 90% of the global burden of violence and injury mortality occurs in low- and middle-income countries;</p>
+         </container>
+         <container name="aware">
+            <p>
+               <term refersTo="#aware" eId="term_7">Aware</term> of the need for primary prevention as one of the most important ways to reduce the burden of injuries;</p>
+         </container>
+         <container name="recognizing">
+            <p>
+               <term refersTo="#recognizing" eId="term_8">Recognizing</term> that improved organization and planning for provision of trauma and emergency care is an essential part of integrated health-care delivery, plays an important role in preparedness for, and response to, mass-casualty incidents, and can lower mortality, reduce disability and prevent other adverse health outcomes arising from the burden of everyday injuries;</p>
+         </container>
+         <container name="considering">
+            <p>
+               <term refersTo="#considering" eId="term_9">Considering</term> that <organization refersTo="#who" eId="organization_5">WHO</organization>’s published guidance and electronic tools offer a means to improve the organization and planning of trauma and emergency care that is particularly adapted to meeting the needs of low- and middle-income countries,</p>
+         </container>
+         <p>
+1. CONSIDERS that additional efforts should be made globally to strengthen provision of trauma and emergency care so as to ensure timely and effective delivery to those who needit in the context of the overall health-care system, and related health and health-promotion initiatives;
+</p>
+      </preamble>
+      <mainBody>
+         <paragraph eId="para_1">
+            <num>2. </num>
+            <intro eId="para_1__content">
+               <p>
+                  <term refersTo="#urges" eId="term_10">URGES</term> Member <organization refersTo="#states" eId="organization_6">States</organization>:</p>
+            </intro>
+            <subparagraph eId="para_1__subpara_1">
+               <num>(1)</num>
+               <content eId="para_1__subpara_1__content">
+                  <p>to assess comprehensively the prehospital and emergency-care context including,where necessary,identifying unmet needs;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_2">
+               <num>(2)</num>
+               <content eId="para_1__subpara_2__content">
+                  <p>to ensure involvement of ministries of health in, and an intersectoral coordination mechanism for, review and strengthening of the provision of trauma and emergency care;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_3">
+               <num>(3)</num>
+               <content eId="para_1__subpara_3__content">
+                  <p>to consider establishing formal and integrated emergency-care systems and to draw on informal systems and community resources in order to establish integrated-care capacity in areas where formal, prehospital, emergency medical-care systems are impractical;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_4">
+               <num>(4)</num>
+               <content eId="para_1__subpara_4__content">
+                  <p>in settings with a formal, emergency medical - caresystem, and where appropriate and feasible, to ensure that a monitoring mechanism exists to provide improved pertinent information and assure minimum standards for training, equipment, infrastructure and communication;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_5">
+               <num>(5)</num>
+               <content eId="para_1__subpara_5__content">
+                  <p>in locations with a formal, emergency medical - care system, or where one is being developed, to establish, and make widely known, a universal-access telephone number;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_6">
+               <num>(6)</num>
+               <content eId="para_1__subpara_6__content">
+                  <p>to identify a core set of trauma and emergency-care services, and to develop methods for assuring and documenting that such services are provided appropriately to all who need them;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_7">
+               <num>(7)</num>
+               <content eId="para_1__subpara_7__content">
+                  <p>to consider creating incentives for training and to improve working conditions for health-care providers <term refersTo="#concerned" eId="term_11">concerned</term>;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_8">
+               <num>(8)</num>
+               <content eId="para_1__subpara_8__content">
+                  <p>to ensure that appropriatecore competencies are part of relevant health curricula and to promote continuing education for providers of trauma and emergency care;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_9">
+               <num>(9)</num>
+               <content eId="para_1__subpara_9__content">
+                  <p>to ensure that data sources are sufficient to monitor objectively the outcome of efforts to strengthen trauma and emergency-care systems;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_10">
+               <num>(10)</num>
+               <content eId="para_1__subpara_10__content">
+                  <p>to review and update relevant legislation,including where necessary financial mechanisms and management aspects, so as to ensure that a core set of trauma and emergency-care services are accessible to all people who need them;</p>
+               </content>
+            </subparagraph>
+         </paragraph>
+         <paragraph eId="para_2">
+            <num>3. </num>
+            <intro eId="para_2__content">
+               <p>
+                  <term refersTo="#requests" eId="term_12">REQUESTS</term> the <organization refersTo="#director-general" eId="organization_7">Director-General</organization>:</p>
+            </intro>
+            <subparagraph eId="para_2__subpara_1">
+               <num>(1)</num>
+               <content eId="para_2__subpara_1__content">
+                  <p>to devise standardized tools and techniques for assessing need for prehospital and facility-based capacity in trauma and emergency care;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_2__subpara_2">
+               <num>(2)</num>
+               <content eId="para_2__subpara_2__content">
+                  <p>to develop techniques for reviewingpolicy and legislation related to provision of emergency care, to compile examples of such legislation, and to use such institutional capacity to provide support to Member <organization refersTo="#states" eId="organization_8">States</organization>, on request, for reviewing and updating their policies and legislation;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_2__subpara_3">
+               <num>(3)</num>
+               <content eId="para_2__subpara_3__content">
+                  <p>to determine standards, mechanisms, and techniques for inspection of facilities, and to provide support to Member <organization refersTo="#states" eId="organization_9">States</organization> for design ofquality-improvement programmes and other methods needed for competent and timely provision of essential trauma and emergency care;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_2__subpara_4">
+               <num>(4)</num>
+               <content eId="para_2__subpara_4__content">
+                  <p>to provide guidance for the creation and strengthening of mass-casualty management systems;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_2__subpara_5">
+               <num>(5)</num>
+               <content eId="para_2__subpara_5__content">
+                  <p>to provide support to Member <organization refersTo="#states" eId="organization_10">States</organization>, upon request, for needs assessments, facility inspection, quality-improvement programmes, review of legislation, and other aspects of strengthening provision of trauma and emergency care;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_2__subpara_6">
+               <num>(6)</num>
+               <content eId="para_2__subpara_6__content">
+                  <p>to encourage research and to collaborate with Member <organization refersTo="#states" eId="organization_11">States</organization> in establishing science-based policies and programmes for implementation of methods to strengthen trauma and emergency care;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_2__subpara_7">
+               <num>(7)</num>
+               <content eId="para_2__subpara_7__content">
+                  <p>to collaborate with Member <organization refersTo="#states" eId="organization_12">States</organization>, nongovernmental organizations and other stakeholders in order to help ensure that the necessary capacity is in place effectively to plan, organize, administer, finance and monitor provision oftrauma and emergency care;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_2__subpara_8">
+               <num>(8)</num>
+               <content eId="para_2__subpara_8__content">
+                  <p>to raise awareness of the existence of low-cost ways to reduce mortality through improved organization and planning of provision oftrauma and emergency care, and to organize regular expert meetings to further technical exchange and build capacity in this area;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_2__subpara_9">
+               <num>(9)</num>
+               <content eId="para_2__subpara_9__content">
+                  <p>to work with Member <organization refersTo="#states" eId="organization_13">States</organization> to design strategies for providing, on a regular basis, optimal, non-emergency and emergency care to all those in need; and to provide support to Member <organization refersTo="#states" eId="organization_14">States</organization> for mobilizing adequate resources, as appropriate, from donors and development partners to achieve this goal;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_2__subpara_10">
+               <num>(10)</num>
+               <content eId="para_2__subpara_10__content">
+                  <p>to report on progress made in implementing this resolution to the Health Assembly, through the <organization refersTo="#wfpExecutiveBoard" eId="organization_15">Executive Board</organization>.</p>
+               </content>
+            </subparagraph>
+         </paragraph>
+      </mainBody>
+      <conclusions>
+         <p>(<event refersTo="#eleventhPlenaryMeeting" eId="event_1">Eleventh plenary meeting</event>, <docDate date="2007-05-23">23 May 2007</docDate> –<organization refersTo="#committeeA" eId="organization_16">Committee A</organization>, fifth report)</p>
+      </conclusions>
+   </statement>
+</akomaNtoso>

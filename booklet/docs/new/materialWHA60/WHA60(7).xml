@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns:akn4un="http://un.org/metadata" xmlns:eLUNa="https://cms.unov.org/eLuna/2017/main" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+   <statement name="decision">
+      <meta>
+         <identification source="#source">
+            <FRBRWork>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-18/wha60-7/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-18/wha60-7"/>
+               <FRBRdate date="2007-05-18" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+               <FRBRcountry value="un"/>
+               <FRBRnumber value="wha60-7"/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-18/wha60-7/eng@/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-18/wha60-7/eng@"/>
+               <FRBRdate date="2007-05-18" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-18/wha60-7/eng@/!main.xml"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-18/wha60-7/eng@.xml"/>
+               <FRBRdate date="2023-08-23" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+            </FRBRManifestation>
+         </identification>
+         <references source="#source">
+            <TLCOrganization eId="worldHealthAssembly" href="/akn/ontology/organization/un/worldHealthAssembly" showAs="World Health Assembly"/>
+            <TLCOrganization eId="afghanistan" href="/akn/ontology/organization/un/afghanistan" showAs="Afghanistan"/>
+            <TLCOrganization eId="albania" href="/akn/ontology/organization/un/albania" showAs="Albania"/>
+            <TLCOrganization eId="algeria" href="/akn/ontology/organization/un/algeria" showAs="Algeria"/>
+            <TLCOrganization eId="andorra" href="/akn/ontology/organization/un/andorra" showAs="Andorra"/>
+            <TLCOrganization eId="angola" href="/akn/ontology/organization/un/angola" showAs="Angola"/>
+            <TLCOrganization eId="antiguaAndBarbuda" href="/akn/ontology/organization/un/antiguaAndBarbuda" showAs="Antigua and Barbuda"/>
+            <TLCOrganization eId="argentina" href="/akn/ontology/organization/un/argentina" showAs="Argentina"/>
+            <TLCOrganization eId="armenia" href="/akn/ontology/organization/un/armenia" showAs="Armenia"/>
+            <TLCOrganization eId="australia" href="/akn/ontology/organization/un/australia" showAs="Australia"/>
+            <TLCOrganization eId="austria" href="/akn/ontology/organization/un/austria" showAs="Austria"/>
+            <TLCOrganization eId="azerbaijan" href="/akn/ontology/organization/un/azerbaijan" showAs="Azerbaijan"/>
+            <TLCOrganization eId="bahamas" href="/akn/ontology/organization/un/bahamas" showAs="Bahamas"/>
+            <TLCOrganization eId="bahrain" href="/akn/ontology/organization/un/bahrain" showAs="Bahrain"/>
+            <TLCOrganization eId="bangladesh" href="/akn/ontology/organization/un/bangladesh" showAs="Bangladesh"/>
+            <TLCOrganization eId="barbados" href="/akn/ontology/organization/un/barbados" showAs="Barbados"/>
+            <TLCOrganization eId="belarus" href="/akn/ontology/organization/un/belarus" showAs="Belarus"/>
+            <TLCOrganization eId="belgium" href="/akn/ontology/organization/un/belgium" showAs="Belgium"/>
+            <TLCOrganization eId="belize" href="/akn/ontology/organization/un/belize" showAs="Belize"/>
+            <TLCOrganization eId="benin" href="/akn/ontology/organization/un/benin" showAs="Benin"/>
+            <TLCOrganization eId="bhutan" href="/akn/ontology/organization/un/bhutan" showAs="Bhutan"/>
+            <TLCOrganization eId="bolivia" href="/akn/ontology/organization/un/bolivia" showAs="Bolivia"/>
+            <TLCOrganization eId="bosniaAndHerzegovina" href="/akn/ontology/organization/un/bosniaAndHerzegovina" showAs="Bosnia and Herzegovina"/>
+            <TLCOrganization eId="botswana" href="/akn/ontology/organization/un/botswana" showAs="Botswana"/>
+            <TLCOrganization eId="brazil" href="/akn/ontology/organization/un/brazil" showAs="Brazil"/>
+            <TLCOrganization eId="bruneiDarussalam" href="/akn/ontology/organization/un/bruneiDarussalam" showAs="Brunei Darussalam"/>
+            <TLCOrganization eId="bulgaria" href="/akn/ontology/organization/un/bulgaria" showAs="Bulgaria"/>
+            <TLCOrganization eId="burkinaFaso" href="/akn/ontology/organization/un/burkinaFaso" showAs="Burkina Faso"/>
+            <TLCOrganization eId="burundi" href="/akn/ontology/organization/un/burundi" showAs="Burundi"/>
+            <TLCOrganization eId="cambodia" href="/akn/ontology/organization/un/cambodia" showAs="Cambodia"/>
+            <TLCOrganization eId="cameroon" href="/akn/ontology/organization/un/cameroon" showAs="Cameroon"/>
+            <TLCOrganization eId="canada" href="/akn/ontology/organization/un/canada" showAs="Canada"/>
+            <TLCOrganization eId="chad" href="/akn/ontology/organization/un/chad" showAs="Chad"/>
+            <TLCOrganization eId="chile" href="/akn/ontology/organization/un/chile" showAs="Chile"/>
+            <TLCOrganization eId="china" href="/akn/ontology/organization/un/china" showAs="China"/>
+            <TLCOrganization eId="colombia" href="/akn/ontology/organization/un/colombia" showAs="Colombia"/>
+            <TLCOrganization eId="comoros" href="/akn/ontology/organization/un/comoros" showAs="Comoros"/>
+            <TLCOrganization eId="congo" href="/akn/ontology/organization/un/congo" showAs="Congo"/>
+            <TLCOrganization eId="cookIslands" href="/akn/ontology/organization/un/cookIslands" showAs="Cook Islands"/>
+            <TLCOrganization eId="costaRica" href="/akn/ontology/organization/un/costaRica" showAs="Costa Rica"/>
+            <TLCOrganization eId="croatia" href="/akn/ontology/organization/un/croatia" showAs="Croatia"/>
+            <TLCOrganization eId="cuba" href="/akn/ontology/organization/un/cuba" showAs="Cuba"/>
+            <TLCOrganization eId="cyprus" href="/akn/ontology/organization/un/cyprus" showAs="Cyprus"/>
+            <TLCOrganization eId="korearep" href="/akn/ontology/organization/un/korearep" showAs="Republic of Korea"/>
+            <TLCOrganization eId="democraticRepublicOfTheCongo" href="/akn/ontology/organization/un/democraticRepublicOfTheCongo" showAs="Democratic Republic of the Congo"/>
+            <TLCOrganization eId="denmark" href="/akn/ontology/organization/un/denmark" showAs="Denmark"/>
+            <TLCOrganization eId="djibouti" href="/akn/ontology/organization/un/djibouti" showAs="Djibouti"/>
+            <TLCOrganization eId="dominicanRepublic" href="/akn/ontology/organization/un/dominicanRepublic" showAs="Dominican Republic"/>
+            <TLCOrganization eId="ecuador" href="/akn/ontology/organization/un/ecuador" showAs="Ecuador"/>
+            <TLCOrganization eId="egypt" href="/akn/ontology/organization/un/egypt" showAs="Egypt"/>
+            <TLCOrganization eId="elSalvador" href="/akn/ontology/organization/un/elSalvador" showAs="El Salvador"/>
+            <TLCOrganization eId="equatorialGuinea" href="/akn/ontology/organization/un/equatorialGuinea" showAs="Equatorial Guinea"/>
+            <TLCOrganization eId="eritrea" href="/akn/ontology/organization/un/eritrea" showAs="Eritrea"/>
+            <TLCOrganization eId="estonia" href="/akn/ontology/organization/un/estonia" showAs="Estonia"/>
+            <TLCOrganization eId="ethiopia" href="/akn/ontology/organization/un/ethiopia" showAs="Ethiopia"/>
+            <TLCOrganization eId="finland" href="/akn/ontology/organization/un/finland" showAs="Finland"/>
+            <TLCOrganization eId="france" href="/akn/ontology/organization/un/france" showAs="France"/>
+            <TLCOrganization eId="gabon" href="/akn/ontology/organization/un/gabon" showAs="Gabon"/>
+            <TLCOrganization eId="gambia" href="/akn/ontology/organization/un/gambia" showAs="Gambia"/>
+            <TLCOrganization eId="georgia" href="/akn/ontology/organization/un/georgia" showAs="Georgia"/>
+            <TLCOrganization eId="germany" href="/akn/ontology/organization/un/germany" showAs="Germany"/>
+            <TLCOrganization eId="ghana" href="/akn/ontology/organization/un/ghana" showAs="Ghana"/>
+            <TLCOrganization eId="greece" href="/akn/ontology/organization/un/greece" showAs="Greece"/>
+            <TLCOrganization eId="grenada" href="/akn/ontology/organization/un/grenada" showAs="Grenada"/>
+            <TLCOrganization eId="guatemala" href="/akn/ontology/organization/un/guatemala" showAs="Guatemala"/>
+            <TLCOrganization eId="guinea" href="/akn/ontology/organization/un/guinea" showAs="Guinea"/>
+            <TLCOrganization eId="haiti" href="/akn/ontology/organization/un/haiti" showAs="Haiti"/>
+            <TLCOrganization eId="Honduras" href="/akn/ontology/organization/un/Honduras" showAs="Honduras"/>
+            <TLCOrganization eId="hungary" href="/akn/ontology/organization/un/hungary" showAs="Hungary"/>
+            <TLCOrganization eId="iceland" href="/akn/ontology/organization/un/iceland" showAs="Iceland"/>
+            <TLCOrganization eId="india" href="/akn/ontology/organization/un/india" showAs="India"/>
+            <TLCOrganization eId="indonesia" href="/akn/ontology/organization/un/indonesia" showAs="Indonesia"/>
+            <TLCOrganization eId="iran" href="/akn/ontology/organization/un/iran" showAs="Iran"/>
+            <TLCOrganization eId="iraq" href="/akn/ontology/organization/un/iraq" showAs="Iraq"/>
+            <TLCOrganization eId="ireland" href="/akn/ontology/organization/un/ireland" showAs="Ireland"/>
+            <TLCOrganization eId="israel" href="/akn/ontology/organization/un/israel" showAs="Israel"/>
+            <TLCOrganization eId="italy" href="/akn/ontology/organization/un/italy" showAs="Italy"/>
+            <TLCOrganization eId="jamaica" href="/akn/ontology/organization/un/jamaica" showAs="Jamaica"/>
+            <TLCOrganization eId="japan" href="/akn/ontology/organization/un/japan" showAs="Japan"/>
+            <TLCOrganization eId="jordan" href="/akn/ontology/organization/un/jordan" showAs="Jordan"/>
+            <TLCOrganization eId="kazakhstan" href="/akn/ontology/organization/un/kazakhstan" showAs="Kazakhstan"/>
+            <TLCOrganization eId="kenya" href="/akn/ontology/organization/un/kenya" showAs="Kenya"/>
+            <TLCOrganization eId="kiribati" href="/akn/ontology/organization/un/kiribati" showAs="Kiribati"/>
+            <TLCOrganization eId="kuwait" href="/akn/ontology/organization/un/kuwait" showAs="Kuwait"/>
+            <TLCOrganization eId="kyrgyzstan" href="/akn/ontology/organization/un/kyrgyzstan" showAs="Kyrgyzstan"/>
+            <TLCOrganization eId="latvia" href="/akn/ontology/organization/un/latvia" showAs="Latvia"/>
+            <TLCOrganization eId="lebanon" href="/akn/ontology/organization/un/lebanon" showAs="Lebanon"/>
+            <TLCOrganization eId="lesotho" href="/akn/ontology/organization/un/lesotho" showAs="Lesotho"/>
+            <TLCOrganization eId="liberia" href="/akn/ontology/organization/un/liberia" showAs="Liberia"/>
+            <TLCOrganization eId="libya" href="/akn/ontology/organization/un/libya" showAs="Libya"/>
+            <TLCOrganization eId="lithuania" href="/akn/ontology/organization/un/lithuania" showAs="Lithuania"/>
+            <TLCOrganization eId="luxembourg" href="/akn/ontology/organization/un/luxembourg" showAs="Luxembourg"/>
+            <TLCOrganization eId="madagascar" href="/akn/ontology/organization/un/madagascar" showAs="Madagascar"/>
+            <TLCOrganization eId="malawi" href="/akn/ontology/organization/un/malawi" showAs="Malawi"/>
+            <TLCOrganization eId="malaysia" href="/akn/ontology/organization/un/malaysia" showAs="Malaysia"/>
+            <TLCOrganization eId="maldives" href="/akn/ontology/organization/un/maldives" showAs="Maldives"/>
+            <TLCOrganization eId="mali" href="/akn/ontology/organization/un/mali" showAs="Mali"/>
+            <TLCOrganization eId="malta" href="/akn/ontology/organization/un/malta" showAs="Malta"/>
+            <TLCOrganization eId="mauritania" href="/akn/ontology/organization/un/mauritania" showAs="Mauritania"/>
+            <TLCOrganization eId="mauritius" href="/akn/ontology/organization/un/mauritius" showAs="Mauritius"/>
+            <TLCOrganization eId="mexico" href="/akn/ontology/organization/un/mexico" showAs="Mexico"/>
+            <TLCOrganization eId="micronesia" href="/akn/ontology/organization/un/micronesia" showAs="Micronesia"/>
+            <TLCOrganization eId="states" href="/akn/ontology/organization/un/states" showAs="States"/>
+            <TLCOrganization eId="monaco" href="/akn/ontology/organization/un/monaco" showAs="Monaco"/>
+            <TLCOrganization eId="mongolia" href="/akn/ontology/organization/un/mongolia" showAs="Mongolia"/>
+            <TLCOrganization eId="montenegro" href="/akn/ontology/organization/un/montenegro" showAs="Montenegro"/>
+            <TLCOrganization eId="morocco" href="/akn/ontology/organization/un/morocco" showAs="Morocco"/>
+            <TLCOrganization eId="mozambique" href="/akn/ontology/organization/un/mozambique" showAs="Mozambique"/>
+            <TLCOrganization eId="myanmar" href="/akn/ontology/organization/un/myanmar" showAs="Myanmar"/>
+            <TLCOrganization eId="namibia" href="/akn/ontology/organization/un/namibia" showAs="Namibia"/>
+            <TLCOrganization eId="nauru" href="/akn/ontology/organization/un/nauru" showAs="Nauru"/>
+            <TLCOrganization eId="nepal" href="/akn/ontology/organization/un/nepal" showAs="Nepal"/>
+            <TLCOrganization eId="netherlands" href="/akn/ontology/organization/un/netherlands" showAs="Netherlands"/>
+            <TLCOrganization eId="newZealand" href="/akn/ontology/organization/un/newZealand" showAs="New Zealand"/>
+            <TLCOrganization eId="nicaragua" href="/akn/ontology/organization/un/nicaragua" showAs="Nicaragua"/>
+            <TLCOrganization eId="niger" href="/akn/ontology/organization/un/niger" showAs="Niger"/>
+            <TLCOrganization eId="norway" href="/akn/ontology/organization/un/norway" showAs="Norway"/>
+            <TLCOrganization eId="oman" href="/akn/ontology/organization/un/oman" showAs="Oman"/>
+            <TLCOrganization eId="pakistan" href="/akn/ontology/organization/un/pakistan" showAs="Pakistan"/>
+            <TLCOrganization eId="palau" href="/akn/ontology/organization/un/palau" showAs="Palau"/>
+            <TLCOrganization eId="panama" href="/akn/ontology/organization/un/panama" showAs="Panama"/>
+            <TLCOrganization eId="papuaNewGuinea" href="/akn/ontology/organization/un/papuaNewGuinea" showAs="Papua New Guinea"/>
+            <TLCOrganization eId="paraguay" href="/akn/ontology/organization/un/paraguay" showAs="Paraguay"/>
+            <TLCOrganization eId="peru" href="/akn/ontology/organization/un/peru" showAs="Peru"/>
+            <TLCOrganization eId="philippines" href="/akn/ontology/organization/un/philippines" showAs="Philippines"/>
+            <TLCOrganization eId="poland" href="/akn/ontology/organization/un/poland" showAs="Poland"/>
+            <TLCOrganization eId="portugal" href="/akn/ontology/organization/un/portugal" showAs="Portugal"/>
+            <TLCOrganization eId="qatar" href="/akn/ontology/organization/un/qatar" showAs="Qatar"/>
+            <TLCOrganization eId="moldova" href="/akn/ontology/organization/un/moldova" showAs="Republic of Moldova"/>
+            <TLCOrganization eId="romania" href="/akn/ontology/organization/un/romania" showAs="Romania"/>
+            <TLCOrganization eId="russia" href="/akn/ontology/organization/un/russia" showAs="Russian Federation"/>
+            <TLCOrganization eId="rwanda" href="/akn/ontology/organization/un/rwanda" showAs="Rwanda"/>
+            <TLCOrganization eId="saintKittsAndNevis" href="/akn/ontology/organization/un/saintKittsAndNevis" showAs="Saint Kitts and Nevis"/>
+            <TLCOrganization eId="saintVincentAndTheGrenadines" href="/akn/ontology/organization/un/saintVincentAndTheGrenadines" showAs="Saint Vincent and the Grenadines"/>
+            <TLCOrganization eId="samoa" href="/akn/ontology/organization/un/samoa" showAs="Samoa"/>
+            <TLCOrganization eId="sanMarino" href="/akn/ontology/organization/un/sanMarino" showAs="San Marino"/>
+            <TLCOrganization eId="saoTomeAndPrincipe" href="/akn/ontology/organization/un/saoTomeAndPrincipe" showAs="Sao Tome and Principe"/>
+            <TLCOrganization eId="saudiArabia" href="/akn/ontology/organization/un/saudiArabia" showAs="Saudi Arabia"/>
+            <TLCOrganization eId="senegal" href="/akn/ontology/organization/un/senegal" showAs="Senegal"/>
+            <TLCOrganization eId="serbia" href="/akn/ontology/organization/un/serbia" showAs="Serbia"/>
+            <TLCOrganization eId="seychelles" href="/akn/ontology/organization/un/seychelles" showAs="Seychelles"/>
+            <TLCOrganization eId="sierraLeone" href="/akn/ontology/organization/un/sierraLeone" showAs="Sierra Leone"/>
+            <TLCOrganization eId="singapore" href="/akn/ontology/organization/un/singapore" showAs="Singapore"/>
+            <TLCOrganization eId="slovakia" href="/akn/ontology/organization/un/slovakia" showAs="Slovakia"/>
+            <TLCOrganization eId="slovenia" href="/akn/ontology/organization/un/slovenia" showAs="Slovenia"/>
+            <TLCOrganization eId="salomonIslands" href="/akn/ontology/organization/un/salomonIslands" showAs="Solomon Islands"/>
+            <TLCOrganization eId="somalia" href="/akn/ontology/organization/un/somalia" showAs="Somalia"/>
+            <TLCOrganization eId="southAfrica" href="/akn/ontology/organization/un/southAfrica" showAs="South Africa"/>
+            <TLCOrganization eId="spain" href="/akn/ontology/organization/un/spain" showAs="Spain"/>
+            <TLCOrganization eId="sriLanka" href="/akn/ontology/organization/un/sriLanka" showAs="Sri Lanka"/>
+            <TLCOrganization eId="sudan" href="/akn/ontology/organization/un/sudan" showAs="Sudan"/>
+            <TLCOrganization eId="suriname" href="/akn/ontology/organization/un/suriname" showAs="Suriname"/>
+            <TLCOrganization eId="sweden" href="/akn/ontology/organization/un/sweden" showAs="Sweden"/>
+            <TLCOrganization eId="switzerland" href="/akn/ontology/organization/un/switzerland" showAs="Switzerland"/>
+            <TLCOrganization eId="syrianArabRepublic" href="/akn/ontology/organization/un/syrianArabRepublic" showAs="Syrian Arab Republic"/>
+            <TLCOrganization eId="tajikistan" href="/akn/ontology/organization/un/tajikistan" showAs="Tajikistan"/>
+            <TLCOrganization eId="thailand" href="/akn/ontology/organization/un/thailand" showAs="Thailand"/>
+            <TLCOrganization eId="timor-leste" href="/akn/ontology/organization/un/timor-leste" showAs="Timor-Leste"/>
+            <TLCOrganization eId="togo" href="/akn/ontology/organization/un/togo" showAs="Togo"/>
+            <TLCOrganization eId="tonga" href="/akn/ontology/organization/un/tonga" showAs="Tonga"/>
+            <TLCOrganization eId="trinidadAndTobago" href="/akn/ontology/organization/un/trinidadAndTobago" showAs="Trinidad and Tobago"/>
+            <TLCOrganization eId="tunisia" href="/akn/ontology/organization/un/tunisia" showAs="Tunisia"/>
+            <TLCOrganization eId="turkey" href="/akn/ontology/organization/un/turkey" showAs="Turkey"/>
+            <TLCOrganization eId="turkmenistan" href="/akn/ontology/organization/un/turkmenistan" showAs="Turkmenistan"/>
+            <TLCOrganization eId="tuvalu" href="/akn/ontology/organization/un/tuvalu" showAs="Tuvalu"/>
+            <TLCOrganization eId="uganda" href="/akn/ontology/organization/un/uganda" showAs="Uganda"/>
+            <TLCOrganization eId="ukraine" href="/akn/ontology/organization/un/ukraine" showAs="Ukraine"/>
+            <TLCOrganization eId="unitedArabEmirates" href="/akn/ontology/organization/un/unitedArabEmirates" showAs="United Arab Emirates"/>
+            <TLCOrganization eId="uk" href="/akn/ontology/organization/un/uk" showAs="United Kingdom"/>
+            <TLCOrganization eId="tanzania" href="/akn/ontology/organization/un/tanzania" showAs="United Republic of Tanzania"/>
+            <TLCOrganization eId="usa" href="/akn/ontology/organization/un/usa" showAs="United States of America"/>
+            <TLCOrganization eId="uruguay" href="/akn/ontology/organization/un/uruguay" showAs="Uruguay"/>
+            <TLCOrganization eId="uzbekistan" href="/akn/ontology/organization/un/uzbekistan" showAs="Uzbekistan"/>
+            <TLCOrganization eId="vanuatu" href="/akn/ontology/organization/un/vanuatu" showAs="Vanuatu"/>
+            <TLCOrganization eId="venezuela" href="/akn/ontology/organization/un/venezuela" showAs="Venezuela"/>
+            <TLCOrganization eId="vietNam" href="/akn/ontology/organization/un/vietNam" showAs="Viet Nam"/>
+            <TLCOrganization eId="yemen" href="/akn/ontology/organization/un/yemen" showAs="Yemen"/>
+            <TLCOrganization eId="zambia" href="/akn/ontology/organization/un/zambia" showAs="Zambia"/>
+            <TLCOrganization eId="zimbawe" href="/akn/ontology/organization/un/zimbawe" showAs="Zimbabwe"/>
+            <TLCEvent href="/akn/ontology/event/whoha/fifthPlenaryMeeting" eId="fifthPlenaryMeeting" showAs="Fifth plenary meeting"/>
+            <TLCEvent href="/akn/ontology/event/whoha/eighthPlenaryMeeting" eId="eighthPlenaryMeeting" showAs="Eighth plenary meeting"/>
+            <TLCPerson eId="source" href="/akn/ontology/person/somebody" showAs="somebody"/>
+         </references>
+         <proprietary source="#source">
+            <akn4un:session>WHA60</akn4un:session>
+         </proprietary>
+      </meta>
+      <preface>
+         <p>
+            <docNumber>WHA60(7)</docNumber>
+            <docTitle>Verification of credentials</docTitle>
+         </p>
+      </preface>
+      <mainBody>
+         <paragraph eId="para_1">
+            <content eId="para_1__content">
+               <p>
+                  <inline name="#enactingFormula">The Sixtieth <organization refersTo="#worldHealthAssembly" eId="organization_1">World Health Assembly</organization>
+                  </inline>recognized the validity of the credentials of the following delegations: <organization refersTo="#afghanistan" eId="organization_2">Afghanistan</organization>; <organization refersTo="#albania" eId="organization_3">Albania</organization>; <organization refersTo="#algeria" eId="organization_4">Algeria</organization>; <organization refersTo="#andorra" eId="organization_5">Andorra</organization>; <organization refersTo="#angola" eId="organization_6">Angola</organization>; <organization refersTo="#antiguaAndBarbuda" eId="organization_7">Antigua and Barbuda</organization>; <organization refersTo="#argentina" eId="organization_8">Argentina</organization>; <organization refersTo="#armenia" eId="organization_9">Armenia</organization>; <organization refersTo="#australia" eId="organization_10">Australia</organization>; <organization refersTo="#austria" eId="organization_11">Austria</organization>; <organization refersTo="#azerbaijan" eId="organization_12">Azerbaijan</organization>; <organization refersTo="#bahamas" eId="organization_13">Bahamas</organization>; <organization refersTo="#bahrain" eId="organization_14">Bahrain</organization>; <organization refersTo="#bangladesh" eId="organization_15">Bangladesh</organization>; <organization refersTo="#barbados" eId="organization_16">Barbados</organization>; <organization refersTo="#belarus" eId="organization_17">Belarus</organization>; <organization refersTo="#belgium" eId="organization_18">Belgium</organization>; <organization refersTo="#belize" eId="organization_19">Belize</organization>; <organization refersTo="#benin" eId="organization_20">Benin</organization>; <organization refersTo="#bhutan" eId="organization_21">Bhutan</organization>; <organization refersTo="#bolivia" eId="organization_22">Bolivia</organization>; <organization refersTo="#bosniaAndHerzegovina" eId="organization_23">Bosnia and Herzegovina</organization>; <organization refersTo="#botswana" eId="organization_24">Botswana</organization>; <organization refersTo="#brazil" eId="organization_25">Brazil</organization>; <organization refersTo="#bruneiDarussalam" eId="organization_26">Brunei Darussalam</organization>; <organization refersTo="#bulgaria" eId="organization_27">Bulgaria</organization>; <organization refersTo="#burkinaFaso" eId="organization_28">Burkina Faso</organization>; <organization refersTo="#burundi" eId="organization_29">Burundi</organization>; <organization refersTo="#cambodia" eId="organization_30">Cambodia</organization>; <organization refersTo="#cameroon" eId="organization_31">Cameroon</organization>; <organization refersTo="#canada" eId="organization_32">Canada</organization>; Cape Verde; Central African Republic; <organization refersTo="#chad" eId="organization_33">Chad</organization>; <organization refersTo="#chile" eId="organization_34">Chile</organization>; <organization refersTo="#china" eId="organization_35">China</organization>; <organization refersTo="#colombia" eId="organization_36">Colombia</organization>; <organization refersTo="#comoros" eId="organization_37">Comoros</organization>; <organization refersTo="#congo" eId="organization_38">Congo</organization>; <organization refersTo="#cookIslands" eId="organization_39">Cook Islands</organization>; <organization refersTo="#costaRica" eId="organization_40">Costa Rica</organization>; Côte d’Ivoire; <organization refersTo="#croatia" eId="organization_41">Croatia</organization>; <organization refersTo="#cuba" eId="organization_42">Cuba</organization>; <organization refersTo="#cyprus" eId="organization_43">Cyprus</organization>; Czech Republic; Democratic People’s <organization refersTo="#korearep" eId="organization_44">Republic of Korea</organization>; <organization refersTo="#democraticRepublicOfTheCongo" eId="organization_45">Democratic Republic of the Congo</organization>; <organization refersTo="#denmark" eId="organization_46">Denmark</organization>; <organization refersTo="#djibouti" eId="organization_47">Djibouti</organization>; <organization refersTo="#dominicanRepublic" eId="organization_48">Dominican Republic</organization>; <organization refersTo="#ecuador" eId="organization_49">Ecuador</organization>; <organization refersTo="#egypt" eId="organization_50">Egypt</organization>; <organization refersTo="#elSalvador" eId="organization_51">El Salvador</organization>; <organization refersTo="#equatorialGuinea" eId="organization_52">Equatorial Guinea</organization>; <organization refersTo="#eritrea" eId="organization_53">Eritrea</organization>; <organization refersTo="#estonia" eId="organization_54">Estonia</organization>; <organization refersTo="#ethiopia" eId="organization_55">Ethiopia</organization>; <organization refersTo="#finland" eId="organization_56">Finland</organization>; <organization refersTo="#france" eId="organization_57">France</organization>; <organization refersTo="#gabon" eId="organization_58">Gabon</organization>; <organization refersTo="#gambia" eId="organization_59">Gambia</organization>; <organization refersTo="#georgia" eId="organization_60">Georgia</organization>; <organization refersTo="#germany" eId="organization_61">Germany</organization>; <organization refersTo="#ghana" eId="organization_62">Ghana</organization>; <organization refersTo="#greece" eId="organization_63">Greece</organization>; <organization refersTo="#grenada" eId="organization_64">Grenada</organization>; <organization refersTo="#guatemala" eId="organization_65">Guatemala</organization>; Guinea; Guinea-Bissau; <organization refersTo="#haiti" eId="organization_68">Haiti</organization>; <organization refersTo="#Honduras" eId="organization_69">Honduras</organization>; <organization refersTo="#hungary" eId="organization_70">Hungary</organization>; <organization refersTo="#iceland" eId="organization_71">Iceland</organization>; <organization refersTo="#india" eId="organization_72">India</organization>; <organization refersTo="#indonesia" eId="organization_73">Indonesia</organization>; <organization refersTo="#iran" eId="organization_74">Iran</organization> (Islamic Republic of); <organization refersTo="#iraq" eId="organization_75">Iraq</organization>; <organization refersTo="#ireland" eId="organization_76">Ireland</organization>; <organization refersTo="#israel" eId="organization_77">Israel</organization>; <organization refersTo="#italy" eId="organization_78">Italy</organization>; <organization refersTo="#jamaica" eId="organization_79">Jamaica</organization>; <organization refersTo="#japan" eId="organization_80">Japan</organization>; <organization refersTo="#jordan" eId="organization_81">Jordan</organization>; <organization refersTo="#kazakhstan" eId="organization_82">Kazakhstan</organization>; <organization refersTo="#kenya" eId="organization_83">Kenya</organization>; <organization refersTo="#kiribati" eId="organization_84">Kiribati</organization>; <organization refersTo="#kuwait" eId="organization_85">Kuwait</organization>; <organization refersTo="#kyrgyzstan" eId="organization_86">Kyrgyzstan</organization>; Lao People’s Democratic Republic; <organization refersTo="#latvia" eId="organization_87">Latvia</organization>; <organization refersTo="#lebanon" eId="organization_88">Lebanon</organization>; <organization refersTo="#lesotho" eId="organization_89">Lesotho</organization>; <organization refersTo="#liberia" eId="organization_90">Liberia</organization>; <organization refersTo="#libya" eId="organization_91">Libya</organization>n Arab Jamahiriya; <organization refersTo="#lithuania" eId="organization_92">Lithuania</organization>; <organization refersTo="#luxembourg" eId="organization_93">Luxembourg</organization>; <organization refersTo="#madagascar" eId="organization_94">Madagascar</organization>; <organization refersTo="#malawi" eId="organization_95">Malawi</organization>; <organization refersTo="#malaysia" eId="organization_96">Malaysia</organization>; <organization refersTo="#maldives" eId="organization_97">Maldives</organization>; <organization refersTo="#mali" eId="organization_98">Mali</organization>; <organization refersTo="#malta" eId="organization_99">Malta</organization>; Marshall Islands; <organization refersTo="#mauritania" eId="organization_100">Mauritania</organization>; <organization refersTo="#mauritius" eId="organization_101">Mauritius</organization>; <organization refersTo="#mexico" eId="organization_102">Mexico</organization>; <organization refersTo="#micronesia" eId="organization_103">Micronesia</organization> (Federated <organization refersTo="#states" eId="organization_104">States</organization> of); <organization refersTo="#monaco" eId="organization_105">Monaco</organization>; <organization refersTo="#mongolia" eId="organization_106">Mongolia</organization>; <organization refersTo="#montenegro" eId="organization_107">Montenegro</organization>; <organization refersTo="#morocco" eId="organization_108">Morocco</organization>; <organization refersTo="#mozambique" eId="organization_109">Mozambique</organization>; <organization refersTo="#myanmar" eId="organization_110">Myanmar</organization>; <organization refersTo="#namibia" eId="organization_111">Namibia</organization>; <organization refersTo="#nauru" eId="organization_112">Nauru</organization>; <organization refersTo="#nepal" eId="organization_113">Nepal</organization>; <organization refersTo="#netherlands" eId="organization_114">Netherlands</organization>; <organization refersTo="#newZealand" eId="organization_115">New Zealand</organization>; <organization refersTo="#nicaragua" eId="organization_116">Nicaragua</organization>; <organization refersTo="#niger" eId="organization_117">Niger</organization>; <organization refersTo="#niger" eId="organization_118">Niger</organization>ia; <organization refersTo="#norway" eId="organization_119">Norway</organization>; <organization refersTo="#oman" eId="organization_120">Oman</organization>; <organization refersTo="#pakistan" eId="organization_121">Pakistan</organization>; <organization refersTo="#palau" eId="organization_122">Palau</organization>; <organization refersTo="#panama" eId="organization_123">Panama</organization>; <organization refersTo="#papuaNewGuinea" eId="organization_124">Papua New Guinea</organization>; <organization refersTo="#paraguay" eId="organization_125">Paraguay</organization>; <organization refersTo="#peru" eId="organization_126">Peru</organization>; <organization refersTo="#philippines" eId="organization_127">Philippines</organization>; <organization refersTo="#poland" eId="organization_128">Poland</organization>; <organization refersTo="#portugal" eId="organization_129">Portugal</organization>; <organization refersTo="#qatar" eId="organization_130">Qatar</organization>; <organization refersTo="#korearep" eId="organization_131">Republic of Korea</organization>; <organization refersTo="#moldova" eId="organization_132">Republic of Moldova</organization>; <organization refersTo="#romania" eId="organization_133">Romania</organization>; <organization refersTo="#russia" eId="organization_134">Russian Federation</organization>; <organization refersTo="#rwanda" eId="organization_135">Rwanda</organization>; <organization refersTo="#saintKittsAndNevis" eId="organization_136">Saint Kitts and Nevis</organization>; <organization refersTo="#saintVincentAndTheGrenadines" eId="organization_137">Saint Vincent and the Grenadines</organization>; <organization refersTo="#samoa" eId="organization_138">Samoa</organization>; <organization refersTo="#sanMarino" eId="organization_139">San Marino</organization>; <organization refersTo="#saoTomeAndPrincipe" eId="organization_140">Sao Tome and Principe</organization>; <organization refersTo="#saudiArabia" eId="organization_141">Saudi Arabia</organization>; <organization refersTo="#senegal" eId="organization_142">Senegal</organization>; <organization refersTo="#serbia" eId="organization_143">Serbia</organization>; <organization refersTo="#seychelles" eId="organization_144">Seychelles</organization>; <organization refersTo="#sierraLeone" eId="organization_145">Sierra Leone</organization>; <organization refersTo="#singapore" eId="organization_146">Singapore</organization>; <organization refersTo="#slovakia" eId="organization_147">Slovakia</organization>; <organization refersTo="#slovenia" eId="organization_148">Slovenia</organization>; <organization refersTo="#salomonIslands" eId="organization_149">Solomon Islands</organization>; <organization refersTo="#somalia" eId="organization_150">Somalia</organization>; <organization refersTo="#southAfrica" eId="organization_151">South Africa</organization>; <organization refersTo="#spain" eId="organization_152">Spain</organization>; <organization refersTo="#sriLanka" eId="organization_153">Sri Lanka</organization>; <organization refersTo="#sudan" eId="organization_154">Sudan</organization>; <organization refersTo="#suriname" eId="organization_155">Suriname</organization>; Swaziland; <organization refersTo="#sweden" eId="organization_156">Sweden</organization>; <organization refersTo="#switzerland" eId="organization_157">Switzerland</organization>; <organization refersTo="#syrianArabRepublic" eId="organization_158">Syrian Arab Republic</organization>; <organization refersTo="#tajikistan" eId="organization_159">Tajikistan</organization>; <organization refersTo="#thailand" eId="organization_160">Thailand</organization>; The former Yugoslav Republic of Macedonia; <organization refersTo="#timor-leste" eId="organization_161">Timor-Leste</organization>; <organization refersTo="#togo" eId="organization_162">Togo</organization>; <organization refersTo="#tonga" eId="organization_163">Tonga</organization>; <organization refersTo="#trinidadAndTobago" eId="organization_164">Trinidad and Tobago</organization>; <organization refersTo="#tunisia" eId="organization_165">Tunisia</organization>; <organization refersTo="#turkey" eId="organization_166">Turkey</organization>; <organization refersTo="#turkmenistan" eId="organization_167">Turkmenistan</organization>; <organization refersTo="#tuvalu" eId="organization_168">Tuvalu</organization>; <organization refersTo="#uganda" eId="organization_169">Uganda</organization>; <organization refersTo="#ukraine" eId="organization_170">Ukraine</organization>; <organization refersTo="#unitedArabEmirates" eId="organization_171">United Arab Emirates</organization>; <organization refersTo="#uk" eId="organization_172">United Kingdom</organization> of Great Britain and Northern <organization refersTo="#ireland" eId="organization_173">Ireland</organization>; <organization refersTo="#tanzania" eId="organization_174">United Republic of Tanzania</organization>; <organization refersTo="#usa" eId="organization_175">United States of America</organization>; <organization refersTo="#uruguay" eId="organization_176">Uruguay</organization>; <organization refersTo="#uzbekistan" eId="organization_177">Uzbekistan</organization>; <organization refersTo="#vanuatu" eId="organization_178">Vanuatu</organization>; <organization refersTo="#venezuela" eId="organization_179">Venezuela</organization> (Bolivarian Republic of); <organization refersTo="#vietNam" eId="organization_180">Viet Nam</organization>; <organization refersTo="#yemen" eId="organization_181">Yemen</organization>; <organization refersTo="#zambia" eId="organization_182">Zambia</organization>; <organization refersTo="#zimbawe" eId="organization_183">Zimbabwe</organization>.
+</p>
+            </content>
+         </paragraph>
+      </mainBody>
+      <conclusions>
+         <p>(<event refersTo="#fifthPlenaryMeeting" eId="event_1">Fifth plenary meeting</event>, <docDate date="2007-05-16">16 May 2007</docDate>;
+<event refersTo="#eighthPlenaryMeeting" eId="event_2">Eighth plenary meeting</event>, <docDate date="2007-05-18">18 May 2007</docDate>)</p>
+      </conclusions>
+   </statement>
+</akomaNtoso>

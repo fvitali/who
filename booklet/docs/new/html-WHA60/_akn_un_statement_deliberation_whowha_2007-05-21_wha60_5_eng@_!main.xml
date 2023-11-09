@@ -1,0 +1,2053 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eLUNa="https://cms.unov.org/eLuna/2017/main" xmlns:akn4un="http://un.org/metadata" xmlns:html="http://www.w3.org/1999/xhtml">
+   <statement name="resolution">
+      <meta>
+         <identification source="#source">
+            <FRBRWork>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-21/wha60_5/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-21/wha60_5"/>
+               <FRBRdate date="2007-05-21" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+               <FRBRcountry value="un"/>
+               <FRBRnumber value="wha60_5"/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-21/wha60_5/eng@/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-21/wha60_5/eng@"/>
+               <FRBRdate date="2007-05-21" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-21/wha60_5/eng@/!main.xml"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-21/wha60_5/eng@.xml"/>
+               <FRBRdate date="2023-08-23" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+            </FRBRManifestation>
+         </identification>
+         <references source="#source">
+            <TLCOrganization eId="worldHealthAssembly" href="/akn/ontology/organization/un/worldHealthAssembly" showAs="World Health Assembly"/>
+            <TLCEvent href="/akn/ontology/event/whoha/ninthPlenaryMeeting" eId="ninthPlenaryMeeting" showAs="Ninth plenary meeting"/>
+            <TLCOrganization eId="committeeB" href="/akn/ontology/organization/un/committeeB" showAs="Committee B"/>
+            <TLCPerson eId="source" href="/akn/ontology/person/somebody" showAs="somebody"/>
+         </references>
+      </meta>
+      <preface>
+         <p>
+            <docNumber>WHA60.5</docNumber>
+            <docTitle>Scale of assessments 2008–2009</docTitle>
+         </p>
+      </preface>
+      <preamble>
+         <formula name="enactingFormula">
+            <p>The Sixtieth <organization refersTo="#worldHealthAssembly" eId="organization_1">World Health Assembly</organization>,</p>
+         </formula>
+      </preamble>
+      <mainBody>
+         <paragraph eId="para_1">
+            <content eId="para_1__content">
+               <p>ADOPTS the scale of assessments of Members for the biennium 2008–2009 as set out below:</p>
+            </content>
+         </paragraph>
+         <point eId="table_1">
+            <content eId="table_1__content">
+               <p/>
+               <table>
+                  <tr>
+                     <td>
+                        <p> Members and
+</p>
+                     </td>
+                     <td>
+                        <p> WHO scale
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Associate Members
+</p>
+                     </td>
+                     <td>
+                        <p> for 2008–2009
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p/>
+                     </td>
+                     <td>
+                        <p> %
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Afghanistan
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0010
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Albania
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0060
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Algeria
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0850
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Andorra
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0080
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Angola
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0030
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Antigua and Barbuda
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0020
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Argentina
+</p>
+                     </td>
+                     <td>
+                        <p> 0.3250
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Armenia
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0020
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Australia
+</p>
+                     </td>
+                     <td>
+                        <p> 1.7871
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Austria
+</p>
+                     </td>
+                     <td>
+                        <p> 0.8871
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Azerbaijan
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0050
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Bahamas
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0160
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Bahrain
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0330
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Bangladesh
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0100
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Barbados
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0090
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Belarus
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0200
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Belgium
+</p>
+                     </td>
+                     <td>
+                        <p> 1.1021
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Belize
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0010
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Benin
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0010
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Bhutan
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0010
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Bolivia
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0060
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Bosnia and Herzegovina
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0060
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Botswana
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0140
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Brazil
+</p>
+                     </td>
+                     <td>
+                        <p> 0.8761
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Brunei Darussalam
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0260
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Bulgaria
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0200
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Burkina Faso
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0020
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Burundi
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0010
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Cambodia
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0010
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Cameroon
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0090
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Canada
+</p>
+                     </td>
+                     <td>
+                        <p> 2.9772
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Cape Verde
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0010
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Central African Republic
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0010
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Chad
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0010
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Chile
+</p>
+                     </td>
+                     <td>
+                        <p> 0.1610
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> China
+</p>
+                     </td>
+                     <td>
+                        <p> 2.6672
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Colombia
+</p>
+                     </td>
+                     <td>
+                        <p> 0.1050
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Comoros
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0010
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Congo
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0010
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Cook Islands
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0010
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Costa Rica
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0320
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Côte d’Ivoire
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0090
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Croatia
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0500
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Cuba
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0540
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Cyprus
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0440
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Czech Republic
+</p>
+                     </td>
+                     <td>
+                        <p> 0.2810
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Democratic People’s Republic of Korea
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0070
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Democratic Republic of the Congo
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0030
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Denmark
+</p>
+                     </td>
+                     <td>
+                        <p> 0.7391
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Djibouti
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0010
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Dominica
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0010
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Dominican Republic
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0240
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Ecuador
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0210
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Egypt
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0880
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> El Salvador
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0200
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Equatorial Guinea
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0020
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Eritrea
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0010
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Estonia
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0160
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Ethiopia
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0030
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Fiji
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0030
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Finland
+</p>
+                     </td>
+                     <td>
+                        <p> 0.5640
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> France
+</p>
+                     </td>
+                     <td>
+                        <p> 6.3015
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Gabon
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0080
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Gambia
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0010
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Georgia
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0030
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Germany
+</p>
+                     </td>
+                     <td>
+                        <p> 8.5777
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Ghana
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0040
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Greece
+</p>
+                     </td>
+                     <td>
+                        <p> 0.5960
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Grenada
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0010
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Guatemala
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0320
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Guinea
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0010
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Guinea-Bissau
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0010
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Guyana
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0010
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Haiti
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0020
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Honduras
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0050
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Hungary
+</p>
+                     </td>
+                     <td>
+                        <p> 0.2440
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Iceland
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0370
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> India
+</p>
+                     </td>
+                     <td>
+                        <p> 0.4500
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Indonesia
+</p>
+                     </td>
+                     <td>
+                        <p> 0.1610
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Iran (Islamic Republic of)
+</p>
+                     </td>
+                     <td>
+                        <p> 0.1800
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Iraq
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0150
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Ireland
+</p>
+                     </td>
+                     <td>
+                        <p> 0.4450
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Israel
+</p>
+                     </td>
+                     <td>
+                        <p> 0.4190
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Italy
+</p>
+                     </td>
+                     <td>
+                        <p> 5.0794
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Jamaica
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0100
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Japan
+</p>
+                     </td>
+                     <td>
+                        <p> 16.6253
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Jordan
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0120
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Kazakhstan
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0290
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Kenya
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0100
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Kiribati
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0010
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Kuwait
+</p>
+                     </td>
+                     <td>
+                        <p> 0.1820
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Kyrgyzstan
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0010
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Lao People’s Democratic Republic
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0010
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Latvia
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0180
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Lebanon
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0340
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Lesotho
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0010
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Liberia
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0010
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Libyan Arab Jamahiriya
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0620
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Lithuania
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0310
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Luxembourg
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0850
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Madagascar
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0020
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Malawi
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0010
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Malaysia
+</p>
+                     </td>
+                     <td>
+                        <p> 0.1900
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Maldives
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0010
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Mali
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0010
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Malta
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0170
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Marshall Islands
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0010
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Mauritania
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0010
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Mauritius
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0110
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Mexico
+</p>
+                     </td>
+                     <td>
+                        <p> 2.2572
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Micronesia (Federated States of)
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0010
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Monaco
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0030
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Mongolia
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0010
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Montenegro
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0010
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Morocco
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0420
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Mozambique
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0010
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Myanmar
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0050
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Namibia
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0060
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Nauru
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0010
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Nepal
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0030
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Netherlands
+</p>
+                     </td>
+                     <td>
+                        <p> 1.8731
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> New Zealand
+</p>
+                     </td>
+                     <td>
+                        <p> 0.2560
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Nicaragua
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0020
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Niger
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0010
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Nigeria
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0480
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Niue
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0010
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Norway
+</p>
+                     </td>
+                     <td>
+                        <p> 0.7821
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Oman
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0730
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Pakistan
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0590
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Palau
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0010
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Panama
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0230
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Papua New Guinea
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0020
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Paraguay
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0050
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Peru
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0780
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Philippines
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0780
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Poland
+</p>
+                     </td>
+                     <td>
+                        <p> 0.5010
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Portugal
+</p>
+                     </td>
+                     <td>
+                        <p> 0.5270
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Puerto Rico
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0010
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Qatar
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0850
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Republic of Korea
+</p>
+                     </td>
+                     <td>
+                        <p> 2.1732
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Republic of Moldova
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0010
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Romania
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0700
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Russian Federation
+</p>
+                     </td>
+                     <td>
+                        <p> 1.2001
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Rwanda
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0010
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Saint Kitts and Nevis
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0010
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Saint Lucia
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0010
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Saint Vincent and the Grenadines
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0010
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Samoa
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0010
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> San Marino
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0030
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Sao Tome and Principe
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0010
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Saudi Arabia
+</p>
+                     </td>
+                     <td>
+                        <p> 0.7481
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Senegal
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0040
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Serbia
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0210
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Seychelles
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0020
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Sierra Leone
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0010
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Singapore
+</p>
+                     </td>
+                     <td>
+                        <p> 0.3470
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Slovakia
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0630
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Slovenia
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0960
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Solomon Islands
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0010
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Somalia
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0010
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> South Africa
+</p>
+                     </td>
+                     <td>
+                        <p> 0.2900
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Spain
+</p>
+                     </td>
+                     <td>
+                        <p> 2.9682
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Sri Lanka
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0160
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Sudan
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0100
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Suriname
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0010
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Swaziland
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0020
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Sweden
+</p>
+                     </td>
+                     <td>
+                        <p> 1.0711
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Switzerland
+</p>
+                     </td>
+                     <td>
+                        <p> 1.2161
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Syrian Arab Republic
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0160
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Tajikistan
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0010
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Thailand
+</p>
+                     </td>
+                     <td>
+                        <p> 0.1860
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> The former Yugoslav Republic of Macedonia
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0050
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Timor-Leste
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0010
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Togo
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0010
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Tokelau
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0010
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Tonga
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0010
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Trinidad and Tobago
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0270
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Tunisia
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0310
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Turkey
+</p>
+                     </td>
+                     <td>
+                        <p> 0.3810
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Turkmenistan
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0060
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Tuvalu
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0010
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Uganda
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0030
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Ukraine
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0450
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> United Arab Emirates
+</p>
+                     </td>
+                     <td>
+                        <p> 0.3020
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> United Kingdom of Great Britain and Northern Ireland
+</p>
+                     </td>
+                     <td>
+                        <p> 6.6425
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> United Republic of Tanzania
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0060
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> United States of America
+</p>
+                     </td>
+                     <td>
+                        <p> 22.0000
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Uruguay
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0270
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Uzbekistan
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0080
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Vanuatu
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0010
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Venezuela (Bolivarian Republic of)
+</p>
+                     </td>
+                     <td>
+                        <p> 0.2000
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Viet Nam
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0240
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Yemen
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0070
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Zambia
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0010
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Zimbabwe
+</p>
+                     </td>
+                     <td>
+                        <p> 0.0080
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> Total
+</p>
+                     </td>
+                     <td>
+                        <p> 100.0000
+</p>
+                     </td>
+                  </tr>
+               </table>
+               <p/>
+            </content>
+         </point>
+      </mainBody>
+      <conclusions>
+         <p>(<event refersTo="#ninthPlenaryMeeting" eId="event_1">Ninth plenary meeting</event>, <docDate date="2007-05-21">21 May 2007</docDate> –<organization refersTo="#committeeB" eId="organization_2">Committee B</organization>, first report)</p>
+      </conclusions>
+   </statement>
+</akomaNtoso>

@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns:akn4un="http://un.org/metadata" xmlns:eLUNa="https://cms.unov.org/eLuna/2017/main" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+   <statement name="resolution">
+      <meta>
+         <identification source="#source">
+            <FRBRWork>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-23/wha60_18/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-23/wha60_18"/>
+               <FRBRdate date="2007-05-23" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+               <FRBRcountry value="un"/>
+               <FRBRnumber value="wha60_18"/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-23/wha60_18/eng@/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-23/wha60_18/eng@"/>
+               <FRBRdate date="2007-05-23" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-23/wha60_18/eng@/!main.xml"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-23/wha60_18/eng@.xml"/>
+               <FRBRdate date="2023-09-13" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+            </FRBRManifestation>
+         </identification>
+         <references source="#source">
+            <TLCOrganization eId="worldHealthAssembly" href="/akn/ontology/organization/un/worldHealthAssembly" showAs="World Health Assembly"/>
+            <TLCOrganization eId="worldBank" href="/akn/ontology/organization/un/worldBank" showAs="World Bank"/>
+            <TLCOrganization eId="faoprogrammecommittee" href="/akn/ontology/organization/un/faoprogrammecommittee" showAs="Program"/>
+            <TLCOrganization eId="usa" href="/akn/ontology/organization/un/usa" showAs="United States of America"/>
+            <TLCOrganization eId="states" href="/akn/ontology/organization/un/states" showAs="States"/>
+            <TLCOrganization eId="un" href="/akn/ontology/organization/un/un" showAs="UN"/>
+            <TLCTerm eId="havingConsidered" href="/akn/ontology/term/havingConsidered" showAs="having considered"/>
+            <TLCTerm eId="concerned" href="/akn/ontology/term/concerned" showAs="concerned"/>
+            <TLCTerm eId="noting" href="/akn/ontology/term/noting" showAs="noting"/>
+            <TLCTerm eId="welcoming" href="/akn/ontology/term/welcoming" showAs="welcoming"/>
+            <TLCTerm eId="recalling" href="/akn/ontology/term/recalling" showAs="recalling"/>
+            <TLCTerm eId="mindful" href="/akn/ontology/term/mindful" showAs="mindful"/>
+            <TLCTerm eId="urges" href="/akn/ontology/term/urges" showAs="urges"/>
+            <TLCTerm eId="takingIntoAccount" href="/akn/ontology/term/takingIntoAccount" showAs="taking into account"/>
+            <TLCTerm eId="requests" href="/akn/ontology/term/requests" showAs="requests"/>
+            <TLCTerm eId="resolves" href="/akn/ontology/term/resolves" showAs="resolves"/>
+            <TLCOrganization eId="who" href="/akn/ontology/organization/un/who" showAs="WHO"/>
+            <TLCOrganization eId="faoInternationalPlantProtectionConvention" href="/akn/ontology/organization/un/faoInternationalPlantProtectionConvention" showAs="Convention"/>
+            <TLCOrganization eId="director-general" href="/akn/ontology/organization/un/director-general" showAs="Director-General"/>
+            <TLCOrganization eId="wfpExecutiveBoard" href="/akn/ontology/organization/un/wfpExecutiveBoard" showAs="Executive Board"/>
+            <TLCEvent href="/akn/ontology/event/whowha/eleventhPlenaryMeeting" eId="eleventhPlenaryMeeting" showAs="Eleventh plenary meeting"/>
+            <TLCOrganization eId="committeeA" href="/akn/ontology/organization/un/committeeA" showAs="Committee A"/>
+            <TLCPerson eId="source" href="/akn/ontology/person/somebody" showAs="somebody"/>
+         </references>
+      </meta>
+      <preface>
+         <p>
+            <docNumber>WHA60.18</docNumber>
+            <docTitle>Malaria, including proposal for establishment of World Malaria Day</docTitle>
+         </p>
+      </preface>
+      <preamble>
+         <formula name="enactingFormula">
+            <p>The Sixtieth <organization refersTo="#worldHealthAssembly" eId="organization_1">World Health Assembly</organization>,</p>
+         </formula>
+         <container name="havingConsidered">
+            <p>
+               <term refersTo="#havingConsidered" eId="term_1">Having considered</term> the report on malaria, including a proposal for the establishment of Malaria Day; <authorialNote marker="1" placement="bottom" eId="authorialNote_1">
+                  <p>Document A60/12.</p>
+               </authorialNote>
+            </p>
+         </container>
+         <container name="concerned">
+            <p>
+               <term refersTo="#concerned" eId="term_2">Concerned</term> that malaria continues to cause more than one million preventable deaths a year;</p>
+         </container>
+         <container name="noting">
+            <p>
+               <term refersTo="#noting" eId="term_3">Noting</term> thatthe Global Fund to Fight AIDS, Tuberculosis and Malaria, the <organization refersTo="#worldBank" eId="organization_2">World Bank</organization> Global Strategy and Booster <organization refersTo="#faoprogrammecommittee" eId="organization_3">Program</organization>, the Bill &amp; Melinda Gates Foundation, the Malaria Initiative of the President of the <organization refersTo="#usa" eId="organization_4">United <organization refersTo="#states" eId="organization_5">States</organization> of America</organization>, and other donors have made substantial resources available;</p>
+         </container>
+         <container name="welcoming">
+            <p>
+               <term refersTo="#welcoming" eId="term_4">Welcoming</term> the contribution to the mobilization of resources for development of voluntary innovative financing initiatives taken by groups of Member States and, in this regard, <term refersTo="#noting" eId="term_5">noting</term> the activities of the International Drug Purchase Facility ( <organization refersTo="#un" eId="organization_6">UN</organization>ITAID ) ;</p>
+         </container>
+         <container name="recalling">
+            <p>
+               <term refersTo="#recalling" eId="term_6">Recalling</term> that combating HIV/AIDS, malaria and other diseases is included in internationally agreed health-related development goals, including those contained in the Millennium Declaration;</p>
+         </container>
+         <container name="mindful">
+            <p>
+               <term refersTo="#mindful" eId="term_7">Mindful</term> that the global burden of malaria needs to be decreased in order to reach the Millennium Development Goal of reducing themortality rate among children under fiveby two thirds by 2015 and to help to achieve the Millennium Development Goals of improving maternal health and eradicating extreme poverty,</p>
+         </container>
+      </preamble>
+      <mainBody>
+         <paragraph eId="para_1">
+            <num>1. </num>
+            <intro eId="para_1__content">
+               <p>
+                  <term refersTo="#urges" eId="term_8">URGES</term> Member <organization refersTo="#states" eId="organization_7">States</organization>:</p>
+            </intro>
+            <subparagraph eId="para_1__subpara_1">
+               <num>(1)</num>
+               <content eId="para_1__subpara_1__content">
+                  <p>to apply to their specific contexts the evidence-based policies, strategies and tools recommended by <organization refersTo="#who" eId="organization_8">WHO</organization> and performance-based monitoring and evaluation in order to expand coverage with major preventive interventions in populations at risk and curative interventions for patients suffering from malaria and to assess programme performance and the coverage and impact of interventions in an effective and timely manner, particularly with use of the <organization refersTo="#who" eId="organization_9">WHO</organization> country-profile database;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_2">
+               <num>(2)</num>
+               <content eId="para_1__subpara_2__content">
+                  <p>to assign national and international resources, both human and financial, for the provision of technical support in order to ensure that the most locally and epidemiologically appropriate strategies are effectively implemented and that target populations are reached;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_3">
+               <num>(3)</num>
+               <content eId="para_1__subpara_3__content">
+                  <p>to cease progressively the provision in both the public and private sectors of oral artemisinin monotherapies, to promote the use of artemisinin-combination therapies, and to implement policies that prohibit the production, marketing, distribution and use ofcounterfeit antimalarial medicines;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_4">
+               <num>(4)</num>
+               <content eId="para_1__subpara_4__content">
+                  <p>to intensify access to affordable, safe and effective antimalarial combination treatments, to intermittent preventive treatment in pregnancies, with special precautions for HIV-infected pregnant women who are receiving co-trimoxazole chemotherapy, to insecticide-treated mosquito nets, including through the free distribution of such nets where appropriate, andto indoor residual spraying for malaria control with suitable and safe insecticides, <term refersTo="#takingIntoAccount" eId="term_9">taking into account</term> relevant international rules, standards and guidelines;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_5">
+               <num>(5)</num>
+               <content eId="para_1__subpara_5__content">
+                  <p>to provide, whenever necessary, in their legislation for use, to the full, of the flexibilities contained in the agreement on Trade-Related Aspects of Intellectual Property Rights (TRIPS) in order to promote access to pharmaceutical products; <authorialNote marker="2" placement="bottom" eId="authorialNote_2">
+                        <p>The WTO General Council in its Decision of 30 August 2003 (i.e. on Implementation of paragraph 6 of the Doha Declaration on the TRIPS Agreement and Public Health decided that “ ‘pharmaceutical product’ means any patented product, or product manufactured through a patented process, of the pharmaceutical sector needed to address the public health problems as recognized in paragraph 1 of the Declaration. It is understood that active ingredients necessary for its manufacture and diagnostic kits needed for its use would be included .”</p>
+                     </authorialNote>
+                  </p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_6">
+               <num>(6)</num>
+               <content eId="para_1__subpara_6__content">
+                  <p>to use all necessary administrative and legislative means, including, where appropriate, the use of provisions in international agreements, including TRIPS, in order to promote access to preventive technologies against malaria;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_7">
+               <num>(7)</num>
+               <content eId="para_1__subpara_7__content">
+                  <p>to aim at reducing or interrupting malariatransmission, wherever feasible, through integrated vector management, promoting improvement of local and environmental conditions and healthy settings, and increasing access to basic health services, antimalarial medicines, diagnostics and preventive technologies in order to reduce the disease burden;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_8">
+               <num>(8)</num>
+               <content eId="para_1__subpara_8__content">
+                  <p>to implement integrated approaches to malaria prevention and control through multisectoral collaboration and community responsibility and participation;</p>
+               </content>
+            </subparagraph>
+         </paragraph>
+         <paragraph eId="para_2">
+            <num>2. </num>
+            <intro eId="para_2__content">
+               <p>
+                  <term refersTo="#requests" eId="term_10">REQUESTS</term> international organizations and financing bodies:</p>
+            </intro>
+            <subparagraph eId="para_2__subpara_1">
+               <num>(1)</num>
+               <content eId="para_2__subpara_1__content">
+                  <p>to provide support for the development of capacities in developing countries in order to expand use of reliable diagnostics,artemisinin-based combination therapies that are appropriate for local drug‑resistance conditions, integrated vector management including long-lasting insecticide-treated nets and larvicidal measures, indoor residual spraying with appropriate and safe insecticides as indicated by <organization refersTo="#who" eId="organization_10">WHO</organization> and in accordance with the Stockholm <organization refersTo="#faoInternationalPlantProtectionConvention" eId="organization_11">Convention</organization> on Persistent Organic Pollutants, <authorialNote marker="3" placement="bottom" eId="authorialNote_3">
+                        <p>The Stockholm Convention on Persistent Organic Pollutants (Annex B, Part II, paragraphs 1–5) allows for temporary use of DDT for the purpose of malaria-vector control while maintaining the goal of reducing and ultimately eliminating the use of DDT, and calls for the development of alternatives.</p>
+                     </authorialNote> and monitoring and evaluation systems, including use of the country database developed by <organization refersTo="#who" eId="organization_12">WHO</organization>;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_2__subpara_2">
+               <num>(2)</num>
+               <content eId="para_2__subpara_2__content">
+                  <p>to increase funding for malaria control, so that the relevant agencies can continue providing support to countries, and to channel additional resources into technical support so that the financial resources can be absorbed and used effectively in countries;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_2__subpara_3">
+               <num>(3)</num>
+               <content eId="para_2__subpara_3__content">
+                  <p>to provide support for elimination of malaria in areas where it is feasible and sustainable;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_2__subpara_4">
+               <num>(4)</num>
+               <content eId="para_2__subpara_4__content">
+                  <p>to adjust their policies so as progressively to cease to fund the provision and distribution of oral artemisinin monotherapies, and to join in campaigns to prohibit the production, marketing, distribution and use of counterfeit antimalarial medicines;</p>
+               </content>
+            </subparagraph>
+         </paragraph>
+         <paragraph eId="para_3">
+            <num>3. </num>
+            <intro eId="para_3__content">
+               <p>
+                  <term refersTo="#requests" eId="term_11">REQUESTS</term> the <organization refersTo="#director-general" eId="organization_13">Director-General</organization>:</p>
+            </intro>
+            <subparagraph eId="para_3__subpara_1">
+               <num>(1)</num>
+               <content eId="para_3__subpara_1__content">
+                  <p>to take steps to identify gaps in knowledge about malaria control and elimination; to provide support for the development of new tools for diagnosis, therapy, prevention and control,and of strategies; to estimate more accurately the global burden of disease and determine trends; to develop new tools and methods for assessing impact and cost‑effectiveness of interventions; to build up <organization refersTo="#who" eId="organization_14">WHO</organization>’s current research on malaria, including that of the <organization refersTo="#un" eId="organization_15">UN</organization>ICEF/<organization refersTo="#un" eId="organization_16">UN</organization>DP/<organization refersTo="#worldBank" eId="organization_17">World Bank</organization>/<organization refersTo="#who" eId="organization_18">WHO</organization> Special <organization refersTo="#faoprogrammecommittee" eId="organization_19">Programme</organization> for Research and Training in Tropical Diseases; to provide technical support to countries for conducting operational and implementation research; and to mobilize resources and increase support for research in the development of new tools and strategies for prevention and control of malaria;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_3__subpara_2">
+               <num>(2)</num>
+               <content eId="para_3__subpara_2__content">
+                  <p>to strengthen and rationalize human resources for malaria by deployingstaff to country level, thus improving the capacity of <organization refersTo="#who" eId="organization_20">WHO</organization>’s country offices to provide technical guidance to national health programmes;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_3__subpara_3">
+               <num>(3)</num>
+               <content eId="para_3__subpara_3__content">
+                  <p>to provide support to coordinating partners and countries for malaria control in refugee camps and in complex emergencies;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_3__subpara_4">
+               <num>(4)</num>
+               <content eId="para_3__subpara_4__content">
+                  <p>to improve the coordination between different stakeholders in the fight against malaria;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_3__subpara_5">
+               <num>(5)</num>
+               <content eId="para_3__subpara_5__content">
+                  <p>to support the sound management of DDT use for vector control in accordance with the Stockholm <organization refersTo="#faoInternationalPlantProtectionConvention" eId="organization_21">Convention</organization> on Persistent Organic Pollutants, 1 and to share data on such use with Member <organization refersTo="#states" eId="organization_22">States</organization>;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_3__subpara_6">
+               <num>(6)</num>
+               <content eId="para_3__subpara_6__content">
+                  <p>to report to the Health Assembly biennially through the <organization refersTo="#wfpExecutiveBoard" eId="organization_23">Executive Board</organization> on progress made in implementation of this resolution;</p>
+               </content>
+            </subparagraph>
+         </paragraph>
+         <paragraph eId="para_4">
+            <num>4. </num>
+            <intro eId="para_4__content">
+               <p>
+                  <term refersTo="#resolves" eId="term_12">RESOLVES</term> that:</p>
+            </intro>
+            <subparagraph eId="para_4__subpara_1">
+               <num>(1)</num>
+               <content eId="para_4__subpara_1__content">
+                  <p>World Malaria Day shall be commemorated annually on 25 April, or on such other day or days as individual Member <organization refersTo="#states" eId="organization_24">States</organization> may decide, in order to provide education and understanding of malaria as a global scourge that is preventable and a disease that is curable;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_4__subpara_2">
+               <num>(2)</num>
+               <content eId="para_4__subpara_2__content">
+                  <p>World Malaria Day shall be the culmination of year-long intensified implementation of national malaria-control strategies, including community-based activities for malaria prevention and treatment in endemic areas, and the occasion to inform the general public of the obstacles encountered and progress achieved in controlling malaria.</p>
+               </content>
+            </subparagraph>
+         </paragraph>
+      </mainBody>
+      <conclusions>
+         <p>(<event refersTo="#eleventhPlenaryMeeting" eId="event_1">Eleventh plenary meeting</event>, <docDate date="2007-05-23">23 May 2007</docDate> –<organization refersTo="#committeeA" eId="organization_25">Committee A</organization>, fourth report)</p>
+      </conclusions>
+   </statement>
+</akomaNtoso>

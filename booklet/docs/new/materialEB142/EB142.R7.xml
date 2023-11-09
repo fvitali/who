@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns:akn4un="http://un.org/metadata" xmlns:eLUNa="https://cms.unov.org/eLuna/2017/main" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+   <statement name="resolution">
+      <meta>
+         <identification source="#source">
+            <FRBRWork>
+               <FRBRthis value="/akn/un/statement/deliberation/whoeb/2018-01-26/eb142_r7/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whoeb/2018-01-26/eb142_r7"/>
+               <FRBRdate date="2018-01-26" name=""/>
+               <FRBRauthor href="#whoeb" as="#author"/>
+               <FRBRcountry value="un"/>
+               <FRBRnumber value="eb142_r7"/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value="/akn/un/statement/deliberation/whoeb/2018-01-26/eb142_r7/eng@/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whoeb/2018-01-26/eb142_r7/eng@"/>
+               <FRBRdate date="2018-01-26" name=""/>
+               <FRBRauthor href="#whoeb" as="#author"/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value="/akn/un/statement/deliberation/whoeb/2018-01-26/eb142_r7/eng@/!main.xml"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whoeb/2018-01-26/eb142_r7/eng@.xml"/>
+               <FRBRdate date="2023-08-23" name=""/>
+               <FRBRauthor href="#whoeb" as="#author"/>
+            </FRBRManifestation>
+         </identification>
+         <references source="#source">
+            <TLCOrganization eId="wfpExecutiveBoard" href="/akn/ontology/organization/un/wfpExecutiveBoard" showAs="Executive Board"/>
+            <TLCTerm eId="havingConsidered" href="/akn/ontology/term/havingConsidered" showAs="Having considered"/>
+            <TLCOrganization eId="director-general" href="/akn/ontology/organization/un/director-general" showAs="Director-General"/>
+            <TLCEvent href="/akn/ontology/event/whoha/twelfthMeeting" eId="twelfthMeeting" showAs="Twelfth meeting"/>
+            <TLCPerson eId="source" href="/akn/ontology/person/somebody" showAs="somebody"/>
+         </references>
+         <proprietary source="#source">
+            <akn4un:session>EB142</akn4un:session>
+         </proprietary>
+      </meta>
+      <preface>
+         <p>
+            <docNumber>EB142.R7</docNumber>
+            <docTitle>Confirmation of amendments to the Staff Rules <authorialNote marker="1" placement="bottom" eId="authorialNote_1">
+                  <p>See Annex 2, and Annex 5 for the financial and administrative implications for the Secretariat of the adoption of this resolution.</p>
+               </authorialNote>
+            </docTitle>
+         </p>
+      </preface>
+      <preamble>
+         <formula name="enactingFormula">
+            <p>The <organization refersTo="#wfpExecutiveBoard" eId="organization_1">Executive Board</organization>,</p>
+         </formula>
+         <container name="havingConsidered">
+            <p>
+               <term refersTo="#havingConsidered" eId="term_1">Having considered</term> the report on amendments to the Staff Regulations and Staff Rules, <authorialNote marker="2" placement="bottom" eId="authorialNote_2">
+                  <p>Document EB142/38.</p>
+               </authorialNote>
+            </p>
+         </container>
+      </preamble>
+      <mainBody>
+         <list eId="para_1">
+            <num>1. </num>
+            <intro eId="para_1__content">
+               <p>CONFIRMS, in accordance with Staff Regulation 12.2, the amendments to the Staff Rules that have been made by the <organization refersTo="#director-general" eId="organization_2">Director-General</organization> with effect from <date date="2018-01-01">1 January 2018</date> concerning the remuneration of staff in the professional and higher categories;</p>
+            </intro>
+            <point eId="para_1__list_2">
+               <num>2.</num>
+               <content eId="para_1__list_2__content">
+                  <p>ALSO CONFIRMS, in accordance with Staff Regulation 12.2, the amendments to the Staff Rules that have been made by the <organization refersTo="#director-general" eId="organization_3">Director-General</organization> with effect from <date date="2018-02-01">1 February 2018</date> concerning definitions, education grants, settling-in grants, repatriation grants, mobility, special leave, leave withoutpay , resignations, administrative reviews and the Global Board of Appeal.</p>
+               </content>
+            </point>
+         </list>
+      </mainBody>
+      <conclusions>
+         <p>(<event refersTo="#twelfthMeeting" eId="event_1">Twelfth meeting</event>, <docDate date="2018-01-26">26 January 2018</docDate>)</p>
+      </conclusions>
+   </statement>
+</akomaNtoso>

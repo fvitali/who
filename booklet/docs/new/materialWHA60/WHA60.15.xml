@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns:akn4un="http://un.org/metadata" xmlns:eLUNa="https://cms.unov.org/eLuna/2017/main" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+   <statement name="resolution">
+      <meta>
+         <identification source="#source">
+            <FRBRWork>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-23/wha60_15/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-23/wha60_15"/>
+               <FRBRdate date="2007-05-23" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+               <FRBRcountry value="un"/>
+               <FRBRnumber value="wha60_15"/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-23/wha60_15/eng@/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-23/wha60_15/eng@"/>
+               <FRBRdate date="2007-05-23" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-23/wha60_15/eng@/!main.xml"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-23/wha60_15/eng@.xml"/>
+               <FRBRdate date="2023-09-13" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+            </FRBRManifestation>
+         </identification>
+         <references source="#source">
+            <TLCOrganization eId="who" href="/akn/ontology/organization/un/who" showAs="WHO"/>
+            <TLCOrganization eId="worldHealthAssembly" href="/akn/ontology/organization/un/worldHealthAssembly" showAs="World Health Assembly"/>
+            <TLCOrganization eId="unitedNations" href="/akn/ontology/organization/un/unitedNations" showAs="United Nations"/>
+            <TLCOrganization eId="un" href="/akn/ontology/organization/un/un" showAs="UN"/>
+            <TLCOrganization eId="worldBank" href="/akn/ontology/organization/un/worldBank" showAs="World Bank"/>
+            <TLCOrganization eId="faoprogrammecommittee" href="/akn/ontology/organization/un/faoprogrammecommittee" showAs="Programme"/>
+            <TLCOrganization eId="organization" href="/akn/ontology/organization/un/organization" showAs="Organization"/>
+            <TLCOrganization eId="states" href="/akn/ontology/organization/un/states" showAs="States"/>
+            <TLCTerm eId="recalling" href="/akn/ontology/term/recalling" showAs="recalling"/>
+            <TLCTerm eId="havingConsidered" href="/akn/ontology/term/havingConsidered" showAs="having considered"/>
+            <TLCTerm eId="acknowledging" href="/akn/ontology/term/acknowledging" showAs="acknowledging"/>
+            <TLCTerm eId="recognizing" href="/akn/ontology/term/recognizing" showAs="recognizing"/>
+            <TLCTerm eId="reaffirming" href="/akn/ontology/term/reaffirming" showAs="reaffirming"/>
+            <TLCTerm eId="noting" href="/akn/ontology/term/noting" showAs="noting"/>
+            <TLCTerm eId="convinced" href="/akn/ontology/term/convinced" showAs="convinced"/>
+            <TLCTerm eId="mindful" href="/akn/ontology/term/mindful" showAs="mindful"/>
+            <TLCTerm eId="urges" href="/akn/ontology/term/urges" showAs="urges"/>
+            <TLCTerm eId="callsEupon" href="/akn/ontology/term/callsEupon" showAs="calls eupon"/>
+            <TLCTerm eId="concerned" href="/akn/ontology/term/concerned" showAs="concerned"/>
+            <TLCTerm eId="requests" href="/akn/ontology/term/requests" showAs="requests"/>
+            <TLCTerm eId="requested" href="/akn/ontology/term/requested" showAs="requested"/>
+            <TLCOrganization eId="director-general" href="/akn/ontology/organization/un/director-general" showAs="Director-General"/>
+            <TLCEvent href="/akn/ontology/event/whowha/eleventhPlenaryMeeting" eId="eleventhPlenaryMeeting" showAs="Eleventh plenary meeting"/>
+            <TLCOrganization eId="committeeB" href="/akn/ontology/organization/un/committeeB" showAs="Committee B"/>
+            <TLCPerson eId="source" href="/akn/ontology/person/somebody" showAs="somebody"/>
+         </references>
+      </meta>
+      <preface>
+         <p>
+            <docNumber>WHA60.15</docNumber>
+            <docTitle>WHO’s role and responsibilities in health research</docTitle>
+         </p>
+      </preface>
+      <preamble>
+         <formula name="enactingFormula">
+            <p>The Sixtieth <organization refersTo="#worldHealthAssembly" eId="organization_2">World Health Assembly</organization>,</p>
+         </formula>
+         <container name="recalling">
+            <p>
+               <term refersTo="#recalling" eId="term_1">Recalling</term> resolution <ref href="/akn/un/statement/deliberation/whowha/2005-05-16/wha58_34/!main">WHA58.34</ref> on the Ministerial Summit on Health Research;</p>
+         </container>
+         <container name="havingConsidered">
+            <p>
+               <term refersTo="#havingConsidered" eId="term_2">Having considered</term> the report on <organization refersTo="#who" eId="organization_3">WHO</organization>’s role and responsibilities in health research; <authorialNote marker="1" placement="bottom" eId="authorialNote_1">
+                  <p>Document A60/23.</p>
+               </authorialNote>
+            </p>
+         </container>
+         <container name="acknowledging">
+            <p>
+               <term refersTo="#acknowledging" eId="term_3">Acknowledging</term> the critical role of the entire spectrum of health and medical research in improving human health;</p>
+         </container>
+         <container name="recognizing">
+            <p>
+               <term refersTo="#recognizing" eId="term_4">Recognizing</term> that research into poverty and inequity in health is limited, and that the ensuing evidence is important to guide policy in order to minimize gaps;</p>
+         </container>
+         <container name="reaffirming">
+            <p>
+               <term refersTo="#reaffirming" eId="term_5">Reaffirming</term> that research to strengthen health systems is fundamental for achieving internationally agreed health-related development goals, including those contained in the <organization refersTo="#unitedNations" eId="organization_4">United Nations</organization> Millennium Declaration;</p>
+         </container>
+         <container name="recognizing">
+            <p>
+               <term refersTo="#recognizing" eId="term_6">Recognizing</term> that a wide gap exists between developed and developing countries in the capacity for health research, that it may hamper efforts to achieve better health results, and that it may contribute to worsening the brain drain;</p>
+         </container>
+         <container name="noting">
+            <p>
+               <term refersTo="#noting" eId="term_7">Noting</term> in particular the work of IARC, the <organization refersTo="#who" eId="organization_5">WHO</organization> Centre for Health Development, the <organization refersTo="#un" eId="organization_6">UN</organization>ICEF/<organization refersTo="#un" eId="organization_7">UN</organization>DP/<organization refersTo="#worldBank" eId="organization_8">World Bank</organization>/<organization refersTo="#who" eId="organization_9">WHO</organization> Special <organization refersTo="#faoprogrammecommittee" eId="organization_10">Programme</organization> for Research and Training in Tropical Diseases, and the <organization refersTo="#un" eId="organization_11">UN</organization>DP/<organization refersTo="#un" eId="organization_12">UN</organization>FPA/<organization refersTo="#who" eId="organization_13">WHO</organization>/<organization refersTo="#worldBank" eId="organization_14">World Bank</organization> Special <organization refersTo="#faoprogrammecommittee" eId="organization_15">Programme</organization> of Research, Development and Research Training in Human Reproduction;</p>
+         </container>
+         <container name="convinced">
+            <p>
+               <term refersTo="#convinced" eId="term_8">Convinced</term> that research findings and data derived from effective health-information systems should be used to inform decisions on the delivery of interventions to those who need them most;</p>
+         </container>
+         <container name="mindful">
+            <p>
+               <term refersTo="#mindful" eId="term_9">Mindful</term> that the <organization refersTo="#organization" eId="organization_16">Organization</organization> should lead by example in the use of research findings to inform decisions about health;</p>
+         </container>
+         <container name="reaffirming">
+            <p>
+               <term refersTo="#reaffirming" eId="term_10">Reaffirming</term> the role of <organization refersTo="#who" eId="organization_17">WHO</organization>’s cosponsored research programmes in support of neglected areas of research relevant to poor and disadvantaged populations, particularly poverty-related diseases, tuberculosis, malaria and AIDS, and <term refersTo="#recognizing" eId="term_11">recognizing</term> the contributions of <organization refersTo="#who" eId="organization_18">WHO</organization> to strengthening research capacity;</p>
+         </container>
+         <p>
+Committed to ensuring ethical standards in the conduct of health research supported by the <organization refersTo="#organization" eId="organization_19">Organization</organization>;
+</p>
+         <container name="recognizing">
+            <p>
+               <term refersTo="#recognizing" eId="term_12">Recognizing</term> the need to evaluate progress in health research since 2004 and to discuss the future needs of all Member <organization refersTo="#states" eId="organization_20">States</organization> with regard to the promotion of evidence-based health research and policies,</p>
+         </container>
+      </preamble>
+      <mainBody>
+         <paragraph eId="para_1">
+            <num>1. </num>
+            <intro eId="para_1__content">
+               <p>
+                  <term refersTo="#urges" eId="term_13">URGES</term> Member <organization refersTo="#states" eId="organization_21">States</organization>:</p>
+            </intro>
+            <subparagraph eId="para_1__subpara_1">
+               <num>(1)</num>
+               <content eId="para_1__subpara_1__content">
+                  <p>to consider implementing the recommendation made by the Commission on Health Research for Development in 1990 that “developing countries should invest at least 2% of national health expenditures in research and research capacity strengthening, and at least 5% of project and programme aid for the health sector from development aid agencies should be earmarked for research and research capacity strengthening”; <authorialNote marker="2" placement="bottom" eId="authorialNote_2">
+                        <p>In Commission on Health Research for Development. Health research: essential link to equity in development .New York, Oxford University Press, 1990.</p>
+                     </authorialNote>
+                  </p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_2">
+               <num>(2)</num>
+               <content eId="para_1__subpara_2__content">
+                  <p>to consider the developmentand strengthening of resource-tracking tools in order to monitor expenditure on health research from government and donor sources, and to disseminate relevantresearch findings to policy-makers, civil-society entities and the general public;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_3">
+               <num>(3)</num>
+               <content eId="para_1__subpara_3__content">
+                  <p>to integrate research in the mainstream of national programme activities and plans, and to promote wider access to research findings;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_4">
+               <num>(4)</num>
+               <content eId="para_1__subpara_4__content">
+                  <p>to strengthen the capacity of national and institutional ethics committees that review health-research proposals,as appropriate;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_5">
+               <num>(5)</num>
+               <content eId="para_1__subpara_5__content">
+                  <p>to draw up or strengthen health-research policies and health-research legislative documents,as appropriate;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_6">
+               <num>(6)</num>
+               <content eId="para_1__subpara_6__content">
+                  <p>to create a sustained training programme for research managers and to facilitate a cadre of trained professionals to manage health research,where necessary;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_7">
+               <num>(7)</num>
+               <content eId="para_1__subpara_7__content">
+                  <p>to improve the career management of researchers who do not necessarily come under the authority of the ministry responsible for research,as appropriate;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_8">
+               <num>(8)</num>
+               <content eId="para_1__subpara_8__content">
+                  <p>to consider strengthening national research capacities in the following complementary areas: generation of new knowledge, human and financial resources, research institutes and use of research findings in policy decisions, and to foster national and international networks for research collaboration;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_9">
+               <num>(9)</num>
+               <content eId="para_1__subpara_9__content">
+                  <p>to develop and strengthen a participatory mechanism , as appropriate , for all stakeholders in order to prioritize the health-research agenda on the basis of dynamic changes in health systems, disease burden, and emerging health-related issues.</p>
+               </content>
+            </subparagraph>
+         </paragraph>
+         <paragraph eId="para_2">
+            <num>2. </num>
+            <content eId="para_2__content">
+               <p>
+                  <term refersTo="#callsEupon" eId="term_14">CALLS UPON</term> the health-research community, other international organizations, the private sector, civil society and other <term refersTo="#concerned" eId="term_15">concerned</term> stakeholders to provide strong, sustained support to research activities across the entire spectrum of health, medical and behavioural research, especially research into communicable diseases and poverty and inequity in health, with the participation of communities and in keeping with national priorities, and to maintain support of activities that promote the use of research findings to inform policy, practice and public opinion;</p>
+            </content>
+         </paragraph>
+         <paragraph eId="para_3">
+            <num>3. </num>
+            <intro eId="para_3__content">
+               <p>
+                  <term refersTo="#requests" eId="term_16">REQUESTS</term> the <organization refersTo="#director-general" eId="organization_22">Director-General</organization>:</p>
+            </intro>
+            <subparagraph eId="para_3__subpara_1">
+               <num>(1)</num>
+               <content eId="para_3__subpara_1__content">
+                  <p>to promote and advocate research in neglected areas of importance for better health, in particular on diseases that disproportionately affect developing countries and for poor and disadvantaged groups;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_3__subpara_2">
+               <num>(2)</num>
+               <content eId="para_3__subpara_2__content">
+                  <p>to strengthen the culture of research for evidence-based decision-making in the <organization refersTo="#organization" eId="organization_23">Organization</organization> and to ensure that research informs its technical activities;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_3__subpara_3">
+               <num>(3)</num>
+               <content eId="para_3__subpara_3__content">
+                  <p>to develop a reporting system on <organization refersTo="#who" eId="organization_24">WHO</organization>’s activities in health research;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_3__subpara_4">
+               <num>(4)</num>
+               <content eId="para_3__subpara_4__content">
+                  <p>to improve significantly coordination of relevant research activities, including integration of research into disease control and prevention, and to designate one focal point within the <organization refersTo="#organization" eId="organization_25">Organization</organization> who has the overview of all <organization refersTo="#who" eId="organization_26">WHO</organization>’s research activities;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_3__subpara_5">
+               <num>(5)</num>
+               <content eId="para_3__subpara_5__content">
+                  <p>to review the use of research evidence for major policy decisions and recommendations within <organization refersTo="#who" eId="organization_27">WHO</organization>;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_3__subpara_6">
+               <num>(6)</num>
+               <content eId="para_3__subpara_6__content">
+                  <p>to establish transparent mechanisms for prioritization of research activities and projects within <organization refersTo="#who" eId="organization_28">WHO</organization>, including independent peer-review mechanisms, and selection criteria such as relevance and scientific quality;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_3__subpara_7">
+               <num>(7)</num>
+               <content eId="para_3__subpara_7__content">
+                  <p>to establish standard procedures and mechanisms for the conduct of research and use of findings by the <organization refersTo="#organization" eId="organization_29">Organization</organization>, including registration of its research proposals in a publicly accessible database, peer review of proposals, and dissemination of findings;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_3__subpara_8">
+               <num>(8)</num>
+               <content eId="para_3__subpara_8__content">
+                  <p>to advise Member <organization refersTo="#states" eId="organization_30">States</organization>, when <term refersTo="#requested" eId="term_17">requested</term>, on ways to organize systems for research for better health;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_3__subpara_9">
+               <num>(9)</num>
+               <content eId="para_3__subpara_9__content">
+                  <p>to promote better access to relevant research findings, including by supporting the movement towards open access to scientific journals;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_3__subpara_10">
+               <num>(10)</num>
+               <content eId="para_3__subpara_10__content">
+                  <p>to provide support to Member <organization refersTo="#states" eId="organization_31">States</organization> in order to develop capacities for health-systems and health-policy research, where necessary;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_3__subpara_11">
+               <num>(11)</num>
+               <content eId="para_3__subpara_11__content">
+                  <p>to provide technical support to Member <organization refersTo="#states" eId="organization_32">States</organization> for strengthening the capacity of national and institutional health-research ethics committees, reviewing complex research protocols, and drafting national health policies and health-research legislative documents;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_3__subpara_12">
+               <num>(12)</num>
+               <content eId="para_3__subpara_12__content">
+                  <p>to identify and implement mechanisms to provide better support to countries and regions in <term refersTo="#recognizing" eId="term_18">recognizing</term> and maximizing health research as a key factor in the development of health systems, in particular in developing countries;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_3__subpara_13">
+               <num>(13)</num>
+               <content eId="para_3__subpara_13__content">
+                  <p>to formulate simple priority-setting strategies for health research for use by national governments, where appropriate;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_3__subpara_14">
+               <num>(14)</num>
+               <content eId="para_3__subpara_14__content">
+                  <p>to institute appropriate systems and mechanisms for greater interaction and convergence among researchers and users of relevant research in order to improve use of research findings and to enhance framing of health policy;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_3__subpara_15">
+               <num>(15)</num>
+               <content eId="para_3__subpara_15__content">
+                  <p>to provide capacity-building opportunities in health economics, assessment of health technology, economic impact of disease, and costing of various interventions so that a country may optimize its health-system delivery;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_3__subpara_16">
+               <num>(16)</num>
+               <content eId="para_3__subpara_16__content">
+                  <p>to build up capacity in order to monitor and report to Member <organization refersTo="#states" eId="organization_33">States</organization> on total expenditure on health research by country and region, by public and donor sources, and by type of expenditure;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_3__subpara_17">
+               <num>(17)</num>
+               <content eId="para_3__subpara_17__content">
+                  <p>to submit to the Sixty-second <organization refersTo="#worldHealthAssembly" eId="organization_34">World Health Assembly</organization> a strategy for the management and organization of research activities within <organization refersTo="#who" eId="organization_35">WHO</organization>;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_3__subpara_18">
+               <num>(18)</num>
+               <content eId="para_3__subpara_18__content">
+                  <p>to convene a ministerial conference on health research, open to all Member <organization refersTo="#states" eId="organization_36">States</organization>, in Bamako, <date date="2008-11-01">November 2008</date>.</p>
+               </content>
+            </subparagraph>
+         </paragraph>
+      </mainBody>
+      <conclusions>
+         <p>(<event refersTo="#eleventhPlenaryMeeting" eId="event_1">Eleventh plenary meeting</event>, <docDate date="2007-05-23">23 May 2007</docDate> –<organization refersTo="#committeeB" eId="organization_37">Committee B</organization>, second report)</p>
+      </conclusions>
+   </statement>
+</akomaNtoso>

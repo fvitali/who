@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns:akn4un="http://un.org/metadata" xmlns:eLUNa="https://cms.unov.org/eLuna/2017/main" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+   <statement name="resolution">
+      <meta>
+         <identification source="#source">
+            <FRBRWork>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-23/wha60_28/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-23/wha60_28"/>
+               <FRBRdate date="2007-05-23" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+               <FRBRcountry value="un"/>
+               <FRBRnumber value="wha60_28"/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-23/wha60_28/eng@/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-23/wha60_28/eng@"/>
+               <FRBRdate date="2007-05-23" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-23/wha60_28/eng@/!main.xml"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-23/wha60_28/eng@.xml"/>
+               <FRBRdate date="2023-09-13" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+            </FRBRManifestation>
+         </identification>
+         <references source="#source">
+            <TLCOrganization eId="worldHealthAssembly" href="/akn/ontology/organization/un/worldHealthAssembly" showAs="World Health Assembly"/>
+            <TLCOrganization eId="states" href="/akn/ontology/organization/un/states" showAs="States"/>
+            <TLCOrganization eId="who" href="/akn/ontology/organization/un/who" showAs="WHO"/>
+            <TLCTerm eId="havingConsidered" href="/akn/ontology/term/havingConsidered" showAs="having considered"/>
+            <TLCTerm eId="reaffirming" href="/akn/ontology/term/reaffirming" showAs="reaffirming"/>
+            <TLCTerm eId="recalling" href="/akn/ontology/term/recalling" showAs="recalling"/>
+            <TLCTerm eId="recognizing" href="/akn/ontology/term/recognizing" showAs="recognizing"/>
+            <TLCTerm eId="stressing" href="/akn/ontology/term/stressing" showAs="stressing"/>
+            <TLCTerm eId="noting" href="/akn/ontology/term/noting" showAs="noting"/>
+            <TLCTerm eId="urges" href="/akn/ontology/term/urges" showAs="urges"/>
+            <TLCTerm eId="requests" href="/akn/ontology/term/requests" showAs="requests"/>
+            <TLCTerm eId="takingIntoAccount" href="/akn/ontology/term/takingIntoAccount" showAs="taking into account"/>
+            <TLCOrganization eId="director-general" href="/akn/ontology/organization/un/director-general" showAs="Director-General"/>
+            <TLCOrganization eId="wfpExecutiveBoard" href="/akn/ontology/organization/un/wfpExecutiveBoard" showAs="Executive Board"/>
+            <TLCEvent href="/akn/ontology/event/whowha/eleventhPlenaryMeeting" eId="eleventhPlenaryMeeting" showAs="Eleventh plenary meeting"/>
+            <TLCOrganization eId="committeeA" href="/akn/ontology/organization/un/committeeA" showAs="Committee A"/>
+            <TLCPerson eId="source" href="/akn/ontology/person/somebody" showAs="somebody"/>
+         </references>
+      </meta>
+      <preface>
+         <p>
+            <docNumber>WHA60.28</docNumber>
+            <docTitle>Pandemic influenza preparedness: sharing of influenza viruses and access to vaccines and other benefits</docTitle>
+         </p>
+      </preface>
+      <preamble>
+         <formula name="enactingFormula">
+            <p>The Sixtieth <organization refersTo="#worldHealthAssembly" eId="organization_1">World Health Assembly</organization>,</p>
+         </formula>
+         <container name="havingConsidered">
+            <p>
+               <term refersTo="#havingConsidered" eId="term_1">Having considered</term> the report on avian and pandemic influenza: developments, response and follow-up; <authorialNote marker="1" placement="bottom" eId="authorialNote_1">
+                  <p>Documents A60/7, A60/8 and A60/INF.DOC./1.</p>
+               </authorialNote>
+            </p>
+         </container>
+         <container name="reaffirming">
+            <p>
+               <term refersTo="#reaffirming" eId="term_2">Reaffirming</term> obligations of <organization refersTo="#states" eId="organization_2">States</organization> Parties under the International Health Regulations (2005);</p>
+         </container>
+         <container name="recalling">
+            <p>
+               <term refersTo="#recalling" eId="term_3">Recalling</term> resolutions <ref href="/akn/un/statement/deliberation/whowha/2005-05-23/wha58_5/!main">WHA58.5</ref> and <ref href="/akn/un/statement/deliberation/whowha/2006-05-26/wha59_2/!main">WHA59.2</ref>, which expressed concern about the potential of the H5N1 strain of Influenzavirus A to cause a pandemic and urged Member <organization refersTo="#states" eId="organization_3">States</organization> to disseminate to <organization refersTo="#who" eId="organization_4">WHO</organization> collaborating centres information and relevant biological materials, including clinical specimens and viruses;</p>
+         </container>
+         <container name="recognizing">
+            <p>
+               <term refersTo="#recognizing" eId="term_4">Recognizing</term> the sovereign right of <organization refersTo="#states" eId="organization_5">States</organization> over their biological resources, and the importance of collective action to mitigate public health risks;</p>
+         </container>
+         <container name="recognizing">
+            <p>
+               <term refersTo="#recognizing" eId="term_5">Recognizing</term> that intellectual property rights do not and should not prevent Member <organization refersTo="#states" eId="organization_6">States</organization> from taking measures to protect public health;</p>
+         </container>
+         <container name="recalling">
+            <p>
+               <term refersTo="#recalling" eId="term_6">Recalling</term> the Jakarta Declaration on Responsible Practices for Sharing Avian Influenza Viruses and Resulting Benefits and the recommendations of the High-Level Meeting on Responsible Practices for Sharing Avian Influenza Viruses and Resulting Benefits (Jakarta, 26–28 March 2007);</p>
+         </container>
+         <container name="recognizing">
+            <p>
+               <term refersTo="#recognizing" eId="term_7">Recognizing</term>, in particular, the importance of international sharing, with <organization refersTo="#who" eId="organization_7">WHO</organization> collaborating centres, of clinical specimens and viruses as a contribution to assessment of the pandemic risk, development of pandemic vaccines, updating of diagnostic reagents and test kits, and surveillance for resistance to antiviral medicines;</p>
+         </container>
+         <container name="stressing">
+            <p>
+               <term refersTo="#stressing" eId="term_8">Stressing</term>the need for effective and transparent international mechanisms aimed at ensuring fair and equitable sharing of benefits, including access to, and distribution of, affordable diagnostics and treatments, including vaccines, to those in need, especially in developing countries, in a timely manner;</p>
+         </container>
+         <container name="noting">
+            <p>
+               <term refersTo="#noting" eId="term_9">Noting</term>
+               <organization refersTo="#who" eId="organization_8">WHO</organization>’s global pandemic influenza action plan to increase vaccine supplyand its goal of reducing the gap between the potential vaccine demand and supply expected during an influenza pandemic by expanding over the medium- and long-term the supply of pandemic vaccine; <authorialNote marker="2" placement="bottom" eId="authorialNote_2">
+                  <p>Document WHO/IVB/06.13 – WHO/ODS/EPR/GIP/2006.1.</p>
+               </authorialNote>
+            </p>
+         </container>
+      </preamble>
+      <mainBody>
+         <paragraph eId="para_1">
+            <num>1. </num>
+            <intro eId="para_1__content">
+               <p>
+                  <term refersTo="#urges" eId="term_10">URGES</term> Member <organization refersTo="#states" eId="organization_9">States</organization>:</p>
+            </intro>
+            <subparagraph eId="para_1__subpara_1">
+               <num>(1)</num>
+               <content eId="para_1__subpara_1__content">
+                  <p>to continue to support, strengthen and improve the <organization refersTo="#who" eId="organization_10">WHO</organization> Global Influenza Surveillance Network and its procedures through the timely sharing of viruses orspecimens with <organization refersTo="#who" eId="organization_11">WHO</organization> collaborating centres, as a foundation of public health, to ensure critical risk assessment and response, and to aim to ensure and promote transparent, fair and equitable sharing of benefits arising from the generation of information, diagnostics, medicines, vaccines and other technologies;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_2">
+               <num>(2)</num>
+               <content eId="para_1__subpara_2__content">
+                  <p>to support and promote research to improve the prevention, detection, diagnosis and management of influenza viral infection, with the goal of developing better tools for public health;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_3">
+               <num>(3)</num>
+               <content eId="para_1__subpara_3__content">
+                  <p>to support <organization refersTo="#who" eId="organization_12">WHO</organization> as appropriate in order to identify and implement mechanisms referred to in paragraph 2, subparagraph (1);</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_4">
+               <num>(4)</num>
+               <content eId="para_1__subpara_4__content">
+                  <p>to formulate as appropriate and to strengthen existing policies on influenza vaccines as an integral part of their national influenza-pandemic preparedness plans;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_5">
+               <num>(5)</num>
+               <content eId="para_1__subpara_5__content">
+                  <p>to strengthen where appropriate the capacity of national and regional regulatory authorities to carry out efficiently and effectively necessary measures for the rapid approval of safe and effective candidate influenza vaccines, especially those derived from new subtypes of influenza viruses, and in this respect to encourage international collaboration among regulatory authorities;</p>
+               </content>
+            </subparagraph>
+         </paragraph>
+         <paragraph eId="para_2">
+            <num>2. </num>
+            <intro eId="para_2__content">
+               <p>
+                  <term refersTo="#requests" eId="term_11">REQUESTS</term> the <organization refersTo="#director-general" eId="organization_13">Director-General</organization>:</p>
+            </intro>
+            <list eId="para_2__subpara_1">
+               <num>(1)</num>
+               <intro eId="para_2__subpara_1__content">
+                  <p>to identify and propose, in close consultation with Member <organization refersTo="#states" eId="organization_14">States</organization>, frameworks and mechanisms that aim to ensure fair and equitable sharing of benefits, in support of public health, among all Member <organization refersTo="#states" eId="organization_15">States</organization>, taking strongly into consideration the specific needs of developing countries, such as, but not limited to:</p>
+               </intro>
+               <point eId="para_2__subpara_1__list_a">
+                  <num>(a)</num>
+                  <content eId="para_2__subpara_1__list_a__content">
+                     <p>innovative financing mechanisms to facilitate timely and affordable procurement of pandemic vaccines for and by Member <organization refersTo="#states" eId="organization_16">States</organization> in need;</p>
+                  </content>
+               </point>
+               <point eId="para_2__subpara_1__list_b">
+                  <num>(b)</num>
+                  <content eId="para_2__subpara_1__list_b__content">
+                     <p>facilitation of acquisition by developing countries of capacity for manufacturing in-country influenza vaccine;</p>
+                  </content>
+               </point>
+               <point eId="para_2__subpara_1__list_c">
+                  <num>(c)</num>
+                  <content eId="para_2__subpara_1__list_c__content">
+                     <p>access to influenza-vaccine viruses developed by <organization refersTo="#who" eId="organization_17">WHO</organization> collaborating centresfor the production of vaccines by all influenza-vaccine manufacturers, particularly in developing countries;</p>
+                  </content>
+               </point>
+               <point eId="para_2__subpara_1__list_d">
+                  <num>(d)</num>
+                  <content eId="para_2__subpara_1__list_d__content">
+                     <p>in times of public health emergencies of international concern, full access of all influenza-vaccine manufacturers to pandemic influenza-vaccine viruses developed by <organization refersTo="#who" eId="organization_18">WHO</organization> collaborating centresfor the production of pandemic influenza vaccines;</p>
+                  </content>
+               </point>
+               <point eId="para_2__subpara_1__list_e">
+                  <num>(e)</num>
+                  <content eId="para_2__subpara_1__list_e__content">
+                     <p>technical assistance to developing countries to enhance local research and surveillance capacity, including staff training, with the objective of assuring work on influenza viruses at national and regional levels;</p>
+                  </content>
+               </point>
+               <point eId="para_2__subpara_1__list_f">
+                  <num>(f)</num>
+                  <content eId="para_2__subpara_1__list_f__content">
+                     <p>upon request, provision of support to Member <organization refersTo="#states" eId="organization_19">States</organization>, especially developing and affected countries, to improve their capacity to establish and strengthen testing capacity for H5 and other influenzaviruses, including identification and characterization, and to establish and strengthen the capacity of those countries to meet <organization refersTo="#who" eId="organization_20">WHO</organization> requirements for designating a reference laboratory or collaborating centre, if desired;</p>
+                  </content>
+               </point>
+            </list>
+            <subparagraph eId="para_2__subpara_2">
+               <num>(2)</num>
+               <content eId="para_2__subpara_2__content">
+                  <p>to establish, in close consultation with Member <organization refersTo="#states" eId="organization_21">States</organization>, an international stockpile of vaccines for H5N1 or other influenza viruses of pandemic potential as appropriate, for use in countries in need in a timely manner and according to sound public-health principles, with transparent rules and procedures, informed by expert guidance and evidence, for operation, prioritization, release of stocks, management and oversight;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_2__subpara_3">
+               <num>(3)</num>
+               <content eId="para_2__subpara_3__content">
+                  <p>to formulate mechanisms and guidelines, in close consultation with Member <organization refersTo="#states" eId="organization_22">States</organization>, aimed at ensuring fair and equitable distribution of pandemic-influenza vaccines at affordable prices in the event of a pandemic, in order to ensure timely availability of such vaccines to Member <organization refersTo="#states" eId="organization_23">States</organization> in need;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_2__subpara_4">
+               <num>(4)</num>
+               <content eId="para_2__subpara_4__content">
+                  <p>to mobilize financial, technical and other appropriate support from Member <organization refersTo="#states" eId="organization_24">States</organization>, vaccine manufacturers, development banks, charitable organizations, private donors and others, in order to implement mechanisms that increase the equitable sharing of benefits as described in paragraph 2, subparagraphs (1), (2) and (3);</p>
+               </content>
+            </subparagraph>
+            <list eId="para_2__subpara_5">
+               <num>(5)</num>
+               <intro eId="para_2__subpara_5__content">
+                  <p>to convene an interdisciplinary working group to revise the terms of reference of <organization refersTo="#who" eId="organization_25">WHO</organization> collaborating centres, H5 Reference Laboratories, and national influenza centres, devise oversight mechanisms, formulate draft standard terms and conditions for sharing viruses between originating countries and <organization refersTo="#who" eId="organization_26">WHO</organization> collaborating centres, and between the latter and third parties, and to review all relevant documents for sharing influenza viruses and sequencing data, based on mutual trust, transparency, and overriding principles such as:</p>
+               </intro>
+               <point eId="para_2__subpara_5__list_a">
+                  <num>(a)</num>
+                  <content eId="para_2__subpara_5__list_a__content">
+                     <p>timely sharing of viruses within the Global Influenza Surveillance Network;</p>
+                  </content>
+               </point>
+               <point eId="para_2__subpara_5__list_b">
+                  <num>(b)</num>
+                  <content eId="para_2__subpara_5__list_b__content">
+                     <p>application of the same standard terms and conditions to all transactions, as appropriate;</p>
+                  </content>
+               </point>
+               <point eId="para_2__subpara_5__list_c">
+                  <num>(c)</num>
+                  <content eId="para_2__subpara_5__list_c__content">
+                     <p>timely consultation and sharing of information with originating countries, especially on use outside the Network;</p>
+                  </content>
+               </point>
+               <point eId="para_2__subpara_5__list_d">
+                  <num>(d)</num>
+                  <content eId="para_2__subpara_5__list_d__content">
+                     <p>for any use of influenza viruses outside the scope of the terms of reference of <organization refersTo="#who" eId="organization_27">WHO</organization> collaborating centres, H5 Reference Laboratories, and national influenza centres, submission of a request directly to the relevant national influenza centre or other originating laboratory of the country where the virus was collected and obtention of an appropriate response from the national influenza centre; such <term refersTo="#requests" eId="term_12">requests</term> would be bilateral activities not requiring the intervention of <organization refersTo="#who" eId="organization_28">WHO</organization>;</p>
+                  </content>
+               </point>
+               <point eId="para_2__subpara_5__list_e">
+                  <num>(e)</num>
+                  <content eId="para_2__subpara_5__list_e__content">
+                     <p>recognition and respect of the crucial and fundamental role and contribution of countries in providing viruses for the Global Influenza Surveillance Network;</p>
+                  </content>
+               </point>
+               <point eId="para_2__subpara_5__list_f">
+                  <num>(f)</num>
+                  <content eId="para_2__subpara_5__list_f__content">
+                     <p>increased involvement, participation and recognition of contribution of scientists from originating country in research related to viruses and specimens;</p>
+                  </content>
+               </point>
+               <point eId="para_2__subpara_5__list_g">
+                  <num>(g)</num>
+                  <content eId="para_2__subpara_5__list_g__content">
+                     <p>attribution of the work and increased co-authorship of scientists from originating countries in scientific publications;</p>
+                  </content>
+               </point>
+               <point eId="para_2__subpara_5__list_h">
+                  <num>(h)</num>
+                  <content eId="para_2__subpara_5__list_h__content">
+                     <p>due consideration of relevant national and international laws;</p>
+                  </content>
+               </point>
+            </list>
+            <subparagraph eId="para_2__subpara_6">
+               <num>(6)</num>
+               <content eId="para_2__subpara_6__content">
+                  <p>to assure a membership of the interdisciplinary working group consisting of four Member <organization refersTo="#states" eId="organization_29">States</organization> from each of the six <organization refersTo="#who" eId="organization_30">WHO</organization> regions, <term refersTo="#takingIntoAccount" eId="term_13">taking into account</term> balanced representation between developed and developing countries and including both experts and policy makers;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_2__subpara_7">
+               <num>(7)</num>
+               <content eId="para_2__subpara_7__content">
+                  <p>to convene an intergovernmental meeting to consider the reports by the <organization refersTo="#director-general" eId="organization_31">Director-General</organization> on paragraph 2, subparagraphs (1), (2), (3) and (8), and by the interdisciplinary working group on paragraph 2, subparagraph (5), that shall be open to all Member <organization refersTo="#states" eId="organization_32">States</organization> and regional economic integration organizations;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_2__subpara_8">
+               <num>(8)</num>
+               <content eId="para_2__subpara_8__content">
+                  <p>to commission an expert report on the patent issues related to influenza viruses and their genes, and report to the intergovernmental meeting;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_2__subpara_9">
+               <num>(9)</num>
+               <content eId="para_2__subpara_9__content">
+                  <p>to continue to work with Member <organization refersTo="#states" eId="organization_33">States</organization> on the potential for the conversion of existing biological facilities, such as those for the production of veterinary vaccines, so as to meet the standards for development and production of human vaccines, thereby increasing the availability of pandemic vaccines, and to enable them to receive vaccine seed strains;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_2__subpara_10">
+               <num>(10)</num>
+               <content eId="para_2__subpara_10__content">
+                  <p>to report on progress on implementation of this resolution, including the work of the intergovernmental meeting, to the Sixty-first <organization refersTo="#worldHealthAssembly" eId="organization_34">World Health Assembly</organization>, through theExecutive Board.</p>
+               </content>
+            </subparagraph>
+         </paragraph>
+      </mainBody>
+      <conclusions>
+         <p>(<event refersTo="#eleventhPlenaryMeeting" eId="event_1">Eleventh plenary meeting</event>, <docDate date="2007-05-23">23 May 2007</docDate> –<organization refersTo="#committeeA" eId="organization_36">Committee A</organization>, fifth report)</p>
+      </conclusions>
+   </statement>
+</akomaNtoso>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns:akn4un="http://un.org/metadata" xmlns:eLUNa="https://cms.unov.org/eLuna/2017/main"
+  xmlns:html="http://www.w3.org/1999/xhtml" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <statement name="decision">
+    <meta>
+      <identification source="#source">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/whoeb/2011-05-25/eb129-1/!main" />
+          <FRBRuri value="/akn/un/statement/deliberation/whoeb/2011-05-25/eb129-1" />
+          <FRBRdate date="2011-05-25" name="" />
+          <FRBRauthor href="#whoeb" as="#author" />
+          <FRBRcountry value="un" />
+          <FRBRnumber value="eb129-1" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/whoeb/2011-05-25/eb129-1/eng@/!main" />
+          <FRBRuri value="/akn/un/statement/deliberation/whoeb/2011-05-25/eb129-1/eng@" />
+          <FRBRdate date="2011-05-25" name="" />
+          <FRBRauthor href="#whoeb" as="#author" />
+          <FRBRlanguage language="eng" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/whoeb/2011-05-25/eb129-1/eng@/!main.xml" />
+          <FRBRuri value="/akn/un/statement/deliberation/whoeb/2011-05-25/eb129-1/eng@.xml" />
+          <FRBRdate date="2023-08-23" name="" />
+          <FRBRauthor href="#whoeb" as="#author" />
+        </FRBRManifestation>
+      </identification>
+      <references source="#source">
+        <TLCOrganization eId="faoprogrammecommittee"
+          href="/akn/ontology/organization/un/faoprogrammecommittee" showAs="Programme" />
+        <TLCOrganization eId="wfpExecutiveBoard"
+          href="/akn/ontology/organization/un/wfpExecutiveBoard" showAs="Executive Board" />
+        <TLCTerm eId="concerned" href="/akn/ontology/term/concerned" showAs="concerned" />
+        <TLCOrganization eId="barbados" href="/akn/ontology/organization/un/barbados"
+          showAs="Barbados" />
+        <TLCOrganization eId="india" href="/akn/ontology/organization/un/india" showAs="India" />
+        <TLCOrganization eId="japan" href="/akn/ontology/organization/un/japan" showAs="Japan" />
+        <TLCOrganization eId="mozambique" href="/akn/ontology/organization/un/mozambique"
+          showAs="Mozambique" />
+        <TLCOrganization eId="qatar" href="/akn/ontology/organization/un/qatar" showAs="Qatar" />
+        <TLCOrganization eId="switzerland" href="/akn/ontology/organization/un/switzerland"
+          showAs="Switzerland" />
+        <TLCOrganization eId="yemen" href="/akn/ontology/organization/un/yemen" showAs="Yemen" />
+        <TLCOrganization eId="burundi" href="/akn/ontology/organization/un/burundi" showAs="Burundi" />
+        <TLCOrganization eId="canada" href="/akn/ontology/organization/un/canada" showAs="Canada" />
+        <TLCOrganization eId="china" href="/akn/ontology/organization/un/china" showAs="China" />
+        <TLCOrganization eId="germany" href="/akn/ontology/organization/un/germany" showAs="Germany" />
+        <TLCOrganization eId="morocco" href="/akn/ontology/organization/un/morocco" showAs="Morocco" />
+        <TLCOrganization eId="senegal" href="/akn/ontology/organization/un/senegal" showAs="Senegal" />
+        <TLCOrganization eId="who" href="/akn/ontology/organization/un/who"
+          showAs="World Health Organization" />
+        <TLCEvent href="/akn/ontology/event/whoha/secondMeeting" eId="secondMeeting"
+          showAs="Second meeting" />
+        <TLCPerson eId="source" href="/akn/ontology/person/somebody" showAs="somebody" />
+      </references>
+      <proprietary source="#source">
+        <akn4un:session>EB129</akn4un:session>
+      </proprietary>
+    </meta>
+    <preface>
+      <p>
+        <docNumber>EB129(1)</docNumber>
+        <docTitle>Membership of the <organization refersTo="#faoprogrammecommittee"
+            eId="organization_1"
+            >Programme</organization>, Budget and Administration Committee of the <organization
+            refersTo="#wfpExecutiveBoard" eId="organization_2">Executive Board</organization>
+        </docTitle>
+      </p>
+    </preface>
+    <mainBody>
+      <paragraph eId="para_1">
+        <content eId="para_1__content">
+          <p>
+            <inline name="#enactingFormula">The <organization refersTo="#wfpExecutiveBoard"
+                eId="organization_3"
+                >Executive Board</organization> appointed as members of the <organization
+                refersTo="#faoprogrammecommittee" eId="organization_4"
+                >Programme</organization>, Budget and Administration Committee, Mr Donville Inniss (<organization
+                refersTo="#barbados" eId="organization_5"
+                >Barbados</organization>), Mr K. Chandramouli (<organization refersTo="#india"
+                eId="organization_6">India</organization>), Dr Shigeru Omi (<organization
+                refersTo="#japan" eId="organization_7"
+                >Japan</organization>), Dr Mouzinho Osvaldo de Assunção Saíde (<organization
+                refersTo="#mozambique" eId="organization_8"
+                >Mozambique</organization>), Dr Abdulla Al-Qahtani (<organization refersTo="#qatar"
+                eId="organization_9">Qatar</organization>), Mr Gaudenz Silberschmidt (<organization
+                refersTo="#switzerland" eId="organization_10"
+                >Switzerland</organization>) and Dr Abdul Karim Yahia Rasae (<organization
+                refersTo="#yemen" eId="organization_11"
+                >Yemen</organization>) for a two-year period or until expiry of their membership on the Board, whichever comes first, in addition to Dr Norbert Birintanya (<organization
+                refersTo="#burundi" eId="organization_12"
+                >Burundi</organization>), Dr Paul Gully (<organization refersTo="#canada"
+                eId="organization_13">Canada</organization>), Dr Ren Minghui (<organization
+                refersTo="#china" eId="organization_14"
+                >China</organization>), Dr Ewold Seeba (<organization refersTo="#germany"
+                eId="organization_15"
+                >Germany</organization>) and Mrs Madalena Hanjam Soares (Timor‑Leste) who were already members of the Committee. Mr Rahhal El Makkaoui (<organization
+                refersTo="#morocco" eId="organization_16"
+                >Morocco</organization>), Chairman of the Board, and Dr Boubacar Samba Dankoko (<organization
+                refersTo="#senegal" eId="organization_17"
+                >Senegal</organization>), Vice-Chairman of the Board, were appointed members ex officio. It was understood that, if any member of the Committee, except the two ex officio members, was unable to attend, his or her successor or the alternate member of the Board designated by the government <term
+                refersTo="#concerned" eId="term_1"
+                >concerned</term>, in accordance with Rule 2 of the Rules of Procedure of the <organization
+                refersTo="#wfpExecutiveBoard" eId="organization_18">Executive Board</organization>
+            </inline>of the <organization refersTo="#who" eId="organization_19"
+              >World Health Organization</organization>, would participate in the work of the Committee.
+</p>
+        </content>
+      </paragraph>
+      <point eId="table_1">
+        <content eId="table_1__content">
+          <p />
+          <table>
+            <tr>
+              <td>
+                <p> Members and</p>
+              </td>
+              <td>
+                <p> WHO scale</p>
+              </td>
+            </tr>
+          </table>
+        </content>
+      </point>
+    </mainBody>
+    <conclusions>
+      <p>(<event refersTo="#secondMeeting" eId="event_1">Second meeting</event>, <docDate
+          date="2011-05-25">25 May 2011</docDate>)</p>
+    </conclusions>
+  </statement>
+</akomaNtoso>

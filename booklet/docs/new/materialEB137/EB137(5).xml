@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns:akn4un="http://un.org/metadata" xmlns:eLUNa="https://cms.unov.org/eLuna/2017/main" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+   <statement name="decision">
+      <meta>
+         <identification source="#source">
+            <FRBRWork>
+               <FRBRthis value="/akn/un/statement/deliberation/whoeb/2015-05-28/eb137-5/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whoeb/2015-05-28/eb137-5"/>
+               <FRBRdate date="2015-05-28" name=""/>
+               <FRBRauthor href="#whoeb" as="#author"/>
+               <FRBRcountry value="un"/>
+               <FRBRnumber value="eb137-5"/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value="/akn/un/statement/deliberation/whoeb/2015-05-28/eb137-5/eng@/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whoeb/2015-05-28/eb137-5/eng@"/>
+               <FRBRdate date="2015-05-28" name=""/>
+               <FRBRauthor href="#whoeb" as="#author"/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value="/akn/un/statement/deliberation/whoeb/2015-05-28/eb137-5/eng@/!main.xml"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whoeb/2015-05-28/eb137-5/eng@.xml"/>
+               <FRBRdate date="2023-08-04" name=""/>
+               <FRBRauthor href="#whoeb" as="#author"/>
+            </FRBRManifestation>
+         </identification>
+         <references source="#source">
+            <TLCOrganization eId="wfpExecutiveBoard" href="/akn/ontology/organization/un/wfpExecutiveBoard" showAs="Executive Board"/>
+            <TLCOrganization eId="faoprogrammecommittee" href="/akn/ontology/organization/un/faoprogrammecommittee" showAs="Programme"/>
+            <TLCOrganization eId="who" href="/akn/ontology/organization/un/who" showAs="WHO"/>
+            <TLCEvent href="/akn/ontology/event/whoha/thirdMeeting" eId="thirdMeeting" showAs="Third meeting"/>
+            <TLCPerson eId="source" href="/akn/ontology/person/somebody" showAs="somebody"/>
+         </references>
+         <proprietary source="#source">
+            <akn4un:session>EB137</akn4un:session>
+         </proprietary>
+      </meta>
+      <preface>
+         <p>
+            <docNumber>EB137(5)</docNumber>
+            <docTitle>Place, date and duration of the 138th session of the <organization refersTo="#wfpExecutiveBoard" eId="organization_1">Executive Board</organization> and the twenty-third meeting of the <organization refersTo="#faoprogrammecommittee" eId="organization_2">Programme</organization>, Budget and Administration Committee of the <organization refersTo="#wfpExecutiveBoard" eId="organization_3">Executive Board</organization>
+            </docTitle>
+         </p>
+      </preface>
+      <preamble>
+         <formula name="enactingFormula">
+            <p>The <organization refersTo="#wfpExecutiveBoard" eId="organization_4">Executive Board</organization>
+            </p>
+         </formula>
+      </preamble>
+      <mainBody>
+         <paragraph eId="para_1">
+            <content eId="para_1__content">
+               <p>decided that its 138th session should be convened on Monday, <date date="2016-01-25">25 January 2016</date>, at <organization refersTo="#who" eId="organization_5">WHO</organization> headquarters, Geneva, and should close no later than Saturday, <date date="2016-01-30">30 January 2016</date>. <inline name="#enactingFormula">The Board further decided that the <organization refersTo="#faoprogrammecommittee" eId="organization_6">Programme</organization>, Budget and Administration Committee of the <organization refersTo="#wfpExecutiveBoard" eId="organization_7">Executive Board</organization>
+                  </inline>should hold its twenty-third meeting on Thursday, 21 January, and Friday, <date date="2016-01-22">22 January 2016</date>, at <organization refersTo="#who" eId="organization_8">WHO</organization> headquarters, Geneva.</p>
+            </content>
+         </paragraph>
+      </mainBody>
+      <conclusions>
+         <p>(<event refersTo="#thirdMeeting" eId="event_1">Third meeting</event>, <docDate date="2015-05-28">28 May 2015</docDate>)</p>
+      </conclusions>
+   </statement>
+</akomaNtoso>

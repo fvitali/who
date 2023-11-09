@@ -1,0 +1,94 @@
+{
+	"@INFO": "This is a test Booklet file",
+	"@AUTHOR": "Fabio Vitali, October 2023",
+	"meta": {
+		"symbol": "WHASS1/2006–WHA60/2007/REC/1",
+		"session": "137th",
+		"placetime": "GENEVA, 14-23 MAY 2007",
+		"place": "Geneva",
+		"year": "2007",
+		"content": [
+			"RESOLUTIONS AND DECISIONS",
+			"ANNEXES"
+		]
+	},
+	"docs": [
+		{"tpl": "docs/old/tpl/coverWHA.html", "start": 1, "style":"roman, fullpage, nopagenumber, cover"},
+		{"tpl": "docs/old/tpl/abbreviations.html", "style":"roman, newpage, abbr"},
+		{"url": "docs/old/tpl/preface.html", "style":"roman, newpage, preface"},
+		{"tpl": "docs/old/tpl/contents.html", "style":"roman, newpage, contents"},
+		{
+			"tpl": "docs/old/tpl/top.html", 
+			"style":"arabic, newpage, top",
+			"start":"1",
+			"content":[ "RESOLUTIONS"]
+		},
+		{"url": "./docs/new/materialWHA60/WHA60.1FV.xml"},
+		{"url": "./docs/new/materialWHA60/WHA60.2.xml"},
+		{"url": "./docs/new/materialWHA60/WHA60.3.xml"},
+		{"url": "./docs/new/materialWHA60/WHA60.4.xml"},
+		{"url": "./docs/new/materialWHA60/WHA60.5.xml"},
+		{"url": "./docs/new/materialWHA60/WHA60.6.xml"},
+		{"url": "./docs/new/materialWHA60/WHA60.7.xml"},
+		{"url": "./docs/new/materialWHA60/WHA60.8.xml"},
+		{"url": "./docs/new/materialWHA60/WHA60.9.xml"},
+		{"url": "./docs/new/materialWHA60/WHA60.10.xml"},
+		{"url": "./docs/new/materialWHA60/WHA60.11.xml"},
+		{"url": "./docs/new/materialWHA60/WHA60.12.xml"},
+		{"url": "./docs/new/materialWHA60/WHA60.13.xml"},
+		{"url": "./docs/new/materialWHA60/WHA60.14.xml"},
+		{"url": "./docs/new/materialWHA60/WHA60.15.xml"},
+		{"url": "./docs/new/materialWHA60/WHA60.16.xml"},
+		{"url": "./docs/new/materialWHA60/WHA60.17.xml"},
+		{"url": "./docs/new/materialWHA60/WHA60.18.xml"},
+		{"url": "./docs/new/materialWHA60/WHA60.19.xml"},
+		{"url": "./docs/new/materialWHA60/WHA60.20.xml"},
+		{"url": "./docs/new/materialWHA60/WHA60.21.xml"},
+		{"url": "./docs/new/materialWHA60/WHA60.22.xml"},
+		{"url": "./docs/new/materialWHA60/WHA60.23.xml"},
+		{"url": "./docs/new/materialWHA60/WHA60.24.xml"},
+		{"url": "./docs/new/materialWHA60/WHA60.25.xml"},
+		{"url": "./docs/new/materialWHA60/WHA60.26.xml"},
+		{"url": "./docs/new/materialWHA60/WHA60.27.xml"},
+		{"url": "./docs/new/materialWHA60/WHA60.28.xml"},
+		{"url": "./docs/new/materialWHA60/WHA60.29.xml"},
+		{"url": "./docs/new/materialWHA60/WHA60.30.xml"},
+		{
+			"tpl": "docs/old/tpl/top.html", 
+			"style":"arabic, newpage, top",
+			"start":"1",
+			"content":[ "DECISIONS"]
+		},
+		{"url": "./docs/new/materialWHA60/WHA60(1).xml"},
+		{"url": "./docs/new/materialWHA60/WHA60(2).xml"},
+		{"url": "./docs/new/materialWHA60/WHA60(3).xml"},
+		{"url": "./docs/new/materialWHA60/WHA60(4).xml"},
+		{"url": "./docs/new/materialWHA60/WHA60(5).xml"},
+		{"url": "./docs/new/materialWHA60/WHA60(6).xml"},
+		{"url": "./docs/new/materialWHA60/WHA60(7).xml"},
+		{"url": "./docs/new/materialWHA60/WHA60(8).xml"},
+		{"url": "./docs/new/materialWHA60/WHA60(9).xml"},
+		{"url": "./docs/new/materialWHA60/WHA60(10).xml"},
+		{"url": "./docs/new/materialWHA60/WHA60(11).xml"},
+		{"url": "./docs/new/materialWHA60/WHA60(12).xml"},
+		{
+			"tpl": "docs/old/tpl/interstitial.html", 
+			"style": "fullpage, roman, oddpage, nopagenumber, interstitial",
+			"content":[ "ANNEXES"]
+		}
+
+	],
+	"@STYLES": {
+		"roman": "lowercase roman page numbers",
+		"ROMAN": "uppercase roman page numbers",
+		"letter": "lowercase letter page numbers",
+		"LETTER": "uppercase letter page numbers",
+		"arabic": "arabic numbers (1, 2, 3) page numbers",
+		"nopagenumber": "do not show page numbers",
+		"nopagenumberonfirstpage": "do not show page number on the first page, show on the others",
+		"fullpage": "this section occupies ONE page and has a break before and one after",
+		"newpage": "start a new page here",
+		"oddpage": "the section must start in an odd page",
+		"evenpage": "the section must start in an even page"
+	}
+}

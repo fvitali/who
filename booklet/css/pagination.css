@@ -1,0 +1,354 @@
+
+/* ---------------------------------------------------*/
+/*                                                    */
+/*                   PAGEBREAKS                       */
+/*                                                    */
+/* ---------------------------------------------------*/
+	
+	.eop {
+		display: block; 
+		height: 0px !important; 
+/* 		border-bottom: 1px dashed blue; */
+	}
+	.eop.ignore {
+		display: none; 
+	}
+
+	.canvas {
+		padding:0;
+	}
+
+	.paged .pagebreak {
+		text-indent: 0px; 
+		border: none;
+		float: none;
+		display: block;
+		overflow: visible;
+		position: relative;
+		width: var(--document-width);
+		left: calc(-1* var(--leftIndent));
+	}
+
+	.paged .remaining {
+		background-color: rgba(255,255,0, 0.5) ;
+		display: block;
+		position: relative;
+		height: calc(
+			var(--remainingHeight) -
+			var(--footnoteHeight) 
+			) ;
+	}
+
+	.paged .footNoteArea {
+		background-color: rgba(255,0,0, 0.5) ;
+		display: block;
+		padding-top: var(--distance-from-text);
+		padding-left: var(--document-margin-left);
+	}
+
+	.paged .bottomPreviousPage {
+		background-color: rgba(0,255,0, 0.5) ;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		flex-wrap: nowrap;
+		text-align: center;
+		position: relative;
+		height: var(--document-margin-bottom) ;
+		min-height: var(--document-margin-bottom) ;
+		max-height: var(--document-margin-bottom) ;
+	}
+
+	.paged .actualBreak {
+		background-color: var(--behind-page);
+		border-top: 1px solid black;
+		border-bottom: 1px solid black;
+		border-left: var(--behind-page);
+		border-right: var(--behind-page);
+		display: block;
+		text-align: center;
+		position: relative;
+		height: var(--background-margin) ;
+		width: calc( 2px + var(--document-width) );
+		left: -1px;
+	}
+
+	.paged .topNextPage {
+		background-color: rgba(0,0,255, 0.5) ;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		flex-wrap: nowrap;
+		text-align: center;
+		position: relative;
+		height: var(--document-margin-top) ;
+		min-height: var(--document-margin-top) ;
+		max-height: var(--document-margin-top) ;
+	}
+
+/*      */
+
+
+	.scroll .pagebreak {
+		text-indent: 0px; 
+		border: none;
+		float: none;
+		display: block;
+		overflow: visible;
+		position: relative;
+		left: calc(-1* var(--leftIndent));
+		width: calc( 100% + 2 * var(--leftIndent) ) ; 
+		left: 0px;
+		width: calc( 100%  ) ; 
+	}
+
+	.scroll .remaining {
+/* 		background-color: rgba(255,255,0, 0.5) ; */
+		display: none;
+	}
+
+	.scroll .footNoteArea {
+/* 		background-color: rgba(255,0,0, 0.5) ; */
+		display: block;
+		padding-left: var(--document-margin-left);
+		padding-top: var(--distance-from-text);
+	}
+
+	.scroll .bottomPreviousPage {
+/* 		background-color: rgba(0,255,0, 0.5) ; */
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		flex-wrap: nowrap;
+		text-align: center;
+		position: relative;
+		height: var(--document-margin-bottom) ;
+		min-height: var(--document-margin-bottom) ;
+		max-height: var(--document-margin-bottom) ;
+	}
+
+	.scroll .actualBreak {
+		border-top: 1px solid red;
+		position: relative;
+		height: 1px ;
+		left: -1px;
+	}
+
+	.scroll .topNextPage {
+/* 		background-color: rgba(0,0,255, 0.5) ; */
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		flex-wrap: nowrap;
+		text-align: center;
+		position: relative;
+		height: var(--document-margin-top) ;
+		min-height: var(--document-margin-top) ;
+		max-height: var(--document-margin-top) ;
+	}
+
+
+
+/*      */
+
+
+
+.bottomPreviousPage * {
+  text-align: center;
+  font-style: italic;
+  font-size: 95%;
+}
+
+.topNextPage * {
+  text-align: center;
+  font-style: italic;
+  font-size: 70%;
+}
+
+.bottomPreviousPage *:after {
+  content: attr(data-content) ;
+}
+.topNextPage *:after {
+  content: attr(data-content) ;
+}
+.ghosted {
+  display: none;
+}
+
+.ghosting {
+/*   display: none; */
+}
+
+
+
+	.pagebreak {
+	}
+
+	.pagebreak.initial {
+		margin-top: 0px;
+	}
+
+	.pagebreak.initial .actualBreak {
+	  display: none;
+		height: 0px; 
+	}
+
+	.pagebreak.initial .bottomPreviousPage {
+	  display: none;
+	  height: 0px; 
+	}
+
+	.pagebreak.initial .footNoteArea {
+	  display: none;
+	  height: 0px; 
+	}
+
+	.pagebreak.final {
+	  margin-bottom: 0px;
+	}
+
+	.pagebreak.final .actualBreak {
+		display: none; 
+		border-bottom: none;
+		height: calc(1 * var(--background-margin)) ;
+	}
+
+	.pagebreak.final .topNextPage {
+	  display: none;
+		height: 0px; 
+	}
+
+
+@media only print {
+
+	:root {
+		--background-margin: 0;
+		--page-border: none;
+		--behind-page:  transparent;
+	}
+
+	.actualBreak {	
+		height: 0px; 
+		page-break-after: always;	
+		border:none !important; 
+	}
+}
+
+
+@media only screen {
+	.pageShadows {
+	  margin: 0;
+	  padding: 0;
+	  border: none;
+	}
+	.pageShadow {
+		--inner-margin: 8px;
+		--secondary-dimension: 100px;
+		--shadow-color: rgba(125,125,125,1) ;
+		position: absolute;
+		display: block;
+		z-index: 0;
+
+		border: none ;
+		background-color: transparent;
+		width: var(--document-width) ;
+		height: 1122.519685023008px; /* var(--document-height) ; */
+		left: calc(
+			var(--background-margin) +
+			var(--inner-margin)
+		);
+		top: calc(
+			var(--inner-margin) +
+			var(--background-margin) +
+			var(--pos) * (
+				2px +
+				var(--document-height) +
+				var(--background-margin)
+			)
+		) ;
+		border-right: var(--inner-margin) solid var(--shadow-color) ;
+		border-bottom: var(--inner-margin) solid var(--shadow-color);
+	/*	width: var(--secondary-dimension) ; */
+	/*	height: var(--secondary-dimension); */
+	}
+
+	.pageShadowVertical {
+		--inner-margin: 8px;
+		--secondary-dimension: 100px;
+		--shadow-color: rgba(150,150,150,1) ;
+		position: absolute;
+		display: block;
+		z-index: 0;
+		border: none ;
+		background-color: var(--shadow-color) ;
+		color: white;
+		width: var(--inner-margin) ;
+		height: var(--document-height) ;
+		left: calc(
+			-2px +
+			var(--document-width)
+		);
+		top: calc(
+			var(--start) + 
+			var(--inner-margin)
+		) ;
+	}
+
+	.pageShadowHorizontal {
+		--inner-margin: 8px;
+		--secondary-dimension: 100px;
+		--shadow-color: rgba(0,0,0,0.4) ;
+		position: absolute;
+		display: block;
+		z-index: 10;
+
+		border: none ;
+		background-color: var(--shadow-color) ;
+		color: white;
+		height: var(--inner-margin) ;
+		width: calc(
+			var(--document-width) -
+			var(--inner-margin)
+		);
+		left: calc(
+			var(--inner-margin)
+		);
+		top: calc(
+			var(--start) +
+			var(--document-height)
+		) ;
+	}
+
+	.hideBreaks .pageShadow {
+		top: calc(
+			5px +
+			var(--background-margin) +
+			var(--pos) * var(--document-height)
+		) !important ;
+	}
+
+	.hideBreaks .pagebreak {
+		display: none !important;
+	}
+	.hideBreaks .pagebreak:before {
+		display: none !important;
+	}
+
+	.hideBreaks .pagebreak:after {
+		display: none !important;
+	}
+}
+
+
+
+@media only print {
+	.pageShadow {
+		display: none;
+	}
+	
+	.noPrint{
+		display: none; 
+	}
+}
+
+

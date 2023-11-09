@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns:akn4un="http://un.org/metadata" xmlns:eLUNa="https://cms.unov.org/eLuna/2017/main" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+   <statement name="resolution">
+      <meta>
+         <identification source="#source">
+            <FRBRWork>
+               <FRBRthis value="/akn/un/statement/deliberation/whoeb/2018-01-25/eb142_r2/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whoeb/2018-01-25/eb142_r2"/>
+               <FRBRdate date="2018-01-25" name=""/>
+               <FRBRauthor href="#whoeb" as="#author"/>
+               <FRBRcountry value="un"/>
+               <FRBRnumber value="eb142_r2"/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value="/akn/un/statement/deliberation/whoeb/2018-01-25/eb142_r2/eng@/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whoeb/2018-01-25/eb142_r2/eng@"/>
+               <FRBRdate date="2018-01-25" name=""/>
+               <FRBRauthor href="#whoeb" as="#author"/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value="/akn/un/statement/deliberation/whoeb/2018-01-25/eb142_r2/eng@/!main.xml"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whoeb/2018-01-25/eb142_r2/eng@.xml"/>
+               <FRBRdate date="2023-08-23" name=""/>
+               <FRBRauthor href="#whoeb" as="#author"/>
+            </FRBRManifestation>
+         </identification>
+         <references source="#source">
+            <TLCOrganization eId="wfpExecutiveBoard" href="/akn/ontology/organization/un/wfpExecutiveBoard" showAs="Executive Board"/>
+            <TLCTerm eId="havingConsidered" href="/akn/ontology/term/havingConsidered" showAs="Having considered"/>
+            <TLCTerm eId="requests" href="/akn/ontology/term/requests" showAs="REQUESTS"/>
+            <TLCTerm eId="recommends" href="/akn/ontology/term/recommends" showAs="RECOMMENDS"/>
+            <TLCOrganization eId="unSecretariat" href="/akn/ontology/organization/un/unSecretariat" showAs="Secretariat"/>
+            <TLCOrganization eId="states" href="/akn/ontology/organization/un/states" showAs="States"/>
+            <TLCOrganization eId="worldHealthAssembly" href="/akn/ontology/organization/un/worldHealthAssembly" showAs="World Health Assembly"/>
+            <TLCEvent href="/akn/ontology/event/whoha/eighthMeeting" eId="eighthMeeting" showAs="Eighth meeting"/>
+            <TLCPerson eId="source" href="/akn/ontology/person/somebody" showAs="somebody"/>
+         </references>
+         <proprietary source="#source">
+            <akn4un:session>EB142</akn4un:session>
+         </proprietary>
+      </meta>
+      <preface>
+         <p>
+            <docNumber>EB142.R2</docNumber>
+            <docTitle>Draft thirteenth general programme of work, 2019–2023</docTitle>
+         </p>
+      </preface>
+      <preamble>
+         <formula name="enactingFormula">
+            <p>The <organization refersTo="#wfpExecutiveBoard" eId="organization_1">Executive Board</organization>,</p>
+         </formula>
+         <container name="havingConsidered">
+            <p>
+               <term refersTo="#havingConsidered" eId="term_1">Having considered</term> the draft thirteenth general programme of work, 2019−2023, <authorialNote marker="1" placement="bottom" eId="authorialNote_1">
+                  <p>Document EB142/3 Rev.2.</p>
+               </authorialNote>
+            </p>
+         </container>
+      </preamble>
+      <mainBody>
+         <paragraph eId="para_1">
+            <content eId="para_1__content">
+               <p>
+                  <term refersTo="#requests" eId="term_2">REQUESTS</term> the <organization refersTo="#unSecretariat" eId="organization_2">Secretariat</organization> to finalize the outstanding work on the Impact Framework, financial estimates and investment case for consideration of Member <organization refersTo="#states" eId="organization_3">States</organization> prior to the Seventy-first <organization refersTo="#worldHealthAssembly" eId="organization_4">World Health Assembly</organization>;</p>
+            </content>
+         </paragraph>
+         <paragraph eId="para_2">
+            <content eId="para_2__content">
+               <p>
+                  <term refersTo="#recommends" eId="term_3">RECOMMENDS</term> to the Seventy-first <organization refersTo="#worldHealthAssembly" eId="organization_5">World Health Assembly</organization> the adoption of the following draft resolution: </p>
+               <blockContainer>
+                  <componentRef eId="para_2__component_1" src="#component_1" showAs="resolution"/>
+               </blockContainer>
+            </content>
+         </paragraph>
+      </mainBody>
+      <conclusions>
+         <p>(<event refersTo="#eighthMeeting" eId="event_1">Eighth meeting</event>, <docDate date="2018-01-25">25 January 2018</docDate>)</p>
+      </conclusions>
+      <components>
+         <component eId="component_1">
+            <statement name="resolution">
+               <meta>
+                  <identification source="#source">
+                     <FRBRWork>
+                        <FRBRthis value="/akn/un/statement/deliberation/whoeb/2018-01-25/eb142_r2/!main/!component_1"/>
+                        <FRBRuri value="/akn/un/statement/deliberation/whoeb/2018-01-25/eb142_r2"/>
+                        <FRBRdate date="2018-01-25" name=""/>
+                        <FRBRauthor href="#whowha" as="#author"/>
+                        <FRBRcountry value="un"/>
+                        <FRBRnumber value="eb142_r2"/>
+                     </FRBRWork>
+                     <FRBRExpression>
+                        <FRBRthis value="/akn/un/statement/deliberation/whoeb/2018-01-25/eb142_r2/eng@/!main"/>
+                        <FRBRuri value="/akn/un/statement/deliberation/whoeb/2018-01-25/eb142_r2/eng@"/>
+                        <FRBRdate date="2018-01-25" name=""/>
+                        <FRBRauthor href="#whowha" as="#author"/>
+                        <FRBRlanguage language="eng"/>
+                     </FRBRExpression>
+                     <FRBRManifestation>
+                        <FRBRthis value="/akn/un/statement/deliberation/whoeb/2018-01-25/eb142_r2/eng@/!main.xml"/>
+                        <FRBRuri value="/akn/un/statement/deliberation/whoeb/2018-01-25/eb142_r2/eng@.xml"/>
+                        <FRBRdate date="2023-08-23" name=""/>
+                        <FRBRauthor href="#whowha" as="#author"/>
+                     </FRBRManifestation>
+                  </identification>
+                  <references source="#source">
+                     <TLCOrganization eId="component_1__worldHealthAssembly" href="/akn/ontology/organization/un/worldHealthAssembly" showAs="World Health Assembly"/>
+                     <TLCOrganization eId="component_1__faoprogrammecommittee" href="/akn/ontology/organization/un/faoprogrammecommittee" showAs="Programme"/>
+                     <TLCTerm eId="component_1__havingConsidered" href="/akn/ontology/term/havingConsidered" showAs="Having considered"/>
+                     <TLCTerm eId="component_1__welcoming" href="/akn/ontology/term/welcoming" showAs="welcoming"/>
+                     <TLCTerm eId="component_1__noting" href="/akn/ontology/term/noting" showAs="Noting"/>
+                     <TLCTerm eId="component_1__approves" href="/akn/ontology/term/approves" showAs="APPROVES"/>
+                     <TLCTerm eId="component_1__urges" href="/akn/ontology/term/urges" showAs="URGES"/>
+                     <TLCTerm eId="component_1__requests" href="/akn/ontology/term/requests" showAs="REQUESTS"/>
+                     <TLCTerm eId="component_1__takingIntoAccount" href="/akn/ontology/term/takingIntoAccount" showAs="taking into account"/>
+                     <TLCOrganization eId="component_1__states" href="/akn/ontology/organization/un/states" showAs="States"/>
+                     <TLCOrganization eId="component_1__director-general" href="/akn/ontology/organization/un/director-general" showAs="Director-General"/>
+                     <TLCOrganization eId="component_1__who" href="/akn/ontology/organization/un/who" showAs="WHO"/>
+                     <TLCOrganization eId="component_1__unitedNations" href="/akn/ontology/organization/un/unitedNations" showAs="United Nations"/>
+                     <TLCEvent href="/akn/ontology/event/whoha/theSeventyFifthWorldHealthAssembly" eId="component_1__theSeventyFifthWorldHealthAssembly" showAs="the Seventy-fifth World Health Assembly"/>
+                     <TLCPerson eId="component_1__source" href="/akn/ontology/person/somebody" showAs="somebody"/>
+                  </references>
+               </meta>
+               <preface>
+                  <p>The Seventy-first <organization refersTo="#component_1__worldHealthAssembly" eId="component_1__organization_1">World Health Assembly</organization>
+                  </p>
+               </preface>
+               <preamble>
+                  <p>,
+</p>
+                  <container name="havingConsidered">
+                     <p>
+                        <term refersTo="#component_1__havingConsidered" eId="component_1__term_1">Having considered</term> the draft thirteenth general programme of work, 2019−2023, and <term refersTo="#component_1__welcoming" eId="component_1__term_2">welcoming</term> its ambitious vision as expressed by the aspirational “triple billion” goals;</p>
+                  </container>
+                  <container name="noting">
+                     <p>
+                        <term refersTo="#component_1__noting" eId="component_1__term_3">Noting</term> that approval of the Thirteenth General <organization refersTo="#component_1__faoprogrammecommittee" eId="component_1__organization_2">Programme</organization> of Work, 2019–2023 does not imply approval of the financial estimate contained in document <ref href="/akn/un/statement/deliberation/whoeb/0000-00-00/eb142/3 add_2/!main">EB142/3 Add.2</ref>,</p>
+                  </container>
+               </preamble>
+               <mainBody>
+                  <paragraph eId="component_1__para_1">
+                     <num>1. </num>
+                     <content eId="component_1__para_1__content">
+                        <p>
+                           <term refersTo="#component_1__approves" eId="component_1__term_4">APPROVES</term> the Thirteenth General <organization refersTo="#component_1__faoprogrammecommittee" eId="component_1__organization_3">Programme</organization> of Work, 2019−2023;</p>
+                     </content>
+                  </paragraph>
+                  <paragraph eId="component_1__para_2">
+                     <num>2. </num>
+                     <content eId="component_1__para_2__content">
+                        <p>
+                           <term refersTo="#component_1__urges" eId="component_1__term_5">URGES</term> Member <organization refersTo="#component_1__states" eId="component_1__organization_4">States</organization> to support work towards achievement of the vision of the Thirteenth General <organization refersTo="#component_1__faoprogrammecommittee" eId="component_1__organization_5">Programme</organization> of Work, 2019−2023;</p>
+                     </content>
+                  </paragraph>
+                  <paragraph eId="component_1__para_3">
+                     <num>3. </num>
+                     <intro eId="component_1__para_3__content">
+                        <p>
+                           <term refersTo="#component_1__requests" eId="component_1__term_6">REQUESTS</term> the <organization refersTo="#component_1__director-general" eId="component_1__organization_6">Director-General</organization>:</p>
+                     </intro>
+                     <subparagraph eId="component_1__para_3__subpara_1">
+                        <num>(1)</num>
+                        <content eId="component_1__para_3__subpara_1__content">
+                           <p>to use the Thirteenth General <organization refersTo="#component_1__faoprogrammecommittee" eId="component_1__organization_7">Programme</organization> of Work as the basis for the strategic direction of planning, monitoring and evaluation of <organization refersTo="#component_1__who" eId="component_1__organization_8">WHO</organization>’s work during the period2019–2023 and to develop programmebudgets in consultation with Member <organization refersTo="#component_1__states" eId="component_1__organization_9">States</organization>, based on a realistic assessment of income and <organization refersTo="#component_1__who" eId="component_1__organization_10">WHO</organization>’s capacity;</p>
+                        </content>
+                     </subparagraph>
+                     <subparagraph eId="component_1__para_3__subpara_2">
+                        <num>(2)</num>
+                        <content eId="component_1__para_3__subpara_2__content">
+                           <p>to take into consideration the changing state of global health in implementing the Thirteenth General <organization refersTo="#component_1__faoprogrammecommittee" eId="component_1__organization_11">Programme</organization> of Work, and keep Member <organization refersTo="#component_1__states" eId="component_1__organization_12">States</organization> informed on progress with implementation through regular updates to governing bodies;</p>
+                        </content>
+                     </subparagraph>
+                     <subparagraph eId="component_1__para_3__subpara_3">
+                        <num>(3)</num>
+                        <content eId="component_1__para_3__subpara_3__content">
+                           <p>to provide guidance and support to regional and country offices on the implementation of the Thirteenth General <organization refersTo="#component_1__faoprogrammecommittee" eId="component_1__organization_13">Programme</organization> of Work, <term refersTo="#component_1__takingIntoAccount" eId="component_1__term_7">taking into account</term> different contexts;</p>
+                        </content>
+                     </subparagraph>
+                     <subparagraph eId="component_1__para_3__subpara_4">
+                        <num>(4)</num>
+                        <content eId="component_1__para_3__subpara_4__content">
+                           <p>to provide a report to the Seventy-fifth <organization refersTo="#component_1__worldHealthAssembly" eId="component_1__organization_14">World Health Assembly</organization> to inform potential extension to 2025 of the Thirteenth General <organization refersTo="#component_1__faoprogrammecommittee" eId="component_1__organization_15">Programme</organization> of Work in order to align with the wider <organization refersTo="#component_1__unitedNations" eId="component_1__organization_16">United Nations</organization> planning cycle.</p>
+                        </content>
+                     </subparagraph>
+                  </paragraph>
+               </mainBody>
+            </statement>
+         </component>
+      </components>
+   </statement>
+</akomaNtoso>

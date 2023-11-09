@@ -1,0 +1,165 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eLUNa="https://cms.unov.org/eLuna/2017/main" xmlns:akn4un="http://un.org/metadata" xmlns:html="http://www.w3.org/1999/xhtml">
+   <statement name="resolution">
+      <meta>
+         <identification source="#source">
+            <FRBRWork>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-21/wha60_11/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-21/wha60_11"/>
+               <FRBRdate date="2007-05-21" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+               <FRBRcountry value="un"/>
+               <FRBRnumber value="wha60_11"/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-21/wha60_11/eng@/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-21/wha60_11/eng@"/>
+               <FRBRdate date="2007-05-21" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-21/wha60_11/eng@/!main.xml"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-21/wha60_11/eng@.xml"/>
+               <FRBRdate date="2023-08-23" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+            </FRBRManifestation>
+         </identification>
+         <references source="#source">
+            <TLCEvent href="/akn/ontology/event/whoha/theSixtySecondWorldHealthAssembly" eId="theSixtySecondWorldHealthAssembly" showAs="the Sixty-second World Health Assembly"/>
+            <TLCOrganization eId="worldHealthAssembly" href="/akn/ontology/organization/un/worldHealthAssembly" showAs="World Health Assembly"/>
+            <TLCOrganization eId="faoprogrammecommittee" href="/akn/ontology/organization/un/faoprogrammecommittee" showAs="Programme"/>
+            <TLCOrganization eId="who" href="/akn/ontology/organization/un/who" showAs="WHO"/>
+            <TLCOrganization eId="organization" href="/akn/ontology/organization/un/organization" showAs="Organization"/>
+            <TLCOrganization eId="states" href="/akn/ontology/organization/un/states" showAs="States"/>
+            <TLCOrganization eId="unsystem" href="/akn/ontology/organization/un/unsystem" showAs="United Nations system"/>
+            <TLCTerm eId="recalling" href="/akn/ontology/term/recalling" showAs="Recalling"/>
+            <TLCTerm eId="recognizing" href="/akn/ontology/term/recognizing" showAs="Recognizing"/>
+            <TLCTerm eId="noting" href="/akn/ontology/term/noting" showAs="Noting"/>
+            <TLCTerm eId="acknowledging" href="/akn/ontology/term/acknowledging" showAs="Acknowledging"/>
+            <TLCTerm eId="welcoming" href="/akn/ontology/term/welcoming" showAs="Welcoming"/>
+            <TLCTerm eId="endorses" href="/akn/ontology/term/endorses" showAs="ENDORSES"/>
+            <TLCTerm eId="callsUpon" href="/akn/ontology/term/callsUpon" showAs="CALLS UPON"/>
+            <TLCTerm eId="invites" href="/akn/ontology/term/invites" showAs="INVITES"/>
+            <TLCTerm eId="concerned" href="/akn/ontology/term/concerned" showAs="concerned"/>
+            <TLCTerm eId="decides" href="/akn/ontology/term/decides" showAs="DECIDES"/>
+            <TLCTerm eId="requests" href="/akn/ontology/term/requests" showAs="REQUESTS"/>
+            <TLCOrganization eId="director-general" href="/akn/ontology/organization/un/director-general" showAs="Director-General"/>
+            <TLCOrganization eId="wfpExecutiveBoard" href="/akn/ontology/organization/un/wfpExecutiveBoard" showAs="Executive Board"/>
+            <TLCEvent href="/akn/ontology/event/whoha/ninthPlenaryMeeting" eId="ninthPlenaryMeeting" showAs="Ninth plenary meeting"/>
+            <TLCOrganization eId="committeeA" href="/akn/ontology/organization/un/committeeA" showAs="Committee A"/>
+            <TLCPerson eId="source" href="/akn/ontology/person/somebody" showAs="somebody"/>
+         </references>
+      </meta>
+      <preface>
+         <p>
+            <docNumber>WHA60.11</docNumber>
+            <docTitle>Medium-term strategic plan 2008–2013</docTitle>
+         </p>
+      </preface>
+      <preamble>
+         <formula name="enactingFormula">
+            <p>The Sixtieth <organization refersTo="#worldHealthAssembly" eId="organization_1">World Health Assembly</organization>,</p>
+         </formula>
+         <container name="recalling">
+            <p>
+               <term refersTo="#recalling" eId="term_1">Recalling</term> resolution <ref href="/akn/un/statement/deliberation/whowha/2006-05-27/wha59_4/!main">WHA59.4</ref> on the Eleventh General <organization refersTo="#faoprogrammecommittee" eId="organization_2">Programme</organization> of Work 2006–2015;</p>
+         </container>
+         <container name="recognizing">
+            <p>
+               <term refersTo="#recognizing" eId="term_2">Recognizing</term> that the Eleventh General <organization refersTo="#faoprogrammecommittee" eId="organization_3">Programme</organization> of Work sets forth a global health agenda and charts the broad strategic framework and direction for the work of <organization refersTo="#who" eId="organization_4">WHO</organization>;</p>
+         </container>
+         <container name="noting">
+            <p>
+               <term refersTo="#noting" eId="term_3">Noting</term> that the Medium-term strategic plan 2008–2013 provides a flexible multibiennial framework to guide and ensure continuity in the preparation of biennial programme budgets and operational plans over three bienniums in line with the global health agenda established in the Eleventh General <organization refersTo="#faoprogrammecommittee" eId="organization_5">Programme</organization> of Work;</p>
+         </container>
+         <container name="acknowledging">
+            <p>
+               <term refersTo="#acknowledging" eId="term_4">Acknowledging</term> that more specific priorities are set out in the Medium-term strategic plan, defined as strategic objectives, and in the biennial programme budget, as expected results;</p>
+         </container>
+         <container name="noting">
+            <p>
+               <term refersTo="#noting" eId="term_5">Noting</term> that the proposed programme budgets 2010–2011 and 2012–2013 will be submitted to <event refersTo="#theSixtySecondWorldHealthAssembly" eId="event_1">the Sixty-second <organization refersTo="#worldHealthAssembly" eId="organization_6">World Health Assembly</organization>
+               </event> and Sixty-fourth <organization refersTo="#worldHealthAssembly" eId="organization_7">World Health Assembly</organization>, respectively, for decision;</p>
+         </container>
+         <container name="welcoming">
+            <p>
+               <term refersTo="#welcoming" eId="term_6">Welcoming</term> the cross-cutting nature of the strategic objectives that create synergies and promote collaboration between different programmes by capturing the multiple links among determinants of health, health outcomes, health policies, systems and technologies;</p>
+         </container>
+         <container name="acknowledging">
+            <p>
+               <term refersTo="#acknowledging" eId="term_7">Acknowledging</term> that the Medium-term strategic plan, by moving away from narrowly defined areas of work to strategic objectives, provides a more strategic and flexible programme structure that better reflects the needs of countries and regions, and facilitates more effective coordination and collaboration across the <organization refersTo="#organization" eId="organization_8">Organization</organization> and with Member <organization refersTo="#states" eId="organization_9">States</organization>, organizations of the <organization refersTo="#unsystem" eId="organization_10">United Nations system</organization> and other stakeholders,</p>
+         </container>
+      </preamble>
+      <mainBody>
+         <paragraph eId="para_1">
+            <num>1. </num>
+            <content eId="para_1__content">
+               <p>
+                  <term refersTo="#endorses" eId="term_8">ENDORSES</term> the Medium-term strategic plan 2008–2013;</p>
+            </content>
+         </paragraph>
+         <paragraph eId="para_2">
+            <num>2. </num>
+            <content eId="para_2__content">
+               <p>
+                  <term refersTo="#callsUpon" eId="term_9">CALLS UPON</term> Member <organization refersTo="#states" eId="organization_11">States</organization> to identify their role and actions to be taken in order to achieve the strategic objectives contained in the Medium-term strategic plan;</p>
+            </content>
+         </paragraph>
+         <paragraph eId="para_3">
+            <num>3. </num>
+            <content eId="para_3__content">
+               <p>
+                  <term refersTo="#invites" eId="term_10">INVITES</term>
+                  <term refersTo="#concerned" eId="term_11">concerned</term> organizations of the <organization refersTo="#unsystem" eId="organization_12">United Nations system</organization>, international development partners, and agencies, international financial institutions, nongovernmental organizations and private-sector entities to consider their contribution in supporting the strategic objectives contained in the Medium-term strategic plan;</p>
+            </content>
+         </paragraph>
+         <paragraph eId="para_4">
+            <num>4. </num>
+            <content eId="para_4__content">
+               <p>
+                  <term refersTo="#decides" eId="term_12">DECIDES</term> to review the Medium-term strategic plan 2008–2013 every two years in conjunction with the proposed programme budget, with a view to revising the Medium-term strategic plan, including its indicators and targets, as may be necessary;</p>
+            </content>
+         </paragraph>
+         <paragraph eId="para_5">
+            <num>5. </num>
+            <intro eId="para_5__content">
+               <p>
+                  <term refersTo="#requests" eId="term_13">REQUESTS</term> the <organization refersTo="#director-general" eId="organization_13">Director-General</organization>:</p>
+            </intro>
+            <subparagraph eId="para_5__subpara_1">
+               <num>(1)</num>
+               <content eId="para_5__subpara_1__content">
+                  <p>to use the Medium-term strategic plan in providing strategic direction for the <organization refersTo="#organization" eId="organization_14">Organization</organization> during the period 2008–2013 in order to advance the global health agenda contained in the Eleventh General <organization refersTo="#faoprogrammecommittee" eId="organization_15">Programme</organization> of Work;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_5__subpara_2">
+               <num>(2)</num>
+               <content eId="para_5__subpara_2__content">
+                  <p>to use the Medium-term strategic plan to guide preparation of the proposed programme budgets 2008–2009, 2010–2011 and 2012–2013 and operational plans through each biennium;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_5__subpara_3">
+               <num>(3)</num>
+               <content eId="para_5__subpara_3__content">
+                  <p>to collaborate with <term refersTo="#concerned" eId="term_14">concerned</term> organizations of the <organization refersTo="#unsystem" eId="organization_16">United Nations system</organization>, international development partners and agencies, international financial institutions, nongovernmental organizations and private-sector entities in implementing the Medium-term strategic plan;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_5__subpara_4">
+               <num>(4)</num>
+               <content eId="para_5__subpara_4__content">
+                  <p>to recommend to the Health Assembly through the <organization refersTo="#wfpExecutiveBoard" eId="organization_17">Executive Board</organization>, in conjunction with the proposed programme budgets 2010–2011 and 2012–2013, revisions to the Medium-term strategic plan as may be necessary;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_5__subpara_5">
+               <num>(5)</num>
+               <content eId="para_5__subpara_5__content">
+                  <p>to report to the Sixty-second <organization refersTo="#worldHealthAssembly" eId="organization_18">World Health Assembly</organization> through the <organization refersTo="#wfpExecutiveBoard" eId="organization_19">Executive Board</organization> at its 124th session on implementation of this resolution, and to report biennially thereafter on progress.</p>
+               </content>
+            </subparagraph>
+         </paragraph>
+      </mainBody>
+      <conclusions>
+         <p>(<event refersTo="#ninthPlenaryMeeting" eId="event_2">Ninth plenary meeting</event>, <docDate date="2007-05-21">21 May 2007</docDate> –<organization refersTo="#committeeA" eId="organization_20">Committee A</organization>, second report)</p>
+      </conclusions>
+   </statement>
+</akomaNtoso>

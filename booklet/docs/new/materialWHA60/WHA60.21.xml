@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns:akn4un="http://un.org/metadata" xmlns:eLUNa="https://cms.unov.org/eLuna/2017/main" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+   <statement name="resolution">
+      <meta>
+         <identification source="#source">
+            <FRBRWork>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-23/wha60_21/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-23/wha60_21"/>
+               <FRBRdate date="2007-05-23" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+               <FRBRcountry value="un"/>
+               <FRBRnumber value="wha60_21"/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-23/wha60_21/eng@/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-23/wha60_21/eng@"/>
+               <FRBRdate date="2007-05-23" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-23/wha60_21/eng@/!main.xml"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-23/wha60_21/eng@.xml"/>
+               <FRBRdate date="2023-09-13" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+            </FRBRManifestation>
+         </identification>
+         <references source="#source">
+            <TLCOrganization eId="worldHealthAssembly" href="/akn/ontology/organization/un/worldHealthAssembly" showAs="World Health Assembly"/>
+            <TLCOrganization eId="states" href="/akn/ontology/organization/un/states" showAs="States"/>
+            <TLCOrganization eId="who" href="/akn/ontology/organization/un/who" showAs="WHO"/>
+            <TLCOrganization eId="un" href="/akn/ontology/organization/un/un" showAs="UN"/>
+            <TLCOrganization eId="wfp" href="/akn/ontology/organization/un/wfp" showAs="WFP"/>
+            <TLCOrganization eId="faocouncil" href="/akn/ontology/organization/un/faocouncil" showAs="Council"/>
+            <TLCTerm eId="havingNoted" href="/akn/ontology/term/havingNoted" showAs="having noted"/>
+            <TLCTerm eId="noting" href="/akn/ontology/term/noting" showAs="noting"/>
+            <TLCTerm eId="concerned" href="/akn/ontology/term/concerned" showAs="concerned"/>
+            <TLCTerm eId="recognizing" href="/akn/ontology/term/recognizing" showAs="recognizing"/>
+            <TLCTerm eId="urges" href="/akn/ontology/term/urges" showAs="urges"/>
+            <TLCTerm eId="requests" href="/akn/ontology/term/requests" showAs="requests"/>
+            <TLCOrganization eId="director-general" href="/akn/ontology/organization/un/director-general" showAs="Director-General"/>
+            <TLCOrganization eId="unsystem" href="/akn/ontology/organization/un/unsystem" showAs="United Nations system"/>
+            <TLCEvent href="/akn/ontology/event/whowha/eleventhPlenaryMeeting" eId="eleventhPlenaryMeeting" showAs="Eleventh plenary meeting"/>
+            <TLCOrganization eId="committeeB" href="/akn/ontology/organization/un/committeeB" showAs="Committee B"/>
+            <TLCPerson eId="source" href="/akn/ontology/person/somebody" showAs="somebody"/>
+         </references>
+      </meta>
+      <preface>
+         <p>
+            <docNumber>WHA60.21</docNumber>
+            <docTitle>Sustaining the elimination of iodine deficiency disorders</docTitle>
+         </p>
+      </preface>
+      <preamble>
+         <formula name="enactingFormula">
+            <p>The Sixtieth <organization refersTo="#worldHealthAssembly" eId="organization_1">World Health Assembly</organization>,</p>
+         </formula>
+         <container name="havingNoted">
+            <p>
+               <term refersTo="#havingNoted" eId="term_1">Having noted</term> with appreciation the report on sustaining the elimination of iodine deficiency disorders; <authorialNote marker="1" placement="bottom" eId="authorialNote_1">
+                  <p>Document A60/28, Section G.</p>
+               </authorialNote>
+            </p>
+         </container>
+         <container name="noting">
+            <p>
+               <term refersTo="#noting" eId="term_2">Noting</term> that, although progress has been made by some Member <organization refersTo="#states" eId="organization_2">States</organization> in the sustained elimination of iodine deficiency disorders in the past two years, between one fourth and one third of the world’s population still suffers from this micronutrient deficiency, most of them in impoverished areas of the world;</p>
+         </container>
+         <container name="concerned">
+            <p>
+               <term refersTo="#concerned" eId="term_3">Concerned</term> that iodine deficiency can prevent the optimal development of children’s brains, with possible consequent learning impairment and subsequent social and economic consequences;</p>
+         </container>
+         <container name="recognizing">
+            <p>
+               <term refersTo="#recognizing" eId="term_4">Recognizing</term> that the fight against iodine deficiency contributes directly to many of the internationally agreed health-related goals, including those contained in the Millennium Declaration, such as eradicating extreme poverty, reducing child mortality, improving maternal health, achieving universal primary education, and promoting gender equality;</p>
+         </container>
+         <p>
+Applauding the support of international organizations, especially <organization refersTo="#who" eId="organization_3">WHO</organization>, <organization refersTo="#un" eId="organization_4">UN</organization>ICEF, <organization refersTo="#wfp" eId="organization_5">WFP</organization>, bilateral development agencies and nongovernmental and private partners, including Kiwanis International, the International <organization refersTo="#faocouncil" eId="organization_6">Council</organization> for the Control of Iodine Deficiency Disorders and the global Network for Sustained Elimination of Iodine Deficiency,
+</p>
+      </preamble>
+      <mainBody>
+         <paragraph eId="para_1">
+            <num>1. </num>
+            <intro eId="para_1__content">
+               <p>
+                  <term refersTo="#urges" eId="term_5">URGES</term> Member <organization refersTo="#states" eId="organization_7">States</organization>:</p>
+            </intro>
+            <subparagraph eId="para_1__subpara_1">
+               <num>(1)</num>
+               <content eId="para_1__subpara_1__content">
+                  <p>to redouble their efforts to reach those people not yet protected from iodine deficiency disorders, and to sustain successful programmes on a continuous basis;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_2">
+               <num>(2)</num>
+               <content eId="para_1__subpara_2__content">
+                  <p>to implement the recommendation in resolution <ref href="/akn/un/statement/deliberation/whowha/2005-05-25/wha58_24/!main">WHA58.24</ref> to establish multidisciplinary national coalitions in order to monitor the state of iodine nutrition every three years;</p>
+               </content>
+            </subparagraph>
+         </paragraph>
+         <paragraph eId="para_2">
+            <num>2. </num>
+            <content eId="para_2__content">
+               <p>
+                  <term refersTo="#requests" eId="term_6">REQUESTS</term> the <organization refersTo="#director-general" eId="organization_8">Director-General</organization> to continue to strengthen <organization refersTo="#who" eId="organization_9">WHO</organization>’s cooperation with other organizations in the <organization refersTo="#unsystem" eId="organization_10">United Nations system</organization> for supporting Member <organization refersTo="#states" eId="organization_11">States</organization> in fighting iodine deficiency, and to report on iodine status every three years in compliance with resolution <ref href="/akn/un/statement/deliberation/whowha/2005-05-25/wha58_24/!main">WHA58.24</ref>.</p>
+            </content>
+         </paragraph>
+      </mainBody>
+      <conclusions>
+         <p>(<event refersTo="#eleventhPlenaryMeeting" eId="event_1">Eleventh plenary meeting</event>, <docDate date="2007-05-23">23 May 2007</docDate> –<organization refersTo="#committeeB" eId="organization_12">Committee B</organization>, third report)</p>
+      </conclusions>
+   </statement>
+</akomaNtoso>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns:akn4un="http://un.org/metadata" xmlns:eLUNa="https://cms.unov.org/eLuna/2017/main" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+   <statement name="resolution">
+      <meta>
+         <identification source="#source">
+            <FRBRWork>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-21/wha60_3/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-21/wha60_3"/>
+               <FRBRdate date="2007-05-21" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+               <FRBRcountry value="un"/>
+               <FRBRnumber value="wha60_3"/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-21/wha60_3/eng@/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-21/wha60_3/eng@"/>
+               <FRBRdate date="2007-05-21" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-21/wha60_3/eng@/!main.xml"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-21/wha60_3/eng@.xml"/>
+               <FRBRdate date="2023-08-23" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+            </FRBRManifestation>
+         </identification>
+         <references source="#source">
+            <TLCOrganization eId="who" href="/akn/ontology/organization/un/who" showAs="WHO"/>
+            <TLCOrganization eId="faoprogrammecommittee" href="/akn/ontology/organization/un/faoprogrammecommittee" showAs="Programme"/>
+            <TLCOrganization eId="wfpExecutiveBoard" href="/akn/ontology/organization/un/wfpExecutiveBoard" showAs="Executive Board"/>
+            <TLCOrganization eId="worldHealthAssembly" href="/akn/ontology/organization/un/worldHealthAssembly" showAs="World Health Assembly"/>
+            <TLCTerm eId="havingExamined" href="/akn/ontology/term/havingExamined" showAs="Having examined"/>
+            <TLCTerm eId="havingNoted" href="/akn/ontology/term/havingNoted" showAs="Having noted"/>
+            <TLCOrganization eId="director-general" href="/akn/ontology/organization/un/director-general" showAs="Director-General"/>
+            <TLCEvent href="/akn/ontology/event/whoha/ninthPlenaryMeeting" eId="ninthPlenaryMeeting" showAs="Ninth plenary meeting"/>
+            <TLCOrganization eId="committeeB" href="/akn/ontology/organization/un/committeeB" showAs="Committee B"/>
+            <TLCPerson eId="source" href="/akn/ontology/person/somebody" showAs="somebody"/>
+         </references>
+      </meta>
+      <preface>
+         <p>
+            <docNumber>WHA60.3</docNumber>
+            <docTitle>Unaudited interim financial report on the accounts of <organization refersTo="#who" eId="organization_1">WHO</organization> for 2006 and comments thereon made by the <organization refersTo="#faoprogrammecommittee" eId="organization_2">Programme</organization>, Budget and Administration Committee of the <organization refersTo="#wfpExecutiveBoard" eId="organization_3">Executive Board</organization>
+            </docTitle>
+         </p>
+      </preface>
+      <preamble>
+         <formula name="enactingFormula">
+            <p>The Sixtieth <organization refersTo="#worldHealthAssembly" eId="organization_4">World Health Assembly</organization>,</p>
+         </formula>
+         <container name="havingExamined">
+            <p>
+               <term refersTo="#havingExamined" eId="term_1">Having examined</term> the unaudited interim financial report for the year 2006; <authorialNote marker="1" placement="bottom" eId="authorialNote_1">
+                  <p>Documents A60/30 and A60/30 Add.1.</p>
+               </authorialNote>
+            </p>
+         </container>
+         <container name="havingNoted">
+            <p>
+               <term refersTo="#havingNoted" eId="term_2">Having noted</term> the first report of the <organization refersTo="#faoprogrammecommittee" eId="organization_5">Programme</organization>, Budget and Administration Committee of the <organization refersTo="#wfpExecutiveBoard" eId="organization_6">Executive Board</organization> to the Sixtieth <organization refersTo="#worldHealthAssembly" eId="organization_7">World Health Assembly</organization>, <authorialNote marker="2" placement="bottom" eId="authorialNote_2">
+                  <p>Document A60/41.</p>
+               </authorialNote>
+            </p>
+         </container>
+      </preamble>
+      <mainBody>
+         <paragraph eId="para_1">
+            <content eId="para_1__content">
+               <p>ACCEPTS the <organization refersTo="#director-general" eId="organization_8">Director-General</organization>’s unaudited interim financial report for the year 2006.</p>
+            </content>
+         </paragraph>
+      </mainBody>
+      <conclusions>
+         <p>(<event refersTo="#ninthPlenaryMeeting" eId="event_1">Ninth plenary meeting</event>, <docDate date="2007-05-21">21 May 2007</docDate> –<organization refersTo="#committeeB" eId="organization_9">Committee B</organization>, first report)</p>
+      </conclusions>
+   </statement>
+</akomaNtoso>

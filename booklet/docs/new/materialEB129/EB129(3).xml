@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns:akn4un="http://un.org/metadata" xmlns:eLUNa="https://cms.unov.org/eLuna/2017/main" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+   <statement name="decision">
+      <meta>
+         <identification source="#source">
+            <FRBRWork>
+               <FRBRthis value="/akn/un/statement/deliberation/whoeb/2011-05-25/eb129-3/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whoeb/2011-05-25/eb129-3"/>
+               <FRBRdate date="2011-05-25" name=""/>
+               <FRBRauthor href="#whoeb" as="#author"/>
+               <FRBRcountry value="un"/>
+               <FRBRnumber value="eb129-3"/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value="/akn/un/statement/deliberation/whoeb/2011-05-25/eb129-3/eng@/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whoeb/2011-05-25/eb129-3/eng@"/>
+               <FRBRdate date="2011-05-25" name=""/>
+               <FRBRauthor href="#whoeb" as="#author"/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value="/akn/un/statement/deliberation/whoeb/2011-05-25/eb129-3/eng@/!main.xml"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whoeb/2011-05-25/eb129-3/eng@.xml"/>
+               <FRBRdate date="2023-08-23" name=""/>
+               <FRBRauthor href="#whoeb" as="#author"/>
+            </FRBRManifestation>
+         </identification>
+         <references source="#source">
+            <TLCOrganization eId="kuwait" href="/akn/ontology/organization/un/kuwait" showAs="Kuwait"/>
+            <TLCTerm eId="concerned" href="/akn/ontology/term/concerned" showAs="concerned"/>
+            <TLCOrganization eId="wfpExecutiveBoard" href="/akn/ontology/organization/un/wfpExecutiveBoard" showAs="Executive Board"/>
+            <TLCOrganization eId="qatar" href="/akn/ontology/organization/un/qatar" showAs="Qatar"/>
+            <TLCOrganization eId="who" href="/akn/ontology/organization/un/who" showAs="World Health Organization"/>
+            <TLCEvent href="/akn/ontology/event/whoha/secondMeeting" eId="secondMeeting" showAs="Second meeting"/>
+            <TLCPerson eId="source" href="/akn/ontology/person/somebody" showAs="somebody"/>
+         </references>
+         <proprietary source="#source">
+            <akn4un:session>EB129</akn4un:session>
+         </proprietary>
+      </meta>
+      <preface>
+         <p>
+            <docNumber>EB129(3)</docNumber>
+            <docTitle>Membership of the State of <organization refersTo="#kuwait" eId="organization_1">Kuwait</organization> Health Promotion Foundation Selection Panel</docTitle>
+         </p>
+      </preface>
+      <mainBody>
+         <paragraph eId="para_1">
+            <content eId="para_1__content">
+               <p>
+                  <inline name="#enactingFormula">The <organization refersTo="#wfpExecutiveBoard" eId="organization_2">Executive Board</organization>,</inline>
+in accordance with the Statutes of the State of <organization refersTo="#kuwait" eId="organization_3">Kuwait</organization> Health Promotion Foundation,appointed Dr Abdulla Al-Qahtani (<organization refersTo="#qatar" eId="organization_4">Qatar</organization>) as a member of the Foundation Selection Panel for the duration of his term of office on the <organization refersTo="#wfpExecutiveBoard" eId="organization_5">Executive Board</organization>, in addition to the Chairman and Vice‑Chairmen of the Board, members ex officio. It was understood that if Dr Al-Qahtani was unable to attend, his successor or the alternate member of the Board designated by the government <term refersTo="#concerned" eId="term_1">concerned</term> would participate in the work of the Selection Panel, in accordance with Rule 2 of the Rules of Procedure of the <organization refersTo="#wfpExecutiveBoard" eId="organization_6">Executive Board</organization> of the <organization refersTo="#who" eId="organization_7">World Health Organization</organization>.
+</p>
+            </content>
+         </paragraph>
+      </mainBody>
+      <conclusions>
+         <p>(<event refersTo="#secondMeeting" eId="event_1">Second meeting</event>, <docDate date="2011-05-25">25 May 2011</docDate>)</p>
+      </conclusions>
+   </statement>
+</akomaNtoso>

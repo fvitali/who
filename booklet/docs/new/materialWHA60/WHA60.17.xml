@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns:akn4un="http://un.org/metadata" xmlns:eLUNa="https://cms.unov.org/eLuna/2017/main" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+   <statement name="resolution">
+      <meta>
+         <identification source="#source">
+            <FRBRWork>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-23/wha60_17/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-23/wha60_17"/>
+               <FRBRdate date="2007-05-23" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+               <FRBRcountry value="un"/>
+               <FRBRnumber value="wha60_17"/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-23/wha60_17/eng@/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-23/wha60_17/eng@"/>
+               <FRBRdate date="2007-05-23" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-23/wha60_17/eng@/!main.xml"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-23/wha60_17/eng@.xml"/>
+               <FRBRdate date="2023-09-13" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+            </FRBRManifestation>
+         </identification>
+         <references source="#source">
+            <TLCOrganization eId="worldHealthAssembly" href="/akn/ontology/organization/un/worldHealthAssembly" showAs="World Health Assembly"/>
+            <TLCOrganization eId="who" href="/akn/ontology/organization/un/who" showAs="WHO"/>
+            <TLCOrganization eId="faoInternationalPlantProtectionConvention" href="/akn/ontology/organization/un/faoInternationalPlantProtectionConvention" showAs="Convention"/>
+            <TLCOrganization eId="faoprogrammecommittee" href="/akn/ontology/organization/un/faoprogrammecommittee" showAs="Programme"/>
+            <TLCTerm eId="recalling" href="/akn/ontology/term/recalling" showAs="recalling"/>
+            <TLCTerm eId="havingConsidered" href="/akn/ontology/term/havingConsidered" showAs="having considered"/>
+            <TLCTerm eId="acknowledging" href="/akn/ontology/term/acknowledging" showAs="acknowledging"/>
+            <TLCTerm eId="emphasizing" href="/akn/ontology/term/emphasizing" showAs="emphasizing"/>
+            <TLCTerm eId="aware" href="/akn/ontology/term/aware" showAs="aware"/>
+            <TLCTerm eId="appreciating" href="/akn/ontology/term/appreciating" showAs="appreciating"/>
+            <TLCTerm eId="urges" href="/akn/ontology/term/urges" showAs="urges"/>
+            <TLCTerm eId="requests" href="/akn/ontology/term/requests" showAs="requests"/>
+            <TLCTerm eId="concerned" href="/akn/ontology/term/concerned" showAs="concerned"/>
+            <TLCOrganization eId="states" href="/akn/ontology/organization/un/states" showAs="States"/>
+            <TLCOrganization eId="director-general" href="/akn/ontology/organization/un/director-general" showAs="Director-General"/>
+            <TLCOrganization eId="organization" href="/akn/ontology/organization/un/organization" showAs="Organization"/>
+            <TLCOrganization eId="un" href="/akn/ontology/organization/un/un" showAs="UN"/>
+            <TLCOrganization eId="unsystem" href="/akn/ontology/organization/un/unsystem" showAs="United Nations system"/>
+            <TLCEvent href="/akn/ontology/event/whowha/eleventhPlenaryMeeting" eId="eleventhPlenaryMeeting" showAs="Eleventh plenary meeting"/>
+            <TLCOrganization eId="committeeA" href="/akn/ontology/organization/un/committeeA" showAs="Committee A"/>
+            <TLCPerson eId="source" href="/akn/ontology/person/somebody" showAs="somebody"/>
+         </references>
+      </meta>
+      <preface>
+         <p>
+            <docNumber>WHA60.17</docNumber>
+            <docTitle>Oral health: action plan for promotion and integrated disease prevention</docTitle>
+         </p>
+      </preface>
+      <preamble>
+         <formula name="enactingFormula">
+            <p>The Sixtieth <organization refersTo="#worldHealthAssembly" eId="organization_1">World Health Assembly</organization>,</p>
+         </formula>
+         <container name="recalling">
+            <p>
+               <term refersTo="#recalling" eId="term_1">Recalling</term> resolutions <ref href="/akn/un/statement/deliberation/whowha/0000-00-00/wha22_30/!main">WHA22.30</ref>, <ref href="/akn/un/statement/deliberation/whowha/0000-00-00/wha28_64/!main">WHA28.64</ref> and <ref href="/akn/un/statement/deliberation/whowha/0000-00-00/wha31_50/!main">WHA31.50</ref> on fluoridation and dental health, <ref href="/akn/un/statement/deliberation/whowha/0000-00-00/wha36_14/!main">WHA36.14</ref> on oral health in the strategy for health for all, <ref href="/akn/un/statement/deliberation/whowha/0000-00-00/wha42_39/!main">WHA42.39</ref> on oral health; <ref href="/akn/un/statement/deliberation/whowha/2003-05-21/wha56_1/!main">WHA56.1</ref> and <ref href="/akn/un/statement/deliberation/whowha/2006-05-27/wha59_17/!main">WHA59.17</ref> on the <organization refersTo="#who" eId="organization_2">WHO</organization> Framework <organization refersTo="#faoInternationalPlantProtectionConvention" eId="organization_3">Convention</organization> on Tobacco Control; <ref href="/akn/un/statement/deliberation/whowha/2005-05-25/wha58_22/!main">WHA58.22</ref> on cancer prevention and control; <ref href="/akn/un/statement/deliberation/whowha/2004-05-22/wha57_14/!main">WHA57.14</ref> on scaling up treatment and care within a coordinated and comprehensive response to HIV/AIDS; <ref href="/akn/un/statement/deliberation/whowha/2004-05-22/wha57_16/!main">WHA57.16</ref> on health promotion and healthy lifestyles; <ref href="/akn/un/statement/deliberation/whowha/2004-05-22/wha57_17/!main">WHA57.17</ref> on the Global Strategy on Diet, Physical Activity and Health; <ref href="/akn/un/statement/deliberation/whowha/2005-05-25/wha58_16/!main">WHA58.16</ref> on strengthening active and healthy ageing; <ref href="/akn/un/statement/deliberation/whowha/0000-00-00/wha51_18/!main">WHA51.18</ref> and <ref href="/akn/un/statement/deliberation/whowha/2000-05-20/wha53_17/!main">WHA53.17</ref> on prevention and control of noncommunicable diseases, and <ref href="/akn/un/statement/deliberation/whowha/2005-05-25/wha58_26/!main">WHA58.26</ref> on public-health problems caused by harmful use of alcohol;</p>
+         </container>
+         <container name="havingConsidered">
+            <p>
+               <term refersTo="#havingConsidered" eId="term_2">Having considered</term> the report on oral health: action plan for promotion and integrated disease prevention; <authorialNote marker="1" placement="bottom" eId="authorialNote_1">
+                  <p>Document A60/16.</p>
+               </authorialNote>
+            </p>
+         </container>
+         <container name="acknowledging">
+            <p>
+               <term refersTo="#acknowledging" eId="term_3">Acknowledging</term> the intrinsic link between oral health, general health and quality of life;</p>
+         </container>
+         <container name="emphasizing">
+            <p>
+               <term refersTo="#emphasizing" eId="term_4">Emphasizing</term> the need to incorporate programmes for promotion of oral health and prevention of oral diseases into programmes for the integrated prevention and treatment of chronic diseases;</p>
+         </container>
+         <container name="aware">
+            <p>
+               <term refersTo="#aware" eId="term_5">Aware</term> that the importance of the prevention and control of noncommunicable diseases has been highlighted in the Eleventh General <organization refersTo="#faoprogrammecommittee" eId="organization_4">Programme</organization> of Work 2006–2015;</p>
+         </container>
+         <container name="appreciating">
+            <p>
+               <term refersTo="#appreciating" eId="term_6">Appreciating</term> the role that <organization refersTo="#who" eId="organization_5">WHO</organization> collaborating centres, partners and nongovernmental organizations play in improving oral health globally,</p>
+         </container>
+      </preamble>
+      <mainBody>
+         <paragraph eId="para_1">
+            <num>1. </num>
+            <intro eId="para_1__content">
+               <p>
+                  <term refersTo="#urges" eId="term_7">URGES</term> Member <organization refersTo="#states" eId="organization_6">States</organization>:</p>
+            </intro>
+            <subparagraph eId="para_1__subpara_1">
+               <num>(1)</num>
+               <content eId="para_1__subpara_1__content">
+                  <p>to adopt measures to ensure that oral health is incorporated as appropriateinto policies for the integrated prevention and treatment of chronic noncommunicable diseases and communicable diseases, and into maternal and child health policies;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_2">
+               <num>(2)</num>
+               <content eId="para_1__subpara_2__content">
+                  <p>to take measures to ensure that evidence-based approaches are used to incorporate oral health into national policies as appropriate for integrated prevention and control of noncommunicable diseases;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_3">
+               <num>(3)</num>
+               <content eId="para_1__subpara_3__content">
+                  <p>to consider mechanisms to provide coverage of the population with essential oral-health care, to incorporate oral health in the framework of enhanced primary health care for chronic noncommunicable diseases, and to promote the availability of oral-health services that should be directed towards disease prevention and health promotion for poor and disadvantaged populations, in collaboration with integrated programmes for the prevention of chronic noncommunicable diseases;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_4">
+               <num>(4)</num>
+               <content eId="para_1__subpara_4__content">
+                  <p>for those countries without access to optimal levels of fluoride, and which have not yet established systematic fluoridation programmes, to consider the development and implementation of fluoridation programmes, giving priority to equitable strategies such as the automatic administration of fluoride, for example, in drinking-water, salt or milk, and to the provision of affordable fluoride toothpaste;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_5">
+               <num>(5)</num>
+               <content eId="para_1__subpara_5__content">
+                  <p>to take steps to ensure that prevention of oral cancer is an integral part of national cancer-control programmes, and to involve oral‑health professionals or primary health care personnel with relevant training in oral health in detection, early diagnosis and treatment;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_6">
+               <num>(6)</num>
+               <content eId="para_1__subpara_6__content">
+                  <p>to take steps to ensure the prevention of oral disease associated with HIV/AIDS, and the promotion of oral health and quality of life for people living with HIV, involving oral‑health professionals or staff who are specially trained in primary health care, and applying primary oral‑health care where possible;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_7">
+               <num>(7)</num>
+               <content eId="para_1__subpara_7__content">
+                  <p>to develop and implement the promotion of oral health and prevention of oral disease for preschool and school children as part of activities in health-promoting schools;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_8">
+               <num>(8)</num>
+               <content eId="para_1__subpara_8__content">
+                  <p>to scale up capacity to produce oral-health personnel, including dental hygienists, nurses and auxiliaries, providing for equitable distribution of these auxiliaries to the primary-care level, and ensuring proper service back-up by dentists through appropriate referral systems;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_9">
+               <num>(9)</num>
+               <content eId="para_1__subpara_9__content">
+                  <p>to develop and implement, in countries affected by noma, programmes to control the disease within national programmes for the integrated management of childhood illness,maternal care and reduction of malnutrition and poverty, in line with internationally agreed health-related development goals, including those contained in the Millennium Declaration;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_10">
+               <num>(10)</num>
+               <content eId="para_1__subpara_10__content">
+                  <p>to incorporate an oral-health information system into health surveillance plans so that oral‑health objectives are in keeping with international standards, and to evaluate progress in promoting oral health;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_11">
+               <num>(11)</num>
+               <content eId="para_1__subpara_11__content">
+                  <p>to strengthen oral-health research and use evidence-based oral-health promotion and disease prevention in order to consolidate and adapt oral-health programmes, and to encourage the intercountry exchange of reliable knowledge and experience of community oral‑health programmes;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_12">
+               <num>(12)</num>
+               <content eId="para_1__subpara_12__content">
+                  <p>to address human resources and workforce planning for oral health as part of every national plan for health;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_13">
+               <num>(13)</num>
+               <content eId="para_1__subpara_13__content">
+                  <p>to increase, as appropriate,the budgetary provisions dedicated to the prevention and control of oral and craniofacial diseases and conditions;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_14">
+               <num>(14)</num>
+               <content eId="para_1__subpara_14__content">
+                  <p>to strengthen partnerships and shared responsibility among stakeholders in order to maximize resources in support of national oral health programmes;</p>
+               </content>
+            </subparagraph>
+         </paragraph>
+         <paragraph eId="para_2">
+            <num>2. </num>
+            <intro eId="para_2__content">
+               <p>
+                  <term refersTo="#requests" eId="term_8">REQUESTS</term> the <organization refersTo="#director-general" eId="organization_7">Director-General</organization>:</p>
+            </intro>
+            <subparagraph eId="para_2__subpara_1">
+               <num>(1)</num>
+               <content eId="para_2__subpara_1__content">
+                  <p>to raise awareness of the global challenges to improving oral health, and the specific and unique needs of low- and middle - income countries and of poor and disadvantaged population groups;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_2__subpara_2">
+               <num>(2)</num>
+               <content eId="para_2__subpara_2__content">
+                  <p>to ensure that the <organization refersTo="#organization" eId="organization_8">Organization</organization>, at global and regional levels, provides advice and technical support, on request, to Member <organization refersTo="#states" eId="organization_9">States</organization> for the development and implementation of oral-health programmes within integrated approaches to monitoring, prevention and management of chronic noncommunicable diseases;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_2__subpara_3">
+               <num>(3)</num>
+               <content eId="para_2__subpara_3__content">
+                  <p>continually to promote international cooperation and interaction with and among all actors <term refersTo="#concerned" eId="term_10">concerned</term> with implementation of the oral-health action plan, including <organization refersTo="#who" eId="organization_10">WHO</organization> collaborating centres for oral health and nongovernmental organizations;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_2__subpara_4">
+               <num>(4)</num>
+               <content eId="para_2__subpara_4__content">
+                  <p>to communicate to <organization refersTo="#un" eId="organization_11">UN</organization>ICEF and other organizations of the <organization refersTo="#unsystem" eId="organization_12">United Nations system</organization> that undertake health‑related activities the importance of integrating oral health into their programmes;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_2__subpara_5">
+               <num>(5)</num>
+               <content eId="para_2__subpara_5__content">
+                  <p>to strengthen <organization refersTo="#who" eId="organization_13">WHO</organization>’s technical leadership in oral health, including increasing, as appropriate, budgetary and human resources at all levels.</p>
+               </content>
+            </subparagraph>
+         </paragraph>
+      </mainBody>
+      <conclusions>
+         <p>(<event refersTo="#eleventhPlenaryMeeting" eId="event_1">Eleventh plenary meeting</event>, <docDate date="2007-05-23">23 May 2007</docDate> –<organization refersTo="#committeeA" eId="organization_14">Committee A</organization>, third report)</p>
+      </conclusions>
+   </statement>
+</akomaNtoso>

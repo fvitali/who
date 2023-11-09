@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns:akn4un="http://un.org/metadata" xmlns:eLUNa="https://cms.unov.org/eLuna/2017/main" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+   <statement name="resolution">
+      <meta>
+         <identification source="#source">
+            <FRBRWork>
+               <FRBRthis value="/akn/un/statement/deliberation/whoeb/2018-01-25/eb142_r3/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whoeb/2018-01-25/eb142_r3"/>
+               <FRBRdate date="2018-01-25" name=""/>
+               <FRBRauthor href="#whoeb" as="#author"/>
+               <FRBRcountry value="un"/>
+               <FRBRnumber value="eb142_r3"/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value="/akn/un/statement/deliberation/whoeb/2018-01-25/eb142_r3/eng@/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whoeb/2018-01-25/eb142_r3/eng@"/>
+               <FRBRdate date="2018-01-25" name=""/>
+               <FRBRauthor href="#whoeb" as="#author"/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value="/akn/un/statement/deliberation/whoeb/2018-01-25/eb142_r3/eng@/!main.xml"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whoeb/2018-01-25/eb142_r3/eng@.xml"/>
+               <FRBRdate date="2023-08-23" name=""/>
+               <FRBRauthor href="#whoeb" as="#author"/>
+            </FRBRManifestation>
+         </identification>
+         <references source="#source">
+            <TLCOrganization eId="unga" href="/akn/ontology/organization/un/unga" showAs="General Assembly"/>
+            <TLCOrganization eId="wfpExecutiveBoard" href="/akn/ontology/organization/un/wfpExecutiveBoard" showAs="Executive Board"/>
+            <TLCTerm eId="havingConsidered" href="/akn/ontology/term/havingConsidered" showAs="Having considered"/>
+            <TLCTerm eId="requests" href="/akn/ontology/term/requests" showAs="REQUESTS"/>
+            <TLCTerm eId="recommends" href="/akn/ontology/term/recommends" showAs="RECOMMENDS"/>
+            <TLCTerm eId="noting" href="/akn/ontology/term/noting" showAs="Noting"/>
+            <TLCTerm eId="reaffirming" href="/akn/ontology/term/reaffirming" showAs="Reaffirming"/>
+            <TLCTerm eId="adopted" href="/akn/ontology/term/adopted" showAs="adopted"/>
+            <TLCTerm eId="recalling" href="/akn/ontology/term/recalling" showAs="recalling"/>
+            <TLCTerm eId="recognizing" href="/akn/ontology/term/recognizing" showAs="Recognizing"/>
+            <TLCTerm eId="takingIntoAccount" href="/akn/ontology/term/takingIntoAccount" showAs="taking into account"/>
+            <TLCTerm eId="welcoming" href="/akn/ontology/term/welcoming" showAs="Welcoming"/>
+            <TLCTerm eId="urges" href="/akn/ontology/term/urges" showAs="URGES"/>
+            <TLCTerm eId="callsUpon" href="/akn/ontology/term/callsUpon" showAs="CALLS UPON"/>
+            <TLCTerm eId="considering" href="/akn/ontology/term/considering" showAs="considering"/>
+            <TLCOrganization eId="director-general" href="/akn/ontology/organization/un/director-general" showAs="Director-General"/>
+            <TLCOrganization eId="worldHealthAssembly" href="/akn/ontology/organization/un/worldHealthAssembly" showAs="World Health Assembly"/>
+            <TLCOrganization eId="unitedNations" href="/akn/ontology/organization/un/unitedNations" showAs="United Nations"/>
+            <TLCOrganization eId="who" href="/akn/ontology/organization/un/who" showAs="WHO"/>
+            <TLCOrganization eId="russia" href="/akn/ontology/organization/un/russia" showAs="Russian Federation"/>
+            <TLCOrganization eId="un" href="/akn/ontology/organization/un/un" showAs="UN"/>
+            <TLCOrganization eId="states" href="/akn/ontology/organization/un/states" showAs="States"/>
+            <TLCEvent href="/akn/ontology/event/whoha/ninthMeeting" eId="ninthMeeting" showAs="Ninth meeting"/>
+            <TLCPerson eId="source" href="/akn/ontology/person/somebody" showAs="somebody"/>
+         </references>
+         <proprietary source="#source">
+            <akn4un:session>EB142</akn4un:session>
+         </proprietary>
+      </meta>
+      <preface>
+         <p>
+            <docNumber>EB142.R3</docNumber>
+            <docTitle>Preparation for a high-level meeting of theGeneral Assembly on ending tuberculosis <authorialNote marker="1" placement="bottom" eId="authorialNote_1">
+                  <p>See Annex 5 for the financial and administrative implications for the Secretariat of the adoption of this resolution.</p>
+               </authorialNote>
+            </docTitle>
+         </p>
+      </preface>
+      <preamble>
+         <formula name="enactingFormula">
+            <p>The <organization refersTo="#wfpExecutiveBoard" eId="organization_2">Executive Board</organization>,</p>
+         </formula>
+         <container name="havingConsidered">
+            <p>
+               <term refersTo="#havingConsidered" eId="term_1">Having considered</term> the report on the preparation for a high-level meeting of <organization refersTo="#unga" eId="organization_3">the General Assembly</organization> on ending tuberculosis, to be held in 2018, <authorialNote marker="2" placement="bottom" eId="authorialNote_2">
+                  <p>Document EB142/16.</p>
+               </authorialNote>
+            </p>
+         </container>
+      </preamble>
+      <mainBody>
+         <paragraph eId="para_1">
+            <num>1. </num>
+            <content eId="para_1__content">
+               <p>
+                  <term refersTo="#requests" eId="term_2">REQUESTS</term> the <organization refersTo="#director-general" eId="organization_4">Director-General</organization> to develop, working in close collaboration with all relevant international, regional and national partners as recommended in the Moscow Declaration to End TB (2017), a draft multisectoral accountability framework that enables the monitoring, reporting, review and actions needed to accelerate progress to end tuberculosis both globally and nationally, leaving no one behind, through an independent constructive and positive approach, especially in the highest burden countries, and the independent review of progress achieved by those countries, to be considered by the Seventy-first <organization refersTo="#worldHealthAssembly" eId="organization_5">World Health Assembly</organization> in <date date="2018-05-01">May 2018</date>, and presented at the high-level meeting of the <organization refersTo="#unitedNations" eId="organization_6">United Nations</organization>
+                  <organization refersTo="#unga" eId="organization_7">General Assembly</organization>on ending tuberculosis in 2018 in order to secure strong political support;</p>
+            </content>
+         </paragraph>
+         <paragraph eId="para_2">
+            <num>2. </num>
+            <content eId="para_2__content">
+               <p>
+                  <term refersTo="#recommends" eId="term_3">RECOMMENDS</term> to the Seventy-first <organization refersTo="#worldHealthAssembly" eId="organization_8">World Health Assembly</organization> the consideration of the following draft resolution:</p>
+            </content>
+         </paragraph>
+         <inline name="#enactingFormula">The Seventy-first <organization refersTo="#worldHealthAssembly" eId="organization_9">World Health Assembly</organization>,</inline>
+         <term refersTo="#noting" eId="term_4">Noting</term> with concern that tuberculosis remains the leading infectious disease killer in the world today, responsible for an estimated 1.3 million deaths and an additional 374 000 deaths among people living with HIV/AIDS in 2016; and that the epidemic, including drug-resistant tuberculosis, poses a serious threat to health security and is a priority in the response to antimicrobial resistance;
+<term refersTo="#reaffirming" eId="term_5">Reaffirming</term> resolutions: <ref href="/akn/un/statement/deliberation/whowha/2014-05-21/wha67_1/!main">WHA67.1</ref> (2014), by which the Health Assembly <term refersTo="#adopted" eId="term_6">adopted</term> the global strategy and targets for tuberculosis prevention, care and control after 2015, subsequently known as the End TB Strategy; and <ref href="/akn/un/statement/deliberation/whowha/2015-05-26/wha68_7/!main">WHA68.7</ref> (2015), by which the Health Assembly <term refersTo="#adopted" eId="term_7">adopted</term> the global action plan on antimicrobial resistance; as well as <term refersTo="#recalling" eId="term_8">recalling</term>
+         <organization refersTo="#unga" eId="organization_10">General Assembly</organization> resolution 71/3 (2016) “Political Declaration of the High-Level Meeting of <organization refersTo="#unga" eId="organization_11">the General Assembly</organization> on Antimicrobial Resistance”;
+<term refersTo="#recalling" eId="term_9">Recalling</term>
+         <organization refersTo="#unga" eId="organization_12">the General Assembly</organization> resolution 70/1, which <term refersTo="#adopted" eId="term_10">adopted</term> the 2030 Agenda for Sustainable Development and defined the Sustainable Development Goals, as well as the associated target of ending the tuberculosis epidemic by 2030;
+<term refersTo="#recalling" eId="term_11">Recalling</term> further the report submitted to the Seventieth <organization refersTo="#worldHealthAssembly" eId="organization_13">World Health Assembly</organization> in <date date="2017-05-01">May 2017</date> on the implementation of the End TB Strategy, <authorialNote marker="3" placement="bottom" eId="authorialNote_3">
+            <p>Document A70 /38, section E.</p>
+         </authorialNote> which concluded that global, regional and country-level actions as well as investments were falling far short of those needed and that high-level global support and regional and national commitments were required; and <term refersTo="#noting" eId="term_12">noting</term> that progress is slow on all three targets of the Strategy (reducing TB incidence, reducing TB mortality, and eliminating catastrophic costs among TB patients and their households);
+<term refersTo="#recognizing" eId="term_13">Recognizing</term> that to achieve the TB targets and milestones of the Sustainable Development Goals (SDGs) and of the <organization refersTo="#who" eId="organization_14">WHO</organization>’s End TB Strategy, care and prevention‑related actions should be reinforced, paying particular attention to vulnerable groups, <term refersTo="#takingIntoAccount" eId="term_14">taking into account</term> national contexts and circumstances, in the context of [the context of progress towards achieving] [achieving] universal health coverage (UHC) and <term refersTo="#takingIntoAccount" eId="term_15">taking into account</term> social, economic and environmental determinants and consequences of TB;
+<term refersTo="#welcoming" eId="term_16">Welcoming</term> the decision contained in <organization refersTo="#unga" eId="organization_15">the General Assembly</organization> resolution 71/159, to hold a high-level meeting on the fight against tuberculosis in 2018;
+<term refersTo="#welcoming" eId="term_17">Welcoming</term> also the first <organization refersTo="#who" eId="organization_16">WHO</organization> global ministerial conference on “Ending TB in the Sustainable Development Era: A Multisectoral Response”, organized jointly with the Government of the <organization refersTo="#russia" eId="organization_17">Russian Federation</organization> and held in Moscow on 16 and <date date="2017-11-17">17 November 2017</date>, and the resulting Moscow Declaration to End TB, <authorialNote marker="4" placement="bottom" eId="authorialNote_4">
+            <p>Available at  http://www.who.int/tb/Moscow_Declaration_MinisterialConference_TB/en/  .</p>
+         </authorialNote> with commitments and calls to action regarding notably: advancing the TB response within the Sustainable Development Agenda; ensuring sufficient and sustainable financing; pursuing science, research and innovation; developing a multisectoral accountability framework; and, acting immediately to prepare for the high-level meeting of the <organization refersTo="#unitedNations" eId="organization_18">United Nations</organization> General Assembly;
+<term refersTo="#noting" eId="term_18">Noting</term> the commitment made in the Moscow Declaration to support the development of the multisectoral accountability framework, [looking towards] the 2018 <organization refersTo="#un" eId="organization_20">UN</organization>GA high-level meeting on TB, to be considered by the <organization refersTo="#who" eId="organization_21">WHO</organization> Governing Bodies,
+<paragraph eId="para_3">
+            <num>1. </num>
+            <intro eId="para_3__content">
+               <p>
+                  <term refersTo="#urges" eId="term_19">URGES</term> Member <organization refersTo="#states" eId="organization_22">States</organization>: <authorialNote marker="5" placement="bottom" eId="authorialNote_5">
+                     <p>And, where applicable, regional economic integration organizations.</p>
+                  </authorialNote>
+               </p>
+            </intro>
+            <subparagraph eId="para_3__subpara_1">
+               <num>(1)</num>
+               <content eId="para_3__subpara_1__content">
+                  <p>to support preparation for the high-level meeting of the <organization refersTo="#unitedNations" eId="organization_23">United Nations</organization> General Assembly in 2018 on tuberculosis, including by enabling high-level participation;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_3__subpara_2">
+               <num>(2)</num>
+               <content eId="para_3__subpara_2__content">
+                  <p>to pursue the implementation of all the commitments called for in the Moscow Declaration to End TB (2017), which will contribute to reaching the targets of the End TB Strategy and the Sustainable Development Goals target to end the tuberculosis epidemic;</p>
+               </content>
+            </subparagraph>
+         </paragraph>
+         <paragraph eId="para_4">
+            <num>2. </num>
+            <content eId="para_4__content">
+               <p>
+                  <term refersTo="#callsUpon" eId="term_20">CALLS UPON</term> all international, regional and national partners, as appropriate, to pursue the actions called for in the Moscow Declaration to End TB (2017) and to invite those who have not yet endorsed it to add their support;</p>
+            </content>
+         </paragraph>
+         <paragraph eId="para_5">
+            <num>3. </num>
+            <intro eId="para_5__content">
+               <p>
+                  <term refersTo="#requests" eId="term_21">REQUESTS</term> the <organization refersTo="#director-general" eId="organization_25">Director-General</organization>:</p>
+            </intro>
+            <subparagraph eId="para_5__subpara_1">
+               <num>(1)</num>
+               <content eId="para_5__subpara_1__content">
+                  <p>to continue to support the <organization refersTo="#unitedNations" eId="organization_26">United Nations</organization> Secretary-General and <organization refersTo="#unga" eId="organization_27">the General Assembly</organization>, upon request, in the preparation of the high-level meeting of <organization refersTo="#unga" eId="organization_28">the General Assembly</organization> on ending tuberculosis to be held in 2018;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_5__subpara_2">
+               <num>(2)</num>
+               <content eId="para_5__subpara_2__content">
+                  <p>to support, together with all relevant stakeholders, the implementation of the Moscow Declaration to End TB as a direct contribution to the success of the <organization refersTo="#unitedNations" eId="organization_29">United Nations</organization> General Assembly high-level meeting and to advance tuberculosis prevention and care and the specific actions requested of <organization refersTo="#who" eId="organization_31">WHO</organization> in the Moscow Declaration, including: actions to [to achieve (DEL advance towards)] [to strengthen health systems [(DEL for progress)] towards achieving] universal health coverage, [(DEL through health systems strengthening], including for tuberculosis prevention and care; to urgently support high multidrug-resistant TB (MDR-TB) burden countries in their national emergency response and to address MDR-TB as a major threat to public health [(DEL security)] by supporting implementation of the Global Action Plan on Antimicrobial Resistance (AMR) including TB-specific actions in all countries;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_5__subpara_3">
+               <num>(3)</num>
+               <content eId="para_5__subpara_3__content">
+                  <p>to continue to provide strategic and technical leadership, assistance, advice and support to Member <organization refersTo="#states" eId="organization_32">States</organization>, as well as working with international institutions and all other relevant stakeholders, towards sufficient [, (DEL and)] sustainable [and flexible] financing;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_5__subpara_4">
+               <num>(4)</num>
+               <content eId="para_5__subpara_4__content">
+                  <p>to develop a global strategy for tuberculosisresearch and innovation taking into consideration ongoing and new efforts and to make further progress in enhancing cooperation and coordination of tuberculosisresearch and development, <term refersTo="#considering" eId="term_22">considering</term> where possible drawing on relevant, existing research networks and global initiatives;</p>
+               </content>
+            </subparagraph>
+         </paragraph>
+      </mainBody>
+      <conclusions>
+         <p>(<event refersTo="#ninthMeeting" eId="event_1">Ninth meeting</event>, <docDate date="2018-01-25">25 January 2018</docDate>)</p>
+      </conclusions>
+   </statement>
+</akomaNtoso>

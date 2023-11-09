@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns:akn4un="http://un.org/metadata" xmlns:eLUNa="https://cms.unov.org/eLuna/2017/main" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+   <statement name="resolution">
+      <meta>
+         <identification source="#source">
+            <FRBRWork>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-21/wha60_4/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-21/wha60_4"/>
+               <FRBRdate date="2007-05-21" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+               <FRBRcountry value="un"/>
+               <FRBRnumber value="wha60_4"/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-21/wha60_4/eng@/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-21/wha60_4/eng@"/>
+               <FRBRdate date="2007-05-21" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-21/wha60_4/eng@/!main.xml"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-21/wha60_4/eng@.xml"/>
+               <FRBRdate date="2023-08-23" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+            </FRBRManifestation>
+         </identification>
+         <references source="#source">
+            <TLCOrganization eId="states" href="/akn/ontology/organization/un/states" showAs="States"/>
+            <TLCEvent href="/akn/ontology/event/whoha/theSixtyFirstWorldHealthAssembly" eId="theSixtyFirstWorldHealthAssembly" showAs="the Sixty-first World Health Assembly"/>
+            <TLCOrganization eId="worldHealthAssembly" href="/akn/ontology/organization/un/worldHealthAssembly" showAs="World Health Assembly"/>
+            <TLCOrganization eId="faoprogrammecommittee" href="/akn/ontology/organization/un/faoprogrammecommittee" showAs="Programme"/>
+            <TLCOrganization eId="wfpExecutiveBoard" href="/akn/ontology/organization/un/wfpExecutiveBoard" showAs="Executive Board"/>
+            <TLCOrganization eId="antiguaAndBarbuda" href="/akn/ontology/organization/un/antiguaAndBarbuda" showAs="Antigua and Barbuda"/>
+            <TLCOrganization eId="argentina" href="/akn/ontology/organization/un/argentina" showAs="Argentina"/>
+            <TLCOrganization eId="comoros" href="/akn/ontology/organization/un/comoros" showAs="Comoros"/>
+            <TLCOrganization eId="congo" href="/akn/ontology/organization/un/congo" showAs="Congo"/>
+            <TLCOrganization eId="dominia" href="/akn/ontology/organization/un/dominia" showAs="Dominica"/>
+            <TLCOrganization eId="guinea" href="/akn/ontology/organization/un/guinea" showAs="Guinea"/>
+            <TLCOrganization eId="kyrgyzstan" href="/akn/ontology/organization/un/kyrgyzstan" showAs="Kyrgyzstan"/>
+            <TLCOrganization eId="somalia" href="/akn/ontology/organization/un/somalia" showAs="Somalia"/>
+            <TLCTerm eId="havingConsidered" href="/akn/ontology/term/havingConsidered" showAs="Having considered"/>
+            <TLCTerm eId="noting" href="/akn/ontology/term/noting" showAs="Noting"/>
+            <TLCTerm eId="concerned" href="/akn/ontology/term/concerned" showAs="concerned"/>
+            <TLCTerm eId="decides" href="/akn/ontology/term/decides" showAs="DECIDES"/>
+            <TLCEvent href="/akn/ontology/event/whoha/ninthPlenaryMeeting" eId="ninthPlenaryMeeting" showAs="Ninth plenary meeting"/>
+            <TLCOrganization eId="committeeB" href="/akn/ontology/organization/un/committeeB" showAs="Committee B"/>
+            <TLCPerson eId="source" href="/akn/ontology/person/somebody" showAs="somebody"/>
+         </references>
+      </meta>
+      <preface>
+         <p>
+            <docNumber>WHA60.4</docNumber>
+            <docTitle>Status of collection of assessed contributions, including Member <organization refersTo="#states" eId="organization_1">States</organization> in arrears in the payment of their contributions to an extent that would justify invoking Article 7 of the Constitution</docTitle>
+         </p>
+      </preface>
+      <preamble>
+         <formula name="enactingFormula">
+            <p>The Sixtieth <organization refersTo="#worldHealthAssembly" eId="organization_2">World Health Assembly</organization>,</p>
+         </formula>
+         <container name="havingConsidered">
+            <p>
+               <term refersTo="#havingConsidered" eId="term_1">Having considered</term> the third report of the <organization refersTo="#faoprogrammecommittee" eId="organization_3">Programme</organization>, Budget and Administration Committee of the <organization refersTo="#wfpExecutiveBoard" eId="organization_4">Executive Board</organization> to the Sixtieth <organization refersTo="#worldHealthAssembly" eId="organization_5">World Health Assembly</organization> on Status of collection of assessed contributions, including Member <organization refersTo="#states" eId="organization_6">States</organization> in arrears in the payment of their contributions to an extent that would justify invoking Article 7 of the Constitution; <authorialNote marker="1" placement="bottom" eId="authorialNote_1">
+                  <p>Document A60/42.</p>
+               </authorialNote>
+            </p>
+         </container>
+         <container name="noting">
+            <p>
+               <term refersTo="#noting" eId="term_2">Noting</term> that, at the time of opening of the Sixtieth <organization refersTo="#worldHealthAssembly" eId="organization_7">World Health Assembly</organization>, the voting rights of <organization refersTo="#antiguaAndBarbuda" eId="organization_8">Antigua and Barbuda</organization>, <organization refersTo="#argentina" eId="organization_9">Argentina</organization>, Central African Republic, <organization refersTo="#comoros" eId="organization_10">Comoros</organization>, Democratic Republic of <organization refersTo="#congo" eId="organization_11">Congo</organization>, <organization refersTo="#dominia" eId="organization_12">Dominica</organization>, <organization refersTo="#guinea" eId="organization_13">Guinea</organization>-Bissau, <organization refersTo="#kyrgyzstan" eId="organization_14">Kyrgyzstan</organization>, and <organization refersTo="#somalia" eId="organization_15">Somalia</organization> were suspended, such suspension to continue until the arrears of the Member State <term refersTo="#concerned" eId="term_3">concerned</term> have been reduced, at the present or future Health Assemblies, to a level below the amount that would justify invoking Article 7 of the Constitution;</p>
+         </container>
+         <container name="noting">
+            <p>
+               <term refersTo="#noting" eId="term_4">Noting</term> that Cape Verde was in arrears at the time of the opening of the Sixtieth <organization refersTo="#worldHealthAssembly" eId="organization_16">World Health Assembly</organization> to such an extent that it was necessary for the Health Assembly to consider, in accordance with Article 7 of the Constitution, whether or not the voting privileges of that country should be suspended at the opening of <event refersTo="#theSixtyFirstWorldHealthAssembly" eId="event_1">the Sixty-first <organization refersTo="#worldHealthAssembly" eId="organization_17">World Health Assembly</organization>
+               </event>,</p>
+         </container>
+      </preamble>
+      <mainBody>
+         <term refersTo="#decides" eId="term_5">DECIDES</term>:
+<subparagraph eId="subpara_1">
+            <num>(1)</num>
+            <content eId="subpara_1__content">
+               <p>that in accordance with the statement of principles set out in resolution <ref href="/akn/un/statement/deliberation/whowha/0000-00-00/wha41_7/!main">WHA41.7</ref> if, by the time of the opening of the Sixty-first <organization refersTo="#worldHealthAssembly" eId="organization_18">World Health Assembly</organization>, Cape Verde was still in arrears in the payment of its contributions to an extent that would justify invoking Article 7 of the Constitution, its voting privileges shall be suspended as from said opening;</p>
+            </content>
+         </subparagraph>
+         <subparagraph eId="subpara_2">
+            <num>(2)</num>
+            <content eId="subpara_2__content">
+               <p>that any suspension that takes effect as aforesaid shall continue at the Sixty-first and subsequent Health Assemblies until the arrears of Cape Verde have been reduced to a level below the amount that would justify invoking Article 7 of the Constitution;</p>
+            </content>
+         </subparagraph>
+         <subparagraph eId="subpara_3">
+            <num>(3)</num>
+            <content eId="subpara_3__content">
+               <p>that this decision shall be without prejudice to the right of any Member to request restoration of its voting privileges in accordance with Article 7 of the Constitution.</p>
+            </content>
+         </subparagraph>
+      </mainBody>
+      <conclusions>
+         <p>(<event refersTo="#ninthPlenaryMeeting" eId="event_2">Ninth plenary meeting</event>, <docDate date="2007-05-21">21 May 2007</docDate> –<organization refersTo="#committeeB" eId="organization_19">Committee B</organization>, first report)</p>
+      </conclusions>
+   </statement>
+</akomaNtoso>

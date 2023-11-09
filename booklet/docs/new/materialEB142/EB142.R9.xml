@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns:akn4un="http://un.org/metadata" xmlns:eLUNa="https://cms.unov.org/eLuna/2017/main" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+   <statement name="resolution">
+      <meta>
+         <identification source="#source">
+            <FRBRWork>
+               <FRBRthis value="/akn/un/statement/deliberation/whoeb/2018-01-26/eb142_r9/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whoeb/2018-01-26/eb142_r9"/>
+               <FRBRdate date="2018-01-26" name=""/>
+               <FRBRauthor href="#whoeb" as="#author"/>
+               <FRBRcountry value="un"/>
+               <FRBRnumber value="eb142_r9"/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value="/akn/un/statement/deliberation/whoeb/2018-01-26/eb142_r9/eng@/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whoeb/2018-01-26/eb142_r9/eng@"/>
+               <FRBRdate date="2018-01-26" name=""/>
+               <FRBRauthor href="#whoeb" as="#author"/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value="/akn/un/statement/deliberation/whoeb/2018-01-26/eb142_r9/eng@/!main.xml"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whoeb/2018-01-26/eb142_r9/eng@.xml"/>
+               <FRBRdate date="2023-08-23" name=""/>
+               <FRBRauthor href="#whoeb" as="#author"/>
+            </FRBRManifestation>
+         </identification>
+         <references source="#source">
+            <TLCOrganization eId="director-general" href="/akn/ontology/organization/un/director-general" showAs="Director-General"/>
+            <TLCOrganization eId="wfpExecutiveBoard" href="/akn/ontology/organization/un/wfpExecutiveBoard" showAs="Executive Board"/>
+            <TLCTerm eId="havingConsidered" href="/akn/ontology/term/havingConsidered" showAs="Having considered"/>
+            <TLCTerm eId="recommends" href="/akn/ontology/term/recommends" showAs="RECOMMENDS"/>
+            <TLCOrganization eId="worldHealthAssembly" href="/akn/ontology/organization/un/worldHealthAssembly" showAs="World Health Assembly"/>
+            <TLCEvent href="/akn/ontology/event/whoha/twelfthMeeting" eId="twelfthMeeting" showAs="Twelfth meeting"/>
+            <TLCPerson eId="source" href="/akn/ontology/person/somebody" showAs="somebody"/>
+         </references>
+         <proprietary source="#source">
+            <akn4un:session>EB142</akn4un:session>
+         </proprietary>
+      </meta>
+      <preface>
+         <p>
+            <docNumber>EB142.R9</docNumber>
+            <docTitle>Salaries of staff in ungraded positionsand of the <organization refersTo="#director-general" eId="organization_1">Director-General</organization>
+               <authorialNote marker="1" placement="bottom" eId="authorialNote_1">
+                  <p>See Annex 2, and Annex 5 for the financial and administrative implications for the Secretariat of the adoption of this resolution.</p>
+               </authorialNote>
+            </docTitle>
+         </p>
+      </preface>
+      <preamble>
+         <formula name="enactingFormula">
+            <p>The <organization refersTo="#wfpExecutiveBoard" eId="organization_2">Executive Board</organization>,</p>
+         </formula>
+         <container name="havingConsidered">
+            <p>
+               <term refersTo="#havingConsidered" eId="term_1">Having considered</term> the report on amendments to the Staff Regulations and Staff Rules, <authorialNote marker="2" placement="bottom" eId="authorialNote_2">
+                  <p>Document EB142/38.</p>
+               </authorialNote>
+            </p>
+         </container>
+      </preamble>
+      <mainBody>
+         <paragraph eId="para_1">
+            <content eId="para_1__content">
+               <p>
+                  <term refersTo="#recommends" eId="term_2">RECOMMENDS</term> to the Seventy-first <organization refersTo="#worldHealthAssembly" eId="organization_3">World Health Assembly</organization> the adoption of the following resolution: </p>
+               <blockContainer>
+                  <componentRef eId="para_1__component_1" src="#component_1" showAs="resolution"/>
+               </blockContainer>
+            </content>
+         </paragraph>
+      </mainBody>
+      <conclusions>
+         <p>(<event refersTo="#twelfthMeeting" eId="event_1">Twelfth meeting</event>, <docDate date="2018-01-26">26 January 2018</docDate>)</p>
+      </conclusions>
+      <components>
+         <component eId="component_1">
+            <statement name="resolution">
+               <meta>
+                  <identification source="#source">
+                     <FRBRWork>
+                        <FRBRthis value="/akn/un/statement/deliberation/whoeb/2018-01-26/eb142_r9/!main/!component_1"/>
+                        <FRBRuri value="/akn/un/statement/deliberation/whoeb/2018-01-26/eb142_r9"/>
+                        <FRBRdate date="2018-01-01" name=""/>
+                        <FRBRauthor href="#whowha" as="#author"/>
+                        <FRBRcountry value="un"/>
+                        <FRBRnumber value="eb142_r9"/>
+                     </FRBRWork>
+                     <FRBRExpression>
+                        <FRBRthis value="/akn/un/statement/deliberation/whoeb/2018-01-26/eb142_r9/eng@/!main"/>
+                        <FRBRuri value="/akn/un/statement/deliberation/whoeb/2018-01-26/eb142_r9/eng@"/>
+                        <FRBRdate date="2018-01-01" name=""/>
+                        <FRBRauthor href="#whowha" as="#author"/>
+                        <FRBRlanguage language="eng"/>
+                     </FRBRExpression>
+                     <FRBRManifestation>
+                        <FRBRthis value="/akn/un/statement/deliberation/whoeb/2018-01-26/eb142_r9/eng@/!main.xml"/>
+                        <FRBRuri value="/akn/un/statement/deliberation/whoeb/2018-01-26/eb142_r9/eng@.xml"/>
+                        <FRBRdate date="2023-08-23" name=""/>
+                        <FRBRauthor href="#whowha" as="#author"/>
+                     </FRBRManifestation>
+                  </identification>
+                  <references source="#source">
+                     <TLCOrganization eId="component_1__worldHealthAssembly" href="/akn/ontology/organization/un/worldHealthAssembly" showAs="World Health Assembly"/>
+                     <TLCOrganization eId="component_1__wfpExecutiveBoard" href="/akn/ontology/organization/un/wfpExecutiveBoard" showAs="Executive Board"/>
+                     <TLCOrganization eId="component_1__director-general" href="/akn/ontology/organization/un/director-general" showAs="Director-General"/>
+                     <TLCTerm eId="component_1__noting" href="/akn/ontology/term/noting" showAs="Noting"/>
+                     <TLCTerm eId="component_1__decides" href="/akn/ontology/term/decides" showAs="DECIDES"/>
+                     <TLCPerson eId="component_1__source" href="/akn/ontology/person/somebody" showAs="somebody"/>
+                  </references>
+               </meta>
+               <preface>
+                  <p>The Seventy-first <organization refersTo="#component_1__worldHealthAssembly" eId="component_1__organization_1">World Health Assembly</organization>
+                  </p>
+               </preface>
+               <preamble>
+                  <p>,
+</p>
+                  <container name="noting">
+                     <p>
+                        <term refersTo="#component_1__noting" eId="component_1__term_1">Noting</term> the recommendations of the <organization refersTo="#component_1__wfpExecutiveBoard" eId="component_1__organization_2">Executive Board</organization> with regard to remuneration of staff in ungraded posts and of the <organization refersTo="#component_1__director-general" eId="component_1__organization_3">Director-General</organization>,</p>
+                  </container>
+               </preamble>
+               <mainBody>
+                  <paragraph eId="component_1__para_1">
+                     <num>1. </num>
+                     <content eId="component_1__para_1__content">
+                        <p>ESTABLISHES the salaries of Assistant Directors-General and Regional Directors at US$ 176 292 gross per annum, with a corresponding net salary of US$ 131 853;</p>
+                     </content>
+                  </paragraph>
+                  <paragraph eId="component_1__para_2">
+                     <num>2. </num>
+                     <content eId="component_1__para_2__content">
+                        <p>ESTABLISHES the salary of Deputy Directors-General at US$ 194 329 gross per annum, with a corresponding net salary of US$ 143 757;</p>
+                     </content>
+                  </paragraph>
+                  <paragraph eId="component_1__para_3">
+                     <num>3. </num>
+                     <content eId="component_1__para_3__content">
+                        <p>ESTABLISHES the salary of the <organization refersTo="#component_1__director-general" eId="component_1__organization_4">Director-General</organization> at US$ 239 755 gross per annum, with a corresponding net salary of US$ 173 738;</p>
+                     </content>
+                  </paragraph>
+                  <paragraph eId="component_1__para_4">
+                     <num>4. </num>
+                     <content eId="component_1__para_4__content">
+                        <p>
+                           <term refersTo="#component_1__decides" eId="component_1__term_2">DECIDES</term> that those adjustments in remuneration shall take effect on <date date="2018-01-01">1 January 2018</date>.</p>
+                     </content>
+                  </paragraph>
+               </mainBody>
+            </statement>
+         </component>
+      </components>
+   </statement>
+</akomaNtoso>

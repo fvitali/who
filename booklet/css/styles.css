@@ -1,0 +1,518 @@
+@page {
+	--hmargin: 22mm;
+	--vmargin: 25mm;
+	margin-top: var(--vmargin);
+	margin-bottom: var(--vmargin);
+	margin-right: var(--hmargin);
+	margin-left: var(--hmargin);
+}
+
+
+
+	:root {
+		--print-font-family: 'Times New Roman', serif ;
+		--print-rem: 11pt ;
+		--scroll-font-family: 'Arial', serif ;
+		--scroll-rem: 14pt ;
+
+		--document-height: 297mm;
+		--document-width: 210mm;
+		--distance-from-text: 5mm; 
+		--document-margin-top: 20mm;
+		--document-margin-bottom: 25mm;
+		--document-margin-right: 25mm;
+		--document-margin-left: 25mm;
+		--heading-margin-top: 10mm;
+		--heading-margin-bottom: 10mm;
+
+		--column-width: calc(var(--page-width) * 0.7) ;
+		--empty-width: calc(var(--page-width) - var(--column-width)) ;
+	}
+
+
+	#file {
+		padding: 0px;
+		padding-left: 1rem; 
+		padding-right: 1rem; 
+		box-sizing: border-box;
+		margin: 0px;
+		border: 0px;
+	}
+
+	.paged {
+		--rem: var(--print-rem) ;
+		font-family: var(--print-font-family);
+		font-size: var(--rem); 
+		text-align: justify;
+		line-height: normal ; 
+		position: relative; 
+		box-sizing: border-box;
+		z-index: 5;
+		width: var(--document-width);
+		padding:
+		  0
+		  var(--document-margin-right)
+		  0
+		  var(--document-margin-left);
+	}
+
+
+	.scroll {
+		--rem: var(--scroll-rem) ;
+		font-family: var(--scroll-font-family);
+		font-size: var(--rem); 
+		text-align: justify;
+		position: relative; 
+		box-sizing: border-box;
+		z-index: 5;
+		width: 100%;
+		padding:
+		  0
+		  5%
+		  0
+		  5% ; 
+		background-color: #fffffe;
+	}
+
+
+	@media only screen {
+		:root {
+			--background-margin: 5mm;
+			--page-border: solid black 1px;
+			--behind-page:  rgb(221,221,221);
+		}
+
+		#file	{
+			background-color: var(--behind-page);
+		}
+
+
+		.paged {
+			background-color: #ffffff;
+			border: var(--page-border);
+	}
+
+	@media only print {
+		:root {
+			--background-margin: 0;
+			--page-border: none;
+			--behind-page:  transparent;
+		}
+
+		#file	{
+			background-color: initial;
+		}
+
+	}
+
+
+	*[pattern="metaContainer"] {
+		display: none; 
+	}
+
+	*[pattern="document"] {
+	
+	}
+
+	*[pattern="num"] {
+		font-style: italic;
+	}
+	*[pattern="num"]:after {
+		padding-left: 1rem;
+		padding-right: 1rem;
+		content: var(--separatordisplay);
+	}
+
+	*[pattern="container"]  {
+	  display: block;
+	  padding: 0px;
+	  margin: 0px; 
+	}
+
+	*[pattern="hcontainer"]  {
+	  --numdisplay: inline;
+	  --headingdisplay: inline;
+	  --contentdisplay: block;
+	  --innerBlockdisplay: block;
+	  --separatordisplay: ' -- ';
+	  display: block;
+	}
+
+	*[pattern="listItem"]:has(> *[name="num"]),
+	*[pattern="hcontainer"]:has(> *[name="num"]):not(:has(> *[name="heading"]):has(> *[name="content"])) {
+		display: grid !important;
+		grid-template-columns: 2em 1fr;
+		gap: 0; 
+		justify-items: stretch ;
+		align-items: start;  
+		--numdisplay: block;
+		--contentdisplay: grid;
+		--separatordisplay: '';
+		--indent: initial;
+	}
+
+	*[pattern="listItem"]:not(:has(> *[name="num"])) {
+		display: list-item;
+	}
+	*[pattern="listItem"]:not(:has(> *[name="num"]))::marker {
+		content: '-';
+		padding-left: 0.5rem;
+	}
+
+	*[name="num"] {
+		display: var(--numdisplay) ;
+		text-indent: var(--indent);
+	}
+
+	*[name="heading"] {
+	  display: var(--headingdisplay) ;
+	}
+
+	*[name="content"] {
+	  display: var(--contentdisplay) ;
+	}
+
+	*[name="content"] > * {
+	  display: var(--innerBlockdisplay) ;
+	}
+
+
+	*[pattern="hcontainer"] > *[pattern="block"] {
+	  display: var(--innerBlockdisplay) ;
+	}
+
+
+
+	*[name="body"] > *[pattern="hcontainer"] {
+		margin-left: 0;
+	}
+
+	*[name="blockList"] {
+		margin-left: 0;
+		margin-top: 0;
+	}
+
+	*[name="authorialNote"] {
+	  font-size: 80%;
+	}
+
+blockquote {
+	font-size: 11pt; 
+	margin-left: 3rem; 
+	font-style: italic; 
+}
+
+figcaption {
+	font-size: 90%;
+	font-style: italic; 
+	text-align: center;  
+	margin-top: 0.2rem; 		
+}
+
+
+.fullpage {
+	height: calc(
+		var(--document-height) - 
+		var(--document-margin-top) - 
+		var(--distance-from-text) -
+		var(--document-margin-bottom) - 0px
+	) ;
+	display:flex;
+    flex-direction: column;
+    justify-content: space-between;	
+}
+
+p  { margin: 0; padding: 0; }
+
+h1 { font-size: 1rem; font-weight: normal; }
+h2 { font-size: 1rem; font-weight: normal; }
+h3 { font-size: 1rem; font-weight: normal; }
+
+.n { font-weight: normal; font-style: normal; }
+.b { font-weight: bold; }
+.i { font-style: italic; }
+.sc { font-variant: small-caps; }
+.u {text-transform: uppercase;}
+
+
+.left { text-align: left; }
+.center { text-align: center; }
+.right { text-align: right; }
+
+.underline { border-bottom: 1px solid  black; }
+
+.h100 { height: 100% !important; }
+
+.mt0 { margin-top: 0rem; }
+.mt1 { margin-top: 0.5rem; }
+.mt2 { margin-top: 1rem; }
+.mt3 { margin-top: 1.5rem; }
+.mt4 { margin-top: 2rem; }
+.mt5 { margin-top: 2.5rem; }
+
+.mb0 { margin-bottom: 0rem; }
+.mb1 { margin-bottom: 0.5rem; }
+.mb2 { margin-bottom: 1rem; }
+.mb3 { margin-bottom: 1.5rem; }
+.mb4 { margin-bottom: 2rem; }
+.mb5 { margin-bottom: 2.5rem; }
+
+.pt0 { padding-top: 0rem; }
+.pt1 { padding-top: 0.5rem; }
+.pt2 { padding-top: 1rem; }
+.pt3 { padding-top: 1.5rem; }
+.pt4 { padding-top: 2rem; }
+.pt5 { padding-top: 2.5rem; }
+
+.pb0 { padding-bottom: 0rem; }
+.pb1 { padding-bottom: 0.5rem; }
+.pb2 { padding-bottom: 1rem; }
+.pb3 { padding-bottom: 1.5rem; }
+.pb4 { padding-bottom: 2rem; }
+.pb5 { padding-bottom: 2.5rem; }
+
+.fs50  { font-size: calc(var(--rem) * 0.50)}
+.fs60  { font-size: calc(var(--rem) * 0.60)}
+.fs70  { font-size: calc(var(--rem) * 0.70)}
+.fs80  { font-size: calc(var(--rem) * 0.80)}
+.fs90  { font-size: calc(var(--rem) * 0.90)}
+.fs95  { font-size: calc(var(--rem) * 0.95)}
+.fs100 { font-size: calc(var(--rem) * 1.00)}
+.fs105 { font-size: calc(var(--rem) * 1.05)}
+.fs110 { font-size: calc(var(--rem) * 1.10)}
+.fs120 { font-size: calc(var(--rem) * 1.20)}
+.fs130 { font-size: calc(var(--rem) * 1.30)}
+.fs140 { font-size: calc(var(--rem) * 1.40)}
+.fs150 { font-size: calc(var(--rem) * 1.50)}
+.fs200 { font-size: calc(var(--rem) * 2.00)}
+.fs250 { font-size: calc(var(--rem) * 2.50)}
+.fs300 { font-size: calc(var(--rem) * 3.00)}
+.fs350 { font-size: calc(var(--rem) * 3.50)}
+.fs400 { font-size: calc(var(--rem) * 4.00)}
+.fs450 { font-size: calc(var(--rem) * 4.50)}
+
+.bt { border-top: 1px solid black; }
+.br { border-right: 1px solid black; }
+.bl { border-left: 1px solid black; }
+.bb { border-bottom: 1px solid black; }
+
+.col1 { columns: 1; }
+.col2 { columns: 2; }
+
+.font-base { 	font-family: "Lato", tahoma, sans-serif !important ; }
+.font-document { font-family: var(--font-family); }
+
+dt {font-weight: normal; text-align:left;}
+dd {font-weight: normal; text-align:left;}
+.c3070 dt { float: left; width: 30%; }
+.c3070 dd { float: left; width: 70%; }
+.c7030 dt { float: left; width: 70%; }
+.c7030 dd { float: left; width: 30%; }
+
+.statement .preface .p {
+	font-weight: bold;
+	font-size: calc(var(--rem) * 1.1) ;
+	padding-top: 2rem; 
+}
+
+.statement .conclusions .p {
+	text-align: right;
+	
+}
+
+.tocitem {
+	display: grid;
+	grid-template-columns: auto max-content;
+	grid-template-areas: "center right";
+	gap: 2rem;
+	padding-top: 0.75rem;
+	padding-bottom: 0.75rem;	
+}
+
+.tocitem .label { 
+	grid-area: center; 
+	text-align: left; 
+	position: relative;
+	overflow: hidden;
+	align-self: start;
+}
+
+.tocitem.tocsplit { 
+	display: grid;
+	grid-template-columns: max-content auto max-content;
+	grid-template-areas: "left center right";
+}
+
+.tocitem.tocsplit .docNumber { 
+	grid-area: left; 
+	align-self: start;
+}
+.tocitem.tocsplit .label { 
+	grid-area: center; 
+}
+
+.tocitem .pagenumber { 
+	grid-area: right; 
+	align-self: end;
+}
+
+.tocitem .label::after {
+  content: ' ....................................................................................................................................................................................................... ';
+  position: absolute;
+}
+
+.toclevel0 {
+	padding-top: 3rem;
+	font-size: 1.10rem; 
+}
+.toclevel0 + .toclevel0 {
+	padding-top: 1rem !important;
+	padding-bottom: 3rem;	
+}
+
+.toclevel0 .label {
+	text-align: center !important;
+	font-weight: bold;  
+	width: 100%; 
+}
+.tocitem.tocnodots .pagenumber {
+	display: none; 
+}
+
+
+.tocitem.tocnodots .label::after {
+  content: '' !important;
+}
+
+#interactiveToc {
+	padding: 1rem;
+}
+
+#interactiveToc .tocitem {
+	font-size: 80%; 
+	padding-top: 0.1rem;
+	padding-bottom: 0.1rem;	
+	gap: 1rem;
+	cursor: pointer;
+	color: #007bff; 
+}
+
+#interactiveToc .toclevel0 {
+	padding-top: 1rem;
+	font-size: 1rem; 
+}
+#interactiveToc  .toclevel0 + .toclevel0 {
+	padding-top: 0rem !important;
+	padding-bottom: 1rem;	
+}
+
+#interactiveToc .toclevel0 .label {
+	text-align: center !important;
+	font-weight: bold;  
+	width: 100%; 
+}
+
+*[name="authorialNote"], .footnote {
+  position: relative;
+  left: 2rem;
+  display: list-item;
+  list-style-position: inside;
+  width: calc( var(--document-width) - var(--document-margin-left) - var(--document-margin-right) - 2rem);
+  text-indent: -1.2rem;
+
+}}
+*[name="authorialNote"]::marker, .footnote::marker {
+  content: attr(data-marker);
+  font-size: 80%;
+  vertical-align: super;
+/*   padding-right: 1rem; */
+  width: 2rem;
+}
+
+*[name="authorialNote"]> *, .footnote > * {
+  padding-left: 0.3rem !important;
+  display: inline;
+
+	font-weight: normal !important;
+    font-size: 0.8rem !important;
+    padding: 0 !important;
+    margin: 0 !important; 
+}
+
+.FNmarker {
+  font-size: 80%;
+  vertical-align: super;
+}
+
+.docNumber { 
+	padding-right: 0.5rem; 
+}
+
+
+
+
+#interactiveEntities {
+	padding: 1rem;
+}
+
+#interactiveEntities .entityheader  {
+	font-weight: bold; 
+}
+
+#interactiveEntities .entityitem .label {
+	display: flex; 
+	justify-content: space-between;
+	font-size: 80%; 
+	cursor: pointer;
+}
+
+#interactiveEntities .entityitem .entitylabel {
+	font-size: 75%; 
+	gap: 1rem;
+	cursor: pointer;
+	color: #007bff; 
+}
+
+.entityitem .inner {
+	font-weight: bold;  
+}
+
+.inner .pagebreak, .inner .footnote {
+	display: none;
+}
+
+
+.hidden {
+	display: none; 
+}
+
+.reveal {
+	color: red; 
+}
+
+/* Effect for scrollTo function  */
+.animate {
+	animation-name: bgcolor ;
+	animation-duration: 0.5s ; 
+	animation-iteration-count: 5;
+	animation-fill-mode: backwards;
+}
+
+@keyframes bgcolor {
+	from { 
+		background-color: #ffffff;  
+	}
+	to { 
+		background-color: #ffff00; 
+	}
+}
+
+
+
+
+
+
+
+
+
+

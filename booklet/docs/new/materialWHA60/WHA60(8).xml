@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns:akn4un="http://un.org/metadata" xmlns:eLUNa="https://cms.unov.org/eLuna/2017/main" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+   <statement name="decision">
+      <meta>
+         <identification source="#source">
+            <FRBRWork>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-18/wha60-8/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-18/wha60-8"/>
+               <FRBRdate date="2007-05-18" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+               <FRBRcountry value="un"/>
+               <FRBRnumber value="wha60-8"/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-18/wha60-8/eng@/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-18/wha60-8/eng@"/>
+               <FRBRdate date="2007-05-18" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-18/wha60-8/eng@/!main.xml"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-18/wha60-8/eng@.xml"/>
+               <FRBRdate date="2023-08-23" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+            </FRBRManifestation>
+         </identification>
+         <references source="#source">
+            <TLCOrganization eId="wfpExecutiveBoard" href="/akn/ontology/organization/un/wfpExecutiveBoard" showAs="Executive Board"/>
+            <TLCTerm eId="considering" href="/akn/ontology/term/considering" showAs="considering"/>
+            <TLCOrganization eId="worldHealthAssembly" href="/akn/ontology/organization/un/worldHealthAssembly" showAs="World Health Assembly"/>
+            <TLCOrganization eId="generalCommittee" href="/akn/ontology/organization/un/generalCommittee" showAs="General Committee"/>
+            <TLCOrganization eId="bahamas" href="/akn/ontology/organization/un/bahamas" showAs="Bahamas"/>
+            <TLCOrganization eId="indonesia" href="/akn/ontology/organization/un/indonesia" showAs="Indonesia"/>
+            <TLCOrganization eId="malawi" href="/akn/ontology/organization/un/malawi" showAs="Malawi"/>
+            <TLCOrganization eId="newZealand" href="/akn/ontology/organization/un/newZealand" showAs="New Zealand"/>
+            <TLCOrganization eId="paraguay" href="/akn/ontology/organization/un/paraguay" showAs="Paraguay"/>
+            <TLCOrganization eId="peru" href="/akn/ontology/organization/un/peru" showAs="Peru"/>
+            <TLCOrganization eId="korearep" href="/akn/ontology/organization/un/korearep" showAs="Republic of Korea"/>
+            <TLCOrganization eId="moldova" href="/akn/ontology/organization/un/moldova" showAs="Republic of Moldova"/>
+            <TLCOrganization eId="saoTomeAndPrincipe" href="/akn/ontology/organization/un/saoTomeAndPrincipe" showAs="Sao Tome and Principe"/>
+            <TLCOrganization eId="tunisia" href="/akn/ontology/organization/un/tunisia" showAs="Tunisia"/>
+            <TLCOrganization eId="unitedArabEmirates" href="/akn/ontology/organization/un/unitedArabEmirates" showAs="United Arab Emirates"/>
+            <TLCOrganization eId="uk" href="/akn/ontology/organization/un/uk" showAs="United Kingdom"/>
+            <TLCOrganization eId="ireland" href="/akn/ontology/organization/un/ireland" showAs="Ireland"/>
+            <TLCEvent href="/akn/ontology/event/whoha/eighthPlenaryMeeting" eId="eighthPlenaryMeeting" showAs="Eighth plenary meeting"/>
+            <TLCPerson eId="source" href="/akn/ontology/person/somebody" showAs="somebody"/>
+         </references>
+         <proprietary source="#source">
+            <akn4un:session>WHA60</akn4un:session>
+         </proprietary>
+      </meta>
+      <preface>
+         <p>
+            <docNumber>WHA60(8)</docNumber>
+            <docTitle>Election of Members entitled to designate a person to serve on the <organization refersTo="#wfpExecutiveBoard" eId="organization_1">Executive Board</organization>
+            </docTitle>
+         </p>
+      </preface>
+      <mainBody>
+         <paragraph eId="para_1">
+            <content eId="para_1__content">
+               <p>
+                  <inline name="#enactingFormula">The Sixtieth <organization refersTo="#worldHealthAssembly" eId="organization_2">World Health Assembly</organization>,</inline>
+after <term refersTo="#considering" eId="term_1">considering</term> the recommendations of the <organization refersTo="#generalCommittee" eId="organization_3">General Committee</organization>, elected the following as Members entitled to designate a person to serve on the <organization refersTo="#wfpExecutiveBoard" eId="organization_4">Executive Board</organization>: <organization refersTo="#bahamas" eId="organization_5">Bahamas</organization>, <organization refersTo="#indonesia" eId="organization_6">Indonesia</organization>, <organization refersTo="#malawi" eId="organization_7">Malawi</organization>, <organization refersTo="#newZealand" eId="organization_8">New Zealand</organization>, <organization refersTo="#paraguay" eId="organization_9">Paraguay</organization>, <organization refersTo="#peru" eId="organization_10">Peru</organization>, <organization refersTo="#korearep" eId="organization_11">Republic of Korea</organization>, <organization refersTo="#moldova" eId="organization_12">Republic of Moldova</organization>, <organization refersTo="#saoTomeAndPrincipe" eId="organization_13">Sao Tome and Principe</organization>, <organization refersTo="#tunisia" eId="organization_14">Tunisia</organization>, <organization refersTo="#unitedArabEmirates" eId="organization_15">United Arab Emirates</organization> and <organization refersTo="#uk" eId="organization_16">United Kingdom</organization> of Great Britain and Northern <organization refersTo="#ireland" eId="organization_17">Ireland</organization>.
+</p>
+            </content>
+         </paragraph>
+      </mainBody>
+      <conclusions>
+         <p>(<event refersTo="#eighthPlenaryMeeting" eId="event_1">Eighth plenary meeting</event>, <docDate date="2007-05-18">18 May 2007</docDate>)</p>
+      </conclusions>
+   </statement>
+</akomaNtoso>

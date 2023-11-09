@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns:akn4un="http://un.org/metadata" xmlns:eLUNa="https://cms.unov.org/eLuna/2017/main" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+   <statement name="resolution">
+      <meta>
+         <identification source="#source">
+            <FRBRWork>
+               <FRBRthis value="/akn/un/statement/deliberation/whoeb/2018-01-26/eb142_r6/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whoeb/2018-01-26/eb142_r6"/>
+               <FRBRdate date="2018-01-26" name=""/>
+               <FRBRauthor href="#whoeb" as="#author"/>
+               <FRBRcountry value="un"/>
+               <FRBRnumber value="eb142_r6"/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value="/akn/un/statement/deliberation/whoeb/2018-01-26/eb142_r6/eng@/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whoeb/2018-01-26/eb142_r6/eng@"/>
+               <FRBRdate date="2018-01-26" name=""/>
+               <FRBRauthor href="#whoeb" as="#author"/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value="/akn/un/statement/deliberation/whoeb/2018-01-26/eb142_r6/eng@/!main.xml"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whoeb/2018-01-26/eb142_r6/eng@.xml"/>
+               <FRBRdate date="2023-08-23" name=""/>
+               <FRBRauthor href="#whoeb" as="#author"/>
+            </FRBRManifestation>
+         </identification>
+         <references source="#source">
+            <TLCOrganization eId="wfpExecutiveBoard" href="/akn/ontology/organization/un/wfpExecutiveBoard" showAs="Executive Board"/>
+            <TLCTerm eId="havingConsidered" href="/akn/ontology/term/havingConsidered" showAs="Having considered"/>
+            <TLCTerm eId="recommends" href="/akn/ontology/term/recommends" showAs="RECOMMENDS"/>
+            <TLCOrganization eId="worldHealthAssembly" href="/akn/ontology/organization/un/worldHealthAssembly" showAs="World Health Assembly"/>
+            <TLCEvent href="/akn/ontology/event/whoha/tenthMeeting" eId="tenthMeeting" showAs="Tenth meeting"/>
+            <TLCPerson eId="source" href="/akn/ontology/person/somebody" showAs="somebody"/>
+         </references>
+         <proprietary source="#source">
+            <akn4un:session>EB142</akn4un:session>
+         </proprietary>
+      </meta>
+      <preface>
+         <p>
+            <docNumber>EB142.R6</docNumber>
+            <docTitle>Improving access to assistive technology <authorialNote marker="1" placement="bottom" eId="authorialNote_1">
+                  <p>See Annex 5 for the financial and administrative implications for the Secretariat of the adoption of this resolution.</p>
+               </authorialNote>
+            </docTitle>
+         </p>
+      </preface>
+      <preamble>
+         <formula name="enactingFormula">
+            <p>The <organization refersTo="#wfpExecutiveBoard" eId="organization_1">Executive Board</organization>,</p>
+         </formula>
+         <container name="havingConsidered">
+            <p>
+               <term refersTo="#havingConsidered" eId="term_1">Having considered</term> the report on improving access to assistive technology, <authorialNote marker="2" placement="bottom" eId="authorialNote_2">
+                  <p>Document EB142/21.</p>
+               </authorialNote>
+            </p>
+         </container>
+      </preamble>
+      <mainBody>
+         <paragraph eId="para_1">
+            <content eId="para_1__content">
+               <p>
+                  <term refersTo="#recommends" eId="term_2">RECOMMENDS</term> to the Seventy-first <organization refersTo="#worldHealthAssembly" eId="organization_2">World Health Assembly</organization> the adoption of the following resolution: </p>
+               <blockContainer>
+                  <componentRef eId="para_1__component_1" src="#component_1" showAs="resolution"/>
+               </blockContainer>
+            </content>
+         </paragraph>
+      </mainBody>
+      <conclusions>
+         <p>(<event refersTo="#tenthMeeting" eId="event_1">Tenth meeting</event>, <docDate date="2018-01-26">26 January 2018</docDate>)</p>
+      </conclusions>
+      <components>
+         <component eId="component_1">
+            <statement name="resolution">
+               <meta>
+                  <identification source="#source">
+                     <FRBRWork>
+                        <FRBRthis value="/akn/un/statement/deliberation/whoeb/2018-01-26/eb142_r6/!main/!component_1"/>
+                        <FRBRuri value="/akn/un/statement/deliberation/whoeb/2018-01-26/eb142_r6"/>
+                        <FRBRdate date="2018-01-26" name=""/>
+                        <FRBRauthor href="#whowha" as="#author"/>
+                        <FRBRcountry value="un"/>
+                        <FRBRnumber value="eb142_r6"/>
+                     </FRBRWork>
+                     <FRBRExpression>
+                        <FRBRthis value="/akn/un/statement/deliberation/whoeb/2018-01-26/eb142_r6/eng@/!main"/>
+                        <FRBRuri value="/akn/un/statement/deliberation/whoeb/2018-01-26/eb142_r6/eng@"/>
+                        <FRBRdate date="2018-01-26" name=""/>
+                        <FRBRauthor href="#whowha" as="#author"/>
+                        <FRBRlanguage language="eng"/>
+                     </FRBRExpression>
+                     <FRBRManifestation>
+                        <FRBRthis value="/akn/un/statement/deliberation/whoeb/2018-01-26/eb142_r6/eng@/!main.xml"/>
+                        <FRBRuri value="/akn/un/statement/deliberation/whoeb/2018-01-26/eb142_r6/eng@.xml"/>
+                        <FRBRdate date="2023-08-23" name=""/>
+                        <FRBRauthor href="#whowha" as="#author"/>
+                     </FRBRManifestation>
+                  </identification>
+                  <references source="#source">
+                     <TLCOrganization eId="component_1__worldHealthAssembly" href="/akn/ontology/organization/un/worldHealthAssembly" showAs="World Health Assembly"/>
+                     <TLCOrganization eId="component_1__unitedNations" href="/akn/ontology/organization/un/unitedNations" showAs="United Nations"/>
+                     <TLCOrganization eId="component_1__faoInternationalPlantProtectionConvention" href="/akn/ontology/organization/un/faoInternationalPlantProtectionConvention" showAs="Convention"/>
+                     <TLCOrganization eId="component_1__states" href="/akn/ontology/organization/un/states" showAs="States"/>
+                     <TLCOrganization eId="component_1__wfpExecutiveBoard" href="/akn/ontology/organization/un/wfpExecutiveBoard" showAs="Executive Board"/>
+                     <TLCOrganization eId="component_1__who" href="/akn/ontology/organization/un/who" showAs="WHO"/>
+                     <TLCTerm eId="component_1__considering" href="/akn/ontology/term/considering" showAs="Considering"/>
+                     <TLCTerm eId="component_1__noting" href="/akn/ontology/term/noting" showAs="Noting"/>
+                     <TLCTerm eId="component_1__recalling" href="/akn/ontology/term/recalling" showAs="Recalling"/>
+                     <TLCTerm eId="component_1__recognizing" href="/akn/ontology/term/recognizing" showAs="Recognizing"/>
+                     <TLCTerm eId="component_1__emphasizing" href="/akn/ontology/term/emphasizing" showAs="Emphasizing"/>
+                     <TLCTerm eId="component_1__callsOn" href="/akn/ontology/term/callsOn" showAs="calls on"/>
+                     <TLCTerm eId="component_1__urges" href="/akn/ontology/term/urges" showAs="URGES"/>
+                     <TLCTerm eId="component_1__requests" href="/akn/ontology/term/requests" showAs="REQUESTS"/>
+                     <TLCOrganization eId="component_1__director-general" href="/akn/ontology/organization/un/director-general" showAs="Director-General"/>
+                     <TLCOrganization eId="component_1__unSecretariat" href="/akn/ontology/organization/un/unSecretariat" showAs="Secretariat"/>
+                     <TLCEvent href="/akn/ontology/event/whoha/theSeventyFifthWorldHealthAssembly" eId="component_1__theSeventyFifthWorldHealthAssembly" showAs="the Seventy-fifth World Health Assembly"/>
+                     <TLCPerson eId="component_1__source" href="/akn/ontology/person/somebody" showAs="somebody"/>
+                  </references>
+               </meta>
+               <preface>
+                  <p>The Seventy-first <organization refersTo="#component_1__worldHealthAssembly" eId="component_1__organization_1">World Health Assembly</organization>
+                  </p>
+               </preface>
+               <preamble>
+                  <p>,
+</p>
+                  <container name="considering">
+                     <p>
+                        <term refersTo="#component_1__considering" eId="component_1__term_1">Considering</term> that one billion people need assistive technology and that, as the global population ages and the prevalence of noncommunicable diseases increases, this figure will rise to more than two billion by 2050; <authorialNote marker="3" placement="bottom" eId="component_1__authorialNote_3">
+                           <p>World Health Organization, World Bank. World report on disability. Geneva: World Health Organization; 2011.</p>
+                        </authorialNote>
+                     </p>
+                  </container>
+                  <container name="noting">
+                     <p>
+                        <term refersTo="#component_1__noting" eId="component_1__term_2">Noting</term> that assistive technology enables and promotes the inclusion, participation and engagement of persons with disabilities, ageing populations and people with co-morbidities in the family, community and all areas of society, including the political, economic and social spheres;</p>
+                  </container>
+                  <container name="recalling">
+                     <p>
+                        <term refersTo="#component_1__recalling" eId="component_1__term_3">Recalling</term> that 90% of those who need assistive technology do not have access to it, and that this has a significant adverse impact on the education, livelihood, health and well-being of individuals, and on families, communities and societies; <authorialNote marker="4" placement="bottom" eId="component_1__authorialNote_4">
+                           <p>Document EB142/21.</p>
+                        </authorialNote>
+                     </p>
+                  </container>
+                  <container name="recalling">
+                     <p>
+                        <term refersTo="#component_1__recalling" eId="component_1__term_4">Recalling</term> also the 2030 Agenda for Sustainable Development and its ultimate aim of “leaving no one behind”;</p>
+                  </container>
+                  <container name="recognizing">
+                     <p>
+                        <term refersTo="#component_1__recognizing" eId="component_1__term_5">Recognizing</term> that the inclusion of assistive technology, in line with countries’ national priority and context, into health systems is essential for realizing progress towards the targets in the Sustainable Development Goals relating to universal health coverage, inclusive and equitable quality education, inclusive and sustainable economic growth, full and productive employment and decent work for all, reducing inequality within and among countries by empowering and promoting the social, economic and political inclusion of all, making cities and human settlements inclusive, safe and sustainable, and providing universal access to safe, inclusive and accessible green and public spaces, particularly for persons with disabilities;</p>
+                  </container>
+                  <container name="recalling">
+                     <p>
+                        <term refersTo="#component_1__recalling" eId="component_1__term_6">Recalling</term> the <organization refersTo="#component_1__unitedNations" eId="component_1__organization_2">United Nations</organization>
+                        <organization refersTo="#component_1__faoInternationalPlantProtectionConvention" eId="component_1__organization_3">Convention</organization> on the Rights of Persons with Disabilities, under which 175 Member <organization refersTo="#component_1__states" eId="component_1__organization_4">States</organization> have committed inter alia to ensuring access to quality assistive technology at an affordable cost (Article 20) and to foster international cooperation (Articles 4, 20, 26 and 32) in support of national efforts for the realization of the purpose and objectives of the <organization refersTo="#component_1__faoInternationalPlantProtectionConvention" eId="component_1__organization_5">Convention</organization>;</p>
+                  </container>
+                  <container name="emphasizing">
+                     <p>
+                        <term refersTo="#component_1__emphasizing" eId="component_1__term_7">Emphasizing</term> the need for a comprehensive, sustainable and multisectoral approach to improving access to assistive technology that fulfils the safety and quality standards established by national and international regulations, at the national and subnational levels;</p>
+                  </container>
+                  <container name="recalling">
+                     <p>
+                        <term refersTo="#component_1__recalling" eId="component_1__term_8">Recalling</term> resolutions <ref href="/akn/un/statement/deliberation/whowha/2016-05-28/wha69_3/!main">WHA69.3</ref> (2016), <ref href="/akn/un/statement/deliberation/whowha/2014-05-24/wha67_7/!main">WHA67.7</ref> (2014), and <ref href="/akn/un/statement/deliberation/whowha/2013-05-24/wha66_4/!main">WHA66.4</ref> (2013) and <ref href="/akn/un/statement/deliberation/whowha/2017-05-31/wha70_13/!main">WHA70.13</ref> (2017) in which, respectively, the Health Assembly <term refersTo="#component_1__callsOn" eId="component_1__term_9">calls on</term> Member <organization refersTo="#component_1__states" eId="component_1__organization_6">States</organization>, inter alia, to improve access to assistive technology for older people, people with disabilities and people with vision and hearing loss;</p>
+                  </container>
+                  <container name="noting">
+                     <p>
+                        <term refersTo="#component_1__noting" eId="component_1__term_10">Noting</term> the request made to the <organization refersTo="#component_1__wfpExecutiveBoard" eId="component_1__organization_7">Executive Board</organization> by the <organization refersTo="#component_1__who" eId="component_1__organization_8">WHO</organization> Regional Committee for the Eastern Mediterranean, in resolution EM/RC63/R.3 (2016) on improving access to assistive technology, to include assistive technology as an agenda item for the Health Assembly,</p>
+                  </container>
+               </preamble>
+               <mainBody>
+                  <paragraph eId="component_1__para_1">
+                     <num>1. </num>
+                     <intro eId="component_1__para_1__content">
+                        <p>
+                           <term refersTo="#component_1__urges" eId="component_1__term_11">URGES</term> Members <organization refersTo="#component_1__states" eId="component_1__organization_9">States</organization>: <authorialNote marker="5" placement="bottom" eId="component_1__authorialNote_5">
+                              <p>And, where applicable, regional economic integration organizations.</p>
+                           </authorialNote>
+                        </p>
+                     </intro>
+                     <subparagraph eId="component_1__para_1__subpara_1">
+                        <num>(1)</num>
+                        <content eId="component_1__para_1__subpara_1__content">
+                           <p>to develop, implement and strengthen policies and programmes, as appropriate, to improve access to assistive technology within universal health and/or social services coverage;</p>
+                        </content>
+                     </subparagraph>
+                     <subparagraph eId="component_1__para_1__subpara_2">
+                        <num>(2)</num>
+                        <content eId="component_1__para_1__subpara_2__content">
+                           <p>to ensure that adequate and trained human resources for the provision and maintenance of assistive products are available at all levels of health and social service delivery;</p>
+                        </content>
+                     </subparagraph>
+                     <subparagraph eId="component_1__para_1__subpara_3">
+                        <num>(3)</num>
+                        <content eId="component_1__para_1__subpara_3__content">
+                           <p>to ensure that assistive technology users and their carers have access to the most appropriate assistive products and use them safely and effectively;</p>
+                        </content>
+                     </subparagraph>
+                     <subparagraph eId="component_1__para_1__subpara_4">
+                        <num>(4)</num>
+                        <content eId="component_1__para_1__subpara_4__content">
+                           <p>where appropriate, based on national needs and context, to develop a national list of priority assistive products that are affordable and cost-effective and meet minimum quality and safety standards, drawing on <organization refersTo="#component_1__who" eId="component_1__organization_10">WHO</organization>’s priority assistive products list;</p>
+                        </content>
+                     </subparagraph>
+                     <subparagraph eId="component_1__para_1__subpara_5">
+                        <num>(5)</num>
+                        <content eId="component_1__para_1__subpara_5__content">
+                           <p>to promote or invest in research, development, innovation and product design in order to make existing assistive products affordable; and to develop a new generation of products including high-end or advanced assistive technology, taking advantage of universal design and new evidence-based technologies, in partnership with academia, civil society organizations, in particular with persons with disabilities and older persons and their representative organizations, and the private sector, as appropriate;</p>
+                        </content>
+                     </subparagraph>
+                     <subparagraph eId="component_1__para_1__subpara_6">
+                        <num>(6)</num>
+                        <content eId="component_1__para_1__subpara_6__content">
+                           <p>to encourage international and/or regional collaboration for the manufacturing, procurement and supply of priority assistive products, ensuring that these remain affordable and available across borders;</p>
+                        </content>
+                     </subparagraph>
+                     <subparagraph eId="component_1__para_1__subpara_7">
+                        <num>(7)</num>
+                        <content eId="component_1__para_1__subpara_7__content">
+                           <p>to collect population-based data on health and long-term care needs including those that may be met by assistive technology in order to develop evidence-based strategies, policies and comprehensive programmes;</p>
+                        </content>
+                     </subparagraph>
+                     <subparagraph eId="component_1__para_1__subpara_8">
+                        <num>(8)</num>
+                        <content eId="component_1__para_1__subpara_8__content">
+                           <p>to invest in and promote inclusive barrier-free environments so that all people who need assistive technology can make optimum use of it, in order to live independently and safely and participate fully in all aspects of life;</p>
+                        </content>
+                     </subparagraph>
+                     <subparagraph eId="component_1__para_1__subpara_9">
+                        <num>(9)</num>
+                        <content eId="component_1__para_1__subpara_9__content">
+                           <p>to promote the inclusion of priority assistive products and inclusive barrier-free environments within emergency preparedness and response programmes;</p>
+                        </content>
+                     </subparagraph>
+                  </paragraph>
+                  <paragraph eId="component_1__para_2">
+                     <num>2. </num>
+                     <intro eId="component_1__para_2__content">
+                        <p>
+                           <term refersTo="#component_1__requests" eId="component_1__term_12">REQUESTS</term> the <organization refersTo="#component_1__director-general" eId="component_1__organization_11">Director-General</organization>:</p>
+                     </intro>
+                     <subparagraph eId="component_1__para_2__subpara_1">
+                        <num>(1)</num>
+                        <content eId="component_1__para_2__subpara_1__content">
+                           <p>by 2021, to prepare a global report on effective access to assistive technology in the context of an integrated approach, based on the best available scientific evidence and international experience, with the participation of all relevant units within the <organization refersTo="#component_1__unSecretariat" eId="component_1__organization_12">Secretariat</organization> and in collaboration with all relevant stakeholders, giving consideration to the possibility of establishing an Expert Advisory Group, within existing resources, for this purpose;</p>
+                        </content>
+                     </subparagraph>
+                     <subparagraph eId="component_1__para_2__subpara_2">
+                        <num>(2)</num>
+                        <content eId="component_1__para_2__subpara_2__content">
+                           <p>to provide the necessary technical and capacity-buildingsupport for Member <organization refersTo="#component_1__states" eId="component_1__organization_13">States</organization>, aligned with national priorities, in the development of national assistive technology policies and programmes, including procurement and financing, regulation, training for health and social services, appropriate service delivery, and inclusive barrier-free environments;</p>
+                        </content>
+                     </subparagraph>
+                     <subparagraph eId="component_1__para_2__subpara_3">
+                        <num>(3)</num>
+                        <content eId="component_1__para_2__subpara_3__content">
+                           <p>to provide technical and capacity-building support to countries, on request, to assess the feasibility of establishing regional or subregional manufacturing, procurement and supply networks for assistive technology and cooperation platforms;</p>
+                        </content>
+                     </subparagraph>
+                     <subparagraph eId="component_1__para_2__subpara_4">
+                        <num>(4)</num>
+                        <content eId="component_1__para_2__subpara_4__content">
+                           <p>to contribute to and engage in, as appropriate, the development of minimum standards for priority assistive products and services, in order to promote their safety, quality, cost-effectiveness and appropriateness;</p>
+                        </content>
+                     </subparagraph>
+                     <subparagraph eId="component_1__para_2__subpara_5">
+                        <num>(5)</num>
+                        <content eId="component_1__para_2__subpara_5__content">
+                           <p>to report on progress in the implementation of the present resolution to the Seventy-fifth <organization refersTo="#component_1__worldHealthAssembly" eId="component_1__organization_14">World Health Assembly</organization> and thereafter to submit a report to the Health Assembly every four years until 2030.</p>
+                        </content>
+                     </subparagraph>
+                  </paragraph>
+               </mainBody>
+            </statement>
+         </component>
+      </components>
+   </statement>
+</akomaNtoso>

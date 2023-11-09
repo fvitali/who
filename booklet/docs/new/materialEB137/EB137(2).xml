@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns:akn4un="http://un.org/metadata" xmlns:eLUNa="https://cms.unov.org/eLuna/2017/main" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+   <statement name="decision">
+      <meta>
+         <identification source="#source">
+            <FRBRWork>
+               <FRBRthis value="/akn/un/statement/deliberation/whoeb/2015-05-27/eb137-2/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whoeb/2015-05-27/eb137-2"/>
+               <FRBRdate date="2015-05-27" name=""/>
+               <FRBRauthor href="#whoeb" as="#author"/>
+               <FRBRcountry value="un"/>
+               <FRBRnumber value="eb137-2"/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value="/akn/un/statement/deliberation/whoeb/2015-05-27/eb137-2/eng@/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whoeb/2015-05-27/eb137-2/eng@"/>
+               <FRBRdate date="2015-05-27" name=""/>
+               <FRBRauthor href="#whoeb" as="#author"/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value="/akn/un/statement/deliberation/whoeb/2015-05-27/eb137-2/eng@/!main.xml"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whoeb/2015-05-27/eb137-2/eng@.xml"/>
+               <FRBRdate date="2023-08-04" name=""/>
+               <FRBRauthor href="#whoeb" as="#author"/>
+            </FRBRManifestation>
+         </identification>
+         <references source="#source">
+            <TLCOrganization eId="wfpExecutiveBoard" href="/akn/ontology/organization/un/wfpExecutiveBoard" showAs="Executive Board"/>
+            <TLCOrganization eId="organization" href="/akn/ontology/organization/un/organization" showAs="Organization"/>
+            <TLCTerm eId="concerned" href="/akn/ontology/term/concerned" showAs="concerned"/>
+            <TLCOrganization eId="canada" href="/akn/ontology/organization/un/canada" showAs="Canada"/>
+            <TLCOrganization eId="pakistan" href="/akn/ontology/organization/un/pakistan" showAs="Pakistan"/>
+            <TLCOrganization eId="philippines" href="/akn/ontology/organization/un/philippines" showAs="Philippines"/>
+            <TLCOrganization eId="albania" href="/akn/ontology/organization/un/albania" showAs="Albania"/>
+            <TLCOrganization eId="namibia" href="/akn/ontology/organization/un/namibia" showAs="Namibia"/>
+            <TLCEvent href="/akn/ontology/event/whoha/secondMeeting" eId="secondMeeting" showAs="Second meeting"/>
+            <TLCPerson eId="source" href="/akn/ontology/person/somebody" showAs="somebody"/>
+         </references>
+         <proprietary source="#source">
+            <akn4un:session>EB137</akn4un:session>
+         </proprietary>
+      </meta>
+      <preface>
+         <p>
+            <docNumber>EB137(2)</docNumber>
+            <docTitle>Membership of the <organization refersTo="#wfpExecutiveBoard" eId="organization_1">Executive Board</organization>’s Standing Committee on Nongovernmental <organization refersTo="#organization" eId="organization_2">Organization</organization>s</docTitle>
+         </p>
+      </preface>
+      <mainBody>
+         <paragraph eId="para_1">
+            <content eId="para_1__content">
+               <p>
+                  <inline name="#enactingFormula">The <organization refersTo="#wfpExecutiveBoard" eId="organization_3">Executive Board</organization> appointed Mr Sylvain Segard (<organization refersTo="#canada" eId="organization_4">Canada</organization>), Dr Assad Hafeez (<organization refersTo="#pakistan" eId="organization_5">Pakistan</organization>) and Dr Janette Loreto Garin (<organization refersTo="#philippines" eId="organization_6">Philippines</organization>) as members of its Standing Committee on Nongovernmental <organization refersTo="#organization" eId="organization_7">Organization</organization>s for the duration of their term of office on the <organization refersTo="#wfpExecutiveBoard" eId="organization_8">Executive Board</organization>, in addition to Dr GazmendBejtja (<organization refersTo="#albania" eId="organization_9">Albania</organization>) and Dr Bernard Haufiku (<organization refersTo="#namibia" eId="organization_10">Namibia</organization>), already members of the Committee. It was understood that if any member of the Committee was unable to attend, his or her successor or the alternate member of the Board designated by the government <term refersTo="#concerned" eId="term_1">concerned</term>, in accordance with Rule 2 of the Rules of Procedure of the <organization refersTo="#wfpExecutiveBoard" eId="organization_11">Executive Board</organization>,</inline> would participate in the work of the Committee.
+</p>
+            </content>
+         </paragraph>
+      </mainBody>
+      <conclusions>
+         <p>(<event refersTo="#secondMeeting" eId="event_1">Second meeting</event>, <docDate date="2015-05-27">27 May 2015</docDate>)</p>
+      </conclusions>
+   </statement>
+</akomaNtoso>

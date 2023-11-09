@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns:akn4un="http://un.org/metadata" xmlns:eLUNa="https://cms.unov.org/eLuna/2017/main" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+   <statement name="resolution">
+      <meta>
+         <identification source="#source">
+            <FRBRWork>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-23/wha60_25/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-23/wha60_25"/>
+               <FRBRdate date="2007-05-23" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+               <FRBRcountry value="un"/>
+               <FRBRnumber value="wha60_25"/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-23/wha60_25/eng@/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-23/wha60_25/eng@"/>
+               <FRBRdate date="2007-05-23" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-23/wha60_25/eng@/!main.xml"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-23/wha60_25/eng@.xml"/>
+               <FRBRdate date="2023-09-13" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+            </FRBRManifestation>
+         </identification>
+         <references source="#source">
+            <TLCOrganization eId="who" href="/akn/ontology/organization/un/who" showAs="WHO"/>
+            <TLCOrganization eId="worldHealthAssembly" href="/akn/ontology/organization/un/worldHealthAssembly" showAs="World Health Assembly"/>
+            <TLCOrganization eId="faoprogrammecommittee" href="/akn/ontology/organization/un/faoprogrammecommittee" showAs="Programme"/>
+            <TLCOrganization eId="faoConference" href="/akn/ontology/organization/un/faoConference" showAs="Conference"/>
+            <TLCOrganization eId="unecosoc" href="/akn/ontology/organization/un/unecosoc" showAs="Economic and Social Council"/>
+            <TLCOrganization eId="unitedNations" href="/akn/ontology/organization/un/unitedNations" showAs="United Nations"/>
+            <TLCTerm eId="havingConsidered" href="/akn/ontology/term/havingConsidered" showAs="having considered"/>
+            <TLCTerm eId="recalling" href="/akn/ontology/term/recalling" showAs="recalling"/>
+            <TLCTerm eId="notes" href="/akn/ontology/term/notes" showAs="notes"/>
+            <TLCTerm eId="urges" href="/akn/ontology/term/urges" showAs="urges"/>
+            <TLCTerm eId="requests" href="/akn/ontology/term/requests" showAs="requests"/>
+            <TLCTerm eId="aware" href="/akn/ontology/term/aware" showAs="aware"/>
+            <TLCOrganization eId="states" href="/akn/ontology/organization/un/states" showAs="States"/>
+            <TLCOrganization eId="director-general" href="/akn/ontology/organization/un/director-general" showAs="Director-General"/>
+            <TLCOrganization eId="unSecretariat" href="/akn/ontology/organization/un/unSecretariat" showAs="Secretariat"/>
+            <TLCOrganization eId="wfpExecutiveBoard" href="/akn/ontology/organization/un/wfpExecutiveBoard" showAs="Executive Board"/>
+            <TLCOrganization eId="organization" href="/akn/ontology/organization/un/organization" showAs="Organization"/>
+            <TLCEvent href="/akn/ontology/event/whowha/eleventhPlenaryMeeting" eId="eleventhPlenaryMeeting" showAs="Eleventh plenary meeting"/>
+            <TLCOrganization eId="committeeA" href="/akn/ontology/organization/un/committeeA" showAs="Committee A"/>
+            <TLCPerson eId="source" href="/akn/ontology/person/somebody" showAs="somebody"/>
+         </references>
+      </meta>
+      <preface>
+         <p>
+            <docNumber>WHA60.25</docNumber>
+            <docTitle>Strategy for integrating gender analysis and actions into the work of <organization refersTo="#who" eId="organization_1">WHO</organization>
+            </docTitle>
+         </p>
+      </preface>
+      <preamble>
+         <formula name="enactingFormula">
+            <p>The Sixtieth <organization refersTo="#worldHealthAssembly" eId="organization_2">World Health Assembly</organization>,</p>
+         </formula>
+         <container name="havingConsidered">
+            <p>
+               <term refersTo="#havingConsidered" eId="term_1">Having considered</term> the draft strategy for integrating gender analysis and actions into the work of <organization refersTo="#who" eId="organization_3">WHO</organization>; <authorialNote marker="1" placement="bottom" eId="authorialNote_1">
+                  <p>See Annex 2.</p>
+               </authorialNote>
+            </p>
+         </container>
+         <container name="recalling">
+            <p>
+               <term refersTo="#recalling" eId="term_2">Recalling</term> the <organization refersTo="#faoprogrammecommittee" eId="organization_4">Programme</organization> of Action of the International <organization refersTo="#faoConference" eId="organization_5">Conference</organization> on Population and Development (Cairo, 1994), the Beijing Declaration and Platform for Action (Beijing, 1995), the recommendations of Beijing plus 10 <organization refersTo="#faoConference" eId="organization_6">Conference</organization> (2005) and their reports,the <organization refersTo="#unecosoc" eId="organization_7">Economic and Social Council</organization>’s agreed conclusions 1997/2, the <organization refersTo="#unitedNations" eId="organization_8">United Nations</organization> Millennium Declaration 2000, the 2005 World Summit Outcome <authorialNote marker="2" placement="bottom" eId="authorialNote_2">
+                  <p>United Nations General Assembly resolution 60/1.</p>
+               </authorialNote> and resolution <ref href="/akn/un/statement/deliberation/whowha/2005-05-25/wha58_30/!main">WHA58.30</ref> on accelerating achievement of the internationally agreed health‑related development goals, including those contained in the Millennium Declaration,</p>
+         </container>
+      </preamble>
+      <mainBody>
+         <paragraph eId="para_1">
+            <num>1. </num>
+            <content eId="para_1__content">
+               <p>
+                  <term refersTo="#notes" eId="term_3">NOTES</term> WITH APPRECIATIONthe strategy for integrating gender analysis and actions into the work of <organization refersTo="#who" eId="organization_9">WHO</organization>;</p>
+            </content>
+         </paragraph>
+         <paragraph eId="para_2">
+            <num>2. </num>
+            <intro eId="para_2__content">
+               <p>
+                  <term refersTo="#urges" eId="term_4">URGES</term> Member <organization refersTo="#states" eId="organization_10">States</organization>:</p>
+            </intro>
+            <subparagraph eId="para_2__subpara_1">
+               <num>(1)</num>
+               <content eId="para_2__subpara_1__content">
+                  <p>to include gender analysis and planning in joint strategic and operational planning, and budget planning as appropriate, including country cooperation strategies;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_2__subpara_2">
+               <num>(2)</num>
+               <content eId="para_2__subpara_2__content">
+                  <p>to formulate national strategies for addressing gender issues in health policies, programmes and research, including in the area of reproductive and sexual health;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_2__subpara_3">
+               <num>(3)</num>
+               <content eId="para_2__subpara_3__content">
+                  <p>to lay emphasis on training and sensitization on, and promotion of, gender, women and health;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_2__subpara_4">
+               <num>(4)</num>
+               <content eId="para_2__subpara_4__content">
+                  <p>to ensure that a gender-equality perspective is incorporated in all levels of health-care delivery and services, including those for adolescents and youth;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_2__subpara_5">
+               <num>(5)</num>
+               <content eId="para_2__subpara_5__content">
+                  <p>to collect and analyse sex-disaggregated data, conduct research on the factors underlying gender disparities, and use the results to inform policies and programmes;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_2__subpara_6">
+               <num>(6)</num>
+               <content eId="para_2__subpara_6__content">
+                  <p>to make progress towards gender equality in the health sector, in order to ensure that the contribution of women, men,girls and boys as providers of health care is considered in health policy and planning and training for health-care workers;</p>
+               </content>
+            </subparagraph>
+         </paragraph>
+         <paragraph eId="para_3">
+            <num>3. </num>
+            <intro eId="para_3__content">
+               <p>
+                  <term refersTo="#requests" eId="term_5">REQUESTS</term> the <organization refersTo="#director-general" eId="organization_11">Director-General</organization>:</p>
+            </intro>
+            <subparagraph eId="para_3__subpara_1">
+               <num>(1)</num>
+               <content eId="para_3__subpara_1__content">
+                  <p>to assess and addressgender differences and inequalities in the planning, implementation, monitoring and evaluation of <organization refersTo="#who" eId="organization_12">WHO</organization>’s work, and to include this requirement in post descriptions and criterion in performance evaluation;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_3__subpara_2">
+               <num>(2)</num>
+               <content eId="para_3__subpara_2__content">
+                  <p>to define indicators andto monitor, and assure accountability for, implementation of the strategy by the <organization refersTo="#unSecretariat" eId="organization_13">Secretariat</organization> at headquarters and in regional and country offices;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_3__subpara_3">
+               <num>(3)</num>
+               <content eId="para_3__subpara_3__content">
+                  <p>to support and sustain incorporation of a gender perspective in the mainstream of <organization refersTo="#who" eId="organization_14">WHO</organization>’s policies and programmes,including through recruiting staff as soon as possiblewith specific responsibility and experience on gender and women’s health;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_3__subpara_4">
+               <num>(4)</num>
+               <content eId="para_3__subpara_4__content">
+                  <p>to provide support to Member <organization refersTo="#states" eId="organization_15">States</organization> in order to build their capacity for gender analysis and action, and for formulating and sustaining strategies, action plans, and relevant budgets for integrating gender equality in all health policies, programmes, and research;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_3__subpara_5">
+               <num>(5)</num>
+               <content eId="para_3__subpara_5__content">
+                  <p>to give priority to the use of sex-disaggregated data and gender analysis in <organization refersTo="#who" eId="organization_16">WHO</organization>’s publications, including relevant documents submitted to the <organization refersTo="#wfpExecutiveBoard" eId="organization_17">Executive Board</organization> and the Health Assembly, and in efforts to strengthen health-information systems in order to ensure that they reflect awareness of gender equality as a determinant of health;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_3__subpara_6">
+               <num>(6)</num>
+               <content eId="para_3__subpara_6__content">
+                  <p>to ensure that programmatic and thematic evaluations indicate the extent to which gender issues have been incorporated in the <organization refersTo="#organization" eId="organization_18">Organization</organization>’s work;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_3__subpara_7">
+               <num>(7)</num>
+               <content eId="para_3__subpara_7__content">
+                  <p>to identify, and divulgate information about, good practices on measuring the impact of integrating gender into health policies, including the development of indicators and health-information systems that disaggregate data by sex;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_3__subpara_8">
+               <num>(8)</num>
+               <content eId="para_3__subpara_8__content">
+                  <p>to ensure full implementation of the strategy, and to reportevery two years on progress to the Health Assembly, through the <organization refersTo="#wfpExecutiveBoard" eId="organization_19">Executive Board</organization>.</p>
+               </content>
+            </subparagraph>
+         </paragraph>
+      </mainBody>
+      <conclusions>
+         <p>(<event refersTo="#eleventhPlenaryMeeting" eId="event_1">Eleventh plenary meeting</event>, <docDate date="2007-05-23">23 May 2007</docDate> –<organization refersTo="#committeeA" eId="organization_20">Committee A</organization>, fifth report)</p>
+      </conclusions>
+   </statement>
+</akomaNtoso>

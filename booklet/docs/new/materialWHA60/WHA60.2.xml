@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns:akn4un="http://un.org/metadata" xmlns:eLUNa="https://cms.unov.org/eLuna/2017/main" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+   <statement name="resolution">
+      <meta>
+         <identification source="#source">
+            <FRBRWork>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-21/wha60_2/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-21/wha60_2"/>
+               <FRBRdate date="2007-05-21" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+               <FRBRcountry value="un"/>
+               <FRBRnumber value="wha60_2"/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-21/wha60_2/eng@/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-21/wha60_2/eng@"/>
+               <FRBRdate date="2007-05-21" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-21/wha60_2/eng@/!main.xml"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-21/wha60_2/eng@.xml"/>
+               <FRBRdate date="2023-08-23" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+            </FRBRManifestation>
+         </identification>
+         <references source="#source">
+            <TLCOrganization eId="worldHealthAssembly" href="/akn/ontology/organization/un/worldHealthAssembly" showAs="World Health Assembly"/>
+            <TLCOrganization eId="who" href="/akn/ontology/organization/un/who" showAs="WHO"/>
+            <TLCOrganization eId="director-general" href="/akn/ontology/organization/un/director-general" showAs="Director-General"/>
+            <TLCOrganization eId="israel" href="/akn/ontology/organization/un/israel" showAs="Israel"/>
+            <TLCTerm eId="mindful" href="/akn/ontology/term/mindful" showAs="Mindful"/>
+            <TLCTerm eId="affirms" href="/akn/ontology/term/affirms" showAs="affirms"/>
+            <TLCTerm eId="recalling" href="/akn/ontology/term/recalling" showAs="Recalling"/>
+            <TLCTerm eId="expressing" href="/akn/ontology/term/expressing" showAs="Expressing"/>
+            <TLCTerm eId="recognizing" href="/akn/ontology/term/recognizing" showAs="Recognizing"/>
+            <TLCTerm eId="deploring" href="/akn/ontology/term/deploring" showAs="Deploring"/>
+            <TLCTerm eId="urges" href="/akn/ontology/term/urges" showAs="URGES"/>
+            <TLCTerm eId="expresses" href="/akn/ontology/term/expresses" showAs="EXPRESSES"/>
+            <TLCTerm eId="requests" href="/akn/ontology/term/requests" showAs="REQUESTS"/>
+            <TLCOrganization eId="icj" href="/akn/ontology/organization/un/icj" showAs="International Court of Justice"/>
+            <TLCOrganization eId="states" href="/akn/ontology/organization/un/states" showAs="States"/>
+            <TLCOrganization eId="faoInternationalPlantProtectionConvention" href="/akn/ontology/organization/un/faoInternationalPlantProtectionConvention" showAs="Convention"/>
+            <TLCEvent href="/akn/ontology/event/whoha/ninthPlenaryMeeting" eId="ninthPlenaryMeeting" showAs="Ninth plenary meeting"/>
+            <TLCOrganization eId="committeeB" href="/akn/ontology/organization/un/committeeB" showAs="Committee B"/>
+            <TLCPerson eId="source" href="/akn/ontology/person/somebody" showAs="somebody"/>
+         </references>
+      </meta>
+      <preface>
+         <p>
+            <docNumber>WHA60.2</docNumber>
+            <docTitle>Health conditions in the occupied Palestinian territory, including east Jerusalem, and in the occupied Syrian Golan</docTitle>
+         </p>
+      </preface>
+      <preamble>
+         <formula name="enactingFormula">
+            <p>The Sixtieth <organization refersTo="#worldHealthAssembly" eId="organization_1">World Health Assembly</organization>,</p>
+         </formula>
+         <container name="mindful">
+            <p>
+               <term refersTo="#mindful" eId="term_1">Mindful</term> of the basic principle established in the Constitution of <organization refersTo="#who" eId="organization_2">WHO</organization>, which <term refersTo="#affirms" eId="term_2">affirms</term> that the health of all peoples is fundamental to the attainment of peace and security;</p>
+         </container>
+         <container name="recalling">
+            <p>
+               <term refersTo="#recalling" eId="term_3">Recalling</term> all its previous resolutions on health conditions in the occupied Arab territories;</p>
+         </container>
+         <container name="expressing">
+            <p>
+               <term refersTo="#expressing" eId="term_4">Expressing</term> appreciation for the report of the <organization refersTo="#director-general" eId="organization_3">Director-General</organization> on the health conditions in the occupied Palestinian territory, including east Jerusalem, and in the occupied Syrian Golan; </p>
+         </container>
+         <container name="expressing">
+            <p>
+               <term refersTo="#expressing" eId="term_5">Expressing</term> its concern at the deterioration of economic and health conditions as well as the humanitarian crisis resulting from the continued occupation and the severe restrictions imposed by <organization refersTo="#israel" eId="organization_4">Israel</organization>, the occupying power;</p>
+         </container>
+         <container name="expressing">
+            <p>
+               <term refersTo="#expressing" eId="term_6">Expressing</term> its concern also at the health crisis and rising levels of food insecurity in the occupied Palestinian territory due to <organization refersTo="#israel" eId="organization_5">Israel</organization>’s withholding of Palestinian customs revenues;</p>
+         </container>
+         <container name="affirming">
+            <p>Affirming the need for guaranteeing universal coverage of health services and for preserving the functions of the public health services in the occupied Palestinian territory;</p>
+         </container>
+         <container name="recognizing">
+            <p>
+               <term refersTo="#recognizing" eId="term_7">Recognizing</term> that the acute shortage of financial and medical resources in the Palestinian Ministry of Health, which is responsible for running and financing public health services, jeopardizes the access of the Palestinian population to curative and preventive services;</p>
+         </container>
+         <container name="affirming">
+            <p>Affirming the right of Palestinian patients and medical staffto have accessto the Palestinian health institutions in occupied east Jerusalem;</p>
+         </container>
+         <container name="Deploring">
+            <p>
+               <term refersTo="#deploring" eId="term_8">Deploring</term> the incidents involving lack of respect and protection for Palestinian ambulances and medical personnel by the <organization refersTo="#israel" eId="organization_6">Israel</organization>i army, which led to casualties among Palestinian medical personnel, as well as the restrictions on movement imposed on them by <organization refersTo="#israel" eId="organization_7">Israel</organization>, the occupying power, in violation of international humanitarian law;</p>
+         </container>
+         <container name="expressing">
+            <p>
+               <term refersTo="#expressing" eId="term_9">Expressing</term> deep concern at the grave implication of the wall on the accessibility and quality of medical services received by the Palestinian population in the occupied Palestinian territory, including east Jerusalem;</p>
+         </container>
+         <container name="expressing">
+            <p>
+               <term refersTo="#expressing" eId="term_10">Expressing</term> deep concern also at the serious implications for pregnant women and patients of <organization refersTo="#israel" eId="organization_8">Israel</organization>i restriction of movement imposed on Palestinian ambulances and medical personnel,</p>
+         </container>
+      </preamble>
+      <mainBody>
+         <paragraph eId="para_1">
+            <num>1. </num>
+            <intro eId="para_1__content">
+               <p>DEMANDS that <organization refersTo="#israel" eId="organization_9">Israel</organization>, the occupying power:</p>
+            </intro>
+            <subparagraph eId="para_1__subpara_1">
+               <num>(1)</num>
+               <content eId="para_1__subpara_1__content">
+                  <p>lift the closure in the occupied Palestinian territory, particularly the closure of the crossing points of the occupied Gaza Strip that are causing the serious shortage of medicines and medical supplies therein and comply in this regard with the provisions of the <organization refersTo="#israel" eId="organization_10">Israel</organization>i–Palestinian Agreement on Movement and Access of <date date="2005-11-01">November 2005</date>;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_2">
+               <num>(2)</num>
+               <content eId="para_1__subpara_2__content">
+                  <p>comply with the advisory opinion rendered on <date date="2004-07-09">9 July 2004</date> by the <organization refersTo="#icj" eId="organization_11">International Court of Justice</organization> on the wall which, inter alia , has grave implications on the accessibility and quality of medical services received by the Palestinian population in the occupied Palestinian territory, including east Jerusalem;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_3">
+               <num>(3)</num>
+               <content eId="para_1__subpara_3__content">
+                  <p>facilitate the access of Palestinian patients and medical staff to the Palestinian health institutions in occupied east Jerusalem;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_4">
+               <num>(4)</num>
+               <content eId="para_1__subpara_4__content">
+                  <p>pay the Palestinian Authority regularly and without delay its customs and health insurance revenues in order to enable it to fulfil its responsibilities with respect to basic human needs, including health services;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_5">
+               <num>(5)</num>
+               <content eId="para_1__subpara_5__content">
+                  <p>ensure unhindered and safe passage for Palestinian ambulances as well as respect and protection of medical personnel, in compliance with international humanitarian law;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_6">
+               <num>(6)</num>
+               <content eId="para_1__subpara_6__content">
+                  <p>improve the living and medical conditions of Palestinian detainees, particularly children, women and patients;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_7">
+               <num>(7)</num>
+               <content eId="para_1__subpara_7__content">
+                  <p>facilitate the transit and entry of medicines and medical equipment to the occupied Palestinian territory;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_8">
+               <num>(8)</num>
+               <content eId="para_1__subpara_8__content">
+                  <p>shoulder its responsibility towards the humanitarian needs of the Palestinian people and their daily access to humanitarian aid, including food and medicine, in compliance with international humanitarian law;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_9">
+               <num>(9)</num>
+               <content eId="para_1__subpara_9__content">
+                  <p>halt immediately all its practices, policies and plans, including its policy of closure, that seriously affect the health conditions of civilians under occupation;</p>
+               </content>
+            </subparagraph>
+         </paragraph>
+         <paragraph eId="para_2">
+            <num>2. </num>
+            <intro eId="para_2__content">
+               <p>
+                  <term refersTo="#urges" eId="term_11">URGES</term> Member <organization refersTo="#states" eId="organization_12">States</organization> and intergovernmental and nongovernmental organizations:</p>
+            </intro>
+            <subparagraph eId="para_2__subpara_1">
+               <num>(1)</num>
+               <content eId="para_2__subpara_1__content">
+                  <p>to help overcome the health crisis in the occupied Palestinian territory by providing assistance to the Palestinian people;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_2__subpara_2">
+               <num>(2)</num>
+               <content eId="para_2__subpara_2__content">
+                  <p>to provide financial and technical support to public health and veterinary services in order to implement the Palestinian national plan for fighting the potential spread of avian influenza in the occupied Palestinian territory;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_2__subpara_3">
+               <num>(3)</num>
+               <content eId="para_2__subpara_3__content">
+                  <p>to help lift the restrictions and obstacles imposed on the Palestinian people in the occupied Palestinian territory;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_2__subpara_4">
+               <num>(4)</num>
+               <content eId="para_2__subpara_4__content">
+                  <p>to support and assist the Palestinian Ministry of Health in carrying out its duties, including running and financing public health services;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_2__subpara_5">
+               <num>(5)</num>
+               <content eId="para_2__subpara_5__content">
+                  <p>to remind <organization refersTo="#israel" eId="organization_13">Israel</organization>, the occupying Power, to abide by the Fourth Geneva <organization refersTo="#faoInternationalPlantProtectionConvention" eId="organization_14">Convention</organization> relative to the Protection of Civilian Persons in Time of War of 1949;</p>
+               </content>
+            </subparagraph>
+         </paragraph>
+         <paragraph eId="para_3">
+            <num>3. </num>
+            <intro eId="para_3__content">
+               <p>
+                  <term refersTo="#expresses" eId="term_12">EXPRESSES</term> its deep appreciation to the <organization refersTo="#director-general" eId="organization_15">Director-General</organization> for:</p>
+            </intro>
+            <subparagraph eId="para_3__subpara_1">
+               <num>(1)</num>
+               <content eId="para_3__subpara_1__content">
+                  <p>the efforts to provide necessary assistance to the Palestinian people in the occupied Palestinian territory, including east Jerusalem, and to the Syrian population in the occupied Syrian Golan;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_3__subpara_2">
+               <num>(2)</num>
+               <content eId="para_3__subpara_2__content">
+                  <p>organizing a one-day emergency meeting on the health crisis in the occupied Palestinian territory and for the assistance provided as a result thereof;</p>
+               </content>
+            </subparagraph>
+         </paragraph>
+         <paragraph eId="para_4">
+            <num>4. </num>
+            <intro eId="para_4__content">
+               <p>
+                  <term refersTo="#requests" eId="term_13">REQUESTS</term> the <organization refersTo="#director-general" eId="organization_16">Director-General</organization>:</p>
+            </intro>
+            <subparagraph eId="para_4__subpara_1">
+               <num>(1)</num>
+               <content eId="para_4__subpara_1__content">
+                  <p>to provide support to the Palestinian health and veterinary services in establishing a modern public health laboratory able to diagnose avian influenza in humans and animals;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_4__subpara_2">
+               <num>(2)</num>
+               <content eId="para_4__subpara_2__content">
+                  <p>to submit a fact-finding report on the health and economic situation in the occupied Palestinian territory, including east Jerusalem, and in the occupied Syrian Golan;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_4__subpara_3">
+               <num>(3)</num>
+               <content eId="para_4__subpara_3__content">
+                  <p>to provide health-related technical assistance to the Syrian population in the occupied Syrian Golan;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_4__subpara_4">
+               <num>(4)</num>
+               <content eId="para_4__subpara_4__content">
+                  <p>to continue providing necessary technical assistance to meet the health needs of the Palestinian people, including the handicapped and injured;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_4__subpara_5">
+               <num>(5)</num>
+               <content eId="para_4__subpara_5__content">
+                  <p>to support the development of the health system in Palestine, including development of human resources;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_4__subpara_6">
+               <num>(6)</num>
+               <content eId="para_4__subpara_6__content">
+                  <p>to assist in determining the so far inexplicable causes of fatal injuries and suffering afflicting Palestinian victims of <organization refersTo="#israel" eId="organization_17">Israel</organization>i attacks;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_4__subpara_7">
+               <num>(7)</num>
+               <content eId="para_4__subpara_7__content">
+                  <p>to report on implementation of this resolution to the Sixty-first <organization refersTo="#worldHealthAssembly" eId="organization_18">World Health Assembly</organization>.</p>
+               </content>
+            </subparagraph>
+         </paragraph>
+      </mainBody>
+      <conclusions>
+         <p>(<event refersTo="#ninthPlenaryMeeting" eId="event_1">Ninth plenary meeting</event>, <docDate date="2007-05-21">21 May 2007</docDate> –<organization refersTo="#committeeB" eId="organization_19">Committee B</organization>, first report)
+? Document A60/29.</p>
+      </conclusions>
+   </statement>
+</akomaNtoso>

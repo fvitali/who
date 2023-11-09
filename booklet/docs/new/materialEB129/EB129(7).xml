@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns:akn4un="http://un.org/metadata" xmlns:eLUNa="https://cms.unov.org/eLuna/2017/main" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+   <statement name="decision">
+      <meta>
+         <identification source="#source">
+            <FRBRWork>
+               <FRBRthis value="/akn/un/statement/deliberation/whoeb/2011-05-25/eb129-7/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whoeb/2011-05-25/eb129-7"/>
+               <FRBRdate date="2011-05-25" name=""/>
+               <FRBRauthor href="#whoeb" as="#author"/>
+               <FRBRcountry value="un"/>
+               <FRBRnumber value="eb129-7"/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value="/akn/un/statement/deliberation/whoeb/2011-05-25/eb129-7/eng@/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whoeb/2011-05-25/eb129-7/eng@"/>
+               <FRBRdate date="2011-05-25" name=""/>
+               <FRBRauthor href="#whoeb" as="#author"/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value="/akn/un/statement/deliberation/whoeb/2011-05-25/eb129-7/eng@/!main.xml"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whoeb/2011-05-25/eb129-7/eng@.xml"/>
+               <FRBRdate date="2023-08-23" name=""/>
+               <FRBRauthor href="#whoeb" as="#author"/>
+            </FRBRManifestation>
+         </identification>
+         <references source="#source">
+            <TLCOrganization eId="worldHealthAssembly" href="/akn/ontology/organization/un/worldHealthAssembly" showAs="World Health Assembly"/>
+            <TLCOrganization eId="wfpExecutiveBoard" href="/akn/ontology/organization/un/wfpExecutiveBoard" showAs="Executive Board"/>
+            <TLCOrganization eId="faoprogrammecommittee" href="/akn/ontology/organization/un/faoprogrammecommittee" showAs="Programme"/>
+            <TLCOrganization eId="who" href="/akn/ontology/organization/un/who" showAs="WHO"/>
+            <TLCEvent href="/akn/ontology/event/whoha/secondMeeting" eId="secondMeeting" showAs="Second meeting"/>
+            <TLCPerson eId="source" href="/akn/ontology/person/somebody" showAs="somebody"/>
+         </references>
+         <proprietary source="#source">
+            <akn4un:session>EB129</akn4un:session>
+         </proprietary>
+      </meta>
+      <preface>
+         <p>
+            <docNumber>EB129(7)</docNumber>
+            <docTitle>Place, date and duration of the Sixty-fifth <organization refersTo="#worldHealthAssembly" eId="organization_1">World Health Assembly</organization>
+            </docTitle>
+         </p>
+      </preface>
+      <preamble>
+         <formula name="enactingFormula">
+            <p>The <organization refersTo="#wfpExecutiveBoard" eId="organization_2">Executive Board</organization>
+            </p>
+         </formula>
+      </preamble>
+      <mainBody>
+         <paragraph eId="para_1">
+            <content eId="para_1__content">
+               <p>decided that the Sixty-fifth <organization refersTo="#worldHealthAssembly" eId="organization_3">World Health Assembly</organization> should be held at the Palais des Nations, Geneva, opening on Monday, <date date="2012-05-21">21 May 2012</date>, and that it should close no later than Saturday, <date date="2012-05-26">26 May 2012</date>. <inline name="#enactingFormula">The Board further decided that the <organization refersTo="#faoprogrammecommittee" eId="organization_4">Programme</organization>, Budget and Administration Committee of the <organization refersTo="#wfpExecutiveBoard" eId="organization_5">Executive Board</organization>
+                  </inline>should hold its sixteenth meeting on Thursday and Friday, 17 and <date date="2012-05-18">18 May 2012</date>, at <organization refersTo="#who" eId="organization_6">WHO</organization> headquarters, Geneva.</p>
+            </content>
+         </paragraph>
+      </mainBody>
+      <conclusions>
+         <p>(<event refersTo="#secondMeeting" eId="event_1">Second meeting</event>, <docDate date="2011-05-25">25 May 2011</docDate>)</p>
+      </conclusions>
+   </statement>
+</akomaNtoso>

@@ -1,0 +1,70 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eLUNa="https://cms.unov.org/eLuna/2017/main" xmlns:akn4un="http://un.org/metadata" xmlns:html="http://www.w3.org/1999/xhtml">
+   <statement name="resolution">
+      <meta>
+         <identification source="#source">
+            <FRBRWork>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-21/wha60_8/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-21/wha60_8"/>
+               <FRBRdate date="2007-05-21" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+               <FRBRcountry value="un"/>
+               <FRBRnumber value="wha60_8"/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-21/wha60_8/eng@/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-21/wha60_8/eng@"/>
+               <FRBRdate date="2007-05-21" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-21/wha60_8/eng@/!main.xml"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-21/wha60_8/eng@.xml"/>
+               <FRBRdate date="2023-08-23" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+            </FRBRManifestation>
+         </identification>
+         <references source="#source">
+            <TLCOrganization eId="worldHealthAssembly" href="/akn/ontology/organization/un/worldHealthAssembly" showAs="World Health Assembly"/>
+            <TLCTerm eId="havingExamined" href="/akn/ontology/term/havingExamined" showAs="Having examined"/>
+            <TLCTerm eId="decides" href="/akn/ontology/term/decides" showAs="DECIDES"/>
+            <TLCEvent href="/akn/ontology/event/whoha/ninthPlenaryMeeting" eId="ninthPlenaryMeeting" showAs="Ninth plenary meeting"/>
+            <TLCOrganization eId="committeeB" href="/akn/ontology/organization/un/committeeB" showAs="Committee B"/>
+            <TLCPerson eId="source" href="/akn/ontology/person/somebody" showAs="somebody"/>
+         </references>
+      </meta>
+      <preface>
+         <p>
+            <docNumber>WHA60.8</docNumber>
+            <docTitle>Financial period 2006–2007: implementation of resolution <ref href="/akn/un/statement/deliberation/whowha/2005-05-23/wha58_4/!main">WHA58.4</ref>
+            </docTitle>
+         </p>
+      </preface>
+      <preamble>
+         <formula name="enactingFormula">
+            <p>The Sixtieth <organization refersTo="#worldHealthAssembly" eId="organization_1">World Health Assembly</organization>,</p>
+         </formula>
+         <container name="havingExamined">
+            <p>
+               <term refersTo="#havingExamined" eId="term_1">Having examined</term> the reports on Financial period 2006–2007: implementation of resolution <ref href="/akn/un/statement/deliberation/whowha/2005-05-23/wha58_4/!main">WHA58.4</ref>, <authorialNote marker="1" placement="bottom" eId="authorialNote_1">
+                  <p>Documents A60/43, A60/43 Add.1, A60/46 and A60/46 Add.1.</p>
+               </authorialNote>
+            </p>
+         </container>
+      </preamble>
+      <mainBody>
+         <paragraph eId="para_1">
+            <content eId="para_1__content">
+               <p>
+                  <term refersTo="#decides" eId="term_2">DECIDES</term> that any Miscellaneous Income in 2006–2007 over and above the initial US$ 31.8 million authorized in resolution <ref href="/akn/un/statement/deliberation/whowha/2005-05-23/wha58_4/!main">WHA58.4</ref>, up to a maximum of US$ 7 million, may be used for financing crucial information technology and other investment costs relating to the implementation of the global management system. <authorialNote marker="2" placement="bottom" eId="authorialNote_2">
+                     <p>See Annex 3 for the financial and administrative implications for the Secretariat of the resolution.</p>
+                  </authorialNote>
+               </p>
+            </content>
+         </paragraph>
+      </mainBody>
+      <conclusions>
+         <p>(<event refersTo="#ninthPlenaryMeeting" eId="event_1">Ninth plenary meeting</event>, <docDate date="2007-05-21">21 May 2007</docDate> –<organization refersTo="#committeeB" eId="organization_2">Committee B</organization>, first report)</p>
+      </conclusions>
+   </statement>
+</akomaNtoso>

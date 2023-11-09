@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns:akn4un="http://un.org/metadata" xmlns:eLUNa="https://cms.unov.org/eLuna/2017/main" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+   <statement name="decision">
+      <meta>
+         <identification source="#source">
+            <FRBRWork>
+               <FRBRthis value="/akn/un/statement/deliberation/whoeb/2011-05-25/eb129-8/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whoeb/2011-05-25/eb129-8"/>
+               <FRBRdate date="2011-05-25" name=""/>
+               <FRBRauthor href="#whoeb" as="#author"/>
+               <FRBRcountry value="un"/>
+               <FRBRnumber value="eb129-8"/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value="/akn/un/statement/deliberation/whoeb/2011-05-25/eb129-8/eng@/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whoeb/2011-05-25/eb129-8/eng@"/>
+               <FRBRdate date="2011-05-25" name=""/>
+               <FRBRauthor href="#whoeb" as="#author"/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value="/akn/un/statement/deliberation/whoeb/2011-05-25/eb129-8/eng@/!main.xml"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whoeb/2011-05-25/eb129-8/eng@.xml"/>
+               <FRBRdate date="2023-08-23" name=""/>
+               <FRBRauthor href="#whoeb" as="#author"/>
+            </FRBRManifestation>
+         </identification>
+         <references source="#source">
+            <TLCOrganization eId="who" href="/akn/ontology/organization/un/who" showAs="WHO"/>
+            <TLCOrganization eId="wfpExecutiveBoard" href="/akn/ontology/organization/un/wfpExecutiveBoard" showAs="Executive Board"/>
+            <TLCTerm eId="decides" href="/akn/ontology/term/decides" showAs="DECIDES"/>
+            <TLCTerm eId="requests" href="/akn/ontology/term/requests" showAs="REQUESTS"/>
+            <TLCTerm eId="urges" href="/akn/ontology/term/urges" showAs="URGES"/>
+            <TLCOrganization eId="director-general" href="/akn/ontology/organization/un/director-general" showAs="Director-General"/>
+            <TLCOrganization eId="states" href="/akn/ontology/organization/un/states" showAs="States"/>
+            <TLCOrganization eId="unSecretariat" href="/akn/ontology/organization/un/unSecretariat" showAs="Secretariat"/>
+            <TLCEvent href="/akn/ontology/event/whoha/secondMeeting" eId="secondMeeting" showAs="Second meeting"/>
+            <TLCPerson eId="source" href="/akn/ontology/person/somebody" showAs="somebody"/>
+         </references>
+         <proprietary source="#source">
+            <akn4un:session>EB129</akn4un:session>
+         </proprietary>
+      </meta>
+      <preface>
+         <p>
+            <docNumber>EB129(8)</docNumber>
+            <docTitle>WHO reform</docTitle>
+         </p>
+      </preface>
+      <preamble>
+         <formula name="enactingFormula">
+            <p>The <organization refersTo="#wfpExecutiveBoard" eId="organization_2">Executive Board</organization>,</p>
+         </formula>
+      </preamble>
+      <mainBody>
+         <paragraph eId="para_1">
+            <num>1. </num>
+            <content eId="para_1__content">
+               <p>
+                  <term refersTo="#decides" eId="term_1">DECIDES</term> to establish a transparent, Member-State <authorialNote marker="1" placement="bottom" eId="authorialNote_1">
+                     <p>And, where applicable, regional economic integration organizations.</p>
+                  </authorialNote> driven and inclusive consultative process, on <organization refersTo="#who" eId="organization_3">WHO</organization> reform, based on existing mechanisms, comprising the following steps;</p>
+            </content>
+         </paragraph>
+         <paragraph eId="para_2">
+            <num>2. </num>
+            <content eId="para_2__content">
+               <p>
+                  <term refersTo="#requests" eId="term_2">REQUESTS</term> the <organization refersTo="#director-general" eId="organization_4">Director-General</organization> to prepare, by the end of <date date="2011-06-01">June 2011</date>, three concept papers, which will be further revised on an ongoing basis through the consultative process,on the following issues: the governance of <organization refersTo="#who" eId="organization_5">WHO</organization>,an independent evaluation of <organization refersTo="#who" eId="organization_6">WHO</organization>, and the World Health Forum, as outlined in resolution <ref href="/akn/un/statement/deliberation/whowha/2011-05-20/wha64_2/!main">WHA64.2</ref>;</p>
+            </content>
+         </paragraph>
+         <paragraph eId="para_3">
+            <num>3. </num>
+            <content eId="para_3__content">
+               <p>
+                  <term refersTo="#requests" eId="term_3">REQUESTS</term> the <organization refersTo="#director-general" eId="organization_7">Director-General</organization> to hold consultations among Member <organization refersTo="#states" eId="organization_8">States</organization> 1 on these papers at <organization refersTo="#who" eId="organization_9">WHO</organization> headquarters, and to create a platform for web-based consultations by the end of <date date="2011-07-01">July 2011</date>;</p>
+            </content>
+         </paragraph>
+         <paragraph eId="para_4">
+            <num>4. </num>
+            <content eId="para_4__content">
+               <p>
+                  <term refersTo="#requests" eId="term_4">REQUESTS</term> Regional Committees, on the basis of the updated concept papers, to engage in strategic discussions regarding the <organization refersTo="#who" eId="organization_10">WHO</organization> reform process and to report on these discussions at the meeting outlined in paragraph 5 below;</p>
+            </content>
+         </paragraph>
+         <paragraph eId="para_5">
+            <num>5. </num>
+            <content eId="para_5__content">
+               <p>
+                  <term refersTo="#decides" eId="term_5">DECIDES</term> to hold a special session of the <organization refersTo="#wfpExecutiveBoard" eId="organization_11">Executive Board</organization> open to all Member <organization refersTo="#states" eId="organization_12">States</organization> 1 in <date date="2011-11-01">November 2011</date>, following the Regional Committee meetings, to discuss the outcomes of the consultative process on the three papers, and the draft proposals prepared by the <organization refersTo="#unSecretariat" eId="organization_13">Secretariat</organization> or proposed by Member <organization refersTo="#states" eId="organization_14">States</organization> 1 on other aspects of the reforms outlined in document A64/4;</p>
+            </content>
+         </paragraph>
+         <paragraph eId="para_6">
+            <num>6. </num>
+            <content eId="para_6__content">
+               <p>
+                  <term refersTo="#urges" eId="term_6">URGES</term> Member <organization refersTo="#states" eId="organization_15">States</organization> 1 to support the process with possible funding, and to engage actively in the reform process;</p>
+            </content>
+         </paragraph>
+         <paragraph eId="para_7">
+            <num>7. </num>
+            <content eId="para_7__content">
+               <p>
+                  <term refersTo="#requests" eId="term_7">REQUESTS</term> the <organization refersTo="#director-general" eId="organization_16">Director-General</organization> to support the above elements of the consultative process.</p>
+            </content>
+         </paragraph>
+      </mainBody>
+      <conclusions>
+         <p>(<event refersTo="#secondMeeting" eId="event_1">Second meeting</event>, <docDate date="2011-05-25">25 May 2011</docDate>)</p>
+      </conclusions>
+   </statement>
+</akomaNtoso>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns:akn4un="http://un.org/metadata" xmlns:eLUNa="https://cms.unov.org/eLuna/2017/main" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+   <statement name="decision">
+      <meta>
+         <identification source="#source">
+            <FRBRWork>
+               <FRBRthis value="/akn/un/statement/deliberation/whoeb/2011-05-25/eb129-2/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whoeb/2011-05-25/eb129-2"/>
+               <FRBRdate date="2011-05-25" name=""/>
+               <FRBRauthor href="#whoeb" as="#author"/>
+               <FRBRcountry value="un"/>
+               <FRBRnumber value="eb129-2"/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value="/akn/un/statement/deliberation/whoeb/2011-05-25/eb129-2/eng@/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whoeb/2011-05-25/eb129-2/eng@"/>
+               <FRBRdate date="2011-05-25" name=""/>
+               <FRBRauthor href="#whoeb" as="#author"/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value="/akn/un/statement/deliberation/whoeb/2011-05-25/eb129-2/eng@/!main.xml"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whoeb/2011-05-25/eb129-2/eng@.xml"/>
+               <FRBRdate date="2023-08-23" name=""/>
+               <FRBRauthor href="#whoeb" as="#author"/>
+            </FRBRManifestation>
+         </identification>
+         <references source="#source">
+            <TLCOrganization eId="wfpExecutiveBoard" href="/akn/ontology/organization/un/wfpExecutiveBoard" showAs="Executive Board"/>
+            <TLCOrganization eId="organization" href="/akn/ontology/organization/un/organization" showAs="Organization"/>
+            <TLCTerm eId="concerned" href="/akn/ontology/term/concerned" showAs="concerned"/>
+            <TLCOrganization eId="chile" href="/akn/ontology/organization/un/chile" showAs="Chile"/>
+            <TLCOrganization eId="myanmar" href="/akn/ontology/organization/un/myanmar" showAs="Myanmar"/>
+            <TLCOrganization eId="somalia" href="/akn/ontology/organization/un/somalia" showAs="Somalia"/>
+            <TLCOrganization eId="armenia" href="/akn/ontology/organization/un/armenia" showAs="Armenia"/>
+            <TLCOrganization eId="seychelles" href="/akn/ontology/organization/un/seychelles" showAs="Seychelles"/>
+            <TLCOrganization eId="who" href="/akn/ontology/organization/un/who" showAs="World Health Organization"/>
+            <TLCEvent href="/akn/ontology/event/whoha/secondMeeting" eId="secondMeeting" showAs="Second meeting"/>
+            <TLCPerson eId="source" href="/akn/ontology/person/somebody" showAs="somebody"/>
+         </references>
+         <proprietary source="#source">
+            <akn4un:session>EB129</akn4un:session>
+         </proprietary>
+      </meta>
+      <preface>
+         <p>
+            <docNumber>EB129(2)</docNumber>
+            <docTitle>Membership of the <organization refersTo="#wfpExecutiveBoard" eId="organization_1">Executive Board</organization>’s Standing Committee on Nongovernmental <organization refersTo="#organization" eId="organization_2">Organization</organization>s</docTitle>
+         </p>
+      </preface>
+      <mainBody>
+         <paragraph eId="para_1">
+            <content eId="para_1__content">
+               <p>
+                  <inline name="#enactingFormula">The <organization refersTo="#wfpExecutiveBoard" eId="organization_3">Executive Board</organization> appointed Dr Maria Teresa Valenzuela (<organization refersTo="#chile" eId="organization_4">Chile</organization>), Dr Pe Thet Khin (<organization refersTo="#myanmar" eId="organization_5">Myanmar</organization>) and Dr Awad Ibrahim Abdi (<organization refersTo="#somalia" eId="organization_6">Somalia</organization>) as members of its Standing Committee on Nongovernmental <organization refersTo="#organization" eId="organization_7">Organization</organization>s for the duration of their term of office on the <organization refersTo="#wfpExecutiveBoard" eId="organization_8">Executive Board</organization>, in addition to Professor Ara Saenovi č Babloyan (<organization refersTo="#armenia" eId="organization_9">Armenia</organization>) and Dr Bernard Valentin (<organization refersTo="#seychelles" eId="organization_10">Seychelles</organization>), who were already members of the Committee. It was understood that, if any member of the Committee was unable to attend, his or her successor or the alternate member of the Board designated by the government <term refersTo="#concerned" eId="term_1">concerned</term> would participate in the work of the Committee, in accordance with Rule 2 of the Rules of Procedure of the <organization refersTo="#wfpExecutiveBoard" eId="organization_11">Executive Board</organization>
+                  </inline>of the <organization refersTo="#who" eId="organization_12">World Health Organization</organization>.
+</p>
+            </content>
+         </paragraph>
+      </mainBody>
+      <conclusions>
+         <p>(<event refersTo="#secondMeeting" eId="event_1">Second meeting</event>, <docDate date="2011-05-25">25 May 2011</docDate>)</p>
+      </conclusions>
+   </statement>
+</akomaNtoso>

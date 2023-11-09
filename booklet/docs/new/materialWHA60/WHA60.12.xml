@@ -1,0 +1,990 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns:akn4un="http://un.org/metadata" xmlns:eLUNa="https://cms.unov.org/eLuna/2017/main" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+   <statement name="resolution">
+      <meta>
+         <identification source="#source">
+            <FRBRWork>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-21/wha60_12/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-21/wha60_12"/>
+               <FRBRdate date="2007-05-21" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+               <FRBRcountry value="un"/>
+               <FRBRnumber value="wha60_12"/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-21/wha60_12/eng@/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-21/wha60_12/eng@"/>
+               <FRBRdate date="2007-05-21" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-21/wha60_12/eng@/!main.xml"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-21/wha60_12/eng@.xml"/>
+               <FRBRdate date="2023-09-13" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+            </FRBRManifestation>
+         </identification>
+         <references source="#source">
+            <TLCOrganization eId="worldHealthAssembly" href="/akn/ontology/organization/un/worldHealthAssembly" showAs="World Health Assembly"/>
+            <TLCTerm eId="notes" href="/akn/ontology/term/notes" showAs="notes"/>
+            <TLCTerm eId="resolves" href="/akn/ontology/term/resolves" showAs="resolves"/>
+            <TLCEvent href="/akn/ontology/event/whowha/ninthPlenaryMeeting" eId="ninthPlenaryMeeting" showAs="Ninth plenary meeting"/>
+            <TLCOrganization eId="committeeA" href="/akn/ontology/organization/un/committeeA" showAs="Committee A"/>
+            <TLCPerson eId="source" href="/akn/ontology/person/somebody" showAs="somebody"/>
+         </references>
+      </meta>
+      <preface>
+         <p>
+            <docNumber>WHA60.12</docNumber>
+            <docTitle>Appropriation resolution for the financial period 2008–2009</docTitle>
+         </p>
+      </preface>
+      <preamble>
+         <formula name="enactingFormula">
+            <p>The Sixtieth <organization refersTo="#worldHealthAssembly" eId="organization_1">World Health Assembly</organization>,</p>
+         </formula>
+      </preamble>
+      <mainBody>
+         <paragraph eId="para_1">
+            <num>1. </num>
+            <content eId="para_1__content">
+               <p>
+                  <term refersTo="#notes" eId="term_1">NOTES</term> the total effective budget under all sources of funds of US$ 4 227 480 000;</p>
+            </content>
+         </paragraph>
+         <paragraph eId="para_2">
+            <num>2. </num>
+            <content eId="para_2__content">
+               <p>
+                  <term refersTo="#resolves" eId="term_2">RESOLVES</term> to appropriate for the financial period 2008–2009 an amount of US$ 1 038 840 000, financed by net assessments on Members of US$ 928 840 000, estimated Miscellaneous Income of US$ 30 000 000, and transfer to Tax Equalization Fund of US$ 80 000 000, as shown below:</p>
+            </content>
+         </paragraph>
+         <point eId="table_1">
+            <content eId="table_1__content">
+               <p>
+                  <table>
+                     <tr>
+                        <td>
+                           <p> Appropriation section
+</p>
+                        </td>
+                        <td>
+                           <p> Purpose of appropriation
+</p>
+                        </td>
+                        <td>
+                           <p> Appropriations financed by net assessments and Miscellaneous Income
+US$
+</p>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                           <p> 1
+</p>
+                        </td>
+                        <td>
+                           <p> To reduce the health, social and economic burden of communicable diseases
+</p>
+                        </td>
+                        <td>
+                           <p> 85 368 000
+</p>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                           <p> 2
+</p>
+                        </td>
+                        <td>
+                           <p> To combat HIV/AIDS, malaria and tuberculosis
+</p>
+                        </td>
+                        <td>
+                           <p> 48 996 000
+</p>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                           <p> 3
+</p>
+                        </td>
+                        <td>
+                           <p> To prevent and reduce disease, disability and premature death from chronic noncommunicable conditions, mental disorders, violence, injuries and visual impairment
+</p>
+                        </td>
+                        <td>
+                           <p> 45 215 000
+</p>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                           <p> 4
+</p>
+                        </td>
+                        <td>
+                           <p> To reduce morbidity and mortality and improve health during key stages of life, including pregnancy, childbirth, the neonatal period, childhood and adolescence, and improve sexual and reproductive health and promote active and healthy ageing for all individuals
+</p>
+                        </td>
+                        <td>
+                           <p> 55 909 000
+</p>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                           <p> 5
+</p>
+                        </td>
+                        <td>
+                           <p> To reduce the health consequences of emergencies, disasters, crises and conflicts, and minimize their social and economic impact
+</p>
+                        </td>
+                        <td>
+                           <p> 17 631 000
+</p>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                           <p> 6
+</p>
+                        </td>
+                        <td>
+                           <p> To promote health and development, and prevent or reduce risk factors for health conditions associated with use of tobacco, alcohol, drugs and other psychoactive substances, unhealthy diets, physical inactivity and unsafe sex
+</p>
+                        </td>
+                        <td>
+                           <p> 39 077 000
+</p>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                           <p> 7
+</p>
+                        </td>
+                        <td>
+                           <p> To address the underlying social and economic determinants of health through policies and programmes that enhance health equity and integrate pro-poor, gender-responsive, and human rights-based approaches
+</p>
+                        </td>
+                        <td>
+                           <p> 14 427 000
+</p>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                           <p> 8
+</p>
+                        </td>
+                        <td>
+                           <p> To promote a healthier environment, intensify primary prevention and influence public policies in all sectors so as to address the root causes of environmental threats to health
+</p>
+                        </td>
+                        <td>
+                           <p> 32 736 000
+</p>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                           <p> 9
+</p>
+                        </td>
+                        <td>
+                           <p> To improve nutrition, food safety and food security throughout the life-course and in support of public health and sustainable development
+</p>
+                        </td>
+                        <td>
+                           <p> 23 054 000
+</p>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                           <p> 10
+</p>
+                        </td>
+                        <td>
+                           <p> To improve health services through better governance, financing, staffing and management, informed by reliable and accessible evidence and research
+</p>
+                        </td>
+                        <td>
+                           <p> 139 630 000
+</p>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                           <p> 11
+</p>
+                        </td>
+                        <td>
+                           <p> To ensure improved access, quality and use of medical products and technologies
+</p>
+                        </td>
+                        <td>
+                           <p> 31 244 000
+</p>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                           <p> 12
+</p>
+                        </td>
+                        <td>
+                           <p> To provide leadership, strengthen governance and foster partnership and collaboration with countries, the United Nations system, and other stakeholders in order to fulfill the mandate of WHO in advancing the global health agenda as set out in the Eleventh General Programme of Work
+</p>
+                        </td>
+                        <td>
+                           <p> 139 448 000
+</p>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                           <p> 13
+</p>
+                        </td>
+                        <td>
+                           <p> To develop and sustain WHO as a flexible, learning organization, enabling it to carry out its mandate more efficiently and effectively
+</p>
+                        </td>
+                        <td>
+                           <p> 286 105 000
+</p>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                           <p/>
+                        </td>
+                        <td>
+                           <p> Effective working budget
+</p>
+                        </td>
+                        <td>
+                           <p> 958 840 000
+</p>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                           <p> 14
+</p>
+                        </td>
+                        <td>
+                           <p> Transfer to Tax Equalization Fund
+</p>
+                        </td>
+                        <td>
+                           <p> 80 000 000
+</p>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                           <p/>
+                        </td>
+                        <td>
+                           <p> Total
+</p>
+                        </td>
+                        <td>
+                           <p> 1 038 840 000
+</p>
+                        </td>
+                     </tr>
+                  </table>
+3. FURTHER RESOLVES that:
+(1) notwithstanding the provisions of Financial Regulation 4.3, the Director-General is authorized to make transfers between the appropriation sections of the effective working budget up to an amount not exceeding 10% of the amount appropriated for the section from which the transfer is made; all such transfers shall be reported in the financial report for the financial period 2008–2009; any other transfers required shall be made and reported in accordance with the provisions of Financial Regulation 4.3;
+(2) amounts not exceeding the appropriations voted under paragraph 1 shall be available for the payment of obligations incurred during the financial period 1 January 2008 to 31 December 2009 in accordance with the provisions of the Financial Regulations; notwithstanding the provisions of the present paragraph, the Director-General shall limit the obligations to be incurred during the financial period 2008–2009 to sections 1 to 13;
+(3) the amount of the contribution to be paid by individual Members shall be reduced by the sum standing to their credit in the Tax Equalization Fund; that reduction shall be adjusted in the case of those Members that require staff members to pay income taxes on their WHO emoluments, taxes which the Organization reimburses to said staff members; the amount of such tax reimbursements is estimated at US$ 11 284 310, resulting in a total assessment on Members of US$ 940 124 310;
+4. DECIDES that the Working Capital Fund shall remain at the level of US$ 31 000 000, as earlier decided under resolution WHA56.32;
+5. NOTES that the expenditure in the Proposed programme budget 2008–2009 to be financed by voluntary contributions is estimated at US$ 3 268 640 000, as shown below:
+</p>
+               <table>
+                  <tr>
+                     <td>
+                        <p> Appropriation section
+</p>
+                     </td>
+                     <td>
+                        <p> Purpose of appropriation
+</p>
+                     </td>
+                     <td>
+                        <p> Appropriations financed by net assessments and Miscellaneous Income
+US$
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> 1
+</p>
+                     </td>
+                     <td>
+                        <p> To reduce the health, social and economic burden of communicable diseases
+</p>
+                     </td>
+                     <td>
+                        <p> 85 368 000
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> 2
+</p>
+                     </td>
+                     <td>
+                        <p> To combat HIV/AIDS, malaria and tuberculosis
+</p>
+                     </td>
+                     <td>
+                        <p> 48 996 000
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> 3
+</p>
+                     </td>
+                     <td>
+                        <p> To prevent and reduce disease, disability and premature death from chronic noncommunicable conditions, mental disorders, violence, injuries and visual impairment
+</p>
+                     </td>
+                     <td>
+                        <p> 45 215 000
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> 4
+</p>
+                     </td>
+                     <td>
+                        <p> To reduce morbidity and mortality and improve health during key stages of life, including pregnancy, childbirth, the neonatal period, childhood and adolescence, and improve sexual and reproductive health and promote active and healthy ageing for all individuals
+</p>
+                     </td>
+                     <td>
+                        <p> 55 909 000
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> 5
+</p>
+                     </td>
+                     <td>
+                        <p> To reduce the health consequences of emergencies, disasters, crises and conflicts, and minimize their social and economic impact
+</p>
+                     </td>
+                     <td>
+                        <p> 17 631 000
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> 6
+</p>
+                     </td>
+                     <td>
+                        <p> To promote health and development, and prevent or reduce risk factors for health conditions associated with use of tobacco, alcohol, drugs and other psychoactive substances, unhealthy diets, physical inactivity and unsafe sex
+</p>
+                     </td>
+                     <td>
+                        <p> 39 077 000
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> 7
+</p>
+                     </td>
+                     <td>
+                        <p> To address the underlying social and economic determinants of health through policies and programmes that enhance health equity and integrate pro-poor, gender-responsive, and human rights-based approaches
+</p>
+                     </td>
+                     <td>
+                        <p> 14 427 000
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> 8
+</p>
+                     </td>
+                     <td>
+                        <p> To promote a healthier environment, intensify primary prevention and influence public policies in all sectors so as to address the root causes of environmental threats to health
+</p>
+                     </td>
+                     <td>
+                        <p> 32 736 000
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> 9
+</p>
+                     </td>
+                     <td>
+                        <p> To improve nutrition, food safety and food security throughout the life-course and in support of public health and sustainable development
+</p>
+                     </td>
+                     <td>
+                        <p> 23 054 000
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> 10
+</p>
+                     </td>
+                     <td>
+                        <p> To improve health services through better governance, financing, staffing and management, informed by reliable and accessible evidence and research
+</p>
+                     </td>
+                     <td>
+                        <p> 139 630 000
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> 11
+</p>
+                     </td>
+                     <td>
+                        <p> To ensure improved access, quality and use of medical products and technologies
+</p>
+                     </td>
+                     <td>
+                        <p> 31 244 000
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> 12
+</p>
+                     </td>
+                     <td>
+                        <p> To provide leadership, strengthen governance and foster partnership and collaboration with countries, the United Nations system, and other stakeholders in order to fulfill the mandate of WHO in advancing the global health agenda as set out in the Eleventh General Programme of Work
+</p>
+                     </td>
+                     <td>
+                        <p> 139 448 000
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> 13
+</p>
+                     </td>
+                     <td>
+                        <p> To develop and sustain WHO as a flexible, learning organization, enabling it to carry out its mandate more efficiently and effectively
+</p>
+                     </td>
+                     <td>
+                        <p> 286 105 000
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p/>
+                     </td>
+                     <td>
+                        <p> Effective working budget
+</p>
+                     </td>
+                     <td>
+                        <p> 958 840 000
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> 14
+</p>
+                     </td>
+                     <td>
+                        <p> Transfer to Tax Equalization Fund
+</p>
+                     </td>
+                     <td>
+                        <p> 80 000 000
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p/>
+                     </td>
+                     <td>
+                        <p> Total
+</p>
+                     </td>
+                     <td>
+                        <p> 1 038 840 000
+</p>
+                     </td>
+                  </tr>
+               </table>
+               <table>
+                  <tr>
+                     <td>
+                        <p> Appropriation section
+</p>
+                     </td>
+                     <td>
+                        <p> Purpose
+</p>
+                     </td>
+                     <td>
+                        <p> Amount
+US$
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> 1
+</p>
+                     </td>
+                     <td>
+                        <p> To reduce the health, social and economic burden of communicable diseases
+</p>
+                     </td>
+                     <td>
+                        <p> 808 675 000
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> 2
+</p>
+                     </td>
+                     <td>
+                        <p> To combat HIV/AIDS, malaria and tuberculosis
+</p>
+                     </td>
+                     <td>
+                        <p> 657 936 000
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> 3
+</p>
+                     </td>
+                     <td>
+                        <p> To prevent and reduce disease, disability and premature death from chronic noncommunicable conditions, mental disorders, violence, injuries and visual impairment
+</p>
+                     </td>
+                     <td>
+                        <p> 112 889 000
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> 4
+</p>
+                     </td>
+                     <td>
+                        <p> To reduce morbidity and mortality and improve health during key stages of life, including pregnancy, childbirth, the neonatal period, childhood and adolescence, and improve sexual and reproductive health and promote active and healthy ageing for all individuals
+</p>
+                     </td>
+                     <td>
+                        <p> 303 924 000
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> 5
+</p>
+                     </td>
+                     <td>
+                        <p> To reduce the health consequences of emergencies, disasters, crises and conflicts, and minimize their social and economic impact
+</p>
+                     </td>
+                     <td>
+                        <p> 200 782 000
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> 6
+</p>
+                     </td>
+                     <td>
+                        <p> To promote health and development, and prevent or reduce risk factors for health conditions associated with use of tobacco, alcohol, drugs and other psychoactive substances, unhealthy diets, physical inactivity and unsafe sex
+</p>
+                     </td>
+                     <td>
+                        <p> 122 980 000
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> 7
+</p>
+                     </td>
+                     <td>
+                        <p> To address the underlying social and economic determinants of health through policies and programmes that enhance health equity and integrate pro-poor, gender-responsive, and human rights-based approaches
+</p>
+                     </td>
+                     <td>
+                        <p> 51 478 000
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> 8
+</p>
+                     </td>
+                     <td>
+                        <p> To promote a healthier environment, intensify primary prevention and influence public policies in all sectors so as to address the root causes of environmental threats to health
+</p>
+                     </td>
+                     <td>
+                        <p> 97 720 000
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> 9
+</p>
+                     </td>
+                     <td>
+                        <p> To improve nutrition, food safety and food security throughout the life-course and in support of public health and sustainable development
+</p>
+                     </td>
+                     <td>
+                        <p> 103 880 000
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> 10
+</p>
+                     </td>
+                     <td>
+                        <p> To improve health services through better governance, financing, staffing and management, informed by reliable and accessible evidence and research
+</p>
+                     </td>
+                     <td>
+                        <p> 374 424 000
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> 11
+</p>
+                     </td>
+                     <td>
+                        <p> To ensure improved access, quality and use of medical products and technologies
+</p>
+                     </td>
+                     <td>
+                        <p> 102 789 000
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> 12
+</p>
+                     </td>
+                     <td>
+                        <p> To provide leadership, strengthen governance and foster partnership and collaboration with countries, the United Nations system, and other stakeholders in order to fulfill the mandate of WHO in advancing the global health agenda as set out in the Eleventh General Programme of Work
+</p>
+                     </td>
+                     <td>
+                        <p> 74 896 000
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> 13
+</p>
+                     </td>
+                     <td>
+                        <p> To develop and sustain WHO as a flexible, learning organization, enabling it to carry out its mandate more efficiently and effectively
+</p>
+                     </td>
+                     <td>
+                        <p> 256 267 000
+</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p/>
+                     </td>
+                     <td>
+                        <p> Total
+</p>
+                     </td>
+                     <td>
+                        <p> 3 268 640 000
+</p>
+                     </td>
+                  </tr>
+               </table>
+               <p>
+3. FURTHER RESOLVES that:
+(1) notwithstanding the provisions of Financial Regulation 4.3, the Director-General is authorized to make transfers between the appropriation sections of the effective working budget up to an amount not exceeding 10% of the amount appropriated for the section from which the transfer is made; all such transfers shall be reported in the financial report for the financial period 2008–2009; any other transfers required shall be made and reported in accordance with the provisions of Financial Regulation 4.3;
+(2) amounts not exceeding the appropriations voted under paragraph 1 shall be available for the payment of obligations incurred during the financial period 1 January 2008 to 31 December 2009 in accordance with the provisions of the Financial Regulations; notwithstanding the provisions of the present paragraph, the Director-General shall limit the obligations to be incurred during the financial period 2008–2009 to sections 1 to 13;
+(3) the amount of the contribution to be paid by individual Members shall be reduced by the sum standing to their credit in the Tax Equalization Fund; that reduction shall be adjusted in the case of those Members that require staff members to pay income taxes on their WHO emoluments, taxes which the Organization reimburses to said staff members; the amount of such tax reimbursements is estimated at US$ 11 284 310, resulting in a total assessment on Members of US$ 940 124 310;
+4. DECIDES that the Working Capital Fund shall remain at the level of US$ 31 000 000, as earlier decided under resolution WHA56.32;
+5. NOTES that the expenditure in the Proposed programme budget 2008–2009 to be financed by voluntary contributions is estimated at US$ 3 268 640 000, as shown below:
+<table>
+                     <tr>
+                        <td>
+                           <p> Appropriation section
+</p>
+                        </td>
+                        <td>
+                           <p> Purpose
+</p>
+                        </td>
+                        <td>
+                           <p> Amount
+US$
+</p>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                           <p> 1
+</p>
+                        </td>
+                        <td>
+                           <p> To reduce the health, social and economic burden of communicable diseases
+</p>
+                        </td>
+                        <td>
+                           <p> 808 675 000
+</p>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                           <p> 2
+</p>
+                        </td>
+                        <td>
+                           <p> To combat HIV/AIDS, malaria and tuberculosis
+</p>
+                        </td>
+                        <td>
+                           <p> 657 936 000
+</p>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                           <p> 3
+</p>
+                        </td>
+                        <td>
+                           <p> To prevent and reduce disease, disability and premature death from chronic noncommunicable conditions, mental disorders, violence, injuries and visual impairment
+</p>
+                        </td>
+                        <td>
+                           <p> 112 889 000
+</p>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                           <p> 4
+</p>
+                        </td>
+                        <td>
+                           <p> To reduce morbidity and mortality and improve health during key stages of life, including pregnancy, childbirth, the neonatal period, childhood and adolescence, and improve sexual and reproductive health and promote active and healthy ageing for all individuals
+</p>
+                        </td>
+                        <td>
+                           <p> 303 924 000
+</p>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                           <p> 5
+</p>
+                        </td>
+                        <td>
+                           <p> To reduce the health consequences of emergencies, disasters, crises and conflicts, and minimize their social and economic impact
+</p>
+                        </td>
+                        <td>
+                           <p> 200 782 000
+</p>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                           <p> 6
+</p>
+                        </td>
+                        <td>
+                           <p> To promote health and development, and prevent or reduce risk factors for health conditions associated with use of tobacco, alcohol, drugs and other psychoactive substances, unhealthy diets, physical inactivity and unsafe sex
+</p>
+                        </td>
+                        <td>
+                           <p> 122 980 000
+</p>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                           <p> 7
+</p>
+                        </td>
+                        <td>
+                           <p> To address the underlying social and economic determinants of health through policies and programmes that enhance health equity and integrate pro-poor, gender-responsive, and human rights-based approaches
+</p>
+                        </td>
+                        <td>
+                           <p> 51 478 000
+</p>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                           <p> 8
+</p>
+                        </td>
+                        <td>
+                           <p> To promote a healthier environment, intensify primary prevention and influence public policies in all sectors so as to address the root causes of environmental threats to health
+</p>
+                        </td>
+                        <td>
+                           <p> 97 720 000
+</p>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                           <p> 9
+</p>
+                        </td>
+                        <td>
+                           <p> To improve nutrition, food safety and food security throughout the life-course and in support of public health and sustainable development
+</p>
+                        </td>
+                        <td>
+                           <p> 103 880 000
+</p>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                           <p> 10
+</p>
+                        </td>
+                        <td>
+                           <p> To improve health services through better governance, financing, staffing and management, informed by reliable and accessible evidence and research
+</p>
+                        </td>
+                        <td>
+                           <p> 374 424 000
+</p>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                           <p> 11
+</p>
+                        </td>
+                        <td>
+                           <p> To ensure improved access, quality and use of medical products and technologies
+</p>
+                        </td>
+                        <td>
+                           <p> 102 789 000
+</p>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                           <p> 12
+</p>
+                        </td>
+                        <td>
+                           <p> To provide leadership, strengthen governance and foster partnership and collaboration with countries, the United Nations system, and other stakeholders in order to fulfill the mandate of WHO in advancing the global health agenda as set out in the Eleventh General Programme of Work
+</p>
+                        </td>
+                        <td>
+                           <p> 74 896 000
+</p>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                           <p> 13
+</p>
+                        </td>
+                        <td>
+                           <p> To develop and sustain WHO as a flexible, learning organization, enabling it to carry out its mandate more efficiently and effectively
+</p>
+                        </td>
+                        <td>
+                           <p> 256 267 000
+</p>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                           <p/>
+                        </td>
+                        <td>
+                           <p> Total
+</p>
+                        </td>
+                        <td>
+                           <p> 3 268 640 000
+</p>
+                        </td>
+                     </tr>
+                  </table>
+               </p>
+            </content>
+         </point>
+      </mainBody>
+      <conclusions>
+         <p>(<event refersTo="#ninthPlenaryMeeting" eId="event_1">Ninth plenary meeting</event>, <docDate date="2007-05-21">21 May 2007</docDate> –<organization refersTo="#committeeA" eId="organization_2">Committee A</organization>, second report)</p>
+      </conclusions>
+   </statement>
+</akomaNtoso>

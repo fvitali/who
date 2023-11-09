@@ -1,0 +1,59 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eLUNa="https://cms.unov.org/eLuna/2017/main" xmlns:akn4un="http://un.org/metadata" xmlns:html="http://www.w3.org/1999/xhtml">
+   <statement name="resolution">
+      <meta>
+         <identification source="#source">
+            <FRBRWork>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-21/wha60_8/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-21/wha60_8"/>
+               <FRBRdate date="2007-05-21" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+               <FRBRcountry value="un"/>
+               <FRBRnumber value="wha60_8"/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-21/wha60_8/fra@/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-21/wha60_8/fra@"/>
+               <FRBRdate date="2007-05-21" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+               <FRBRlanguage language="fra"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-21/wha60_8/fra@/!main.xml"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-21/wha60_8/fra@.xml"/>
+               <FRBRdate date="2023-08-24" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+            </FRBRManifestation>
+         </identification>
+         <references source="#source">
+            <TLCTerm eId="ayantExaminé" href="/akn/ontology/term/ayantExaminé" showAs="Ayant examiné"/>
+            <TLCEvent href="/akn/ontology/event/whoha/neuvièmeSéance" eId="neuvièmeSéance" showAs="Neuvième séance"/>
+            <TLCPerson eId="source" href="/akn/ontology/person/somebody" showAs="somebody"/>
+         </references>
+      </meta>
+      <preface>
+         <p>
+            <docNumber>WHA60.8</docNumber>
+            <docTitle>Exercice 2006-2007 : mise en oeuvre de la résolution <ref href="/akn/un/statement/deliberation/whowha/2005-05-23/wha58_4/!main">WHA58.4</ref>
+            </docTitle>
+         </p>
+      </preface>
+      <mainBody>
+         <paragraph eId="para_1">
+            <content eId="para_1__content">
+               <p>
+                  <inline name="#enactingFormula">La Soixantième Assemblée mondiale de la Santé,</inline>
+                  <term refersTo="#ayantExaminé" eId="term_1">Ayant examiné</term> les rapports sur l’exercice 2006-2007 : mise en oeuvre de la résolution <ref href="/akn/un/statement/deliberation/whowha/2005-05-23/wha58_4/!main">WHA58.4</ref> ; <authorialNote marker="1" placement="bottom" eId="authorialNote_1">
+                     <p> Documents A60/43, A60/43 Add.1 et A60/46.</p>
+                  </authorialNote> 
+DECIDE que tout excédent de recettes diverses en 2006-2007 par rapport au montant de US $31,8 millions autorisé à l’origine dans la résolution <ref href="/akn/un/statement/deliberation/whowha/2005-05-23/wha58_4/!main">WHA58.4</ref>, jusqu’à un maximum de US $7 millions, peut être utilisé pour financer des technologies de l’information cruciales et d’autres coûts d’investissement liés à la mise en oeuvre du système mondial de gestion. <authorialNote marker="2" placement="bottom" eId="authorialNote_2">
+                     <p> Voir à l’annexe 3 les incidences financières et administratives qu’aura cette résolution pour le Secrétariat.</p>
+                  </authorialNote>
+               </p>
+            </content>
+         </paragraph>
+      </mainBody>
+      <conclusions>
+         <p>(<event refersTo="#neuvièmeSéance" eId="event_1">Neuvième séance</event> plénière, <docDate date="2007-05-21">21 mai 2007</docDate> –Commission B, premier rapport)</p>
+      </conclusions>
+   </statement>
+</akomaNtoso>

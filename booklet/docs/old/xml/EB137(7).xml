@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns:akn4un="http://un.org/metadata" xmlns:eLUNa="https://cms.unov.org/eLuna/2017/main" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+   <statement name="decision">
+      <meta>
+         <identification source="#source">
+            <FRBRWork>
+               <FRBRthis value="/akn/un/statement/deliberation/whoeb/2015-05-28/eb137-7/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whoeb/2015-05-28/eb137-7"/>
+               <FRBRdate date="2015-05-28" name=""/>
+               <FRBRauthor href="#whoeb" as="#author"/>
+               <FRBRcountry value="un"/>
+               <FRBRnumber value="eb137-7"/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value="/akn/un/statement/deliberation/whoeb/2015-05-28/eb137-7/eng@/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whoeb/2015-05-28/eb137-7/eng@"/>
+               <FRBRdate date="2015-05-28" name=""/>
+               <FRBRauthor href="#whoeb" as="#author"/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value="/akn/un/statement/deliberation/whoeb/2015-05-28/eb137-7/eng@/!main.xml"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whoeb/2015-05-28/eb137-7/eng@.xml"/>
+               <FRBRdate date="2023-08-04" name=""/>
+               <FRBRauthor href="#whoeb" as="#author"/>
+            </FRBRManifestation>
+         </identification>
+         <references source="#source">
+            <TLCEvent href="/akn/ontology/event/whoha/theSixtyNinthWorldHealthAssembly" eId="theSixtyNinthWorldHealthAssembly" showAs="the Sixty-ninth World Health Assembly"/>
+            <TLCOrganization eId="wfpExecutiveBoard" href="/akn/ontology/organization/un/wfpExecutiveBoard" showAs="Executive Board"/>
+            <TLCOrganization eId="worldHealthAssembly" href="/akn/ontology/organization/un/worldHealthAssembly" showAs="World Health Assembly"/>
+            <TLCTerm eId="havingConsidered" href="/akn/ontology/term/havingConsidered" showAs="having considered"/>
+            <TLCOrganization eId="director-general" href="/akn/ontology/organization/un/director-general" showAs="Director-General"/>
+            <TLCOrganization eId="faoprogrammecommittee" href="/akn/ontology/organization/un/faoprogrammecommittee" showAs="Programme"/>
+            <TLCOrganization eId="who" href="/akn/ontology/organization/un/who" showAs="WHO"/>
+            <TLCOrganization eId="organization" href="/akn/ontology/organization/un/organization" showAs="Organization"/>
+            <TLCEvent href="/akn/ontology/event/whoha/thirdMeeting" eId="thirdMeeting" showAs="Third meeting"/>
+            <TLCPerson eId="source" href="/akn/ontology/person/somebody" showAs="somebody"/>
+         </references>
+         <proprietary source="#source">
+            <akn4un:session>EB137</akn4un:session>
+         </proprietary>
+      </meta>
+      <preface>
+         <p>
+            <docNumber>EB137(7)</docNumber>
+            <docTitle>Strategic budget space allocation</docTitle>
+         </p>
+      </preface>
+      <preamble>
+         <formula name="enactingFormula">
+            <p>The <organization refersTo="#wfpExecutiveBoard" eId="organization_1">Executive Board</organization>,</p>
+         </formula>
+         <container name="havingConsidered">
+            <p>
+               <term refersTo="#havingConsidered" eId="term_1">having considered</term> the report by the Working Group on the Strategic Budget Space Allocation, <authorialNote marker="1" placement="bottom" eId="authorialNote_1">
+                  <p>Document EB137/6, Annex.</p>
+               </authorialNote> recommended to <event refersTo="#theSixtyNinthWorldHealthAssembly" eId="event_1">the Sixty-ninth <organization refersTo="#worldHealthAssembly" eId="organization_2">World Health Assembly</organization>
+               </event> the adoption of the following decision: <authorialNote marker="2" placement="bottom" eId="authorialNote_2">
+                  <p>See Annex for the financial and administrative implications for the Secretariat of the adoption of the decision.</p>
+               </authorialNote>
+            </p>
+         </container>
+      </preamble>
+      <mainBody>
+         <paragraph eId="para_1">
+            <intro eId="para_1__content">
+               <p>decided the following:</p>
+            </intro>
+            <subparagraph eId="para_1__subpara_1">
+               <num>(1)</num>
+               <content eId="para_1__subpara_1__content">
+                  <p>to welcome the report of the Working Group on the Strategic Budget Space Allocation and express its appreciation to the members of the Working Group for their thoroughness in reviewing the previous work and for developing a revised model in an objective and timely manner;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_2">
+               <num>(2)</num>
+               <content eId="para_1__subpara_2__content">
+                  <p>to endorse the proposed model recommended by the Working Group on the Strategic Budget Space Allocation;</p>
+               </content>
+            </subparagraph>
+            <list eId="para_1__subpara_3">
+               <num>(3)</num>
+               <intro eId="para_1__subpara_3__content">
+                  <p>to request the <organization refersTo="#director-general" eId="organization_4">Director-General</organization>, with respect to the endorsed model:</p>
+               </intro>
+               <point eId="para_1__subpara_3__list_a">
+                  <num>(a)</num>
+                  <content eId="para_1__subpara_3__list_a__content">
+                     <p>to implement the recommended model, over a period of three to four bienniums, and to minimize any negative budgetary impact at regional and country levels, particularly in the countries with the greatest need, in consultation with the regional directors, using the current allocation for technical cooperation at country level as the starting point;</p>
+                  </content>
+               </point>
+               <point eId="para_1__subpara_3__list_b">
+                  <num>(b)</num>
+                  <content eId="para_1__subpara_3__list_b__content">
+                     <p>to report every biennium on the implementation of the new model, as part of the programme budget reports, to the <organization refersTo="#wfpExecutiveBoard" eId="organization_5">Executive Board</organization> through its <organization refersTo="#faoprogrammecommittee" eId="organization_6">Programme</organization>, Budget and Administration Committee;</p>
+                  </content>
+               </point>
+               <point eId="para_1__subpara_3__list_c">
+                  <num>(c)</num>
+                  <content eId="para_1__subpara_3__list_c__content">
+                     <p>to conduct reviews at least every six years in order to assess the relevance of the model to country needs and its impact on the regional budget envelopes;</p>
+                  </content>
+               </point>
+            </list>
+            <subparagraph eId="para_1__subpara_4">
+               <num>(4)</num>
+               <content eId="para_1__subpara_4__content">
+                  <p>to further request the <organization refersTo="#director-general" eId="organization_7">Director-General</organization> to work with regional directors to strive towards the use of <organization refersTo="#who" eId="organization_8">WHO</organization> country budgets and the <organization refersTo="#organization" eId="organization_9">Organization</organization>’s social and intellectual capital to leverage additional resources in order to implement and sustain national priority programmes effectively.</p>
+               </content>
+            </subparagraph>
+         </paragraph>
+      </mainBody>
+      <conclusions>
+         <p>(<event refersTo="#thirdMeeting" eId="event_3">Third meeting</event>, <docDate date="2015-05-28">28 May 2015</docDate>)</p>
+      </conclusions>
+   </statement>
+</akomaNtoso>

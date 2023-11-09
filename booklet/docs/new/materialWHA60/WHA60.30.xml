@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns:akn4un="http://un.org/metadata" xmlns:eLUNa="https://cms.unov.org/eLuna/2017/main" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+   <statement name="resolution">
+      <meta>
+         <identification source="#source">
+            <FRBRWork>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-23/wha60_30/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-23/wha60_30"/>
+               <FRBRdate date="2007-05-23" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+               <FRBRcountry value="un"/>
+               <FRBRnumber value="wha60_30"/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-23/wha60_30/eng@/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-23/wha60_30/eng@"/>
+               <FRBRdate date="2007-05-23" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-23/wha60_30/eng@/!main.xml"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-23/wha60_30/eng@.xml"/>
+               <FRBRdate date="2023-09-13" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+            </FRBRManifestation>
+         </identification>
+         <references source="#source">
+            <TLCOrganization eId="worldHealthAssembly" href="/akn/ontology/organization/un/worldHealthAssembly" showAs="World Health Assembly"/>
+            <TLCOrganization eId="director-general" href="/akn/ontology/organization/un/director-general" showAs="Director-General"/>
+            <TLCTerm eId="recalling" href="/akn/ontology/term/recalling" showAs="recalling"/>
+            <TLCTerm eId="concerned" href="/akn/ontology/term/concerned" showAs="concerned"/>
+            <TLCTerm eId="conscious" href="/akn/ontology/term/conscious" showAs="conscious"/>
+            <TLCTerm eId="noting" href="/akn/ontology/term/noting" showAs="noting"/>
+            <TLCTerm eId="welcoming" href="/akn/ontology/term/welcoming" showAs="welcoming"/>
+            <TLCTerm eId="expresses" href="/akn/ontology/term/expresses" showAs="expresses"/>
+            <TLCTerm eId="encourages" href="/akn/ontology/term/encourages" showAs="encourages"/>
+            <TLCTerm eId="urges" href="/akn/ontology/term/urges" showAs="urges"/>
+            <TLCTerm eId="requests" href="/akn/ontology/term/requests" showAs="requests"/>
+            <TLCOrganization eId="states" href="/akn/ontology/organization/un/states" showAs="States"/>
+            <TLCOrganization eId="who" href="/akn/ontology/organization/un/who" showAs="WHO"/>
+            <TLCEvent href="/akn/ontology/event/whowha/eleventhPlenaryMeeting" eId="eleventhPlenaryMeeting" showAs="Eleventh plenary meeting"/>
+            <TLCOrganization eId="committeeB" href="/akn/ontology/organization/un/committeeB" showAs="Committee B"/>
+            <TLCPerson eId="source" href="/akn/ontology/person/somebody" showAs="somebody"/>
+         </references>
+      </meta>
+      <preface>
+         <p>
+            <docNumber>WHA60.30</docNumber>
+            <docTitle>Public health, innovation and intellectual property</docTitle>
+         </p>
+      </preface>
+      <preamble>
+         <formula name="enactingFormula">
+            <p>The Sixtieth <organization refersTo="#worldHealthAssembly" eId="organization_1">World Health Assembly</organization>,</p>
+         </formula>
+         <container name="recalling">
+            <p>
+               <term refersTo="#recalling" eId="term_1">Recalling</term> resolution <ref href="/akn/un/statement/deliberation/whowha/2006-05-27/wha59_24/!main">WHA59.24</ref>, creating an intergovernmental working group with the purpose of elaborating a draft global strategy and plan of action to provide a medium-term framework based on the recommendations of the Commission on Intellectual Property Rights, Innovation and Public Health, and to secure, inter alia, an enhanced and sustainable basis for needs-driven, essential health research and development relevant to diseases that disproportionately affect developing countries, proposing clear objectives and priorities for research and development, and estimating funding needs in this area ;</p>
+         </container>
+         <container name="concerned">
+            <p>
+               <term refersTo="#concerned" eId="term_2">Concerned</term> that communicable diseases account for approximately 50% of the burden of disease in developing countries, and that access to medicines, vaccines and diagnostic kits is hampered by, inter alia, inadequate health-care systems, lack of resources and prices that are beyond the reach of many in the developing world;</p>
+         </container>
+         <container name="conscious">
+            <p>
+               <term refersTo="#conscious" eId="term_3">Conscious</term> of the growing burden of disease and conditions that disproportionately affect developing countries, particularly those affecting women and children, including an upsurge in noncommunicable diseases;</p>
+         </container>
+         <container name="noting">
+            <p>
+               <term refersTo="#noting" eId="term_4">Noting</term> that the Doha Ministerial Declaration on the TRIPS Agreement and Public Health confirms that the Agreement does not and should not prevent Members from taking measures to protect public health;</p>
+         </container>
+         <container name="noting">
+            <p>
+               <term refersTo="#noting" eId="term_5">Noting</term> that intellectual property rights are an important incentive for the development of new health-care products;</p>
+         </container>
+         <container name="welcoming">
+            <p>
+               <term refersTo="#welcoming" eId="term_6">Welcoming</term> with enthusiasm the commitment of the <organization refersTo="#director-general" eId="organization_2">Director-General</organization> to the process spearheaded by the Intergovernmental Working Group on Public Health, Innovation and Intellectual Property,</p>
+         </container>
+      </preamble>
+      <mainBody>
+         <paragraph eId="para_1">
+            <num>1. </num>
+            <content eId="para_1__content">
+               <p>
+                  <term refersTo="#expresses" eId="term_7">EXPRESSES</term> appreciation to the <organization refersTo="#director-general" eId="organization_3">Director-General</organization> for her commitment and <term refersTo="#encourages" eId="term_8">encourages</term> her to guide the process to draw up a global strategy and plan of action that will provide a medium-term framework for needs-driven essential health research and development;</p>
+            </content>
+         </paragraph>
+         <paragraph eId="para_2">
+            <num>2. </num>
+            <content eId="para_2__content">
+               <p>
+                  <term refersTo="#urges" eId="term_9">URGES</term> Member <organization refersTo="#states" eId="organization_4">States</organization> to support fully and actively the Intergovernmental Working Group process and provide adequate resources to <organization refersTo="#who" eId="organization_5">WHO</organization>;</p>
+            </content>
+         </paragraph>
+         <paragraph eId="para_3">
+            <num>3. </num>
+            <intro eId="para_3__content">
+               <p>
+                  <term refersTo="#requests" eId="term_10">REQUESTS</term> the <organization refersTo="#director-general" eId="organization_6">Director-General</organization>:</p>
+            </intro>
+            <subparagraph eId="para_3__subpara_1">
+               <num>(1)</num>
+               <content eId="para_3__subpara_1__content">
+                  <p>to ensure technical and financial support to the Intergovernmental Working Group in order to facilitate completion of its tasks in time for its report to the Sixty-first <organization refersTo="#worldHealthAssembly" eId="organization_7">World Health Assembly</organization>;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_3__subpara_2">
+               <num>(2)</num>
+               <content eId="para_3__subpara_2__content">
+                  <p>t o provide as appropriate, upon request, and in collaboration with other competent international organizations, technical and policy support to countries that intend to make use of the flexibilities contained in the agreement on Trade-Related Aspects of Intellectual Property Rights and other international agreements in order to promote access to pharmaceutical products, <authorialNote marker="1" placement="bottom" eId="authorialNote_1">
+                        <p>The WTO General Council in its Decision of 30 August 2003 on Implementation of paragraph 6 of the Doha Declaration on the TRIPS Agreement and Public Health decided that “ ‘pharmaceutical product’ means any patented product, or products manufactured through a patented process, of the pharmaceutical sector needed to address the public health problems as recognized in paragraph 1 of the Declaration. It is understood that active ingredients necessary for its manufacture and diagnostic kits needed for its use would be included.</p>
+                     </authorialNote> and to implement the Doha Ministerial Declaration on the TRIPS Agreement and Public Health and other WTO instruments;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_3__subpara_3">
+               <num>(3)</num>
+               <content eId="para_3__subpara_3__content">
+                  <p>t o provide technical and financial support for regional consultative meetings in order to set regional priorities that will inform the work of the Intergovernmental Working Group;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_3__subpara_4">
+               <num>(4)</num>
+               <content eId="para_3__subpara_4__content">
+                  <p>to encourage the development of proposals for health-needs driven research and development for discussion at the Intergovernmental Working Group that covers a range of incentive mechanisms and includes also addressing the linkage betweenthe cost of research and development andthe price of medicines, vaccines, diagnostic kitsand other health-care products and a method for tailoring the optimal mix of incentives to a particular condition or product, with the object of addressing diseases that disproportionately affect developing countries;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_3__subpara_5">
+               <num>(5)</num>
+               <content eId="para_3__subpara_5__content">
+                  <p>to prepare background documents on each of the eight proposed elements of the plan of action, as identified by the Intergovernmental Working Group, including:</p>
+               </content>
+            </subparagraph>
+         </paragraph>• a matrix on ongoing activities and current gaps
+• a matrix on current proposals referring to key stakeholders
+• the financial implications of such proposals.
+</mainBody>
+      <conclusions>
+         <p>(<event refersTo="#eleventhPlenaryMeeting" eId="event_1">Eleventh plenary meeting</event>, <docDate date="2007-05-23">23 May 2007</docDate> –<organization refersTo="#committeeB" eId="organization_8">Committee B</organization>, fifth report)
+”</p>
+      </conclusions>
+   </statement>
+</akomaNtoso>

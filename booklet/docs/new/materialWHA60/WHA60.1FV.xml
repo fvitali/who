@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns:akn4un="http://un.org/metadata" xmlns:eLUNa="https://cms.unov.org/eLuna/2017/main" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+   <statement name="resolution">
+      <meta>
+         <identification source="#source">
+            <FRBRWork>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-18/wha60_1/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-18/wha60_1"/>
+               <FRBRdate date="2007-05-18" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+               <FRBRcountry value="un"/>
+               <FRBRnumber value="wha60_1"/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-18/wha60_1/eng@/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-18/wha60_1/eng@"/>
+               <FRBRdate date="2007-05-18" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-18/wha60_1/eng@/!main.xml"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-18/wha60_1/eng@.xml"/>
+               <FRBRdate date="2023-08-23" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+            </FRBRManifestation>
+         </identification>
+         <references source="#source">
+            <TLCOrganization eId="worldHealthAssembly" href="/akn/ontology/organization/un/worldHealthAssembly" showAs="World Health Assembly"/>
+            <TLCTerm eId="recalling" href="/akn/ontology/term/recalling" showAs="Recalling"/>
+            <TLCTerm eId="noting" href="/akn/ontology/term/noting" showAs="Noting"/>
+            <TLCTerm eId="recognizing" href="/akn/ontology/term/recognizing" showAs="Recognizing"/>
+            <TLCTerm eId="havingConsidered" href="/akn/ontology/term/havingConsidered" showAs="Having considered"/>
+            <TLCTerm eId="aware" href="/akn/ontology/term/aware" showAs="Aware"/>
+            <TLCTerm eId="affirms" href="/akn/ontology/term/affirms" showAs="AFFIRMS"/>
+            <TLCTerm eId="reaffirms" href="/akn/ontology/term/reaffirms" showAs="REAFFIRMS"/>
+            <TLCTerm eId="decides" href="/akn/ontology/term/decides" showAs="DECIDES"/>
+            <TLCTerm eId="requests" href="/akn/ontology/term/requests" showAs="REQUESTS"/>
+            <TLCTerm eId="takingIntoAccount" href="/akn/ontology/term/takingIntoAccount" showAs="taking into account"/>
+            <TLCOrganization eId="director-general" href="/akn/ontology/organization/un/director-general" showAs="Director-General"/>
+            <TLCOrganization eId="who" href="/akn/ontology/organization/un/who" showAs="WHO"/>
+            <TLCOrganization eId="unSecretariat" href="/akn/ontology/organization/un/unSecretariat" showAs="Secretariat"/>
+            <TLCOrganization eId="states" href="/akn/ontology/organization/un/states" showAs="States"/>
+            <TLCOrganization eId="wfpExecutiveBoard" href="/akn/ontology/organization/un/wfpExecutiveBoard" showAs="Executive Board"/>
+            <TLCEvent href="/akn/ontology/event/whoha/eighthPlenaryMeeting" eId="eighthPlenaryMeeting" showAs="Eighth plenary meeting"/>
+            <TLCOrganization eId="committeeA" href="/akn/ontology/organization/un/committeeA" showAs="Committee A"/>
+            <TLCPerson eId="source" href="/akn/ontology/person/somebody" showAs="somebody"/>
+         </references>
+      </meta>
+      <preface>
+         <p>
+            <docNumber>WHA60.1</docNumber>
+            <docTitle>Smallpox eradication: destruction of variola virus stocks</docTitle>
+         </p>
+      </preface>
+      <preamble>
+         <formula name="enactingFormula">
+            <p>The Sixtieth <organization refersTo="#worldHealthAssembly" eId="organization_1">World Health Assembly</organization>,</p>
+         </formula>
+         <container name="recalling">
+            <p>
+               <term refersTo="#recalling" eId="term_1">Recalling</term> resolution <ref href="/akn/un/statement/deliberation/whowha/0000-00-00/wha49_10/!main">WHA49.10</ref>, which recommended a date for the destruction of the remaining stocks of variola virus, subject to a decision by the Health Assembly, and resolution <ref href="/akn/un/statement/deliberation/whowha/0000-00-00/wha52_10/!main">WHA52.10</ref>, which authorized temporary retention of the virus stocks to a later date, subject to annual review by the Health Assembly;</p>
+         </container>
+      </preamble>
+      <mainBody>
+               <p>decided in resolution <ref href="/akn/un/statement/deliberation/whowha/2002-05-18/wha55_15/!main">WHA55.15</ref> to authorize further, temporary, retention subject to all approved research being outcome-oriented, time-limited and periodically reviewed and to a proposed new date for destruction being set when research accomplishments and outcomes allowed consensus to be reached on the timing of destruction of variola virus stocks;</p>
+<p><term refersTo="#noting" eId="term_3">Noting</term> that authorization was granted to permit essential research for global public-health purposes, including further international research into antiviral agents and improved and safer vaccines, and for high priority investigations of the genetic structure of the virus and the pathogenesis of smallpox;
+</p>
+        
+        <p><term refersTo="#noting" eId="term_4">Noting</term> that resolution <ref href="/akn/un/statement/deliberation/whowha/0000-00-00/wha52_10/!main">WHA52.10</ref> requested the <organization refersTo="#director-general" eId="organization_2">Director-General</organization> to appoint a group of experts thatwould establish what research, if any, must be carried out in order to reach global consensus on the timing for destruction of existing variola virus stocks;</p>
+<p><term refersTo="#recalling" eId="term_5">Recalling</term> the decisions of previous Health Assemblies that the remaining stocks of the variola virus should be destroyed;</p>
+<p><term refersTo="#recognizing" eId="term_6">Recognizing</term> that the destruction of all variola virus stocks is an irrevocable event and that the decision of when to do so must be made with great care;</p>
+<p><term refersTo="#recalling" eId="term_7">Recalling</term> resolution <ref href="/akn/un/statement/deliberation/whowha/2002-05-18/wha55_16/!main">WHA55.16</ref>, which called for a global public-health response to natural occurrence, accidental release or deliberate use of biological and chemical agents or radionuclear material that affect health;</p>
+<p>Further <term refersTo="#recognizing" eId="term_8">recognizing</term> that unknown stocks of livevariola virus might exist, and that the deliberate or accidental release of any smallpox viruses would be a catastrophic event for the global community;</p>
+<p><term refersTo="#havingConsidered" eId="term_9">Having considered</term> the report on smallpox eradication: destruction of variola virus stocks and the report of the eighth meeting of the <organization refersTo="#who" eId="organization_3">WHO</organization> Advisory Committee on Variola Virus Research; <authorialNote marker="1" placement="bottom" eId="authorialNote_1">
+            <p>Documents A60/9 and A60/40 respectively.</p>
+         </authorialNote></p>
+         <p><term refersTo="#noting" eId="term_10">Noting</term> with satisfaction the considerable progress achieved in the development of antiviral agents, improved and safer vaccines, and sensitive and specific diagnostic tests, and in sequencing of entire genomes of viruses from numerous different strains;</p>
+<p><term refersTo="#aware" eId="term_11">Aware</term> that no antiviral agents for smallpox have been licensed, that live variola virus will be needed to ensure efficacy testing in vitro, and that further refinement of the animal model might be needed to make it more suitable for efficacy testing of these agents;</p>
+<p>Further <term refersTo="#noting" eId="term_12">noting</term> that the <organization refersTo="#who" eId="organization_4">WHO</organization>-led inspections in 2005 of the two authorized repositories reaffirmed thatthe safety and security of the virus stocks are satisfactory;</p>
+<p><term refersTo="#noting" eId="term_13">Noting</term> that the <organization refersTo="#who" eId="organization_5">WHO</organization> Advisory Committee on Variola Virus Research at its seventh meeting perceived an urgent need to review all proposals for further research using live variola virus against the considerable progress made to date; <authorialNote marker="2" placement="bottom" eId="authorialNote_2">
+            <p>See document A59/10.</p>
+         </authorialNote></p>
+<p>Further <term refersTo="#noting" eId="term_14">noting</term> that the <organization refersTo="#unSecretariat" eId="organization_6">Secretariat</organization>, as requested by the <organization refersTo="#who" eId="organization_7">WHO</organization> Advisory Committee, has identified a format for research proposals and has established a protocol and time frame for their submission to the Committee for its consideration, and that approved research is reported to <organization refersTo="#who" eId="organization_8">WHO</organization> according to an established protocol,
+</p>
+        
+<paragraph  eId="para_1">
+  <num>1.</num>
+  <content><p><term refersTo="#affirms" eId="term_15">STRONGLY REAFFIRMS</term> the decisions of previous Health Assemblies that the remaining stocks of variola virus should be destroyed;</p></content>
+</paragraph>
+<paragraph  eId="para_1">
+  <num>2.</num>
+  <intro>FURTHER <term refersTo="#reaffirms" eId="term_16">REAFFIRMS</term>:</intro>
+  <subparagraph eId="para_2__subpara_1">
+               <num>(1)</num>
+               <content eId="para_2__subpara_1__content">
+                  <p>the need to reach consensus on a proposed new date for the destruction of variola virus stocks, when research outcomes crucial to an improved public‑health response to an outbreak so permit;</p>
+               </content>
+  </subparagraph>
+  <subparagraph eId="para_2__subpara_2">
+               <num>(2)</num>
+               <content eId="para_2__subpara_2__content">
+                  <p>the decision in resolution <ref href="/akn/un/statement/deliberation/whowha/2002-05-18/wha55_15/!main">WHA55.15</ref> (to continue the work of the Advisory Committee on Variola Virus Research with respect to the research involving variola virus stocks and to ensure that the research programme is conducted in an open and transparent manner) that the research programme shall be conducted in an open and transparent manner only with the agreement and under the control of <organization refersTo="#who" eId="organization_9">WHO</organization>;</p>
+               </content>
+  </subparagraph>
+  </paragraph>
+         <paragraph eId="para_3">
+            <num>3. </num>
+            <content eId="para_3__content">
+               <p>
+                  <term refersTo="#decides" eId="term_17">DECIDES</term> to include a substantive item: “Smallpox eradication: destruction of variola virus stocks” on the provisional agendaofthe Sixty-fourth <organization refersTo="#worldHealthAssembly" eId="organization_10">World Health Assembly</organization>;</p>
+            </content>
+         </paragraph>
+         <paragraph eId="para_4">
+            <num>4. </num>
+            <intro eId="para_4__content">
+               <p>
+                  <term refersTo="#requests" eId="term_18">REQUESTS</term> the <organization refersTo="#director-general" eId="organization_11">Director-General</organization>:</p>
+            </intro>
+            <subparagraph eId="para_4__subpara_1">
+               <num>(1)</num>
+               <content eId="para_4__subpara_1__content">
+                  <p>to undertake a major review in 2010 ofthe results of the research undertaken, currently under way, and the plans and requirements for further essential research for global public health purposes, <term refersTo="#takingIntoAccount" eId="term_19">taking into account</term> the recommendations of the <organization refersTo="#who" eId="organization_12">WHO</organization> Advisory Committee on Variola Virus Research, so that the Sixty-fourth <organization refersTo="#worldHealthAssembly" eId="organization_13">World Health Assembly</organization> mayreach global consensus on the timing ofthe destruction of existing variola virus stocks;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_4__subpara_2">
+               <num>(2)</num>
+               <content eId="para_4__subpara_2__content">
+                  <p>to continue the work of the <organization refersTo="#who" eId="organization_14">WHO</organization> Advisory Committee on Variola Virus Research, and to disseminate its recommendations more widely to the scientific community;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_4__subpara_3">
+               <num>(3)</num>
+               <content eId="para_4__subpara_3__content">
+                  <p>to review the membership of the <organization refersTo="#who" eId="organization_15">WHO</organization> Advisory Committee and the representation of advisers and observers at meetings of this Committee, in order to ensure balanced geographical representation, with the inclusion of experts from developing countries and substantial representation of public-health experts, and the independence of the members of this Committee from any conflict of interest;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_4__subpara_4">
+               <num>(4)</num>
+               <content eId="para_4__subpara_4__content">
+                  <p>to ensure that approved research proposals, research outcomes and the benefits of this research are made available to all Member <organization refersTo="#states" eId="organization_16">States</organization>;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_4__subpara_5">
+               <num>(5)</num>
+               <content eId="para_4__subpara_5__content">
+                  <p>to maintain biannual inspections of the two authorized repositories in order to ensure that conditions of storage of the virus and of research conducted in the laboratories meet the highest requirements for biosafety and biosecurity; inspection mission-reports should be available for public information after appropriate scientific and security redaction;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_4__subpara_6">
+               <num>(6)</num>
+               <content eId="para_4__subpara_6__content">
+                  <p>to develop continually the operational framework for <organization refersTo="#who" eId="organization_17">WHO</organization>’s smallpox vaccine reserve;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_4__subpara_7">
+               <num>(7)</num>
+               <content eId="para_4__subpara_7__content">
+                  <p>to continue to report annually on progress in the research programme, biosafety, biosecurity and related issues to the Health Assembly, through the <organization refersTo="#wfpExecutiveBoard" eId="organization_18">Executive Board</organization>, and on implementation of the recommendations of the <organization refersTo="#who" eId="organization_19">WHO</organization> Advisory Committee on Variola Virus Research accepted by the <organization refersTo="#director-general" eId="organization_20">Director-General</organization>;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_4__subpara_8">
+               <num>(8)</num>
+               <content eId="para_4__subpara_8__content">
+                  <p>to ensure that any research undertaken does not involve genetic engineering of the variola virus;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_4__subpara_9">
+               <num>(9)</num>
+               <content eId="para_4__subpara_9__content">
+                  <p>to ensure that the two authorized repositories of live virus, and any other institution that has fragments of variola virus DNA, distribute such DNA only for purposes of research on diagnostics, treatment and vaccines, in accordance with recommendations of the <organization refersTo="#who" eId="organization_21">WHO</organization> Advisory Committee on Variola Virus Research;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_4__subpara_10">
+               <num>(10)</num>
+               <content eId="para_4__subpara_10__content">
+                  <p>to submit an annual detailed report to the Health Assembly, through the <organization refersTo="#wfpExecutiveBoard" eId="organization_22">Executive Board</organization>, on the research that has been completed, theresults of such research, research being undertaken, and research being planned at the two authorized repositories;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_4__subpara_11">
+               <num>(11)</num>
+               <content eId="para_4__subpara_11__content">
+                  <p>to submit to the Sixty-first <organization refersTo="#worldHealthAssembly" eId="organization_23">World Health Assembly</organization> a report on the legal status of the variola virus strains held at the two repositories with respect to their ownership;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_4__subpara_12">
+               <num>(12)</num>
+               <content eId="para_4__subpara_12__content">
+                  <p>to submit a report to the Sixty-first <organization refersTo="#worldHealthAssembly" eId="organization_24">World Health Assembly</organization>, through the <organization refersTo="#wfpExecutiveBoard" eId="organization_25">Executive Board</organization>, on measures thatpromote inMember <organization refersTo="#states" eId="organization_26">States</organization> the widest and most equitable access possible to the outcomes of the research, including antiviral agents, vaccines and diagnostic tools.</p>
+               </content>
+            </subparagraph>
+         </paragraph>
+      </mainBody>
+      <conclusions>
+         <p>(<event refersTo="#eighthPlenaryMeeting" eId="event_1">Eighth plenary meeting</event>, <docDate date="2007-05-18">18 May 2007</docDate> –<organization refersTo="#committeeA" eId="organization_27">Committee A</organization>, first report)</p>
+      </conclusions>
+   </statement>
+</akomaNtoso>

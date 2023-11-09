@@ -1,0 +1,201 @@
+	@import url('//fonts.googleapis.com/css?family=Lato');
+	@import url('//fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+	@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap');
+
+@media only screen {
+
+	html,
+	body,
+	#wrapper {
+		height: 100%;
+		margin: 0;
+		padding: 0;
+		flex: 1;
+		display: flex;
+		flex-flow: column;
+		overflow: hidden;
+		font-family: "Lato", tahoma, sans-serif !important; 
+	}
+}
+
+#left p, #left h1, #left h2, #left h3, #left  blockquote {
+	font-family: "Lato", tahoma, sans-serif !important; 
+}
+
+#infoPane p {
+	font-size: 90%;
+}
+#infoPane h3 {
+	font-size: 110%;
+}
+
+#main {
+  flex: 1;
+  overflow: hidden;
+}
+#top {
+  background: #1f132d;
+  height: 3rem;/* for snippet demo*/
+}
+.scroll-col {
+  overflow-y: auto;
+  overflow-x: hidden; 
+  /*height: 100%;  used h-100 class instead*/
+}
+
+.scroll-always {
+  overflow-y: scroll;
+  overflow-x: hidden; 
+  /*height: 100%;  used h-100 class instead*/
+}
+
+
+#whole {
+	display: none; 
+}
+		
+.pointer {
+	cursor: pointer; 
+}
+
+.entityContainer ul {
+    display: block;
+	overflow-x: auto;
+    padding: 0px;
+    white-space: nowrap;
+}
+/* https://stackoverflow.com/questions/10809995/css-disable-text-selection/15273197 */
+.disable-select {
+  -webkit-user-select: none;  
+  -moz-user-select: none;    
+  -ms-user-select: none;      
+  user-select: none;
+}
+
+
+
+
+
+		.ug-border {
+			border: solid rgb(220,220,220) 1px;
+			padding: 10px;
+			margin-bottom: 15px; 
+		}
+		.ug-border-notop {
+			border-top: none;
+		}
+		
+		.tab-pane {
+			min-height: 100px; 
+		}
+		
+		.breath {
+			margin-top: 15px;
+		}
+		
+.rangeExtreme {
+	font-style:italic;
+	font-size: 0.8rem;
+}
+
+
+	figure {
+		display: block; 
+		max-width: 70%;
+		margin: 2em auto; 
+	}
+	figure img {
+		max-width: 100%; 
+	}
+	figcaption {
+		display: block; 
+		max-width: 100%; 
+	}
+
+
+
+		/* Effect for on/off sliders */
+		/* https://www.w3schools.com/howto/howto_css_switch.asp  */
+
+		.switch {
+			position: relative;
+			display: inline-block;
+			width: 2.0em;
+			height: 1.2em;
+		}
+
+		.switch input {
+		  opacity: 0;
+		  width: 0;
+		  height: 0;
+		}
+
+		.slider {
+		  position: absolute;
+		  cursor: pointer;
+		  top: 0;
+		  left: 0;
+		  right: 0;
+		  bottom: 0;
+		  background-color: #ccc;
+		  -webkit-transition: .4s;
+		  transition: .4s;
+		}
+
+		.slider:before {
+		  position: absolute;
+		  content: "";
+		  height: 0.8em;
+		  width: 0.8em;
+		  left: 0.13em;
+		  bottom: 0.2em;
+		  background-color: white;
+		  -webkit-transition: .4s;
+		  transition: .4s;
+		}
+
+		input:checked + .slider {
+		  background-color: #2196F3;
+		}
+
+		input:focus + .slider {
+		  box-shadow: 0 0 1px #2196F3;
+		}
+
+		input:checked + .slider:before {
+		  -webkit-transform: translateX(0.85em);
+		  -ms-transform: translateX(0.85em);
+		  transform: translateX(0.85em);
+		}
+
+		.slider.round {
+		  border-radius: 1.7em;
+		}
+
+		.slider.round:before {
+		  border-radius: 50%;
+		}
+
+.bigbox {
+    background-color: #e9ecef;
+    border-radius: 0.3rem;
+    display: flex;
+}
+
+.flexCC {
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+

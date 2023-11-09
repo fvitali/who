@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns:akn4un="http://un.org/metadata" xmlns:eLUNa="https://cms.unov.org/eLuna/2017/main" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+   <statement name="resolution">
+      <meta>
+         <identification source="#source">
+            <FRBRWork>
+               <FRBRthis value="/akn/un/statement/deliberation/whoeb/2018-01-26/eb142_r5/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whoeb/2018-01-26/eb142_r5"/>
+               <FRBRdate date="2018-01-26" name=""/>
+               <FRBRauthor href="#whoeb" as="#author"/>
+               <FRBRcountry value="un"/>
+               <FRBRnumber value="eb142_r5"/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value="/akn/un/statement/deliberation/whoeb/2018-01-26/eb142_r5/eng@/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whoeb/2018-01-26/eb142_r5/eng@"/>
+               <FRBRdate date="2018-01-26" name=""/>
+               <FRBRauthor href="#whoeb" as="#author"/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value="/akn/un/statement/deliberation/whoeb/2018-01-26/eb142_r5/eng@/!main.xml"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whoeb/2018-01-26/eb142_r5/eng@.xml"/>
+               <FRBRdate date="2023-08-23" name=""/>
+               <FRBRauthor href="#whoeb" as="#author"/>
+            </FRBRManifestation>
+         </identification>
+         <references source="#source">
+            <TLCOrganization eId="who" href="/akn/ontology/organization/un/who" showAs="WHO"/>
+            <TLCOrganization eId="wfpExecutiveBoard" href="/akn/ontology/organization/un/wfpExecutiveBoard" showAs="Executive Board"/>
+            <TLCTerm eId="havingConsidered" href="/akn/ontology/term/havingConsidered" showAs="Having considered"/>
+            <TLCTerm eId="recommends" href="/akn/ontology/term/recommends" showAs="RECOMMENDS"/>
+            <TLCOrganization eId="worldHealthAssembly" href="/akn/ontology/organization/un/worldHealthAssembly" showAs="World Health Assembly"/>
+            <TLCEvent href="/akn/ontology/event/whoha/tenthMeeting" eId="tenthMeeting" showAs="Tenth meeting"/>
+            <TLCPerson eId="source" href="/akn/ontology/person/somebody" showAs="somebody"/>
+         </references>
+         <proprietary source="#source">
+            <akn4un:session>EB142</akn4un:session>
+         </proprietary>
+      </meta>
+      <preface>
+         <p>
+            <docNumber>EB142.R5</docNumber>
+            <docTitle>Draft <organization refersTo="#who" eId="organization_1">WHO</organization> global action plan on physical activity 2018−2030 <authorialNote marker="1" placement="bottom" eId="authorialNote_1">
+                  <p>See Annex 1, and Annex 5 for the financial and administrative implications for the Secretariat of the adoption of this resolution.</p>
+               </authorialNote>
+            </docTitle>
+         </p>
+      </preface>
+      <preamble>
+         <formula name="enactingFormula">
+            <p>The <organization refersTo="#wfpExecutiveBoard" eId="organization_2">Executive Board</organization>,</p>
+         </formula>
+         <container name="havingConsidered">
+            <p>
+               <term refersTo="#havingConsidered" eId="term_1">Having considered</term> the report on physical activity for health, <authorialNote marker="2" placement="bottom" eId="authorialNote_2">
+                  <p>Document EB142 / 18 .</p>
+               </authorialNote>
+            </p>
+         </container>
+      </preamble>
+      <mainBody>
+         <paragraph eId="para_1">
+            <content eId="para_1__content">
+               <p>
+                  <term refersTo="#recommends" eId="term_2">RECOMMENDS</term> to the Seventy - first <organization refersTo="#worldHealthAssembly" eId="organization_3">World Health Assembly</organization> the adoption of the following resolution : </p>
+               <blockContainer>
+                  <componentRef eId="para_1__component_1" src="#component_1" showAs="resolution"/>
+               </blockContainer>
+            </content>
+         </paragraph>
+      </mainBody>
+      <conclusions>
+         <p>(<event refersTo="#tenthMeeting" eId="event_1">Tenth meeting</event>, <docDate date="2018-01-26">26 January 2018</docDate>)</p>
+      </conclusions>
+      <components>
+         <component eId="component_1">
+            <statement name="resolution">
+               <meta>
+                  <identification source="#source">
+                     <FRBRWork>
+                        <FRBRthis value="/akn/un/statement/deliberation/whoeb/2018-01-26/eb142_r5/!main/!component_1"/>
+                        <FRBRuri value="/akn/un/statement/deliberation/whoeb/2018-01-26/eb142_r5"/>
+                        <FRBRdate date="2018-01-26" name=""/>
+                        <FRBRauthor href="#whowha" as="#author"/>
+                        <FRBRcountry value="un"/>
+                        <FRBRnumber value="eb142_r5"/>
+                     </FRBRWork>
+                     <FRBRExpression>
+                        <FRBRthis value="/akn/un/statement/deliberation/whoeb/2018-01-26/eb142_r5/eng@/!main"/>
+                        <FRBRuri value="/akn/un/statement/deliberation/whoeb/2018-01-26/eb142_r5/eng@"/>
+                        <FRBRdate date="2018-01-26" name=""/>
+                        <FRBRauthor href="#whowha" as="#author"/>
+                        <FRBRlanguage language="eng"/>
+                     </FRBRExpression>
+                     <FRBRManifestation>
+                        <FRBRthis value="/akn/un/statement/deliberation/whoeb/2018-01-26/eb142_r5/eng@/!main.xml"/>
+                        <FRBRuri value="/akn/un/statement/deliberation/whoeb/2018-01-26/eb142_r5/eng@.xml"/>
+                        <FRBRdate date="2023-08-23" name=""/>
+                        <FRBRauthor href="#whowha" as="#author"/>
+                     </FRBRManifestation>
+                  </identification>
+                  <references source="#source">
+                     <TLCOrganization eId="component_1__worldHealthAssembly" href="/akn/ontology/organization/un/worldHealthAssembly" showAs="World Health Assembly"/>
+                     <TLCOrganization eId="component_1__unga" href="/akn/ontology/organization/un/unga" showAs="the General Assembly"/>
+                     <TLCOrganization eId="component_1__unSecretariat" href="/akn/ontology/organization/un/unSecretariat" showAs="Secretariat"/>
+                     <TLCOrganization eId="component_1__states" href="/akn/ontology/organization/un/states" showAs="States"/>
+                     <TLCOrganization eId="component_1__who" href="/akn/ontology/organization/un/who" showAs="WHO"/>
+                     <TLCTerm eId="component_1__havingConsidered" href="/akn/ontology/term/havingConsidered" showAs="Having considered"/>
+                     <TLCTerm eId="component_1__concerned" href="/akn/ontology/term/concerned" showAs="Concerned"/>
+                     <TLCTerm eId="component_1__acknowledging" href="/akn/ontology/term/acknowledging" showAs="Acknowledging"/>
+                     <TLCTerm eId="component_1__recalling" href="/akn/ontology/term/recalling" showAs="Recalling"/>
+                     <TLCTerm eId="component_1__adopted" href="/akn/ontology/term/adopted" showAs="adopted"/>
+                     <TLCTerm eId="component_1__recognizing" href="/akn/ontology/term/recognizing" showAs="Recognizing"/>
+                     <TLCTerm eId="component_1__bearingInMind" href="/akn/ontology/term/bearingInMind" showAs="bearing in mind"/>
+                     <TLCTerm eId="component_1__endorses" href="/akn/ontology/term/endorses" showAs="ENDORSES"/>
+                     <TLCTerm eId="component_1__urges" href="/akn/ontology/term/urges" showAs="URGES"/>
+                     <TLCTerm eId="component_1__invites" href="/akn/ontology/term/invites" showAs="INVITES"/>
+                     <TLCTerm eId="component_1__requests" href="/akn/ontology/term/requests" showAs="REQUESTS"/>
+                     <TLCTerm eId="component_1__takingIntoAccount" href="/akn/ontology/term/takingIntoAccount" showAs="taking into account"/>
+                     <TLCPerson eId="component_1__source" href="/akn/ontology/person/somebody" showAs="somebody"/>
+                  </references>
+               </meta>
+               <preface>
+                  <p>The Seventy - first <organization refersTo="#component_1__worldHealthAssembly" eId="component_1__organization_1">World Health Assembly</organization>
+                  </p>
+               </preface>
+               <preamble>
+                  <p>,
+</p>
+                  <container name="havingConsidered">
+                     <p>
+                        <term refersTo="#component_1__havingConsidered" eId="component_1__term_1">Having considered</term> the report on physical activity for health;</p>
+                  </container>
+                  <container name="concerned">
+                     <p>
+                        <term refersTo="#component_1__concerned" eId="component_1__term_2">Concerned</term> by the rapidly growing burden of noncommunicable diseases, mental health disorders and other mental health conditions globally, and its negative impact on health, well-being, quality of life, and socioeconomic development;</p>
+                  </container>
+                  <container name="acknowledging">
+                     <p>
+                        <term refersTo="#component_1__acknowledging" eId="component_1__term_3">Acknowledging</term> that increasing physical activity and reducing sedentary behaviour can prevent at least 3. 2 million noncommunicable disease-related mortalities globally per year, <authorialNote marker="3" placement="bottom" eId="component_1__authorialNote_3">
+                           <p>Global Status Report on Noncommunicable Diseases 2014. Geneva: World Health Organization; 2014, page 33.</p>
+                        </authorialNote> reduce related disability and morbidity and the financial burden on health systems, and increase the number of healthy life years;</p>
+                  </container>
+                  <container name="recalling">
+                     <p>
+                        <term refersTo="#component_1__recalling" eId="component_1__term_4">Recalling</term> the Political Declaration of the High - level Meeting of <organization refersTo="#component_1__unga" eId="component_1__organization_2">the General Assembly</organization> on the Prevention and Control of Non-communicable Diseases (2011), <authorialNote marker="4" placement="bottom" eId="component_1__authorialNote_4">
+                           <p>United Nations General Assembly resolution 66/2 (2011).</p>
+                        </authorialNote> the outcome document of the high-level meeting of <organization refersTo="#component_1__unga" eId="component_1__organization_3">the General Assembly</organization> on the comprehensive review and assessment of the progress achieved in the prevention and control of non-communicable diseases (2014), <authorialNote marker="5" placement="bottom" eId="component_1__authorialNote_5">
+                           <p>General Assembly resolution 68/300 (2014).</p>
+                        </authorialNote> the 2030 Agenda for Sustainable Development, <authorialNote marker="6" placement="bottom" eId="component_1__authorialNote_6">
+                           <p>General Assembly resolution 70/1 (2015).</p>
+                        </authorialNote>
+                     </p>
+                  </container>
+                  <p>
+Health Assembly resolutions WHA51. 18 (1998) and WHA53. 17 (2000) on the prevention and control of noncommunicable diseases, WHA55. 23 (2002) on diet, physical activity and health, WHA57. 17 (2004) on the global strategy on diet, physical activity and health, and <ref href="/akn/un/statement/deliberation/whowha/2013-05-27/wha66_10/!main">WHA66.10</ref> (2013) on follow-up to the Political Declaration of the High-level Meeting of <organization refersTo="#component_1__unga" eId="component_1__organization_4">the General Assembly</organization> on the Prevention and Control of Non-communicable Diseases, which endorsed the global action plan for the prevention and control of noncommunicable diseases 2013–2020, and which <term refersTo="#component_1__adopted" eId="component_1__term_5">adopted</term> a voluntary global target to, by 2025, achieve a 10% relative reduction in prevalence of insufficient physical activity;
+</p>
+                  <container name="acknowledging">
+                     <p>
+                        <term refersTo="#component_1__acknowledging" eId="component_1__term_6">Acknowledging</term> the <organization refersTo="#component_1__unSecretariat" eId="component_1__organization_5">Secretariat</organization>’s work in providing Member <organization refersTo="#component_1__states" eId="component_1__organization_6">States</organization> with tools, including <organization refersTo="#component_1__who" eId="component_1__organization_7">WHO</organization>’s global Noncommunicable Diseases Progress Monitor, and guidelines to promote physical activity, <authorialNote marker="7" placement="bottom" eId="component_1__authorialNote_7">
+                           <p>Global recommendations on physical activity for health. Geneva: World Health Organization; 2010 ( http://www.who.int/dietphysicalactivity/publications/9789241599979/en/ , accessed 22 January 2018).</p>
+                        </authorialNote> and further <term refersTo="#component_1__acknowledging" eId="component_1__term_7">acknowledging</term> that supplementary tools and guidelines may need to be developed to assist Member <organization refersTo="#component_1__states" eId="component_1__organization_8">States</organization> to scale up their actions in increasing physical activity and reducing sedentary behaviour;</p>
+                  </container>
+                  <container name="recognizing">
+                     <p>
+                        <term refersTo="#component_1__recognizing" eId="component_1__term_8">Recognizing</term> the efforts made by Member <organization refersTo="#component_1__states" eId="component_1__organization_9">States</organization> and all relevant stakeholders in recent years to promote physical activity and reduce sedentary behaviour as part of broader efforts to prevent and control noncommunicable diseases and improve mental health;</p>
+                  </container>
+                  <container name="recognizing">
+                     <p>
+                        <term refersTo="#component_1__recognizing" eId="component_1__term_9">Recognizing</term> also the need to further scale up actions and enable environments to facilitate physical activity and reduce sedentary behaviour throughout the life course, <term refersTo="#component_1__bearingInMind" eId="component_1__term_10">bearing in mind</term> different national contexts, priorities and policy opportunities,</p>
+                  </container>
+               </preamble>
+               <mainBody>
+                  <paragraph eId="component_1__para_1">
+                     <num>1. </num>
+                     <content eId="component_1__para_1__content">
+                        <p>
+                           <term refersTo="#component_1__endorses" eId="component_1__term_11">ENDORSES</term> the global action plan on physical activity 2018–2030;</p>
+                     </content>
+                  </paragraph>
+                  <paragraph eId="component_1__para_2">
+                     <num>2. </num>
+                     <content eId="component_1__para_2__content">
+                        <p>ADOPTS the voluntary global target of a 15% relative reduction, using a baseline of 2016, in the global prevalence of physical inactivity in adolescents <authorialNote marker="8" placement="bottom" eId="component_1__authorialNote_8">
+                              <p>Insufficient physical activity among adolescents (aged 11–17 years) is defined as less than 60 minutes of moderate to vigorous intensity activity daily.</p>
+                           </authorialNote> and in adults <authorialNote marker="9" placement="bottom" eId="component_1__authorialNote_9">
+                              <p>Insufficient physical activity among adults (aged 18+ years) is defined as less than 150 minutes of moderate-intensity activity per week.</p>
+                           </authorialNote> by 2030, as an extension of the existing voluntary global target of a 10% relative reduction in prevalence of insufficient physical activity by 2025; <authorialNote marker="10" placement="bottom" eId="component_1__authorialNote_10">
+                              <p>See resolutionWHA66.10.</p>
+                           </authorialNote>
+                        </p>
+                     </content>
+                  </paragraph>
+                  <paragraph eId="component_1__para_3">
+                     <num>3. </num>
+                     <content eId="component_1__para_3__content">
+                        <p>
+                           <term refersTo="#component_1__urges" eId="component_1__term_12">URGES</term> Member <organization refersTo="#component_1__states" eId="component_1__organization_10">States</organization>
+                           <authorialNote marker="11" placement="bottom" eId="component_1__authorialNote_11">
+                              <p>And, where applicable, regional economic integration organizations.</p>
+                           </authorialNote> to implement the global action plan on physical activity 2018 − 2030, according to national contexts and priorities, and to monitor and report on progress regularly in order to improve programme performance;</p>
+                     </content>
+                  </paragraph>
+                  <paragraph eId="component_1__para_4">
+                     <num>4. </num>
+                     <content eId="component_1__para_4__content">
+                        <p>
+                           <term refersTo="#component_1__invites" eId="component_1__term_13">INVITES</term> relevant national, regional and international partners along with other relevant stakeholders, including the private sector, to implement the global action plan on physical activity 2018 − 2030 and contribute to the achievement of its strategic objectives, aligned with domestic plans or strategies;</p>
+                     </content>
+                  </paragraph>
+                  <paragraph eId="component_1__para_5">
+                     <num>5. </num>
+                     <intro eId="component_1__para_5__content">
+                        <p>
+                           <term refersTo="#component_1__requests" eId="component_1__term_14">REQUESTS</term> the Director - General :</p>
+                     </intro>
+                     <subparagraph eId="component_1__para_5__subpara_1">
+                        <num>(1)</num>
+                        <content eId="component_1__para_5__subpara_1__content">
+                           <p>to implement the actions for the <organization refersTo="#component_1__unSecretariat" eId="component_1__organization_11">Secretariat</organization> in the global action plan on physical activity 2018 – 2030, including providing necessary support to Member <organization refersTo="#component_1__states" eId="component_1__organization_12">States</organization> for implementation of the plan, in collaboration with other relevant partners;</p>
+                        </content>
+                     </subparagraph>
+                     <subparagraph eId="component_1__para_5__subpara_2">
+                        <num>(2)</num>
+                        <content eId="component_1__para_5__subpara_2__content">
+                           <p>to finalize, in consultation with Member <organization refersTo="#component_1__states" eId="component_1__organization_13">States</organization> and other relevant stakeholders, a monitoring and evaluation framework on the implementation of the global action plan on physical activity 2018–2030, including a recommended set of process and impact indicators,by the end of 2018, <term refersTo="#component_1__takingIntoAccount" eId="component_1__term_15">taking into account</term> the existing monitoring framework and indicators at the global and regional levels, and to publish it on the <organization refersTo="#component_1__who" eId="component_1__organization_14">WHO</organization> website;</p>
+                        </content>
+                     </subparagraph>
+                     <subparagraph eId="component_1__para_5__subpara_3">
+                        <num>(3)</num>
+                        <content eId="component_1__para_5__subpara_3__content">
+                           <p>to produce, before the end of 2020, the first global status report on physical activity, building on the latest available evidence and international experience, including on sedentary behaviour;</p>
+                        </content>
+                     </subparagraph>
+                     <subparagraph eId="component_1__para_5__subpara_4">
+                        <num>(4)</num>
+                        <content eId="component_1__para_5__subpara_4__content">
+                           <p>to incorporate reporting on progress made in implementing the global action plan on physical activity 2018–2030 in the reports to be submitted to the Health Assembly in 2021 and 2026 in accordance with the agreed reporting sequence set out in resolution <ref href="/akn/un/statement/deliberation/whowha/2013-05-27/wha66_10/!main">WHA66.10</ref> (2013); and to submit a final report on the global action plan on physical activity 2018–2030 to the Health Assembly in 2030;</p>
+                        </content>
+                     </subparagraph>
+                     <subparagraph eId="component_1__para_5__subpara_5">
+                        <num>(5)</num>
+                        <content eId="component_1__para_5__subpara_5__content">
+                           <p>to update the global recommendations on physical activity for health 2010.</p>
+                        </content>
+                     </subparagraph>
+                  </paragraph>
+               </mainBody>
+            </statement>
+         </component>
+      </components>
+   </statement>
+</akomaNtoso>

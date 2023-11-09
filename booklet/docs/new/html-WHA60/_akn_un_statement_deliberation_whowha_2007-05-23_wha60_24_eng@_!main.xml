@@ -1,0 +1,205 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eLUNa="https://cms.unov.org/eLuna/2017/main" xmlns:akn4un="http://un.org/metadata" xmlns:html="http://www.w3.org/1999/xhtml">
+   <statement name="resolution">
+      <meta>
+         <identification source="#source">
+            <FRBRWork>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-23/wha60_24/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-23/wha60_24"/>
+               <FRBRdate date="2007-05-23" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+               <FRBRcountry value="un"/>
+               <FRBRnumber value="wha60_24"/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-23/wha60_24/eng@/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-23/wha60_24/eng@"/>
+               <FRBRdate date="2007-05-23" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-23/wha60_24/eng@/!main.xml"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-23/wha60_24/eng@.xml"/>
+               <FRBRdate date="2023-08-23" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+            </FRBRManifestation>
+         </identification>
+         <references source="#source">
+            <TLCOrganization eId="worldHealthAssembly" href="/akn/ontology/organization/un/worldHealthAssembly" showAs="World Health Assembly"/>
+            <TLCOrganization eId="australia" href="/akn/ontology/organization/un/australia" showAs="Australia"/>
+            <TLCOrganization eId="sweden" href="/akn/ontology/organization/un/sweden" showAs="Sweden"/>
+            <TLCOrganization eId="mexico" href="/akn/ontology/organization/un/mexico" showAs="Mexico"/>
+            <TLCOrganization eId="faoConference" href="/akn/ontology/organization/un/faoConference" showAs="Conference"/>
+            <TLCOrganization eId="who" href="/akn/ontology/organization/un/who" showAs="WHO"/>
+            <TLCOrganization eId="faoprogrammecommittee" href="/akn/ontology/organization/un/faoprogrammecommittee" showAs="Programme"/>
+            <TLCTerm eId="recalling" href="/akn/ontology/term/recalling" showAs="Recalling"/>
+            <TLCTerm eId="havingConsidered" href="/akn/ontology/term/havingConsidered" showAs="Having considered"/>
+            <TLCTerm eId="considering" href="/akn/ontology/term/considering" showAs="Considering"/>
+            <TLCTerm eId="noting" href="/akn/ontology/term/noting" showAs="Noting"/>
+            <TLCTerm eId="recognizing" href="/akn/ontology/term/recognizing" showAs="Recognizing"/>
+            <TLCTerm eId="urges" href="/akn/ontology/term/urges" showAs="URGES"/>
+            <TLCTerm eId="requests" href="/akn/ontology/term/requests" showAs="REQUESTS"/>
+            <TLCOrganization eId="states" href="/akn/ontology/organization/un/states" showAs="States"/>
+            <TLCOrganization eId="director-general" href="/akn/ontology/organization/un/director-general" showAs="Director-General"/>
+            <TLCOrganization eId="organization" href="/akn/ontology/organization/un/organization" showAs="Organization"/>
+            <TLCOrganization eId="unsystem" href="/akn/ontology/organization/un/unsystem" showAs="United Nations system"/>
+            <TLCOrganization eId="wfpExecutiveBoard" href="/akn/ontology/organization/un/wfpExecutiveBoard" showAs="Executive Board"/>
+            <TLCEvent href="/akn/ontology/event/whoha/eleventhPlenaryMeeting" eId="eleventhPlenaryMeeting" showAs="Eleventh plenary meeting"/>
+            <TLCOrganization eId="committeeA" href="/akn/ontology/organization/un/committeeA" showAs="Committee A"/>
+            <TLCPerson eId="source" href="/akn/ontology/person/somebody" showAs="somebody"/>
+         </references>
+      </meta>
+      <preface>
+         <p>
+            <docNumber>WHA60.24</docNumber>
+            <docTitle>Health promotion in a globalized world</docTitle>
+         </p>
+      </preface>
+      <preamble>
+         <formula name="enactingFormula">
+            <p>The Sixtieth <organization refersTo="#worldHealthAssembly" eId="organization_1">World Health Assembly</organization>,</p>
+         </formula>
+         <container name="recalling">
+            <p>
+               <term refersTo="#recalling" eId="term_1">Recalling</term> resolutions <ref href="/akn/un/statement/deliberation/whowha/0000-00-00/wha42_44/!main">WHA42.44</ref> on health promotion, public information and education for health, <ref href="/akn/un/statement/deliberation/whowha/0000-00-00/wha51_12/!main">WHA51.12</ref> on health promotion, <ref href="/akn/un/statement/deliberation/whowha/2004-05-22/wha57_16/!main">WHA57.16</ref> on health promotion and healthy lifestyles, and the outcomes of the six international conferences on health promotion (Ottawa, 1986; Adelaide, <organization refersTo="#australia" eId="organization_2">Australia</organization>, 1988; Sundsvall, <organization refersTo="#sweden" eId="organization_3">Sweden</organization>, 1991; Jakarta, 1997; <organization refersTo="#mexico" eId="organization_4">Mexico</organization> City, 2000;Bangkok, 2005);</p>
+         </container>
+         <container name="havingConsidered">
+            <p>
+               <term refersTo="#havingConsidered" eId="term_2">Having considered</term> the report on follow-up to the 6th Global <organization refersTo="#faoConference" eId="organization_5">Conference</organization> on Health Promotion (Bangkok in 2005), <authorialNote marker="1" placement="bottom" eId="authorialNote_1">
+                  <p>Document A60/18.</p>
+               </authorialNote> which confirms the need to focus on health promotion actions to address the determinants of health;</p>
+         </container>
+         <p>
+Drawing on the Declaration of Alma-Ata, the Ottawa Charter for Health Promotion, and the Bangkok Charter for Health Promotion in a Globalized World which sets out strategic directions for equitable health improvement in the first decades of the twenty-first century;
+</p>
+         <container name="considering">
+            <p>
+               <term refersTo="#considering" eId="term_3">Considering</term> the actions and recommendations set out in the Bangkok Charter for Health Promotion in a Globalized World to make the promotion of health central to the global development agenda, a core responsibility for all governments, anda key focus of communities, civil society, and the private sector;</p>
+         </container>
+         <container name="noting">
+            <p>
+               <term refersTo="#noting" eId="term_4">Noting</term> that health promotion is essential for meeting the targets of the internationally agreed health-related development goals, including those contained in the Millennium Declaration, is intimately related to the work of <organization refersTo="#who" eId="organization_6">WHO</organization>’s Commission on Social Determinants of Health, and makes an important contribution to realizing the objectives of the Eleventh General <organization refersTo="#faoprogrammecommittee" eId="organization_7">Programme</organization> of Work;</p>
+         </container>
+         <container name="recognizing">
+            <p>
+               <term refersTo="#recognizing" eId="term_5">Recognizing</term> that the dramatic changes of the global burden of disease, notably due to noncommunicable diseases, require greater attention, and call for adjustments in society at large and in resource allocation in order to tackle the immediate and underlying determinants of health;</p>
+         </container>
+         <container name="recognizing">
+            <p>
+               <term refersTo="#recognizing" eId="term_6">Recognizing</term> that health promotion contributes to the achievement of health for all;</p>
+         </container>
+         <container name="Confirming">
+            <p>Confirming the importance of addressing also the wider determinants of health, and of implementing recommendations on, and undertaking action for, health for all,</p>
+         </container>
+      </preamble>
+      <mainBody>
+         <paragraph eId="para_1">
+            <num>1. </num>
+            <intro eId="para_1__content">
+               <p>
+                  <term refersTo="#urges" eId="term_7">URGES</term> all Member <organization refersTo="#states" eId="organization_8">States</organization>:</p>
+            </intro>
+            <subparagraph eId="para_1__subpara_1">
+               <num>(1)</num>
+               <content eId="para_1__subpara_1__content">
+                  <p>to increase, as appropriate,investments in, and to frame sound policies for, health promotion as an essential component of equitable social and economic development;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_2">
+               <num>(2)</num>
+               <content eId="para_1__subpara_2__content">
+                  <p>to establish, as appropriate,effectivemechanisms for a multisectoral,including interministerial, approach in order to address effectively the social, economic, politicaland environmental determinants of health throughout the life-course;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_3">
+               <num>(3)</num>
+               <content eId="para_1__subpara_3__content">
+                  <p>to support and foster the active engagement in health promotion of communities, civil society, especially people or groups making positive contributions, the public including professional and labour unions, businesses and associations, and other bodies, especially those involved in public health and health promotion, while avoiding any possible conflict of interest and promoting constructive engagement for mutual benefit;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_4">
+               <num>(4)</num>
+               <content eId="para_1__subpara_4__content">
+                  <p>systematically to monitor, evaluate and improve health-promotion policies, programmes, infrastructure and investment, on a regular basis, including consideration of the use of health-impact assessments, to report results in solving problems related to health promotion, and to publicize and use those results in the planning process;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_5">
+               <num>(5)</num>
+               <content eId="para_1__subpara_5__content">
+                  <p>to reorient national public-health systems towards the promotion and adoption of healthier lifestyles by individuals, families and communities;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_6">
+               <num>(6)</num>
+               <content eId="para_1__subpara_6__content">
+                  <p>to introduce into current practices effective, evidence-based health promotion interventions;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_7">
+               <num>(7)</num>
+               <content eId="para_1__subpara_7__content">
+                  <p>that have successfully implemented a national public health policy, within which health promotion is the key to modifying the determinants of health, effectively to transfer their expertise to those countries that are still in the implementation phase;</p>
+               </content>
+            </subparagraph>
+         </paragraph>
+         <paragraph eId="para_2">
+            <num>2. </num>
+            <intro eId="para_2__content">
+               <p>
+                  <term refersTo="#requests" eId="term_8">REQUESTS</term> the <organization refersTo="#director-general" eId="organization_9">Director-General</organization>:</p>
+            </intro>
+            <subparagraph eId="para_2__subpara_1">
+               <num>(1)</num>
+               <content eId="para_2__subpara_1__content">
+                  <p>to strengthen the capacity for health promotion across the <organization refersTo="#organization" eId="organization_10">Organization</organization> in order to provide better support to Member <organization refersTo="#states" eId="organization_11">States</organization> by advancing knowledge and the active engagement of other appropriate organizations of the <organization refersTo="#unsystem" eId="organization_12">United Nations system</organization> and international organizations;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_2__subpara_2">
+               <num>(2)</num>
+               <content eId="para_2__subpara_2__content">
+                  <p>to provide support to Member <organization refersTo="#states" eId="organization_13">States</organization> in their continuous efforts to strengthen national health systems, with a special focus on the primary health sector, in order to enhance the ability to tackle serious threats to health;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_2__subpara_3">
+               <num>(3)</num>
+               <content eId="para_2__subpara_3__content">
+                  <p>to optimize use of existing forums of Member <organization refersTo="#states" eId="organization_14">States</organization> for multisectoral, including interministerial, stakeholders, interested organizations and other bodies, while avoiding any possible conflict of interest, in order to support the development and implementation of health promotion;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_2__subpara_4">
+               <num>(4)</num>
+               <content eId="para_2__subpara_4__content">
+                  <p>to encourage the convening of national, subregional,regional and global multisectoral conferences on health promotion on a regular basis;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_2__subpara_5">
+               <num>(5)</num>
+               <content eId="para_2__subpara_5__content">
+                  <p>to monitor and evaluate progress, to identify major shortcomings in health promotion globally, to report on a regular basis, and to make the reports accessible to the public;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_2__subpara_6">
+               <num>(6)</num>
+               <content eId="para_2__subpara_6__content">
+                  <p>to facilitate exchange of information with international nonhealth forums on key aspects of health promotion;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_2__subpara_7">
+               <num>(7)</num>
+               <content eId="para_2__subpara_7__content">
+                  <p>to advocate policies that impact positively on health;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_2__subpara_8">
+               <num>(8)</num>
+               <content eId="para_2__subpara_8__content">
+                  <p>to report to the Sixty-first <organization refersTo="#worldHealthAssembly" eId="organization_15">World Health Assembly</organization>, through the <organization refersTo="#wfpExecutiveBoard" eId="organization_16">Executive Board</organization>, on progress in implementing this resolution.</p>
+               </content>
+            </subparagraph>
+         </paragraph>
+      </mainBody>
+      <conclusions>
+         <p>(<event refersTo="#eleventhPlenaryMeeting" eId="event_1">Eleventh plenary meeting</event>, <docDate date="2007-05-23">23 May 2007</docDate> –<organization refersTo="#committeeA" eId="organization_17">Committee A</organization>, fifth report)</p>
+      </conclusions>
+   </statement>
+</akomaNtoso>

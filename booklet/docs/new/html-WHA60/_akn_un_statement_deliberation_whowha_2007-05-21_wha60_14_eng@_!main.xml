@@ -1,0 +1,182 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eLUNa="https://cms.unov.org/eLuna/2017/main" xmlns:akn4un="http://un.org/metadata" xmlns:html="http://www.w3.org/1999/xhtml">
+   <statement name="resolution">
+      <meta>
+         <identification source="#source">
+            <FRBRWork>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-21/wha60_14/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-21/wha60_14"/>
+               <FRBRdate date="2007-05-21" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+               <FRBRcountry value="un"/>
+               <FRBRnumber value="wha60_14"/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-21/wha60_14/eng@/!main"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-21/wha60_14/eng@"/>
+               <FRBRdate date="2007-05-21" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value="/akn/un/statement/deliberation/whowha/2007-05-21/wha60_14/eng@/!main.xml"/>
+               <FRBRuri value="/akn/un/statement/deliberation/whowha/2007-05-21/wha60_14/eng@.xml"/>
+               <FRBRdate date="2023-08-23" name=""/>
+               <FRBRauthor href="#whowha" as="#author"/>
+            </FRBRManifestation>
+         </identification>
+         <references source="#source">
+            <TLCOrganization eId="worldHealthAssembly" href="/akn/ontology/organization/un/worldHealthAssembly" showAs="World Health Assembly"/>
+            <TLCOrganization eId="states" href="/akn/ontology/organization/un/states" showAs="States"/>
+            <TLCTerm eId="havingConsidered" href="/akn/ontology/term/havingConsidered" showAs="Having considered"/>
+            <TLCTerm eId="recalling" href="/akn/ontology/term/recalling" showAs="Recalling"/>
+            <TLCTerm eId="recognizing" href="/akn/ontology/term/recognizing" showAs="Recognizing"/>
+            <TLCTerm eId="noting" href="/akn/ontology/term/noting" showAs="Noting"/>
+            <TLCTerm eId="urges" href="/akn/ontology/term/urges" showAs="URGES"/>
+            <TLCTerm eId="requests" href="/akn/ontology/term/requests" showAs="REQUESTS"/>
+            <TLCOrganization eId="who" href="/akn/ontology/organization/un/who" showAs="WHO"/>
+            <TLCOrganization eId="director-general" href="/akn/ontology/organization/un/director-general" showAs="Director-General"/>
+            <TLCOrganization eId="unsystem" href="/akn/ontology/organization/un/unsystem" showAs="United Nations system"/>
+            <TLCEvent href="/akn/ontology/event/whoha/ninthPlenaryMeeting" eId="ninthPlenaryMeeting" showAs="Ninth plenary meeting"/>
+            <TLCOrganization eId="committeeA" href="/akn/ontology/organization/un/committeeA" showAs="Committee A"/>
+            <TLCPerson eId="source" href="/akn/ontology/person/somebody" showAs="somebody"/>
+         </references>
+      </meta>
+      <preface>
+         <p>
+            <docNumber>WHA60.14</docNumber>
+            <docTitle>Poliomyelitis: mechanism for management of potential risks to eradication</docTitle>
+         </p>
+      </preface>
+      <preamble>
+         <formula name="enactingFormula">
+            <p>The Sixtieth <organization refersTo="#worldHealthAssembly" eId="organization_1">World Health Assembly</organization>,</p>
+         </formula>
+         <container name="havingConsidered">
+            <p>
+               <term refersTo="#havingConsidered" eId="term_1">Having considered</term> the report on eradication of poliomyelitis; <authorialNote marker="1" placement="bottom" eId="authorialNote_1">
+                  <p>Document A60/11.</p>
+               </authorialNote>
+            </p>
+         </container>
+         <container name="recalling">
+            <p>
+               <term refersTo="#recalling" eId="term_2">Recalling</term> resolution <ref href="/akn/un/statement/deliberation/whowha/2006-05-26/wha59_1/!main">WHA59.1</ref>, urging Member <organization refersTo="#states" eId="organization_2">States</organization> in which poliomyelitis is endemic to act on their commitment to interrupting transmission of wild poliovirus;</p>
+         </container>
+         <container name="recognizing">
+            <p>
+               <term refersTo="#recognizing" eId="term_3">Recognizing</term> that the occurrence of endemic poliovirus is now restricted to geographically limited areas in four countries;</p>
+         </container>
+         <container name="recognizing">
+            <p>
+               <term refersTo="#recognizing" eId="term_4">Recognizing</term> the need for international consensus on long-term policies to minimize and manage the risks of re-emergence of poliomyelitis in the post-eradication era;</p>
+         </container>
+         <container name="recognizing">
+            <p>
+               <term refersTo="#recognizing" eId="term_5">Recognizing</term> that travellers from areas where poliovirus is still circulating may pose a risk of international spread of the virus;</p>
+         </container>
+         <container name="noting">
+            <p>
+               <term refersTo="#noting" eId="term_6">Noting</term> that the maintenance of high routine immunization coverage in poliomyelitis-free countries contributes to reducing the risk of outbreaks of disease due to wild poliovirus and minimizes the risk of outbreaks due to vaccine-derived poliovirus;</p>
+         </container>
+         <container name="noting">
+            <p>
+               <term refersTo="#noting" eId="term_7">Noting</term> that planning for such international consensus must commence in the near future,</p>
+         </container>
+      </preamble>
+      <mainBody>
+         <paragraph eId="para_1">
+            <num>1. </num>
+            <intro eId="para_1__content">
+               <p>
+                  <term refersTo="#urges" eId="term_8">URGES</term> all Member <organization refersTo="#states" eId="organization_3">States</organization> where poliomyelitis is still prevalentin certain geographical areas, especially the four countries in which poliomyelitis is endemic:</p>
+            </intro>
+            <subparagraph eId="para_1__subpara_1">
+               <num>(1)</num>
+               <content eId="para_1__subpara_1__content">
+                  <p>to establish mechanisms to enhance political commitment to, and engagement in, poliomyelitis eradication activities at all levels, and to engage local leadership and members of the remaining poliomyelitis-affected populations in order to ensure full acceptance of, and participation in, poliomyelitis immunization campaigns;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_1__subpara_2">
+               <num>(2)</num>
+               <content eId="para_1__subpara_2__content">
+                  <p>to intensify poliomyelitis eradication activities in order rapidly to interrupt all remaining transmission of wild poliovirus;</p>
+               </content>
+            </subparagraph>
+         </paragraph>
+         <paragraph eId="para_2">
+            <num>2. </num>
+            <intro eId="para_2__content">
+               <p>
+                  <term refersTo="#urges" eId="term_9">URGES</term> all Member <organization refersTo="#states" eId="organization_4">States</organization>:</p>
+            </intro>
+            <subparagraph eId="para_2__subpara_1">
+               <num>(1)</num>
+               <content eId="para_2__subpara_1__content">
+                  <p>to review and, if appropriate, update national recommendations on immunization against poliomyelitis in order to reduce the risk of international spread of disease;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_2__subpara_2">
+               <num>(2)</num>
+               <content eId="para_2__subpara_2__content">
+                  <p>to reduce the potential consequences of international spread of wild poliovirus by achieving and maintaining routine immunization coverage against poliomyelitis greater than 90% and, where appropriate, conducting supplementary poliomyelitis immunization activities through additional campaigns in close collaboration with mass media and involvement of the general public;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_2__subpara_3">
+               <num>(3)</num>
+               <content eId="para_2__subpara_3__content">
+                  <p>to strengthen active surveillance for acute flaccid paralysis in order rapidly to detect any circulating wild poliovirus and prepare for certification of poliomyelitis eradication;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_2__subpara_4">
+               <num>(4)</num>
+               <content eId="para_2__subpara_4__content">
+                  <p>to prepare for the long-term biocontainment of polioviruses by implementing the measures set out under phases 1 and 2 in the current edition of the <organization refersTo="#who" eId="organization_5">WHO</organization> global action plan for laboratory containment of wild polioviruses; <authorialNote marker="2" placement="bottom" eId="authorialNote_2">
+                        <p>Document WHO/V&amp;B/03.11 (second edition).</p>
+                     </authorialNote>
+                  </p>
+               </content>
+            </subparagraph>
+         </paragraph>
+         <paragraph eId="para_3">
+            <num>3. </num>
+            <intro eId="para_3__content">
+               <p>
+                  <term refersTo="#requests" eId="term_10">REQUESTS</term> the <organization refersTo="#director-general" eId="organization_6">Director-General</organization>:</p>
+            </intro>
+            <subparagraph eId="para_3__subpara_1">
+               <num>(1)</num>
+               <content eId="para_3__subpara_1__content">
+                  <p>to continue to provide technical support to the remaining Member <organization refersTo="#states" eId="organization_7">States</organization> where poliomyelitis is still prevalent in their efforts to interrupt the final chains of transmission of wild poliovirus, and to Member <organization refersTo="#states" eId="organization_8">States</organization> at high risk of an importation of poliovirus;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_3__subpara_2">
+               <num>(2)</num>
+               <content eId="para_3__subpara_2__content">
+                  <p>to assist in mobilizing financial resources to eradicate poliomyelitis from the remaining areas where poliovirus is circulating,to provide support to countries currently free of poliomyelitis that are at high risk of an importation of poliovirus, and to minimize the risks of re-emergence of poliomyelitis in the post-eradication era;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_3__subpara_3">
+               <num>(3)</num>
+               <content eId="para_3__subpara_3__content">
+                  <p>to continue to work with other organizations of the <organization refersTo="#unsystem" eId="organization_9">United Nations system</organization> on security issues, through mechanisms such as “days of tranquillity”, in areas where better access is required to reach all children;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_3__subpara_4">
+               <num>(4)</num>
+               <content eId="para_3__subpara_4__content">
+                  <p>to continue to examine and disseminate measures that Member <organization refersTo="#states" eId="organization_10">States</organization> can take for reducing the risk and consequences of international spread of polioviruses, including, if and when needed, consideration of temporary or standing recommendations under the International Health Regulations (2005); if such a recommendation were made, to report to the Health Assembly the financial and operational issues arising from its implementation, and lessons drawn;</p>
+               </content>
+            </subparagraph>
+            <subparagraph eId="para_3__subpara_5">
+               <num>(5)</num>
+               <content eId="para_3__subpara_5__content">
+                  <p>to submit proposals to the Sixty-first <organization refersTo="#worldHealthAssembly" eId="organization_11">World Health Assembly</organization> with a view to minimizing the long-term risks of reintroduction of poliovirus or re-emergence of poliomyelitis in the post-eradication era by establishing international consensus on the long-term use of poliomyelitis vaccines and biocontainment of infectious and potentially infectious poliovirus materials.</p>
+               </content>
+            </subparagraph>
+         </paragraph>
+      </mainBody>
+      <conclusions>
+         <p>(<event refersTo="#ninthPlenaryMeeting" eId="event_1">Ninth plenary meeting</event>, <docDate date="2007-05-21">21 May 2007</docDate> –<organization refersTo="#committeeA" eId="organization_12">Committee A</organization>, second report)</p>
+      </conclusions>
+   </statement>
+</akomaNtoso>

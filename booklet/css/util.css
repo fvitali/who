@@ -1,0 +1,79 @@
+		ul::-webkit-scrollbar {
+			display: none;
+		}
+		
+		ul.tree li {
+			list-style-type: none;
+			position: relative;
+		}
+
+		ul.tree li ul {
+			display: none;
+		}
+
+		ul.tree li.open > ul {
+			display: block;
+		}
+
+		ul.tree li a {
+			color: black;
+			text-decoration: none;
+		}
+
+		ul.tree li a:before {
+			height: 1em;
+			padding:0 .1em;
+			font-size: .8em;
+			display: block;
+			position: absolute;
+			left: -1.3em;
+			top: .2em;
+		}
+
+		ul.tree li > a:not(:last-child):before {
+			content: '+';
+		}
+
+		ul.tree li.open > a:not(:last-child):before {
+			content: '-';
+		}
+
+
+
+		/* Effect for loading of Wikidata info list */
+		/* credit: http://stephanwagner.me/only-css-loading-spinner  */
+		@keyframes spinner {
+			to { transform: rotate(360deg); }
+		}
+		@-webkit-keyframes spinner {
+			to { -webkit-transform: rotate(360deg); }
+		}
+		.spinner {
+			min-width: 24px;
+			min-height: 24px;
+		}
+		.spinner:before {
+			content:'Loading…';
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			width: 16px;
+			height: 16px;
+			margin-top: -10px;
+			margin-left: -10px;
+		}
+		.spinner:not(:required):before {
+			content: '';
+			border-radius: 50%;
+			border-top: 2px solid #03ade0;
+			border-right: 2px solid transparent;
+			animation: spinner .6s linear infinite;
+			-webkit-animation: spinner .6s linear infinite;
+		}
+
+		.loading {
+			position: relative;
+		}
+		
+		
+		
